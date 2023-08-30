@@ -1,0 +1,578 @@
+{
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN01-01": {
+          "id": "461a8d17-028e-4f58-9c75-d419c16f2655",
+          "resource_group": "f24d33fb-36dd-4f01-aaef-ac48ada99371"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN01-00": {
+          "id": "9d26448f-d105-40f5-b9e2-f8f7eaef9762",
+          "resource_group": "f24d33fb-36dd-4f01-aaef-ac48ada99371"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN00-00": {
+          "id": "71e1be42-c8d2-4716-a2db-1fc577035b16",
+          "resource_group": "f24d33fb-36dd-4f01-aaef-ac48ada99371"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN02-00": {
+          "id": "657c2c4e-c979-4dd4-80e3-206b196cd9de",
+          "resource_group": "0251ff72-3751-4cb0-872c-b268ed0acaaf"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN95-00": {
+          "id": "9f43b266-e645-46f3-94cd-582a2c51a398",
+          "resource_group": "0251ff72-3751-4cb0-872c-b268ed0acaaf"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/SR-EM-KH04-01": {
+          "id": "66b9c278-0beb-488a-8b41-18495aced152",
+          "resource_group": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/SR-EM-KH04-00": {
+          "id": "189d8161-a171-45d3-a6b2-30137aa6a728",
+          "resource_group": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather-version/version-info": {
+          "id": "bef94acb-de2f-43a0-a04c-0abcf7306fd7",
+          "resource_group": "36769f6d-7ae4-43d0-adc5-6dcb025d9e5f"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring-version/version-info": {
+          "id": "1c8bce59-02b1-4a3e-9802-94bf5e6bdfe5",
+          "resource_group": "b5fa3bae-0a27-4f48-bcf8-4768ac2d40c6"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel-version/version-info": {
+          "id": "2dbca76b-b5c4-4f74-8eff-229c95275a5c",
+          "resource_group": "c7e359ed-b903-49a6-bcb1-c7b744ad7e13"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter-version/version-info": {
+          "id": "dd75d9e8-9d83-4aca-9c8f-10ee7b1ff84c",
+          "resource_group": "97dae4f4-34d4-4d7f-8f5a-c57268058012"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm-version/version-info": {
+          "id": "bc28db1f-6e75-43c9-b32e-2b162917eaa0",
+          "resource_group": "271b1a7d-d27b-4660-9857-09986be7e99d"
+     },
+     "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422/rs.iudx.org.in/chandigarh-smartbike-docking-locations/fare-info": {
+          "id": "aad7a0cc-baeb-40f2-be2f-7431c9b952dd",
+          "resource_group": "e120b83c-1702-478e-9b38-91036dc59b70"
+     },
+     "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-point-of-interests/aqm-sensor-locations": {
+          "id": "8eebc2e9-3930-4832-a07a-151001c9c952",
+          "resource_group": "c4a834c7-fd29-4d15-9e61-7281cebc610a"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/rs.iudx.org.in/rajkot-point-of-interests/wifi-locations": {
+          "id": "f3ba1077-c1de-4f91-99d7-1f7524cddbe2",
+          "resource_group": "47cd1ab6-46fa-4e00-bbd1-5682b1239510"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/rs.iudx.org.in/rajkot-point-of-interests/led-locations": {
+          "id": "dd183987-ea91-4732-8c47-44c9adf23fa9",
+          "resource_group": "47cd1ab6-46fa-4e00-bbd1-5682b1239510"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/rs.iudx.org.in/rajkot-point-of-interests/atcs-locations": {
+          "id": "b8c100d5-e17a-484e-88f7-cf60b59ed60b",
+          "resource_group": "47cd1ab6-46fa-4e00-bbd1-5682b1239510"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/rs.iudx.org.in/rajkot-point-of-interests/anti-hawking-camera-locations": {
+          "id": "f8c32b80-d78f-490c-81df-bd26cdce9403",
+          "resource_group": "47cd1ab6-46fa-4e00-bbd1-5682b1239510"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/rs.iudx.org.in/rajkot-point-of-interests/anpr-locations": {
+          "id": "721a5f91-2f32-40a8-90af-5d6169adad0d",
+          "resource_group": "47cd1ab6-46fa-4e00-bbd1-5682b1239510"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/rs.iudx.org.in/rajkot-point-of-interests/env-sensor-locations": {
+          "id": "f3f4a4bd-970e-46e6-baa4-2bd321685204",
+          "resource_group": "47cd1ab6-46fa-4e00-bbd1-5682b1239510"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/rs.iudx.org.in/rajkot-point-of-interests/pa-locations": {
+          "id": "5f954368-7d43-4ca0-8ede-d679bfd06039",
+          "resource_group": "47cd1ab6-46fa-4e00-bbd1-5682b1239510"
+     },
+     "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422/rs.iudx.org.in/chandigarh-itms-info/bus-stops-info": {
+          "id": "c2edf3c0-dae6-4722-9878-64650d50bfb4",
+          "resource_group": "a3ad763c-cfe8-45a4-8960-e784479a630f"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/gis.iudx.org.in/rajkot-gis/gis-layers": {
+          "id": "d11c8795-09b9-450d-bd32-04b3fca42d24",
+          "resource_group": "b8e7499f-7ac7-4faf-a5f0-105a6f6b0e10"
+     },
+     "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422/rs.iudx.org.in/chandigarh-itms-info/bus-route-info": {
+          "id": "beee31fa-7e00-4ed8-a9e9-51d3adf689a0",
+          "resource_group": "a3ad763c-cfe8-45a4-8960-e784479a630f"
+     },
+     "dahodsmartcity.in/4eed16378ec4e797bdd0427775acffa9b4b33f77/rs.iudx.org.in/dahod-point-of-interests/digital-kiosk-locations": {
+          "id": "df54f928-cd77-407d-a642-0d2f0fd4a5b4",
+          "resource_group": "4334816d-d1a4-4a35-b785-a4dd08b425a8"
+     },
+     "dahodsmartcity.in/4eed16378ec4e797bdd0427775acffa9b4b33f77/rs.iudx.org.in/dahod-point-of-interests/smartpole-locations": {
+          "id": "6cd1cd2f-f9fe-4488-a715-a4dd5188d812",
+          "resource_group": "4334816d-d1a4-4a35-b785-a4dd08b425a8"
+     },
+     "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422/rs.iudx.org.in/chandigarh-itms-info/vehicle-info": {
+          "id": "28e1e5e1-b200-458c-8895-15ed5c76ce7f",
+          "resource_group": "a3ad763c-cfe8-45a4-8960-e784479a630f"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/gis.iudx.org.in/gandhinagar-gis/gis-layers": {
+          "id": "edc0df28-9e5d-418a-a12a-e1c6a1593405",
+          "resource_group": "0d0c8456-6287-419d-bf0d-441d98c90833"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/ecb-locations": {
+          "id": "0e64c11f-0770-4d64-8b22-f176b0ab050d",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/pa-locations": {
+          "id": "62a277a8-be02-4935-bb0c-bb9d16f27073",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/aqm-sensor-locations": {
+          "id": "53d6fac8-1241-4447-9cda-5c03ca04884f",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/cctv-locations": {
+          "id": "b6c40dd7-8ba0-47ed-9a79-fa22240e2a60",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/atcs-locations": {
+          "id": "e8705354-e0f0-4bb4-8be8-6248dcd55618",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/vmsb-locations": {
+          "id": "26e631b9-dc16-4b37-bc4b-eba0d9d76619",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/swm-bin-locations": {
+          "id": "dcb4f3d4-1146-4c57-bdb9-0fefa1761566",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/svd-locations": {
+          "id": "7562a649-9e2d-4ad5-b97e-27431ee54f37",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/smartpole-locations": {
+          "id": "101b3d96-1c96-4ae4-9137-9de084fc12a4",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests/rlvd-locations": {
+          "id": "fd2daf42-7526-4e89-bc68-71e6a0ad2d8d",
+          "resource_group": "3637182f-23a4-4af9-8c9d-cc249a9ab13d"
+     },
+     "datakaveri.org/2e06b7688640758f8dc08e79f3715d74e6f31f94/rs.iudx.org.in/dharamshala-point-of-interests/government-building-locations": {
+          "id": "7af37b87-a7dd-4281-8fea-ffdb65e4094d",
+          "resource_group": "cd9b0b76-c9e1-4d4c-9fdc-6b8804f8c803"
+     },
+     "datakaveri.org/2e06b7688640758f8dc08e79f3715d74e6f31f94/rs.iudx.org.in/dharamshala-point-of-interests/goverenment-building-locations": {
+          "id": "370b6c3d-7039-4a95-ad3b-50c7ddcea0a0",
+          "resource_group": "cd9b0b76-c9e1-4d4c-9fdc-6b8804f8c803"
+     },
+     "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-point-of-interests/pa-locations": {
+          "id": "977e0811-a398-4ddd-b3ee-27698a0d7e78",
+          "resource_group": "52160534-aed8-459a-8fc6-19affa45badb"
+     },
+     "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-point-of-interests/atcs-locations": {
+          "id": "139b6b40-64d0-4e15-952e-afe688f05691",
+          "resource_group": "52160534-aed8-459a-8fc6-19affa45badb"
+     },
+     "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-point-of-interests/wifi-locations": {
+          "id": "bec4285d-c227-493e-afe1-994d03f5df29",
+          "resource_group": "52160534-aed8-459a-8fc6-19affa45badb"
+     },
+     "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-point-of-interests/vmd-locations": {
+          "id": "f76cf48c-0bdf-4e66-a30d-fbca925c0171",
+          "resource_group": "52160534-aed8-459a-8fc6-19affa45badb"
+     },
+     "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-point-of-interests/traffic-camera-locations": {
+          "id": "1584be10-2266-4962-ad68-192ff875d397",
+          "resource_group": "52160534-aed8-459a-8fc6-19affa45badb"
+     },
+     "kerala.gov.in/5fc7328fcef461b294ea12d88aafc79585bf9b96/gis.iudx.org.in/kannur-gis/gis-layers": {
+          "id": "fa7a9668-b1b8-4896-8936-1cbee8e9c80d",
+          "resource_group": "fb17811c-2610-405c-817b-0dafc543a8b8"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-AD95-00": {
+          "id": "dc4b38c6-c51d-4601-929a-e89e1e6aadb9",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-AN00-00": {
+          "id": "63266a72-6fa1-4dfc-84f2-36ed49639838",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-PL00-00": {
+          "id": "00ad6342-3d1e-4b3e-9559-d1a941872081",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-KN00-00": {
+          "id": "3a717f69-0bc6-474c-a778-befaa369f175",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-FG00-00": {
+          "id": "35d364b4-b9ca-41b6-be4c-1db2e80eeec2",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-SN00-00": {
+          "id": "7b87e7da-dc1a-4405-b468-718a5db77ee8",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-VN90-00": {
+          "id": "64a24545-8b84-4393-a245-ab970ea36ba1",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-PH03-00": {
+          "id": "da258171-be17-4978-a162-80472e987d24",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-BN00-00": {
+          "id": "5824b523-ab89-44cd-8d0a-607543dc4d7e",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-KH00-00": {
+          "id": "5038f5a7-57a2-416b-9db8-862aa3778e4c",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-MG00-00": {
+          "id": "673ff322-02ac-4b69-93da-01de977b6906",
+          "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+     },
+     "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3/rs.iudx.org.in/tumakuru-point-of-interests/pa-locations": {
+          "id": "048bd3b6-fff9-403b-b4e6-20a2e0ef95cb",
+          "resource_group": "740f558e-1859-42d3-acfe-e2649686a3a2"
+     },
+     "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3/rs.iudx.org.in/tumakuru-point-of-interests/vmsb-locations": {
+          "id": "8994938c-a125-4d2e-8c28-205fdf889e99",
+          "resource_group": "740f558e-1859-42d3-acfe-e2649686a3a2"
+     },
+     "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/gis.iudx.org.in/vadodara-gis/gis-layers": {
+          "id": "23f6dfe6-205f-47c4-8b9b-3ac5d5839c7f",
+          "resource_group": "e5431869-382c-456b-a2af-3af904d6ce06"
+     },
+     "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e/gis.iudx.org.in/agra-gis/gis-layers": {
+          "id": "2edfb69b-b26f-41a0-9a27-a26ce68d6fb6",
+          "resource_group": "201310bc-5ca1-4bc8-b86d-8cd71e237d6b"
+     },
+     "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e/rs.iudx.org.in/agra-point-of-interests/aqm-sensor-locations": {
+          "id": "c2d7a95d-8455-450b-bb13-b990a117a286",
+          "resource_group": "72e45694-8994-4eb4-be6f-39ff8ffccaf0"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box2_Kathivakkam_High_Road": {
+          "id": "a5636e17-6d7f-436b-a178-3679fcdf917e",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Ezhil_Nagar_Jn_Kodungaiyur_Canal": {
+          "id": "a6284e46-655c-4c91-9da9-2ceeaac63d4b",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box2_Mc_Road_Subway_Stanley_Hospital": {
+          "id": "dba7772d-a3af-4a15-a22d-0597a029a57a",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box2_Manickam_Nagar_Subway": {
+          "id": "bcde60a8-8e25-4e32-8b57-31ed304e404f",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box2_Stanley_Nagar_Subway": {
+          "id": "a90bd928-89f0-48da-ada8-112e72438652",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Spenzer_Plaza_Canal": {
+          "id": "1b1089ef-d7a3-4f82-8d4b-2352a5513f2c",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Gengu_Reddy_Subway": {
+          "id": "90d83147-aa6d-4288-980d-4b783c5e1c87",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box2_Vyasarpadi_Subway": {
+          "id": "699067b2-4404-4f05-a0f0-6b9a9a36e946",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Kargil_Nagar": {
+          "id": "8579bee6-3396-4dbc-9b36-293a2dc52bc5",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_RBI_Subway": {
+          "id": "29f0613a-3e4f-434a-8bc0-7a9bbf5e3b4f",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Kaliyamman_Kovil_St_Virugambakkam_Canal": {
+          "id": "07694f9d-00c2-4e17-aac3-cd5424729bde",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Stephenson_Bridge_Otteri_Nullah_Canal": {
+          "id": "fd7ffda0-80ae-4ba9-a797-374eca91c559",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Perambur_High_Road_Subway": {
+          "id": "6addb1e5-c87f-4afb-9eea-24b31a4d8e70",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Korattur_North_Canal_Lake": {
+          "id": "76943bc6-ea25-4db5-911f-3772748f8a81",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box_RangarajaPuram_Subway": {
+          "id": "cdff1de2-77eb-4113-9afb-bef5f3d6275a",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Nungambakkam_subway": {
+          "id": "ef224f0e-8faa-4d41-8034-e0fb52990693",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Villivakkam_Subway": {
+          "id": "d482ffb9-9287-46fc-9a73-48bba4189427",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Padi_Kuppam_Canal": {
+          "id": "97317b61-528d-458f-ad88-4f15f8c76a03",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Mylapore_Canal": {
+          "id": "35eb6215-d2b1-41bc-842d-b2626e3aec14",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Veerangal_Odai_Near_Puzhuthivakkam": {
+          "id": "0ae032c2-c2c9-4671-a9c9-3faa3af524a2",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Nandambakkam_Canal_Behind_DLF_LT": {
+          "id": "9f7503ee-eb83-4d9a-8fbe-2faf367da198",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Mambalam_Canal_CIT_Nagar": {
+          "id": "89577f8d-3391-48cd-8f68-021120df2154",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Nandambakkam_Canal_MIOT": {
+          "id": "63c4b029-ae23-431b-8e61-b7b9a24f7a48",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Jones_Road_Subway": {
+          "id": "9c1d46fc-5fe8-4403-9e92-8ed82ddee4f9",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring/FM_Box1_Mount_Subway": {
+          "id": "8be23ca5-3fdd-475c-9b42-1b8ffa0cb9d9",
+          "resource_group": "c2070773-e263-4a1f-9a75-37965892dbe6"
+     },
+     "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1/gis.iudx.org.in/bhubaneswar-gis/gis-restservice-links": {
+          "id": "b1eec1ff-6dfd-45d9-a27a-b449f005a4ab",
+          "resource_group": "b2cf36ca-bc53-4ae4-8473-384a9a379fa5"
+     },
+     "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422/rs.iudx.org.in/chandigarh-point-of-interests/streetlight-feeder-locations": {
+          "id": "a897c828-d23d-427b-91c3-57da76bbb8b9",
+          "resource_group": "f662c815-eb79-4156-b31a-7c73d52e6295"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/aqm-locations": {
+          "id": "ea3a6c9c-a733-44f0-b5b7-8537f1fd7481",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3/rs.iudx.org.in/tumakuru-point-of-interests/cctv-locations": {
+          "id": "86d8ac90-f7f5-482d-8adb-208704ab2402",
+          "resource_group": "740f558e-1859-42d3-acfe-e2649686a3a2"
+     },
+     "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3/rs.iudx.org.in/tumakuru-point-of-interests/ecb-locations": {
+          "id": "f7a28756-d8ac-480d-95b5-c3cd8644812a",
+          "resource_group": "740f558e-1859-42d3-acfe-e2649686a3a2"
+     },
+     "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3/rs.iudx.org.in/tumakuru-point-of-interests/atcs-locations": {
+          "id": "699fb6aa-981b-42e1-969f-02d153592dc7",
+          "resource_group": "740f558e-1859-42d3-acfe-e2649686a3a2"
+     },
+     "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3/rs.iudx.org.in/tumakuru-point-of-interests/env-sensor-locations": {
+          "id": "718aee3a-109d-4328-8676-54a8b7885722",
+          "resource_group": "740f558e-1859-42d3-acfe-e2649686a3a2"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/smart-parking-locations": {
+          "id": "48578884-a90a-46c5-af0c-e31720ade2d4",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/digital-kiosk-locations": {
+          "id": "d58c2cb0-372d-4286-919a-85bc467cf577",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/cctv-locations": {
+          "id": "3018f3e2-29bc-4568-bd06-b7431a60fd4d",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/atcs-locations": {
+          "id": "cc42738e-4bad-494f-9ae3-f9423db429af",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/traffic-camera-locations": {
+          "id": "21e47e26-3ef6-4266-b947-3e47580224f6",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/wifi-locations": {
+          "id": "d7b18a07-0548-4df5-9750-110f1e776cf3",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/pa-locations": {
+          "id": "94570dbb-fe1b-4df7-bb41-ff51cdad8e6d",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-point-of-interests/vmsb-locations": {
+          "id": "95b15552-bed1-46d3-b163-adc02992b169",
+          "resource_group": "21c8c06a-b94e-4570-a762-0e26ccdb3906"
+     },
+     "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be/rs.iudx.org.in/bareilly-point-of-interests/env-sensor-locations": {
+          "id": "cb19c512-0aca-46b6-89b8-00bb277be6a9",
+          "resource_group": "20dc852b-4cb1-4a85-815a-f85732f695b7"
+     },
+     "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be/rs.iudx.org.in/bareilly-point-of-interests/svd-locations": {
+          "id": "abc65654-5e3c-41be-a45e-c80d5d6754cb",
+          "resource_group": "20dc852b-4cb1-4a85-815a-f85732f695b7"
+     },
+     "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3/rs.iudx.org.in/tumakuru-point-of-interests/smartpole-locations": {
+          "id": "88bf757e-81af-47d5-8ee2-dc8633559460",
+          "resource_group": "740f558e-1859-42d3-acfe-e2649686a3a2"
+     },
+     "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be/rs.iudx.org.in/bareilly-point-of-interests/ecb-locations": {
+          "id": "4755a4bd-f3ca-4fc3-82f9-37fc1f8b80eb",
+          "resource_group": "20dc852b-4cb1-4a85-815a-f85732f695b7"
+     },
+     "smartcitytvm.in/c6fa48c93cac73f535956d70121ee40df59912cd/rs.iudx.org.in/tvm-point-of-interests/tvm-evcharging-station-locations": {
+          "id": "9741530c-24ae-475e-b926-a2ec4a8c06a1",
+          "resource_group": "978c7713-2442-4fc1-ae44-b9f138184ba8"
+     },
+     "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be/rs.iudx.org.in/bareilly-point-of-interests/vmsb-locations": {
+          "id": "ffa00e4c-648c-4a55-a752-f2b3e4d9149f",
+          "resource_group": "20dc852b-4cb1-4a85-815a-f85732f695b7"
+     },
+     "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be/rs.iudx.org.in/bareilly-point-of-interests/wifi-locations": {
+          "id": "33a0a1dd-e52f-44b0-9783-1539380fa3bc",
+          "resource_group": "20dc852b-4cb1-4a85-815a-f85732f695b7"
+     },
+     "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be/rs.iudx.org.in/bareilly-point-of-interests/pa-locations": {
+          "id": "03ac970c-b2b5-4218-ac9b-90b21fe57cef",
+          "resource_group": "20dc852b-4cb1-4a85-815a-f85732f695b7"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather/WE-GS04-00": {
+          "id": "d70d15bd-146e-46e9-b99f-1d87522b55e9",
+          "resource_group": "e063fb28-cd18-418a-897d-7b1034e282b9"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather/WE-VN04-00": {
+          "id": "42617bce-8d52-486d-a176-78feea16207f",
+          "resource_group": "e063fb28-cd18-418a-897d-7b1034e282b9"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-01": {
+          "id": "dd5127c4-14d6-4926-ae0f-7a36c36bf235",
+          "resource_group": "f24d33fb-36dd-4f01-aaef-ac48ada99371"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-PH01-00": {
+          "id": "664bc6a4-034b-4122-9fc6-b6933bb406c2",
+          "resource_group": "f24d33fb-36dd-4f01-aaef-ac48ada99371"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-VN01-00": {
+          "id": "06839158-7595-44c4-8259-c0c49a380dc4",
+          "resource_group": "f24d33fb-36dd-4f01-aaef-ac48ada99371"
+     },
+     "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH01-00": {
+          "id": "e6bab98d-dd27-4872-b78b-cad10c2cf8de",
+          "resource_group": "f24d33fb-36dd-4f01-aaef-ac48ada99371"
+     },
+     "datakaveri.org/be6471cea544e6953259e6efe499185ae2620cd2/rs.iudx.org.in/raipur-point-of-interests/aqm-locations": {
+          "id": "d55a07b1-01c6-4395-8404-af923ae4abe0",
+          "resource_group": "f55454cc-df2c-4b92-911b-245601366782"
+     },
+     "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e/rs.iudx.org.in/nagpur-env-aqm/aqm-info": {
+          "id": "69988f5e-fc8b-4dd2-bd62-2a366c44fc50",
+          "resource_group": "c1204467-8d09-430c-bad5-b6cb7c0220e9"
+     },
+     "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422/rs.iudx.org.in/chandigarh-itms-info/route-shape-info": {
+          "id": "5784c3ae-3d0e-4ad1-b4aa-287ca26bf968",
+          "resource_group": "a3ad763c-cfe8-45a4-8960-e784479a630f"
+     },
+     "kanpursmartcity.org/317e9f65dc9f1e8fa1f0671e7a774f65d478675b/gis.iudx.org.in/kanpur-gis/gis-layers": {
+          "id": "069e5d7f-cfb0-423e-b734-b63eff6abf49",
+          "resource_group": "37c0e7b2-ba73-41ec-bc3b-b19f3c66412d"
+     },
+     "datakaveri.org/904b1e7fbbcde380839ab7dab174ba204cfa0b1a/rs.iudx.org.in/sagar-point-of-interests/traffic-camera-locations": {
+          "id": "9e6490c1-9b5c-439a-abbb-1b96b57889e1",
+          "resource_group": "b564d960-e17d-4ebf-b5c8-bef1b13d775a"
+     },
+     "datakaveri.org/904b1e7fbbcde380839ab7dab174ba204cfa0b1a/rs.iudx.org.in/sagar-point-of-interests/cctv-locations": {
+          "id": "420e59c0-5187-4c77-88e5-fb4c51b4cc29",
+          "resource_group": "b564d960-e17d-4ebf-b5c8-bef1b13d775a"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-swm-vehicles/pickup-zones": {
+          "id": "6fdb95d6-6759-4836-bbc0-04bdf7e58ea8",
+          "resource_group": "2adfd007-b312-47a4-96bc-436138e99358"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-swm-vehicles/route-shape-info": {
+          "id": "ee8cbfe9-094d-472f-a146-4be705b8f856",
+          "resource_group": "2adfd007-b312-47a4-96bc-436138e99358"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-swm-vehicles/waste-collected-unassigned": {
+          "id": "7ce4a0cb-ee0a-4e10-a39b-2015dfc7797d",
+          "resource_group": "2adfd007-b312-47a4-96bc-436138e99358"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-swm-vehicles/waste-collected-assigned": {
+          "id": "122f0387-5a1d-472c-b21b-d130e1091f09",
+          "resource_group": "2adfd007-b312-47a4-96bc-436138e99358"
+     },
+     "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-swm-vehicles/vehicle-info": {
+          "id": "1da564b2-2d3f-4174-93fa-6a81cf4ac1c6",
+          "resource_group": "2adfd007-b312-47a4-96bc-436138e99358"
+     },
+     "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-smart-toilets/smart-toilet-locations": {
+          "id": "98fb4b1d-72e7-4a65-8a6b-ef0ff375ebf8",
+          "resource_group": "9699205c-8c98-484e-8a4a-8c073f1901ff"
+     },
+     "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76/rs.iudx.org.in/lucknow-point-of-interests/wifi-locations": {
+          "id": "1dda0639-33c6-45bc-b6f1-fdfbedf84dcd",
+          "resource_group": "cdef041a-d63d-4bc3-8fe6-bc4f43c65aa6"
+     },
+     "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76/rs.iudx.org.in/lucknow-point-of-interests/pa-locations": {
+          "id": "47a59e2c-7bca-42ad-ba61-757a234a4ac1",
+          "resource_group": "cdef041a-d63d-4bc3-8fe6-bc4f43c65aa6"
+     },
+     "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76/rs.iudx.org.in/lucknow-point-of-interests/vmsb-locations": {
+          "id": "3f18a465-f4ca-4116-a9ec-2dcc44f391d9",
+          "resource_group": "cdef041a-d63d-4bc3-8fe6-bc4f43c65aa6"
+     },
+     "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76/rs.iudx.org.in/lucknow-env-aqm/bosch-aqm-info": {
+          "id": "a1e55773-a6f3-4d35-bc8a-4032dc60dfe7",
+          "resource_group": "ddc6505b-6175-4171-8453-decc56ff2c6b"
+     },
+     "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-smart-parking/smart-parking-locations": {
+          "id": "317b43b2-bcdd-4ef6-87e5-032f781e63ee",
+          "resource_group": "70449fa0-3fb0-451f-96d5-7535c9824a8b"
+     },
+     "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76/rs.iudx.org.in/lucknow-env-aqm/bosch-aqm-locations": {
+          "id": "b8da3674-f33a-4cb3-8b61-f3b7fc30ac16",
+          "resource_group": "ddc6505b-6175-4171-8453-decc56ff2c6b"
+     },
+     "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422/rs.iudx.org.in/chandigarh-itms-info/trip-stop-schedules": {
+          "id": "8586d8cc-3743-4d7e-949e-99bc5d58b23d",
+          "resource_group": "a3ad763c-cfe8-45a4-8960-e784479a630f"
+     },
+     "mybyk.in/2a65f7095379219032fc1d590cba4983d562322d/rs.iudx.org.in/nagpur-mybyk-info/bikes-availability": {
+          "id": "a165be12-d013-4054-b920-3e6f0253d589",
+          "resource_group": "a0ab88b3-4600-4a4a-b0f0-d4bce7233066"
+     },
+     "mybyk.in/2a65f7095379219032fc1d590cba4983d562322d/rs.iudx.org.in/nagpur-mybyk-info/station-locations": {
+          "id": "bdd46ef8-16bd-4f5d-81bb-5617e60354dd",
+          "resource_group": "a0ab88b3-4600-4a4a-b0f0-d4bce7233066"
+     },
+     "pcmcindia.gov.in/d6b9c76cf48cd740de64b573ae6fa5f334df6ef6/rs.iudx.org.in/pimpri-chinchwad-env-aqm/env-aqm-location": {
+          "id": "197ed577-4535-4e80-82bb-30e6912c421c",
+          "resource_group": "ed1f6c91-162b-4f80-9c8f-c13d78c10674"
+     },
+     "dahodsmartcity.in/4eed16378ec4e797bdd0427775acffa9b4b33f77/rs.iudx.org.in/dahod-env-aqm/aqm-locations": {
+          "id": "a6f0ac36-c11e-44c2-82dd-705843084f44",
+          "resource_group": "3aadae57-a077-4297-8541-52c9972df1fa"
+     },
+     "datakaveri.org/367b7f6e9bb804eca51d5d7be047f3c00270a694/rs.iudx.org.in/prayagraj-point-of-interests/env-sensor-locations": {
+          "id": "32feca1e-5b98-4182-aa00-051e200aabb7",
+          "resource_group": "3bef86d1-d115-4d65-ac82-2d6d3374f3f6"
+     },
+     "datakaveri.org/f85774a2647d8cf15b87a34c916f2bc20ae2f1f4/rs.iudx.org.in/belagavi-itms-info/route-shape-info": {
+          "id": "3c247403-6c69-4b7e-b07f-929564ba60c1",
+          "resource_group": "b0adba7e-fb55-42ee-9d4e-7665c7df0d0c"
+     },
+     "datakaveri.org/f85774a2647d8cf15b87a34c916f2bc20ae2f1f4/rs.iudx.org.in/belagavi-itms-info/route-stop-schedules": {
+          "id": "6a96e1cd-8583-4278-a660-83778e5cc3b3",
+          "resource_group": "b0adba7e-fb55-42ee-9d4e-7665c7df0d0c"
+     },
+     "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c/rs.iudx.org.in/rajkot-point-of-interests/cctv-locations": {
+          "id": "bce0300d-976d-4052-8d3f-22126ef5bcbf",
+          "resource_group": "47cd1ab6-46fa-4e00-bbd1-5682b1239510"
+     },
+     "datakaveri.org/f85774a2647d8cf15b87a34c916f2bc20ae2f1f4/rs.iudx.org.in/belagavi-itms-info/bus-stops-info": {
+          "id": "b8b27b1e-d4a6-4869-aebd-65ce3a315f03",
+          "resource_group": "b0adba7e-fb55-42ee-9d4e-7665c7df0d0c"
+     }
+}

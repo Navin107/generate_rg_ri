@@ -3,7 +3,7 @@
 	"type": [
 		"iudx:ResourceServer"
 	],
-	"id": "0a181d35-2018-3d59-9b4d-651188b98efc",
+	"id": "ab311420-7d84-4a0a-9fdb-c811be588589",
 	"name": "IUDX Resource Server Test",
 	"description": "Multi tenanted IUDX Resource Server",
 	"tags": [

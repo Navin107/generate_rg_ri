@@ -7,10 +7,10 @@ class IUDXDataProcessor:
     
     def __init__(self):
     
-        self.resource_group_data = self.load_json_file('raw/resourceGroup.json')
-        self.resources_data = self.load_json_file('raw/resources.json')
-        self.provider_data = self.load_json_file('raw/sha-keycloak.json')
-        self.resource_server_data = self.load_json_file("raw/resource-server.json")
+        self.resource_group_data = self.load_json_file('../raw/resourceGroup.json')
+        self.resources_data = self.load_json_file('../raw/resources.json')
+        self.provider_data = self.load_json_file('../raw/sha-keycloak.json')
+        self.resource_server_data = self.load_json_file("../raw/resource-server.json")
 
     def load_json_file(self, file_path):
         with open(file_path) as file:
@@ -47,22 +47,16 @@ class IUDXDataProcessor:
     def process_resource_group(self, json_data):
         rg_id = json_data["id"]
         provider_id = json_data["provider"]
-        rs_id  = json_data["resourceServer"]
 
         json_data["id_bck"] = rg_id
         json_data["id"] = self.resource_group_data.get(rg_id) 
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
-        json_data["resourceServer"] = self.resource_server_data.get(rs_id)
-        json_data["resourceServer_bck"] = rs_id
-
-
 
         desired_keys = [
             "@context", "type", "id", "id_bck", "name", "label", "description",
-            "tags", "itemStatus", "provider", "provider_bck", "resourceServer",
-            "accessPolicy", "authControlLevel", "resourceType", "iudxResourceAPIs",
-            "location", "instance"
+            "tags", "itemStatus", "provider", "provider_bck", 
+            "resourceType", "iudxResourceAPIs", "location", "instance"
         ]
         return self.extract_desired_keys(desired_keys, json_data)
     
@@ -73,18 +67,25 @@ class IUDXDataProcessor:
 
         json_data["id_bck"] = ri_id
         json_data["id"] = self.resources_data.get(ri_id, {}).get("id")
+        json_data["resourceServer"] = "ab311420-7d84-4a0a-9fdb-c811be588589"
+        json_data["resourceServer_bck"] = "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in"
         json_data["resourceGroup"] = self.resource_group_data.get(rg_id) 
         json_data["resourceGroup_bck"] = rg_id
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
 
-        
+        url = "https://api.catalogue.iudx.org.in/iudx/cat/v1/item?id={}".format(json_data["resourceGroup_bck"])
+        json_array = self.fetch_url_data(url)
+
+        json_data["accessPolicy"] = json_array[0]["accessPolicy"]
+        json_data["apdURL"] = "acl-apd.iudx.org.in"
+
         desired_keys = [
             "@context", "type", "id", "id_bck", "name", "label",
-            "description", "tags", "dataSampleFile",
+            "description", "resourceServer", "resourceServer_bck", "tags", "dataSampleFile",
             "itemStatus", "resourceGroup", "resourceGroup_bck",
-            "provider", "provider_bck", "resourceType",
-            "iudxResourceAPIs", "dataDescriptor",
+            "provider", "provider_bck", "resourceType", "accessPolicy",
+            "apdURL", "iudxResourceAPIs", "dataDescriptor",
             "dataSample", "instance"
         ]
 
@@ -110,9 +111,9 @@ class IUDXDataProcessor:
         final_dict = {}
 
 
-        # new_provider = []
-        # new_provider.extend(json_data["provider"] for json_data in json_array if "iudx:ResourceServer" in json_data.get("type", []) and json_data.get("provider", None) and json_data["provider"] not in provider_list and json_data["provider"] not in new_provider)
-        # provider_list.extend(new_provider)
+        new_provider = []
+        new_provider.extend(json_data["provider"] for json_data in json_array if "iudx:ResourceServer" in json_data.get("type", []) and json_data.get("provider", None) and json_data["provider"] not in provider_list and json_data["provider"] not in new_provider)
+        provider_list.extend(new_provider)
 
         for provider in provider_list:
             json_changed_dict = []
@@ -160,5 +161,5 @@ class IUDXDataProcessor:
 
 data_processor = IUDXDataProcessor()
 uuid_data = data_processor.generate()
-with open("generate-prov-rs-rg-ri.json", "w") as f:
+with open("../generated_data/generate-prov-rs-rg-ri.json", "w") as f:
     json.dump(uuid_data,f,indent=5)

@@ -1,0 +1,9 @@
+{
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+        "iudx:Owner"
+    ],
+    "id": "8bbfc675-150c-4f1c-abea-aac5ef57b3a9",
+    "name": "IudxOwner",
+    "description": "provider id for uuid test"
+}

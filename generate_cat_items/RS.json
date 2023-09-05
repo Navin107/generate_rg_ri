@@ -1,0 +1,68 @@
+{
+	"@context": "https://voc.iudx.org.in/",
+	"type": [
+		"iudx:ResourceServer"
+	],
+	"id": "0a181d35-2018-3d59-9b4d-651188b98efc",
+	"name": "IUDX Resource Server Test",
+	"description": "Multi tenanted IUDX Resource Server",
+	"tags": [
+		"IUDX",
+		"Resource",
+		"Server",
+		"Platform"
+	],
+	"owner": "8bbfc675-150c-4f1c-abea-aac5ef57b3a9",
+	"cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+	"resourceServerOrg": {
+		"name": "iudx",
+		"additionalInfoURL": "https://iudx.org.in",
+		"location": {
+			"type": "Place",
+			"address": "IISc, Bangalore",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					77.570423,
+					13.013945
+				]
+			}
+		}
+	},
+	"resourceServerRegURL": "rs.iudx.org.in",
+	"resourceAccessModalities": [{
+		"type": [
+            "iudx:HTTPAccess"
+		],
+		"protocol": "https",
+		"accessURL": "rs.iudx.org.in",
+		"port": 443
+	}, {
+		"type": [
+            "iudx:StreamingAccess"
+		],
+		"protocol": "amqps",
+		"accessURL": "databroker.iudx.org.in",
+		"port": 5672
+	}, {
+		"type": [
+            "iudx:FileAccess"
+		],
+		"protocol": "https",
+		"accessURL": "file.iudx.org.in",
+		"port": 443
+	}],
+	"location": {
+		"type": "Place",
+		"address": "IISc, Bangalore",
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				77.570423,
+				13.013945
+			]
+		}
+	},
+	"itemStatus": "ACTIVE",
+	"itemCreatedAt": "2023-08-21T09:11:02+0530"
+}

@@ -553,7 +553,7 @@
                "gust ",
                "gust speed"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -733,7 +733,7 @@
                "version",
                "device list"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8048,7 +8048,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8094,7 +8094,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8140,7 +8140,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8186,7 +8186,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8232,7 +8232,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8278,7 +8278,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8324,7 +8324,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8370,7 +8370,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8416,7 +8416,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8462,7 +8462,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -8508,7 +8508,7 @@
                "temperature",
                "nh3"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -37473,7 +37473,7 @@
                "gust ",
                "gust speed"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -37512,7 +37512,7 @@
                "gust ",
                "gust speed"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
@@ -47363,7 +47363,7 @@
                "wireless internet",
                "internet access"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "d77abe8f-35d3-489c-977f-e03e03a272fb",
           "provider_bck": "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76",
@@ -47449,7 +47449,7 @@
                "microphone",
                "amplifier"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "d77abe8f-35d3-489c-977f-e03e03a272fb",
           "provider_bck": "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76",
@@ -47538,7 +47538,7 @@
                "message board",
                "vmsb"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "d77abe8f-35d3-489c-977f-e03e03a272fb",
           "provider_bck": "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76",
@@ -48042,7 +48042,7 @@
                "phone",
                "locality"
           ],
-          "accessPolicy": "OPEN",
+          "accessPolicy": "SECURE",
           "apdURL": "acl-apd.iudx.org.in",
           "provider": "d77abe8f-35d3-489c-977f-e03e03a272fb",
           "provider_bck": "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76",

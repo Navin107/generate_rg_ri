@@ -83,7 +83,7 @@ class IUDXDataProcessor:
         url = "https://api.catalogue.iudx.org.in/iudx/cat/v1/item?id={}".format(json_data["resourceGroup_bck"])
         json_array = self.fetch_url_data(url)
 
-        json_data["accessPolicy"] = json_array[0]["accessPolicy"]
+        json_data["accessPolicy"] = "SECURE"
         json_data["apdURL"] = "acl-apd.iudx.org.in"
 
         if not json_data.get("iudxResourceAPIs", None):

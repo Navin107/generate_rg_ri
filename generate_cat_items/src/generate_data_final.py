@@ -53,10 +53,16 @@ class IUDXDataProcessor:
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
 
+        if rg_id in ["vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-env-aqm", "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/rs.iudx.org.in/agartala-env-aqm", \
+        "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info"]:
+            
+            json_data.pop("dataSampleFile")
+
+
         desired_keys = [
             "@context", "type", "id", "id_bck", "name", "label", "description",
             "tags", "itemStatus", "provider", "provider_bck", 
-            "resourceType", "iudxResourceAPIs", "location", "instance"
+            "resourceType", "dataSampleFile", "location", "instance"
         ]
         return self.extract_desired_keys(desired_keys, json_data)
     
@@ -74,11 +80,27 @@ class IUDXDataProcessor:
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
 
+
+
         url = "https://api.catalogue.iudx.org.in/iudx/cat/v1/item?id={}".format(json_data["resourceGroup_bck"])
         json_array = self.fetch_url_data(url)
 
         json_data["accessPolicy"] = json_array[0]["accessPolicy"]
         json_data["apdURL"] = "acl-apd.iudx.org.in"
+
+        if not json_data.get("iudxResourceAPIs", None):
+            if json_array[0].get("iudxResourceAPIs", None):
+                json_data["iudxResourceAPIs"] = json_array[0].get("iudxResourceAPIs")
+
+            else:
+                print(ri_id)
+
+
+        if rg_id in ["vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-env-aqm", "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/rs.iudx.org.in/agartala-env-aqm", \
+        "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info"]:
+            
+            
+            json_data["dataSampleFile"] = json_array[0].get("dataSampleFile")
 
         desired_keys = [
             "@context", "type", "id", "id_bck", "name", "label",
@@ -161,5 +183,5 @@ class IUDXDataProcessor:
 
 data_processor = IUDXDataProcessor()
 uuid_data = data_processor.generate()
-with open("../generated_data/generate-prov-rs-rg-ri.json", "w") as f:
+with open("../generated_data/generate-prov-rs-rg-ri.jsonld", "w") as f:
     json.dump(uuid_data,f,indent=5)

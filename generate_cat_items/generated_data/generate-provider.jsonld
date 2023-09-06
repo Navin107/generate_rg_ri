@@ -1,0 +1,1298 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "012d19e2-eb0e-43c3-bd51-315e4674c55d",
+          "id_bck": "tn.gov.in/acda599e0ff80280064077bda7e685e1e45007f8",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "tcmc",
+          "description": "Thoothukudi City Municipal Corporation",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "tcmc",
+               "additionalInfoURL": "https://www.thoothukudicorporation.com/",
+               "location": {
+                    "type": "Place",
+                    "address": "Thoothukudi, Tamil Nadu",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              78.136491,
+                              8.8131568
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "bf16ff42-a636-4341-ac4c-201cb71c8953",
+          "id_bck": "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "rscdl",
+          "description": "Rajkot Smart City Development Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              70.800705,
+                              22.308155
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Rajkot, Gujarat"
+               },
+               "additionalInfoURL": "http://smartcityrajkot.in/",
+               "name": "rscdl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "id_bck": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "gscdl",
+          "description": "Gandhinagar Smart City Development Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              72.643817,
+                              23.219297
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Gandhinagar, Gujarat"
+               },
+               "additionalInfoURL": "https://gandhinagarmunicipal.com/gandhinagar-smart-city",
+               "name": "gscdl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "a4ff83a3-2091-4b97-bcc3-38e5360869be",
+          "id_bck": "datakaveri.org/e394655e381dcc5c2a7260dc7bd0f196f664d95c",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "sscl",
+          "description": "Shimla Smart City limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              77.168855,
+                              31.083798
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Shimla, Himachal Pradesh"
+               },
+               "additionalInfoURL": "https://shimlasmartcity.com",
+               "name": "sscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "93b9a3fb-d05f-478b-b59c-beda3b81810d",
+          "id_bck": "datakaveri.org/2e06b7688640758f8dc08e79f3715d74e6f31f94",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "dscl",
+          "description": "Dharamshala Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              76.318025,
+                              32.204319
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Dharamshala, Himachal Pradesh"
+               },
+               "additionalInfoURL": "http://dharamshalasmartcity.in",
+               "name": "dscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "ce3a29d6-6ea2-4122-90a8-699574f71eb6",
+          "id_bck": "datakaveri.org/f85774a2647d8cf15b87a34c916f2bc20ae2f1f4",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "bscl",
+          "description": "Belagavi Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              74.498703,
+                              15.852792
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Belagavi, Karnataka"
+               },
+               "additionalInfoURL": "https://bscl.in",
+               "name": "bscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "944d88bc-e3e4-4af2-abbd-e54516c34096",
+          "id_bck": "ccmc.gov.in/47545f1de4dd2bd726019fd40f3686487e741eb7",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "cscl",
+          "description": "Coimbatore Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              76.966698,
+                              11.020522
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Coimbatore, Tamil Nadu"
+               },
+               "additionalInfoURL": "https://www.coimbatoresmartcity.org",
+               "name": "cscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "b85c96ab-56f9-4a79-a08c-190e6b0a8573",
+          "id_bck": "pcmcindia.gov.in/d6b9c76cf48cd740de64b573ae6fa5f334df6ef6",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "pcmc",
+          "description": "Pimpri Chinchwad Smart City Corporation Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              73.812157,
+                              18.626076
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Pimpri-Chinchwad, Maharastra"
+               },
+               "additionalInfoURL": "https://www.smartpcmc.org/smart-city",
+               "name": "pcmc"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "e18417be-fb09-4fe9-b8d1-e252da94699b",
+          "id_bck": "dahodsmartcity.in/4eed16378ec4e797bdd0427775acffa9b4b33f77",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "dscdl",
+          "description": "Dahod Smart City Development Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              74.253146,
+                              22.837931
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Dahod, Gujarat"
+               },
+               "additionalInfoURL": "http://150.242.16.141:92/CitizenPortalApplication-Dahod/en/about-dahod",
+               "name": "dscdl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "dd4b858f-f9e1-4c5a-ade7-57193e17d59d",
+          "id_bck": "srinagarsmartcity.in/bd95482f347e6a906fdf687d66d8ad79cdc047ba",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "sscl",
+          "description": "Srinagar Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "sscl",
+               "additionalInfoURL": "https://srinagarsmartcity.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Srinagar, Jammu and Kashmir ",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              74.8100059,
+                              34.0720026
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "id_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "scadl",
+          "description": "Smart City Ahmedabad Development Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              72.568547,
+                              23.012914
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Ahmedabad, Gujarat"
+               },
+               "additionalInfoURL": "https://ahmedabadcity.gov.in/portal/smartcitymission.jsp#smartCitiesMissionDiv",
+               "name": "scadl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "433857ce-f7d7-480f-82ed-efc293ab5682",
+          "id_bck": "smartbikemobility.com/bfc54d46ca3cf5dac6eaef7b42f8fc87f94a812b",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "smartbikemobility",
+          "description": "SmartBike Mobility Pvt. Ltd",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "smartbikemobility",
+               "additionalInfoURL": "https://smartbikemobility.com/",
+               "location": {
+                    "type": "Place",
+                    "address": "Hyderabad, Telangana",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              78.469292,
+                              17.454437
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "id_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "yaana",
+          "description": "Yaana Smart Technologies Pvt. Ltd",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "yaana",
+               "additionalInfoURL": "https://yaana.bike/",
+               "location": {
+                    "type": "Place",
+                    "address": "Bengaluru, Karnataka",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              77.711027,
+                              12.964041
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "602e2803-2180-4441-b612-93aea9ccfd4a",
+          "id_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "fscl",
+          "description": "Faridabad Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              77.309585,
+                              28.407976
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Faridabad, Haryana"
+               },
+               "additionalInfoURL": "https://www.smartcityfaridabad.co.in/",
+               "name": "fscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "vscdl",
+          "description": "Vadodara Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              73.201517,
+                              22.296655
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Vadodara, Gujarat"
+               },
+               "additionalInfoURL": "http://vadodarasmartcity.in/",
+               "name": "vscdl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "id_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "smc",
+          "description": "Surat Municipal Corporation",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              72.821258,
+                              21.20002
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Surat, Gujarat"
+               },
+               "additionalInfoURL": "https://www.suratmunicipal.gov.in/",
+               "name": "smc"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "id_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "vscl",
+          "description": "Varanasi Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "vscl",
+               "additionalInfoURL": "https://varanasismartcity.gov.in/",
+               "location": {
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              82.98512,
+                              25.312912
+                         ]
+                    },
+                    "address": "Varanasi, Uttar Pradesh",
+                    "type": "Place"
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "id_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "pscdcl",
+          "description": "Pune Smart City Development Corporation Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              73.818067,
+                              18.540217
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Pune, Maharashtra"
+               },
+               "additionalInfoURL": "https://punesmartcity.in/",
+               "name": "pscdcl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "id_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "yulu",
+          "description": "Yulu Bikes Pvt Ltd",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "yulu",
+               "additionalInfoURL": "https://www.yulu.bike/",
+               "location": {
+                    "type": "Place",
+                    "address": "Bengaluru, Karnataka",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              77.686862,
+                              12.930343
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "9a565990-0389-4849-a973-e76638054679",
+          "id_bck": "roadmetrics.in/6c02670f1996e7577ad893fd0ac2ba82680f8796",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "roadmetrics",
+          "description": "RoadMetrics Private Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "roadmetrics",
+               "additionalInfoURL": "https://www.roadmetrics.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Bengaluru, Karnataka",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              77.600967,
+                              12.985135
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "id_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "cscl",
+          "description": "Chennai Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              80.2715381,
+                              13.0820371
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Chennai, Tamil Nadu"
+               },
+               "additionalInfoURL": "https://cscl.co.in/",
+               "name": "cscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "id_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "bscdcl",
+          "description": "Bhopal Smart City Development Corporation Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              77.4582065,
+                              23.2317303
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Bhopal, Madhya Pradesh"
+               },
+               "additionalInfoURL": "https://www.smartbhopal.city/",
+               "name": "bscdcl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "id_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "bscl",
+          "description": "Bhubaneswar Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "bscl",
+               "additionalInfoURL": "https://www.smartcitybhubaneswar.gov.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Bhubaneswar, Odisha",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              85.847104,
+                              20.287169
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "id_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "ascl",
+          "description": "Agartala Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              91.280894,
+                              23.833334
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Agartala, Tripura"
+               },
+               "additionalInfoURL": "https://agartalasmartcity.tripura.gov.in/",
+               "name": "ascl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "96dc81d7-651a-4f5b-8f73-7cdb51c9094e",
+          "id_bck": "datakaveri.org/43b035d5cc7aae63100cd103eb2f7d9d8fe57e8e",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "IUDX Demo Provider 1",
+          "description": "IUDX demo provider details",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "additionalInfoURL": "https://www.iudx.org.in/",
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              77.570318,
+                              13.013893
+                         ],
+                         "type": "Point"
+                    },
+                    "address": "Bangalore, Karnataka",
+                    "type": "Place"
+               },
+               "name": "iudx"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "94568f8e-68e7-462f-8f31-fd3ff74ce02f",
+          "id_bck": "safetipin.com/b8381c67aa6362916a44837f3c6612db1e07a11f",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "safetipin",
+          "description": "My Safetipin mobile application",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "address": "Pune, Maharashtra",
+                    "geometry": {
+                         "coordinates": [
+                              73.818067,
+                              18.540217
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place"
+               },
+               "name": "safetipin",
+               "additionalInfoURL": "https://safetipin.com/"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "id_bck": "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "agrascl",
+          "description": "Agra Smart City Ltd.",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "agrascl",
+               "additionalInfoURL": "http://agrasmartcity.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Agra, Uttar Pradesh",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              78.005973,
+                              27.203459
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "id_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "elcita",
+          "description": "Electronics City Industrial Township Authority",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              77.662388,
+                              12.850028
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Bengaluru, Karnataka"
+               },
+               "additionalInfoURL": "https://www.elcita.in/",
+               "name": "benscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "id_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "benscl",
+          "description": "Bengaluru Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              77.597062,
+                              12.991103
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Bengaluru, Karnataka"
+               },
+               "additionalInfoURL": "https://blrsmartcity.karnataka.gov.in/english",
+               "name": "benscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "564641f4-229f-4087-8508-6f332a02f820",
+          "id_bck": "datakaveri.org/904b1e7fbbcde380839ab7dab174ba204cfa0b1a",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "sscl",
+          "description": "Sagar Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "sscl",
+               "additionalInfoURL": "https://sagarsmartcity.org/",
+               "location": {
+                    "type": "Place",
+                    "address": "Sagar, Madhya Pradesh",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              78.758513,
+                              23.838757
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "f256f2dc-c626-4e72-9bf5-64011e184dc0",
+          "id_bck": "gvsccl.in/e9da8ac8e57c965f51c068bf8c152f4c1d53e5e4",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "gvsccl",
+          "description": "Greater Visakhapatnam Smart City Corporation Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "gvsccl",
+               "additionalInfoURL": "https://www.gvsccl.com/",
+               "location": {
+                    "type": "Place",
+                    "address": "Visakhapatnam, Andhra Pradesh",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              83.308864,
+                              17.723334
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "a773012b-bd8f-4919-9581-5d8526869e5b",
+          "id_bck": "datakaveri.org/4d8bfe32a65330c83f8d43f2fb3026a720c635b5",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "kscdl",
+          "description": "Kohima Smart City Development Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "kscdl",
+               "additionalInfoURL": "https://www.kohimasmartcity.com/",
+               "location": {
+                    "type": "Place",
+                    "address": "Kohima, Nagaland",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              94.1076239,
+                              25.6738707
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "id_bck": "datakaveri.org/be6471cea544e6953259e6efe499185ae2620cd2",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "rscl",
+          "description": "Raipur Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "rscl",
+               "additionalInfoURL": "https://punesmartcity.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Raipur, Chhattisgarh",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              81.631797,
+                              21.236028
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "5e50d7f7-a311-4266-9d04-8389095e6607",
+          "id_bck": "gov.in/a44543eedbd41545746ea766e84dd759d9decbf6",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "jscl",
+          "description": "Jaipur Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              75.8054605,
+                              26.8919512
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Jaipur, Rajasthan"
+               },
+               "additionalInfoURL": "https://jscljaipur.in/",
+               "name": "jscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "id_bck": "kanpursmartcity.org/317e9f65dc9f1e8fa1f0671e7a774f65d478675b",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "kscl",
+          "description": "Kanpur Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "kscl",
+               "additionalInfoURL": "https://kanpursmartcity.org/",
+               "location": {
+                    "type": "Place",
+                    "address": "Kanpur, Uttar Pradesh",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              80.314705,
+                              26.476545
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "id_bck": "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "chdscl",
+          "description": "Chandigarh Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              76.786505,
+                              30.743844
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Chandigarh"
+               },
+               "additionalInfoURL": "https://www.chandigarhsmartcity.in/",
+               "name": "chdscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "c81dda37-44e9-477c-a774-884eb84f758f",
+          "id_bck": "kerala.gov.in/5fc7328fcef461b294ea12d88aafc79585bf9b96",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "kmc",
+          "description": "Kannur Municipal Corporation",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              75.369001,
+                              11.878088
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Kannur, Kerala"
+               },
+               "additionalInfoURL": "http://kannurcorporation.lsgkerala.gov.in/en",
+               "name": "kmc"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "iiith",
+          "description": "International Institute of Information Technology Hyderabad",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "iiith",
+               "additionalInfoURL": "https://www.iiit.ac.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "IIIT Hyderabad, Telangana",
+                    "geometry": {
+                         "coordinates": [
+                              78.34989,
+                              17.44554
+                         ],
+                         "type": "Point"
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "fc5ec3d6-d215-4533-9315-4e42dbd05c17",
+          "id_bck": "kerala.gov.in/09a298e01cea843c873069b59c0606924d8f480f",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "ksitm",
+          "description": "Kerala State IT Mission",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              76.941775,
+                              8.5172256
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Kerala"
+               },
+               "additionalInfoURL": "https://itmission.kerala.gov.in/",
+               "name": "ksitm"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "024bb503-8dd9-4c60-9857-d7fcd7f8bbd2",
+          "id_bck": "nellikka.in/7d1c53427686478ba178c067e8dc551d67df470b",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "nellikka",
+          "description": "Nellikka Digital Solutions",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "nellikka",
+               "additionalInfoURL": "https://nellika.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Kannur, Kerala",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              75.372372,
+                              11.887489
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "7d4ad924-e56a-4f44-af5d-7e2a8fe2693a",
+          "id_bck": "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "nsscdcl",
+          "description": "Nagpur Smart and Sustainable City Development Corporation Limited.",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "nsscdcl",
+               "additionalInfoURL": "https://www.nmcnagpur.gov.in/smart-city-nagpur",
+               "location": {
+                    "type": "Place",
+                    "address": "Nagpur, Maharashtra",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              79.077276,
+                              21.154717
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "f196a400-1625-40e9-975f-8d0caf364920",
+          "id_bck": "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "tscl",
+          "description": "Tumakuru Smart City Limited.",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "tscl",
+               "additionalInfoURL": "http://www.smartcitytumakuru.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Tumakuru, Karnataka",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              77.10908,
+                              13.33457
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "c562c286-fced-41de-8b2c-9441b750396f",
+          "id_bck": "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "bscl",
+          "description": "Bareilly Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "bscl",
+               "additionalInfoURL": "http://bareillysmartcity.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Bareilly, Uttar Pradesh",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              79.42804,
+                              28.38049
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2",
+          "id_bck": "smartcitytvm.in/c6fa48c93cac73f535956d70121ee40df59912cd",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "sctl",
+          "description": "Smart City Thiruvananthapuram Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "name": "sctl",
+               "additionalInfoURL": "https://www.smartcitytvm.in/",
+               "location": {
+                    "type": "Place",
+                    "address": "Thiruvananthapuram, Kerala",
+                    "geometry": {
+                         "type": "Point",
+                         "coordinates": [
+                              76.948588,
+                              8.5001222
+                         ]
+                    }
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "skddcl",
+          "description": "Smart Kalyan Dombivli Development Corporation Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              73.122003,
+                              19.234694
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Kalyan-Dombivli, Maharashtra"
+               },
+               "additionalInfoURL": "https://kdmc.gov.in/kdmc",
+               "name": "skddcl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "id_bck": "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "lscl",
+          "description": "Lucknow Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              80.9368497,
+                              26.8469158
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Lucknow, Uttar Pradesh"
+               },
+               "additionalInfoURL": "https://www.lucknowsmartcity.com/",
+               "name": "lscl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "fbc6a514-4bf9-4eb8-b99e-258472b05e56",
+          "id_bck": "mybyk.in/2a65f7095379219032fc1d590cba4983d562322d",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "gbskl",
+          "description": "Greenpedia Bike Share Private Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              72.511738,
+                              23.036894
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Ahmedabad, Gujarat"
+               },
+               "additionalInfoURL": "https://mybyk.in/",
+               "name": "gbskl"
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "ba950681-000f-477e-a166-c953304d1989",
+          "id_bck": "datakaveri.org/367b7f6e9bb804eca51d5d7be047f3c00270a694",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "pscl",
+          "description": "Prayagraj Smart City Limited",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              81.839696,
+                              25.449629
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Prayagraj, Uttar Pradesh"
+               },
+               "additionalInfoURL": "https://www.prayagrajsmartcity.org/",
+               "name": "pscl"
+          }
+     }
+]

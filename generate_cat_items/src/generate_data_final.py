@@ -62,7 +62,7 @@ class IUDXDataProcessor:
         desired_keys = [
             "@context", "type", "id", "id_bck", "name", "label", "description",
             "tags", "itemStatus", "provider", "provider_bck", 
-            "resourceType", "dataSampleFile", "location", "instance"
+            "dataSampleFile", "location", "instance"
         ]
         return self.extract_desired_keys(desired_keys, json_data)
     
@@ -94,6 +94,14 @@ class IUDXDataProcessor:
 
             else:
                 print(ri_id)
+
+
+        if not json_data.get("resourceType", None):
+                if json_array[0].get("resourceType", None):
+                    json_data["resourceType"] = json_array[0].get("resourceType")
+
+                else:
+                    print(ri_id)
 
 
         if rg_id in ["vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-env-aqm", "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/rs.iudx.org.in/agartala-env-aqm", \

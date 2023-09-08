@@ -47096,14 +47096,14 @@
                },
                "actual_trip_start_time": {
                     "description": "This field denotes the time at which service actually began.",
-                    "dataSchema": "iudx:Text",
+                    "dataSchema": "iudx:DateTime",
                     "type": [
                          "ValueDescriptor"
                     ]
                },
                "last_stop_arrival_time": {
                     "description": "This field specifies the actual arrival time at the previous stop along the route of the trip corresponding to this observation.",
-                    "dataSchema": "iudx:Text",
+                    "dataSchema": "iudx:DateTime",
                     "type": [
                          "ValueDescriptor"
                     ]
@@ -47214,14 +47214,12 @@
                "last_stop_arrival_time": "15:18:39",
                "schedule_relationship": "SCHEDULED"
           },
-          "dataSampleFile": [
-               {
-                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/chandigarh/chandigarh-itms-live-eta.json",
-                    "name": "Transit Bus Position and ETA in Chandigarh sample",
-                    "description": "Sample file for Transit Bus Position and ETA in Chandigarh city.",
-                    "relationType": "REL_FILE"
-               }
-          ],
+          "dataSampleFile": [{
+               "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/chandigarh/chandigarh-itms-live-eta.json",
+               "name": "Transit Bus Position and ETA in Chandigarh sample",
+               "description": "Sample file for Transit Bus Position and ETA in Chandigarh city.",
+               "relationType": "REL_FILE"
+          }],
           "itemStatus": "ACTIVE",
           "instance": "chandigarh"
      },

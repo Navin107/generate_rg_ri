@@ -4,7 +4,7 @@
 		"iudx:ResourceServer"
 	],
 	"id": "ab311420-7d84-4a0a-9fdb-c811be588589",
-	"name": "IUDX Resource Server Test",
+	"name": "IUDX Resource Server",
 	"description": "Multi tenanted IUDX Resource Server",
 	"tags": [
 		"IUDX",
@@ -35,21 +35,21 @@
             "iudx:HTTPAccess"
 		],
 		"protocol": "https",
-		"accessURL": "rs.iudx.org.in",
+		"accessURL": "rs.cos.iudx.io",
 		"port": 443
 	}, {
 		"type": [
             "iudx:StreamingAccess"
 		],
 		"protocol": "amqps",
-		"accessURL": "databroker.iudx.org.in",
-		"port": 5672
+		"accessURL": "databroker.cos.iudx.io",
+		"port": 24567
 	}, {
 		"type": [
             "iudx:FileAccess"
 		],
 		"protocol": "https",
-		"accessURL": "file.iudx.org.in",
+		"accessURL": "file.cos.iudx.io",
 		"port": 443
 	}],
 	"location": {

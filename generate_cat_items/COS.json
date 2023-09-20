@@ -3,11 +3,11 @@
       "type": [
         "iudx:COS"
       ],
-      "name": "cos-iudx-test.iudx.org.in",
+      "name": "IUDX COS",
       "owner": "8bbfc675-150c-4f1c-abea-aac5ef57b3a9",
-      "description": "COS Smart Kalyan Dombivli Development Corporation Limited",
-      "cosURL": "cos-iudx-test.iudx.org.in",
-      "cosUI": "https://catalogue.test.cop-iudx.iudx.org.in/",
+      "description": "COS IUDX",
+      "cosURL": "cos.iudx.org.in",
+      "cosUI": "https://catalogue-staging.iudx.io/",
       "id": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
       "itemCreatedAt": "2023-08-21T08:47:13+0530"
 }

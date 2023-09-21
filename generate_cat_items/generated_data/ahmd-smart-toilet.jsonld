@@ -1,0 +1,190 @@
+[{
+          "@context": "https://voc.iudx.org.in/",
+          "id": "5f6665dd-a4d0-43c1-8506-89fd814b053f",
+          "id_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-smart-toilets/usage-and-revenue",
+          "type": [
+               "iudx:Resource",
+               "iudx:RevenueCollection"
+          ],
+          "name": "usage-and-revenue",
+          "label": "Smart Toilets Usage Count and Revenue in Ahmedabad City",
+          "description": "Information of daily usage count and revenue of smart toilets in Ahmedabad city.",
+          "tags": [
+               "smart toilet",
+               "smart toilet locations",
+               "e-toilets",
+               "public toilet",
+               "sbn toilet",
+               "sbn",
+               "sanitation"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "provider_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "9699205c-8c98-484e-8a4a-8c073f1901ff",
+          "resourceGroup_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-smart-toilets",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:RevenueCollection"
+               ],
+               "dataDescriptorLabel": "Data Attribute Details for usage count and revenue of smart toilets in Ahmedabad City",
+               "description": "Data attribute details for daily usage count and revenue of smart toilets in Ahmedabad City.",
+               "establishmentType": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the lavatory corresponding to this observation",
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Ahmedabad city at which the smart toilet is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "totalCount": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total number of times the smart toilet is used corresponding to this observation.",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "amountCollected": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Amount collected for number of times the smart toilet is used.",
+                    "unitText": "Indian Rupee",
+                    "dataSchema": "iudx:Number"
+               },
+               "observationDateTime": {
+                    "description": "The time at which the bus was last tracked.",
+                    "dataSchema": "iudx:DateTime",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               }
+          },
+          "dataSample": {
+               "establishmentType": "Smart toilet- Raj Palace-Women-AMD003",
+               "address": "Raj Palace-Women",
+               "totalCount": 15,
+               "amountCollected": 75
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ahmedabad/ahmedabad-usage-and-revenue.json",
+                    "name": "Ahmedabad usage count and revenue Sample",
+                    "description": "Sample file for daily usage count and revenue in Ahmedabad city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE"
+},
+{
+     "@context": "https://voc.iudx.org.in/",
+     "id": "5f6665dd-a4d0-43c1-8506-89fd814b053f",
+     "id_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-smart-toilets/usage-and-revenue",
+     "type": [
+          "iudx:Resource",
+          "iudx:RevenueCollection"
+     ],
+     "name": "usage-and-revenue",
+     "label": "Smart Toilets Usage Count and Revenue in Ahmedabad City",
+     "description": "Information of daily usage count and revenue of smart toilets in Ahmedabad city.",
+     "tags": [
+          "smart toilet",
+          "smart toilet locations",
+          "e-toilets",
+          "public toilet",
+          "sbn toilet",
+          "sbn",
+          "sanitation"
+     ],
+     "accessPolicy": "SECURE",
+     "apdURL": "acl-apd.iudx.org.in",
+     "provider": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+     "provider_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
+     "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+     "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+     "resourceGroup": "9699205c-8c98-484e-8a4a-8c073f1901ff",
+     "resourceGroup_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-smart-toilets",
+     "resourceType": "DATASET",
+     "iudxResourceAPIs": [
+          "ATTR"
+     ],
+     "dataDescriptor": {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:DataDescriptor",
+               "iudx:RevenueCollection"
+          ],
+          "dataDescriptorLabel": "Data Attribute Details for usage count and revenue of smart toilets in Ahmedabad City",
+          "description": "Data attribute details for daily usage count and revenue of smart toilets in Ahmedabad City.",
+          "establishmentType": {
+               "type": [
+                    "ValueDescriptor"
+               ],
+               "description": "Name of the lavatory corresponding to this observation",
+               "dataSchema": "iudx:Text"
+          },
+          "address": {
+               "type": [
+                    "ValueDescriptor"
+               ],
+               "description": "Name of the area or locality in Ahmedabad city at which the smart toilet is located.",
+               "dataSchema": "iudx:Text"
+          },
+          "totalCount": {
+               "type": [
+                    "ValueDescriptor"
+               ],
+               "description": "Total number of times the smart toilet is used corresponding to this observation.",
+               "unitCode": "C62",
+               "unitText": "dimensionless",
+               "dataSchema": "iudx:Number"
+          },
+          "amountCollected": {
+               "type": [
+                    "ValueDescriptor"
+               ],
+               "description": "Amount collected for number of times the smart toilet is used.",
+               "unitText": "Indian Rupee",
+               "dataSchema": "iudx:Number"
+          },
+          "observationDateTime": {
+               "description": "The time at which the bus was last tracked.",
+               "dataSchema": "iudx:DateTime",
+               "type": [
+                    "ValueDescriptor"
+               ]
+          }
+     },
+     "dataSample": {
+          "establishmentType": "Smart toilet- Raj Palace-Women-AMD003",
+          "address": "Raj Palace-Women",
+          "totalCount": 15,
+          "amountCollected": 75
+     },
+     "dataSampleFile": [
+          {
+               "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ahmedabad/ahmedabad-usage-and-revenue.json",
+               "name": "Ahmedabad usage count and revenue Sample",
+               "description": "Sample file for daily usage count and revenue in Ahmedabad city.",
+               "relationType": "REL_FILE"
+          }
+     ],
+     "itemStatus": "ACTIVE"
+}]

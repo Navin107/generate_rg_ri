@@ -42894,6 +42894,13 @@
                     "description": "Amount collected for number of times the smart toilet is used.",
                     "unitText": "Indian Rupee",
                     "dataSchema": "iudx:Number"
+               },
+               "observationDateTime": {
+                    "description": "The time at which the bus was last tracked.",
+                    "dataSchema": "iudx:DateTime",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
                }
           },
           "dataSample": {
@@ -47000,6 +47007,13 @@
                     ],
                     "description": "Coordinates of the smart toilet locations in Ahmedabad City.",
                     "dataSchema": "iudx:Point"
+               },
+               "observationDateTime": {
+                    "description": "The time at which the bus was last tracked.",
+                    "dataSchema": "iudx:DateTime",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
                }
           },
           "dataSample": {

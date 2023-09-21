@@ -1,0 +1,406 @@
+{
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP01-03": {
+      "id": "83749089-1abc-4115-98b3-024de9ac7fe6",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP02-02": {
+      "id": "17eb2a3c-dd80-48c9-8520-f763c75324d3",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP03-02": {
+      "id": "27bd634c-10e6-4bbc-b76d-577b6d7d3909",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP04-02": {
+      "id": "3e4fda22-cc1b-469d-b3cf-620494019d6d",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP05-02": {
+      "id": "812648a8-0c52-428d-8858-c96e0f9ee86e",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP06-01": {
+      "id": "8b582b25-8076-4429-a0d2-6df436dfa30b",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP07-01": {
+      "id": "91fe6ea7-215a-45c3-bc56-e822437849d3",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP08-01": {
+      "id": "73b92497-b981-4cf7-b973-140613837842",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP09-01": {
+      "id": "a5e2cec0-ee76-4381-a4a7-f108fadfe176",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP10-01": {
+      "id": "c7a3952a-9f46-42f7-9f4d-51c95667bc8d",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP11-01": {
+      "id": "fccc0b60-b456-459e-893b-e0b3d7c76880",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP12-01": {
+      "id": "be71fdb4-4359-4331-b79f-523faec5b731",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP13-01": {
+      "id": "161013b5-dca4-4266-bf59-52cfbdd0e865",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP14-01": {
+      "id": "d6db4554-d15a-466f-a4bf-8703997f7420",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP15-01": {
+      "id": "85399103-01f3-486e-9f44-f94c2d0e36ba",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP16-01": {
+      "id": "565763fe-8a63-4e0a-a259-606196636689",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP17-01": {
+      "id": "1dd20af0-020c-4a35-84a9-97fd3122ec10",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP18-01": {
+      "id": "68d6e486-c0ed-40a1-ac90-8c7669ec2b37",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP19-01": {
+      "id": "f3bea53f-ebc6-4793-9c16-bc2038879121",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP20-01": {
+      "id": "6bd6da9c-3f4f-4b31-bde4-2fc290447341",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP21-01": {
+      "id": "a0d58427-ece3-4a97-9a16-f8735071ce4a",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP22-01": {
+      "id": "4a521cc7-f8e9-44b9-a5b8-2080236d0846",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP23-01": {
+      "id": "ca7ba364-e04b-4b42-b662-101ab339a66f",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP24-01": {
+      "id": "9c2dbfd0-94d8-4d0c-9fa0-60cda09f7b4f",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP25-01": {
+      "id": "0cfdcce3-17c9-4f5b-88a4-a966f9871ede",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP26-01": {
+      "id": "5feda5a9-6df7-41b8-bf4d-01b703e2e414",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP27-01": {
+      "id": "2c7be856-1cbb-4a25-b86d-7ef7ae13ce12",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP28-01": {
+      "id": "633df17d-a24e-48d2-aacb-883ec3f9e2d6",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP29-01": {
+      "id": "01d95be5-428c-4af0-b729-45a8794d9df4",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/WN-LP30-01": {
+      "id": "eab1c5fb-6176-4776-b94e-ce351c749a43",
+      "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN-version/version-info": {
+      "id": "53a3b8ff-8157-4f98-91ec-e23082de0b4d",
+      "resourceGroup": "a0d85488-ce63-4735-b0b0-b64e000f2190"
+   },
+      "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH00-00": {
+      "id": "47acc94b-e337-415d-a2cc-7cb054bfd6e4",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH00-01": {
+      "id": "ae778fcb-5410-4cfd-903a-b05c02c53779",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH00-02": {
+      "id": "1951538b-da07-42a5-9be9-3e2844ab7ed4",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH00-03": {
+      "id": "0a9c8c90-93de-4dda-868c-63558bdeb487",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH01-00": {
+      "id": "d365ee35-5dcc-4cac-b70d-63429479e4cc",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH01-01": {
+      "id": "b99c09ca-704a-42ef-9f36-7aa4efb4caa8",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH01-02": {
+      "id": "8f7c4301-f09e-48ec-8a30-4f04fee82930",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH01-03": {
+      "id": "48ff97b1-229b-4cf7-b5c3-30cae13fded0",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH03-00": {
+      "id": "e802d8be-49c4-460c-bfae-ee076124398f",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH03-01": {
+      "id": "0cc8d75d-b730-4b07-9e74-53671f2cf398",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH03-02": {
+      "id": "820f55a6-49d5-427b-8bfd-2fbd05223461",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH03-03": {
+      "id": "56224b8c-bf84-4101-867b-23036dfa5f6e",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH95-00": {
+      "id": "02919055-f3df-4abf-b101-7726d9565244",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH95-01": {
+      "id": "0cb6a4ed-25c7-444d-9984-da6e3835be4c",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-KH95-02": {
+      "id": "e2acf841-508a-4f0f-a657-38182148ddb8",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-VN01-00": {
+      "id": "d70c6756-140f-4d51-9041-46a9f998e4ef",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-VN01-01": {
+      "id": "d91a65a5-94d5-4198-9fba-ac90f1c4fbae",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/SR-AQ-VN01-02": {
+      "id": "b1202c0e-bbc1-40c4-a82b-23da6516c8ae",
+      "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality-version/version-info": {
+      "id": "4e95367a-6c55-45b2-9197-d046733b6915",
+      "resource_group": "cc550675-a74d-4410-bf7a-01baca7518bb"
+   },
+      "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN01-00": {
+      "id": "1e73524c-eeb2-4e1c-a5b5-9aab649d2e82",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN01-01": {
+      "id": "db078f04-7db4-473d-9e2f-2e2d045cce11",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN92-00": {
+      "id": "09afd08c-f16a-4469-9258-c36a5809c507",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN93-00": {
+      "id": "52b08bfc-31d3-49e5-aed4-9759707145f9",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN95-00": {
+      "id": "e20f5065-0537-45f0-a925-01e3278c933c",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-BN01-00": {
+      "id": "7f8eb513-d7f5-4d42-9259-0bfba8781fb3",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-NI93-00": {
+      "id": "bbfb8c5d-357d-4cc0-a6c9-69d6a6f43fc7",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-SM00-00": {
+      "id": "25845406-609a-4281-b247-1c49821fb655",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-NM00-00": {
+      "id": "26842305-e81b-4210-b42b-60fe1e2e76b6",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PL92-00": {
+      "id": "af981d67-1745-46ec-b2d8-1a2b7602dd46",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PL92-01": {
+      "id": "71469a3b-27c8-4a3e-ae9d-cbe1c5e151f3",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PL98-00": {
+      "id": "d6cfa154-9e5c-4a3f-82c1-dc409156a113",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-TG00-00": {
+      "id": "7ac21a38-d1fb-4305-a271-822b98bcd741",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-TG00-01": {
+      "id": "9cc42983-98ab-4fee-90b3-1b3731e58546",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-DC00-00": {
+      "id": "f8483e3f-dff9-4194-9b6e-5bc3e4430671",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-SC00-00": {
+      "id": "b76d099f-2086-4b30-bf04-c945ba0e413d",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-SS00-00": {
+      "id": "bf0085ca-bdde-49fd-b3c3-b0faa5448774",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-DH00-00": {
+      "id": "6adbef32-0532-4644-9253-994faf544aeb",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-YM00-00": {
+      "id": "54674fd7-7ac1-4601-ba35-cc33d73fb35b",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PH04-00": {
+      "id": "5ad3a11b-622e-4dd1-9fea-88824e7defd3",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-KN98-00": {
+      "id": "37266cab-45c3-4fe2-8e27-c705dd005a6b",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-KN95-00": {
+      "id": "0da5d260-8161-43c8-893f-8a584d314a25",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-KN95-01": {
+      "id": "14b83c9c-316b-4610-866a-2cd855d20a7f",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PR01-01": {
+      "id": "d7ffa426-2060-4c39-8f35-f9dfcda55768",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-SN00-00": {
+      "id": "4c7cf6bd-5898-4e3b-babd-c6e5287e1fb5",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PH01-03": {
+      "id": "20804a7c-ff24-44d0-8908-7c5e30197ef4",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-AR00-00": {
+      "id": "a69636ae-a2fb-4d96-8423-b72a2f010c92",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN95-01": {
+      "id": "353eca53-0192-4bcb-bd7c-c6b0db7f92c0",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN01-02": {
+      "id": "fddb44e4-4b4e-4e45-8884-ea33c19f5785",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN03-00": {
+      "id": "c0f11245-7f39-400e-a587-9a02a6722615",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-VN95-02": {
+      "id": "9b214142-afa6-4034-807a-b2f15edee51e",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-BD01-00": {
+      "id": "2609f16d-f3ec-421b-b2d9-f6a725417262",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-AN01-00": {
+      "id": "0bcb06c7-78aa-44e0-bcb4-b0e56bac6734",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PH01-00": {
+      "id": "79736f05-fae0-4cd7-a0d5-ba1404d6fb8e",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PH02-01": {
+      "id": "39f0809f-48ad-4022-ab70-abfbcb6d73d7",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-PH03-00": {
+      "id": "af0d2156-34c5-4dce-ae9c-b556490c57db",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-NC-FQ93-00": {
+      "id": "a28e13a4-211e-4732-8ecd-cddb930887da",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-VN01-00": {
+      "id": "33d671a9-5a30-4938-8c10-27710e5d986f",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-VN02-00": {
+      "id": "d7b54411-bb51-4037-8ef3-e4d548b274c9",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-VN03-00": {
+      "id": "191ec251-0e82-4837-a9f5-76c673a0d300",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-SB00-00": {
+      "id": "5950cfe6-a4d3-4d0f-b45d-086273499ed7",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-SB00-01": {
+      "id": "feb9b6b4-fa36-40a5-8c52-c497d4fb89db",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-NI02-00": {
+      "id": "6a9b9588-27cf-46c0-84df-f9bc9af5cd97",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-NI02-01": {
+      "id": "32809ae6-5d98-409b-b875-1b6a62cfdd57",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-NI02-02": {
+      "id": "ce595e17-acda-4d8f-83e9-657d57154af6",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-BC00-00": {
+      "id": "bc47e8aa-cf68-4dff-811c-d99551063bf6",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-PL01-00": {
+      "id": "bc347923-679c-476b-96fa-6bc90d1f21a5",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-PR01-00": {
+      "id": "57df8873-79ee-4312-8cd6-3f49e7c71575",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-BN01-00": {
+      "id": "36669db4-6f8f-4883-b87b-b60ff7b2d8e6",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/EM-CR-BN01-01": {
+      "id": "d6d22c3d-5eff-4adc-81a8-59685e2fe7fa",
+      "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+   },
+   "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring-version/version-info": {
+      "id": "1424ad50-7c54-486e-893d-7c0aa64dc759",
+      "resource_group": "60a3fca0-079f-4c23-9f3d-965f8537d079"
+   }
+}

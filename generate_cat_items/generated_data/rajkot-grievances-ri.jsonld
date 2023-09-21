@@ -1,0 +1,162 @@
+{
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+        "iudx:Resource",
+        "iudx:IssueReporting"
+    ],
+    "id": "36784e08-e3cb-4cc1-bbef-12cfd2f55abb",
+    "name": "civic-issues",
+    "label": "Civic Issues reported in Rajkot City",
+    "description": "The civic issues reported on the current day, on a daily basis by the citizens, such as water logging, drainage overflow, etc., via various communication channels in Rajkot city.",
+    "tags": [
+        "citizen grievances",
+        "complaints",
+        "registered grievances",
+        "grievance status",
+        "public grievances",
+        "sanitation",
+        "drainage",
+        "garbage collection",
+        "cleanliness",
+        "public health",
+        "open defecation",
+        "stray animals",
+        "swm",
+        "civic issues",
+        "issue reporting"
+    ],
+    "itemStatus": "ACTIVE",
+    "resourceGroup": "5c225877-d265-42ce-ad06-cb5656a833c1",
+    "resourceServer": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+    "accessPolicy": "SECURE",
+    "resourceType": "MESSAGESTREAM",
+    "iudxResourceAPIs": [
+        "ATTR",
+        "TEMPORAL"
+    ],
+    "location": {
+        "type": "Place",
+        "address": "Rajkot , Gujarat",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        70.788064,
+                        22.337176
+                    ],
+                    [
+                        70.759475,
+                        22.295083
+                    ],
+                    [
+                        70.819874,
+                        22.265648
+                    ],
+                    [
+                        70.863764,
+                        22.292847
+                    ],
+                    [
+                        70.859335,
+                        22.334196
+                    ],
+                    [
+                        70.819472,
+                        22.353935
+                    ],
+                    [
+                        70.788064,
+                        22.337176
+                    ]
+                ]
+            ]
+        }
+    },
+    "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+            "iudx:DataDescriptor",
+            "iudx:IssueReporting"
+        ],
+        "dataDescriptorLabel": "Data descriptor for Civic Issues in Rajkot City",
+        "description": "Data attribute definitions for civic issues in Rajkot city",
+        "zoneName": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Name of the zone where the civic issue corresponding to this observation is reported.",
+            "dataSchema": "iudx:Text"
+        },
+        "department": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Name of the department concerned with the issue corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+        },
+        "wardNum": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Number",
+            "unitCode": "C62",
+            "unitText": "Dimensionless",
+            "description": "The unique number of the ward from which the civic issue corresponding to this observation is reported."
+        },
+        "reportID": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Unique ID of the issue or complaint corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+        },
+        "category": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Category under which the reported issue corresponding to this observation has been classified.",
+            "dataSchema": "iudx:Text"
+        },
+        "address": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "The physical address of the place where the civic issue corresponding to this observation is reported.",
+            "dataSchema": "iudx:Text"
+        },
+        "resolutionStatus": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "The current resolution status of the issue reported by the citizen.",
+            "dataSchema": "iudx:Text"
+        },
+        "observationDateTime": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Last reported time of observation.",
+            "dataSchema": "iudx:DateTime"
+        }
+    },
+    "dataSampleFile": [
+        {
+            "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/rajkot/rajkot-civic-issues.json",
+            "name": "Rajkot Civic Issue Report Sample",
+            "description": "Sample for civic issue reports in Rajkot City",
+            "relationType": "REL_FILE"
+        }
+    ],
+    "dataSample": {
+        "reportID": "23269390",
+        "zoneName": "WEST",
+        "wardNum": "Vasna",
+        "department": "DRAINAGE CHOCKUP/OVERFLOW",
+        "category": "Chocking Up Hcc",
+        "observationDateTime": "2023-06-15T10:27:00+05:30",
+        "address": "MANAS 5 ARCHNA PARK UNIVERSITY ROAD NEAR DHOLAKIYA SCHOOL, Archana Park",
+        "resolutionStatus": "Open" 
+  },
+    "instance": "rajkot"
+}

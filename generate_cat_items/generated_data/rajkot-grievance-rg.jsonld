@@ -1,0 +1,32 @@
+{
+	"@context": "https://voc.iudx.org.in/",
+	"type": [
+		"iudx:ResourceGroup",
+		"iudx:IssueReporting"
+	],
+	"id": "5c225877-d265-42ce-ad06-cb5656a833c1",
+	"name": "rajkot-grievance",
+	"label": "Issues Reported in Rajkot City",
+	"description": "Civic issues reported in Rajkot city.",
+	"tags": [
+		"tracking grievances",
+		"status",
+		"citizen grievances",
+		"complaints",
+		"registered grievances",
+		"grievance handling",
+		"public grievances",
+		"grievance severity",
+		"sanitation",
+		"drainage",
+		"garbage collection",
+		"garbage and cleanliness"
+	],
+  "instance": "rajkot",
+  "provider": "a06449bb-4f59-4378-ba59-ba6ef8e2bca4",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "Rajkot, Gujarat",
+    "type": "Place"
+  }
+  }

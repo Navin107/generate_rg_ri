@@ -30,7 +30,8 @@
         "resourceType": "GSLAYER",
         "iudxResourceAPIs": [
              "SPATIAL",
-             "ATTR"
+             "ATTR",
+             "TEMPORAL"
         ],
         "dataDescriptor": {
              "@context": "https://voc.iudx.org.in/",
@@ -120,7 +121,8 @@
      "resourceGroup_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1/rs.iudx.org.in/ahmedabad-smart-toilets",
      "resourceType": "DATASET",
      "iudxResourceAPIs": [
-          "ATTR"
+          "ATTR",
+          "TEMPORAL"
      ],
      "dataDescriptor": {
           "@context": "https://voc.iudx.org.in/",

@@ -79,7 +79,8 @@
                        72.515929,
                        23.068351
                   ]
-             }
+             },
+             "observationDateTime": "2020-12-01T21:10:00+05:30"             
         },
         "dataSampleFile": [
              {
@@ -175,7 +176,8 @@
           "establishmentType": "Smart toilet- Raj Palace-Women-AMD003",
           "address": "Raj Palace-Women",
           "totalCount": 15,
-          "amountCollected": 75
+          "amountCollected": 75,
+          "observationDateTime": "2020-12-01T21:10:00+05:30" 
      },
      "dataSampleFile": [
           {

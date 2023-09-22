@@ -1,0 +1,332 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:EnvAQM"
+  ],
+  "name": "aqm-info",
+  "label": "Air Quality Monitoring Sensors in Prayagraj City",
+  "description": "Publishes realtime information of air pollutants from AQM sensors deployed in Prayagraj city. It gives aggregated values of air pollutant measures like carbon monoxide, nitrogen dioxide, ozone, particulate matter etc., and also the associated environmental factors like temperature, humidity, air quality index(aqi) every hour. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+  "id": "9014d2ad-f612-4d2c-9eff-fdc75938ef3c",
+  "resourceGroup": "9f43cc56-4fa8-489d-af84-11d87e7fe18a",
+  "provider": "ba950681-000f-477e-a166-c953304d1989",
+  "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+  "resourceType": "MESSAGESTREAM",
+  "itemStatus": "ACTIVE",
+  "iudxResourceAPIs": [
+    "ATTR",
+    "TEMPORAL"
+  ],
+  "tags": [
+    "environment",
+    "air quality",
+    "climate",
+    "air",
+    "aqi",
+    "aqm",
+    "pollution",
+    "so2",
+    "co2",
+    "co",
+    "no",
+    "no2",
+    "pm2.5",
+    "pm10",
+    "humidity",
+    "temperature",
+    "ozone",
+    "o3",
+    "noise"
+  ],
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "dataDescriptorLabel": "Data Descriptor for data from AQM sensors in Prayagraj city",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:EnvAQM"
+    ],
+    "deviceID": {
+      "description": "Device ID of the AQM Sensor in Prayagraj city",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "deviceStatus": {
+      "description": "Status of the device. Whether connected or not connected. The status will be 'Online'-If the device is active and communicating. The status will be 'Offline' if the aqm sensor is inactive and unable to connect to the server.",
+      "dataSchema": "iudx:Text",
+      "type": [
+        "ValueDescriptor"
+      ]
+    },
+    "atmosphericPressure": {
+      "description": "Describes aggregated values for atmospheric pressure.",
+      "avgOverTime": {
+        "description": "Average value of air pressure",
+        "unitCode": "BAR",
+        "unitText": "bar",
+        "dataSchema": "iudx:Number",
+        "aggregationDuration": {
+          "unitCode": "MIN",
+          "value": 15,
+          "unitText": "minutes"
+        },
+        "type": [
+          "ValueDescriptor"
+        ]
+      },
+      "type": [
+        "TimeSeriesAggregation"
+      ]
+    },
+    "so2": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for sulphur dioxide(SO2).",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of sulphur dioxide(SO2).",
+        "unitCode": "GQ",
+        "unitText": "microgram per cubic metre (μg/m3)",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "airTemperature": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for air temperature.",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of air temperature.",
+        "unitCode": "CEL",
+        "unitText": "degree Celsius (C)",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "pm10": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for particulate matter 10(PM10).",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of particulate matter 10(PM10).",
+        "unitCode": "GQ",
+        "unitText": "microgram per cubic metre (μg/m3)",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "co2": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for carbon dioxide(CO2).",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of carbon dioxide(CO2).",
+        "unitCode": "59",
+        "unitText": "part per million (ppm)",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "ambientNoise": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for ambient noise levels.",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of ambient noise levels (dB).",
+        "unitCode": "2N",
+        "unitText": "decibel (dB)",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "no2": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for nitrogen dioxide(NO2).",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of nitrogen dioxide(NO2).",
+        "unitCode": "GQ",
+        "unitText": "microgram per cubic metre (μg/m3)",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "relativeHumidity": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for relativeHumidity.",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of relative humidity (water vapour in air) for last 15 minutes.",
+        "unitCode": "P1",
+        "unitText": "Percentage",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "observationDateTime": {
+      "description": "Last reported time of observation.",
+      "dataSchema": "iudx:DateTime",
+      "type": [
+        "ValueDescriptor"
+      ]
+    },
+    "pm2p5": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for particulate matter 2.5(PM2.5).",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of particulate matter 2.5(PM2.5).",
+        "unitCode": "GQ",
+        "unitText": "microgram per cubic metre (μg/m3)",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "co": {
+      "type": [
+        "TimeSeriesAggregation"
+      ],
+      "description": "Describes aggregated values for carbon mono oxide(CO).",
+      "avgOverTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Average value of carbon mono oxide(CO).",
+        "unitCode": "GP",
+        "unitText": "milligram per cubic metre (mg/m3)",
+        "dataSchema": "iudx:Number"
+      }
+    },
+    "airQualityIndex": {
+      "description": "Overall AQI",
+      "unitCode": "C62",
+      "dataSchema": "iudx:Number",
+      "unitText": "dimensionless",
+      "type": [
+        "ValueDescriptor"
+      ]
+    },
+    "aqiMajorPollutant": {
+      "description": "Major pollutant in the Air Quality Index (AQI).",
+      "dataSchema": "iudx:Text",
+      "type": [
+        "ValueDescriptor"
+      ]
+    },
+    "airQualityLevel": {
+      "description": "Air Quality Category Indication. Qualitative level defined according to the local health agencies. For example, 'GOOD', 'MODERATE', 'POOR', 'UNHEALTHY', 'SEVERE', 'HAZARDOUS' etc.",
+      "dataSchema": "iudx:Text",
+      "type": [
+        "ValueDescriptor"
+      ]
+    }
+  },
+  "dataSampleFile": [
+    {
+      "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/prayagraj/env-aqm.json",
+      "name": "Prayagraj Air quality monitoring data sample",
+      "description": "Sample file for Air quality monitoring devices/sensors in Prayagraj city",
+      "relationType": "REL_FILE"
+    }
+  ],
+  "location": {
+    "type": "Place",
+    "address": "Prayagraj, Uttar Pradesh",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            81.8349404,
+            25.4642559
+          ],
+          [
+            81.8051285,
+            25.4480577
+          ],
+          [
+            81.8053923,
+            25.4197056
+          ],
+          [
+            81.8742499,
+            25.4194673
+          ],
+          [
+            81.8731946,
+            25.4499635
+          ],
+          [
+            81.8349404,
+            25.4642559
+          ]
+        ]
+      ]
+    }
+  },
+  "dataSample": {
+    "id": "9014d2ad-f612-4d2c-9eff-fdc75938ef3c",
+    "deviceID": "490",
+    "deviceStatus": "Online",
+    "observationDateTime": "2023-09-22T15:09:04+05:30",
+    "airQualityIndex": 23,
+    "airQualityLevel": "Good",
+    "aqiMajorPollutant": "NO2",
+    "pm2p5": {
+      "avgOverTime": 116.05
+    },
+    "pm10": {
+      "avgOverTime": 228.74
+    },
+    "so2": {
+      "avgOverTime": 3.76
+    },
+    "no2": {
+      "avgOverTime": 56.42
+    },
+    "co": {
+      "avgOverTime": 0.81
+    },
+    "co2": {
+      "avgOverTime": 527.06
+    },
+    "ambientNoise": {
+      "avgOverTime": 45.47
+    },
+    "airTemperature": {
+      "avgOverTime": 36.15
+    },
+    "relativeHumidity": {
+      "avgOverTime": 75.03
+    },
+    "atmosphericPressure": {
+      "avgOverTime": 989.22
+    }
+  },
+  "instance": "prayagraj"
+}
+

@@ -1,0 +1,123 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:PointOfInterest"
+  ],
+  "id": "3f8ffa3b-0635-4616-a1e3-701a95daa55c",
+  "name": "aqm-locations",
+  "label": "AQM Sensor Locations in Prayagraj City",
+  "description": "Physical coordinates of air quality monitoring sensors in Prayagraj city.",
+  "tags": [
+    "environment",
+    "air quality",
+    "climate",
+    "air",
+    "aqi",
+    "aqm",
+    "aqm locations",
+    "pollution"
+  ],
+  "resourceType": "GSLAYER",
+  "itemStatus": "ACTIVE",
+  "iudxResourceAPIs": [
+    "SPATIAL",
+    "ATTR"
+  ],
+  "resourceGroup": "9f43cc56-4fa8-489d-af84-11d87e7fe18a",
+  "provider": "ba950681-000f-477e-a166-c953304d1989",
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:PointOfInterest"
+    ],
+    "dataDescriptorLabel": "Data attributes for AQM sensors locations in Prayagraj City",
+    "description": "Data attribute details for AQM sensor locations in Prayagraj city.",
+    "deviceID": {
+      "description": "Denotes the Device ID of the AQM Sensor.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "name": {
+      "description": "Specifies the Name and ID of the AQM Sensor.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "address": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Name of the area or locality in Prayagraj city at which the AQM sensor is located.",
+      "dataSchema": "iudx:Text"
+    },
+    "location": {
+      "description": "Physical coordinates of the AQM sensor in Prayagraj City.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Point"
+    }
+  },
+  "dataSampleFile": [
+    {
+      "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/prayagraj/aqm-locations.json",
+      "name": "Prayagraj Air Quality Monitoring Locations data sample",
+      "description": "Sample file for locations of AQM sensors installed in Prayagraj city.",
+      "relationType": "REL_FILE"
+    }
+  ],
+  "dataSample": {
+    "deviceID": "465",
+    "Name": "AQM-SENSOR-465",
+    "address": "Andhawa Chouraha",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.93495833,
+        25.42783333
+      ]
+    }
+  },
+  "location": {
+    "type": "Place",
+    "address": "Prayagraj, Uttar Pradesh",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            81.8349404,
+            25.4642559
+          ],
+          [
+            81.8051285,
+            25.4480577
+          ],
+          [
+            81.8053923,
+            25.4197056
+          ],
+          [
+            81.8742499,
+            25.4194673
+          ],
+          [
+            81.8731946,
+            25.4499635
+          ],
+          [
+            81.8349404,
+            25.4642559
+          ]
+        ]
+      ]
+    }
+  },
+  "instance": "prayagraj"
+}
+

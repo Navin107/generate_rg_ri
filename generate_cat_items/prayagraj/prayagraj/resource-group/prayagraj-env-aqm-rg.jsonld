@@ -1,0 +1,44 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:ResourceGroup",
+    "iudx:EnvAQM",
+    "iudx:PointOfInterest"
+  ],
+  "id": "9f43cc56-4fa8-489d-af84-11d87e7fe18a",
+  "name": "prayagraj-env-aqm",
+  "label": "Air Quality Monitoring Sensors (AQM) in Prayagraj City",
+  "description": "Publishes realtime information of air pollutants from AQM sensors and the location information of AQM sensors installed in city of Prayagraj. It gives instantaneous and/or average values of AQM data containing gaseous properties like CO2, CO,NO2 etc and AQI summary, along with the associated environmental factors like temperature, humidity. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+  "tags": [
+    "environment",
+    "air quality",
+    "climate",
+    "air",
+    "aqi",
+    "aqm",
+    "pollution",
+    "so2",
+    "co2",
+    "co",
+    "no",
+    "no2",
+    "pm2.5",
+    "pm10",
+    "humidity",
+    "temperature",
+    "ozone",
+    "o3",
+    "noise",
+    "light",
+    "uv"
+  ],
+  "accessPolicy": "SECURE",
+  "itemStatus": "ACTIVE",
+  "provider": "ba950681-000f-477e-a166-c953304d1989",
+  "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+  "location": {
+    "address": "Prayagraj, Uttar Pradesh",
+    "type": "Place"
+  },
+  "instance": "prayagraj"
+}

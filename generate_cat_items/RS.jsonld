@@ -35,24 +35,22 @@
             "iudx:HTTPAccess"
 		],
 		"protocol": "https",
-		"accessURL": "rs.cos.iudx.io",
-		"port": 443
+		"accessURL": "rs.cos.iudx.io"
 	}, {
 		"type": [
             "iudx:StreamingAccess"
 		],
 		"protocol": "amqps",
-		"accessURL": "databroker.cos.iudx.io",
-		"port": 24567
+		"accessURL": "databroker.cos.iudx.io"
 	}, {
 		"type": [
             "iudx:FileAccess"
 		],
 		"protocol": "https",
-		"accessURL": "file.cos.iudx.io",
-		"port": 443
+		"accessURL": "file.cos.iudx.io"
 	}],
 	"location": {
+		
 		"type": "Place",
 		"address": "IISc, Bangalore",
 		"geometry": {

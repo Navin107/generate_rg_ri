@@ -29,25 +29,25 @@
 			}
 		}
 	},
-	"resourceServerRegURL": "rs.iudx.org.in",
+	"resourceServerRegURL": "rs.cos.iudx.org.in",
 	"resourceAccessModalities": [{
 		"type": [
             "iudx:HTTPAccess"
 		],
 		"protocol": "https",
-		"accessURL": "rs.cos.iudx.io"
+		"accessURL": "rs.cos.iudx.org.in"
 	}, {
 		"type": [
             "iudx:StreamingAccess"
 		],
 		"protocol": "amqps",
-		"accessURL": "databroker.cos.iudx.io"
+		"accessURL": "databroker.cos.iudx.org.in"
 	}, {
 		"type": [
             "iudx:FileAccess"
 		],
 		"protocol": "https",
-		"accessURL": "file.cos.iudx.io"
+		"accessURL": "file.cos.iudx.org.in"
 	}],
 	"location": {
 		

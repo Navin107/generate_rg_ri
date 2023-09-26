@@ -9,7 +9,8 @@ class IUDXDataProcessor:
     
         self.resource_group_data = self.load_json_file('../raw/resourceGroup.json')
         self.resources_data = self.load_json_file('../raw/resources.json')
-        self.provider_data = self.load_json_file('../raw/sha-keycloak.json')
+        self.provider_data = self.load_json_file('../raw/provider.json')
+        self.user_data = self.load_json_file('../raw/sha-keycloak.json')
         self.resource_server_data = self.load_json_file("../raw/resource-server.json")
 
     def load_json_file(self, file_path):
@@ -77,6 +78,7 @@ class IUDXDataProcessor:
         json_data["resourceGroup_bck"] = rg_id
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
+        json_data["ownerUserId"] = self.user_data.get(provider_id)
 
 
 
@@ -113,7 +115,7 @@ class IUDXDataProcessor:
             "provider", "provider_bck", "resourceServer", "resourceServer_bck",
             "resourceGroup", "resourceGroup_bck" ,  "resourceType",  "iudxResourceAPIs",
             "dataDescriptor", "dataSample", "dataSampleFile",
-            "itemStatus", "instance"
+            "itemStatus", "instance", "ownerUserId", "itemCreatedAt"
         ]
 
         return self.extract_desired_keys(desired_keys, json_data)

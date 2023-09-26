@@ -9,7 +9,8 @@ class IUDXDataProcessor:
     
         self.resource_group_data = self.load_json_file('../raw/resourceGroup.json')
         self.resources_data = self.load_json_file('../raw/resources.json')
-        self.provider_data = self.load_json_file('../raw/sha-keycloak.json')
+        self.provider_data = self.load_json_file('../raw/provider.json')
+        self.user_data = self.load_json_file('../raw/sha-keycloak.json')
         self.resource_server_data = self.load_json_file("../raw/resource-server.json")
 
     def load_json_file(self, file_path):
@@ -23,6 +24,7 @@ class IUDXDataProcessor:
         json_data["id"] = self.provider_data.get(provider_id)
         json_data["resourceServer"] = "ab311420-7d84-4a0a-9fdb-c811be588589"
         json_data["resourceServer_bck"] = "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in"
+        json_data["ownerUserId"] = self.user_data.get(provider_id)
 
         desired_keys = [
             "@context","id", "id_bck",  "type", "name", "description", "resourceServer", "resourceServer_bck", "providerOrg"
@@ -54,6 +56,7 @@ class IUDXDataProcessor:
         json_data["id"] = self.resource_group_data.get(rg_id) 
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
+        json_data["ownerUserId"] = self.user_data.get(provider_id)
 
         if rg_id in ["vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-env-aqm", "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/rs.iudx.org.in/agartala-env-aqm", \
         "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info"]:
@@ -61,7 +64,7 @@ class IUDXDataProcessor:
             json_data.pop("dataSampleFile")
 
 
-        desired_keys = ["@context", "id", "id_bck", "type", "name", "label", "description", "tags", "provider", "provider_bck", "itemStatus", "dataSampleFile", "location", "instance"]
+        desired_keys = ["@context", "id", "id_bck", "type", "name", "label", "description", "tags", "provider", "provider_bck", "itemStatus", "dataSampleFile", "location", "instance", "ownerUserId", "itemCreatedAt"]
         return self.extract_desired_keys(desired_keys, json_data)
     
     def process_resource(self, json_data):
@@ -77,6 +80,7 @@ class IUDXDataProcessor:
         json_data["resourceGroup_bck"] = rg_id
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
+        json_data["ownerUserId"] = self.user_data.get(provider_id)
 
 
 
@@ -113,7 +117,7 @@ class IUDXDataProcessor:
             "provider", "provider_bck", "resourceServer", "resourceServer_bck",
             "resourceGroup", "resourceGroup_bck" ,  "resourceType",  "iudxResourceAPIs",
             "dataDescriptor", "dataSample", "dataSampleFile",
-            "itemStatus", "instance"
+            "itemStatus", "instance", "ownerUserId", "itemCreatedAt"
         ]
 
         return self.extract_desired_keys(desired_keys, json_data)
@@ -147,7 +151,7 @@ class IUDXDataProcessor:
 data_processor = IUDXDataProcessor()
 uuid_data = data_processor.generate()
 
-with open("../generated_data/generate-resource-item.jsonld", "w") as f:
+with open("../generated_data/generate-resource-group.jsonld", "w") as f:
     json.dump(uuid_data,f,indent=5)
 
 print("done")

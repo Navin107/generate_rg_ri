@@ -1,7 +1,7 @@
 [
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "012d19e2-eb0e-43c3-bd51-315e4674c55d",
+          "id": "d2207d27-962a-4b74-b449-a9428d2ac26f",
           "id_bck": "tn.gov.in/acda599e0ff80280064077bda7e685e1e45007f8",
           "type": [
                "iudx:Provider"
@@ -24,11 +24,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "012d19e2-eb0e-43c3-bd51-315e4674c55d"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "bf16ff42-a636-4341-ac4c-201cb71c8953",
+          "id": "5c6050e7-6dfa-4156-b595-27e3ac854975",
           "id_bck": "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c",
           "type": [
                "iudx:Provider"
@@ -51,11 +52,12 @@
                },
                "additionalInfoURL": "http://smartcityrajkot.in/",
                "name": "rscdl"
-          }
+          },
+          "ownerUserId": "bf16ff42-a636-4341-ac4c-201cb71c8953"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "id": "5ebc64e0-e308-4787-b4d8-06c11ce417a9",
           "id_bck": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
           "type": [
                "iudx:Provider"
@@ -78,11 +80,12 @@
                },
                "additionalInfoURL": "https://gandhinagarmunicipal.com/gandhinagar-smart-city",
                "name": "gscdl"
-          }
+          },
+          "ownerUserId": "d85898f4-e7ec-4cac-a264-952be2271c60"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "a4ff83a3-2091-4b97-bcc3-38e5360869be",
+          "id": "bf39b39c-d690-4cba-aa2e-c78387b52591",
           "id_bck": "datakaveri.org/e394655e381dcc5c2a7260dc7bd0f196f664d95c",
           "type": [
                "iudx:Provider"
@@ -105,11 +108,12 @@
                },
                "additionalInfoURL": "https://shimlasmartcity.com",
                "name": "sscl"
-          }
+          },
+          "ownerUserId": "a4ff83a3-2091-4b97-bcc3-38e5360869be"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "93b9a3fb-d05f-478b-b59c-beda3b81810d",
+          "id": "172ef94c-411e-42ff-a3cf-86ca18ca4d23",
           "id_bck": "datakaveri.org/2e06b7688640758f8dc08e79f3715d74e6f31f94",
           "type": [
                "iudx:Provider"
@@ -132,11 +136,12 @@
                },
                "additionalInfoURL": "http://dharamshalasmartcity.in",
                "name": "dscl"
-          }
+          },
+          "ownerUserId": "93b9a3fb-d05f-478b-b59c-beda3b81810d"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "ce3a29d6-6ea2-4122-90a8-699574f71eb6",
+          "id": "17b2718c-f160-4640-b970-e0024e5a87cf",
           "id_bck": "datakaveri.org/f85774a2647d8cf15b87a34c916f2bc20ae2f1f4",
           "type": [
                "iudx:Provider"
@@ -159,11 +164,12 @@
                },
                "additionalInfoURL": "https://bscl.in",
                "name": "bscl"
-          }
+          },
+          "ownerUserId": "ce3a29d6-6ea2-4122-90a8-699574f71eb6"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "944d88bc-e3e4-4af2-abbd-e54516c34096",
+          "id": "9a674c59-a9c4-4065-a64b-f64d50828c11",
           "id_bck": "ccmc.gov.in/47545f1de4dd2bd726019fd40f3686487e741eb7",
           "type": [
                "iudx:Provider"
@@ -186,11 +192,12 @@
                },
                "additionalInfoURL": "https://www.coimbatoresmartcity.org",
                "name": "cscl"
-          }
+          },
+          "ownerUserId": "944d88bc-e3e4-4af2-abbd-e54516c34096"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "b85c96ab-56f9-4a79-a08c-190e6b0a8573",
+          "id": "91bf259c-5442-4fc0-8590-c8b2c9ec466c",
           "id_bck": "pcmcindia.gov.in/d6b9c76cf48cd740de64b573ae6fa5f334df6ef6",
           "type": [
                "iudx:Provider"
@@ -213,11 +220,12 @@
                },
                "additionalInfoURL": "https://www.smartpcmc.org/smart-city",
                "name": "pcmc"
-          }
+          },
+          "ownerUserId": "b85c96ab-56f9-4a79-a08c-190e6b0a8573"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "e18417be-fb09-4fe9-b8d1-e252da94699b",
+          "id": "890dab7b-9544-41b2-9d3c-cdd75ca9c990",
           "id_bck": "dahodsmartcity.in/4eed16378ec4e797bdd0427775acffa9b4b33f77",
           "type": [
                "iudx:Provider"
@@ -240,11 +248,12 @@
                },
                "additionalInfoURL": "http://150.242.16.141:92/CitizenPortalApplication-Dahod/en/about-dahod",
                "name": "dscdl"
-          }
+          },
+          "ownerUserId": "e18417be-fb09-4fe9-b8d1-e252da94699b"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "dd4b858f-f9e1-4c5a-ade7-57193e17d59d",
+          "id": "f42cb1df-ad44-4166-9275-3281435bd051",
           "id_bck": "srinagarsmartcity.in/bd95482f347e6a906fdf687d66d8ad79cdc047ba",
           "type": [
                "iudx:Provider"
@@ -267,11 +276,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "dd4b858f-f9e1-4c5a-ade7-57193e17d59d"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "id": "fb4c9d1b-0e51-4767-92a2-a009286dbea7",
           "id_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
           "type": [
                "iudx:Provider"
@@ -294,11 +304,12 @@
                },
                "additionalInfoURL": "https://ahmedabadcity.gov.in/portal/smartcitymission.jsp#smartCitiesMissionDiv",
                "name": "scadl"
-          }
+          },
+          "ownerUserId": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "433857ce-f7d7-480f-82ed-efc293ab5682",
+          "id": "a175cc38-7d05-4a85-8b3f-0e39cf7b7867",
           "id_bck": "smartbikemobility.com/bfc54d46ca3cf5dac6eaef7b42f8fc87f94a812b",
           "type": [
                "iudx:Provider"
@@ -321,11 +332,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "433857ce-f7d7-480f-82ed-efc293ab5682"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "id": "7301717c-8a65-47f6-bc8d-345f5cb71e43",
           "id_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
           "type": [
                "iudx:Provider"
@@ -348,11 +360,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "329f4412-7de7-449b-ba77-906362bca6f2"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "602e2803-2180-4441-b612-93aea9ccfd4a",
+          "id": "f702792e-d7ee-43d8-8313-344e37e89831",
           "id_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049",
           "type": [
                "iudx:Provider"
@@ -375,11 +388,12 @@
                },
                "additionalInfoURL": "https://www.smartcityfaridabad.co.in/",
                "name": "fscl"
-          }
+          },
+          "ownerUserId": "602e2803-2180-4441-b612-93aea9ccfd4a"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "id": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
           "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
           "type": [
                "iudx:Provider"
@@ -402,11 +416,12 @@
                },
                "additionalInfoURL": "http://vadodarasmartcity.in/",
                "name": "vscdl"
-          }
+          },
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "id": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "id_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "type": [
                "iudx:Provider"
@@ -429,11 +444,12 @@
                },
                "additionalInfoURL": "https://www.suratmunicipal.gov.in/",
                "name": "smc"
-          }
+          },
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "id": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "id_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "type": [
                "iudx:Provider"
@@ -456,11 +472,12 @@
                     "address": "Varanasi, Uttar Pradesh",
                     "type": "Place"
                }
-          }
+          },
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "id": "f0944688-dc5a-4007-8380-919957d3f2a6",
           "id_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
           "type": [
                "iudx:Provider"
@@ -483,11 +500,12 @@
                },
                "additionalInfoURL": "https://punesmartcity.in/",
                "name": "pscdcl"
-          }
+          },
+          "ownerUserId": "00430d8a-5e26-4f07-82d5-1463817cb727"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "id": "cddec307-5f61-492a-901f-b482f21480b9",
           "id_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b",
           "type": [
                "iudx:Provider"
@@ -510,11 +528,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "9a565990-0389-4849-a973-e76638054679",
+          "id": "98e85fcf-52f3-431e-a49d-76536e971c6f",
           "id_bck": "roadmetrics.in/6c02670f1996e7577ad893fd0ac2ba82680f8796",
           "type": [
                "iudx:Provider"
@@ -537,11 +556,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "9a565990-0389-4849-a973-e76638054679"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "id": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
           "id_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
           "type": [
                "iudx:Provider"
@@ -564,11 +584,12 @@
                },
                "additionalInfoURL": "https://cscl.co.in/",
                "name": "cscl"
-          }
+          },
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "id": "8bf38136-3cdc-4308-a291-7fe1af94f7a5",
           "id_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4",
           "type": [
                "iudx:Provider"
@@ -591,11 +612,12 @@
                },
                "additionalInfoURL": "https://www.smartbhopal.city/",
                "name": "bscdcl"
-          }
+          },
+          "ownerUserId": "a5a554f5-d9ee-403f-9201-66a9575979f5"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "id": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
           "id_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
           "type": [
                "iudx:Provider"
@@ -618,11 +640,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "id": "9d5554c1-8e80-4767-a201-8c6790c70ebb",
           "id_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2",
           "type": [
                "iudx:Provider"
@@ -645,11 +668,12 @@
                },
                "additionalInfoURL": "https://agartalasmartcity.tripura.gov.in/",
                "name": "ascl"
-          }
+          },
+          "ownerUserId": "1c572828-4c42-4056-9c15-516e08a1c811"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "96dc81d7-651a-4f5b-8f73-7cdb51c9094e",
+          "id": "40b3d9cc-9b54-4003-b030-3d86bd8b6271",
           "id_bck": "datakaveri.org/43b035d5cc7aae63100cd103eb2f7d9d8fe57e8e",
           "type": [
                "iudx:Provider"
@@ -672,11 +696,12 @@
                     "type": "Place"
                },
                "name": "iudx"
-          }
+          },
+          "ownerUserId": "96dc81d7-651a-4f5b-8f73-7cdb51c9094e"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "94568f8e-68e7-462f-8f31-fd3ff74ce02f",
+          "id": "45ea99a1-cc8f-46ee-bb8d-2429f1ced77b",
           "id_bck": "safetipin.com/b8381c67aa6362916a44837f3c6612db1e07a11f",
           "type": [
                "iudx:Provider"
@@ -699,11 +724,12 @@
                },
                "name": "safetipin",
                "additionalInfoURL": "https://safetipin.com/"
-          }
+          },
+          "ownerUserId": "94568f8e-68e7-462f-8f31-fd3ff74ce02f"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "id": "e706387c-2483-456d-874b-9b14a6bfc929",
           "id_bck": "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e",
           "type": [
                "iudx:Provider"
@@ -726,11 +752,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "99ec821b-047a-4031-a5f0-eee53fa3cfe3"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "id": "07461b53-2531-405a-bb2a-60108350a11d",
           "id_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
           "type": [
                "iudx:Provider"
@@ -753,11 +780,12 @@
                },
                "additionalInfoURL": "https://www.elcita.in/",
                "name": "benscl"
-          }
+          },
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "id": "b2c4c7f4-d870-42e4-b1c4-6438a806011a",
           "id_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32",
           "type": [
                "iudx:Provider"
@@ -780,11 +808,12 @@
                },
                "additionalInfoURL": "https://blrsmartcity.karnataka.gov.in/english",
                "name": "benscl"
-          }
+          },
+          "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "564641f4-229f-4087-8508-6f332a02f820",
+          "id": "fb775399-5cec-422f-af46-d80f07fe5edb",
           "id_bck": "datakaveri.org/904b1e7fbbcde380839ab7dab174ba204cfa0b1a",
           "type": [
                "iudx:Provider"
@@ -807,11 +836,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "564641f4-229f-4087-8508-6f332a02f820"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "f256f2dc-c626-4e72-9bf5-64011e184dc0",
+          "id": "a4a0ae63-d08d-41b8-b170-60f1a6569c45",
           "id_bck": "gvsccl.in/e9da8ac8e57c965f51c068bf8c152f4c1d53e5e4",
           "type": [
                "iudx:Provider"
@@ -834,11 +864,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "f256f2dc-c626-4e72-9bf5-64011e184dc0"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "a773012b-bd8f-4919-9581-5d8526869e5b",
+          "id": "11eef78a-7d0d-4d2c-9218-4be860c68aee",
           "id_bck": "datakaveri.org/4d8bfe32a65330c83f8d43f2fb3026a720c635b5",
           "type": [
                "iudx:Provider"
@@ -861,11 +892,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "a773012b-bd8f-4919-9581-5d8526869e5b"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "id": "6d866764-efe5-43f9-87ba-8e2434bb1f01",
           "id_bck": "datakaveri.org/be6471cea544e6953259e6efe499185ae2620cd2",
           "type": [
                "iudx:Provider"
@@ -888,11 +920,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "c6a992c1-9d41-467a-a083-c471b514dde8"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "5e50d7f7-a311-4266-9d04-8389095e6607",
+          "id": "ce0ade6e-9e21-49ea-b425-9c14316d50a0",
           "id_bck": "gov.in/a44543eedbd41545746ea766e84dd759d9decbf6",
           "type": [
                "iudx:Provider"
@@ -915,11 +948,12 @@
                },
                "additionalInfoURL": "https://jscljaipur.in/",
                "name": "jscl"
-          }
+          },
+          "ownerUserId": "5e50d7f7-a311-4266-9d04-8389095e6607"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "id": "591afebe-b5f0-4b11-8c54-c6414fca110e",
           "id_bck": "kanpursmartcity.org/317e9f65dc9f1e8fa1f0671e7a774f65d478675b",
           "type": [
                "iudx:Provider"
@@ -942,11 +976,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "d58369dc-946c-4d09-9f4b-7440aaa60c35"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "id": "c9af6c52-75ee-4eb7-8eb5-7c99a0b285b3",
           "id_bck": "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422",
           "type": [
                "iudx:Provider"
@@ -969,11 +1004,12 @@
                },
                "additionalInfoURL": "https://www.chandigarhsmartcity.in/",
                "name": "chdscl"
-          }
+          },
+          "ownerUserId": "6c612732-b56b-4350-b2b5-d04d3ed528fc"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "c81dda37-44e9-477c-a774-884eb84f758f",
+          "id": "68bb106a-e38d-4bb1-8404-f5c8a52674d8",
           "id_bck": "kerala.gov.in/5fc7328fcef461b294ea12d88aafc79585bf9b96",
           "type": [
                "iudx:Provider"
@@ -996,11 +1032,12 @@
                },
                "additionalInfoURL": "http://kannurcorporation.lsgkerala.gov.in/en",
                "name": "kmc"
-          }
+          },
+          "ownerUserId": "c81dda37-44e9-477c-a774-884eb84f758f"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "id": "9138727e-d868-484e-a601-3344de330736",
           "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "type": [
                "iudx:Provider"
@@ -1023,11 +1060,12 @@
                          "type": "Point"
                     }
                }
-          }
+          },
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "fc5ec3d6-d215-4533-9315-4e42dbd05c17",
+          "id": "2f21c06b-185f-4dfe-ba7d-ca0d76b5303d",
           "id_bck": "kerala.gov.in/09a298e01cea843c873069b59c0606924d8f480f",
           "type": [
                "iudx:Provider"
@@ -1050,11 +1088,12 @@
                },
                "additionalInfoURL": "https://itmission.kerala.gov.in/",
                "name": "ksitm"
-          }
+          },
+          "ownerUserId": "fc5ec3d6-d215-4533-9315-4e42dbd05c17"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "024bb503-8dd9-4c60-9857-d7fcd7f8bbd2",
+          "id": "ca949926-4b95-4e02-81ef-d2f584486ac6",
           "id_bck": "nellikka.in/7d1c53427686478ba178c067e8dc551d67df470b",
           "type": [
                "iudx:Provider"
@@ -1077,11 +1116,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "024bb503-8dd9-4c60-9857-d7fcd7f8bbd2"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "7d4ad924-e56a-4f44-af5d-7e2a8fe2693a",
+          "id": "4d95cbf3-437f-4450-8193-20e64ffd8ae7",
           "id_bck": "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e",
           "type": [
                "iudx:Provider"
@@ -1104,11 +1144,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "7d4ad924-e56a-4f44-af5d-7e2a8fe2693a"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "f196a400-1625-40e9-975f-8d0caf364920",
+          "id": "a1895bf8-1464-4f01-9eea-1ffa513faffe",
           "id_bck": "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3",
           "type": [
                "iudx:Provider"
@@ -1131,11 +1172,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "f196a400-1625-40e9-975f-8d0caf364920"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "c562c286-fced-41de-8b2c-9441b750396f",
+          "id": "81c80ff8-4843-4013-bcf3-02b59e1ecc1b",
           "id_bck": "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be",
           "type": [
                "iudx:Provider"
@@ -1158,11 +1200,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "c562c286-fced-41de-8b2c-9441b750396f"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2",
+          "id": "b7c462db-234d-4552-bfab-fb0c999d44da",
           "id_bck": "smartcitytvm.in/c6fa48c93cac73f535956d70121ee40df59912cd",
           "type": [
                "iudx:Provider"
@@ -1185,11 +1228,12 @@
                          ]
                     }
                }
-          }
+          },
+          "ownerUserId": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "id": "121ae68b-acd2-4331-a8cc-f720fb406cf5",
           "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "type": [
                "iudx:Provider"
@@ -1212,11 +1256,12 @@
                },
                "additionalInfoURL": "https://kdmc.gov.in/kdmc",
                "name": "skddcl"
-          }
+          },
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "id": "f51fec55-3086-4afd-b5c1-7de524d9d133",
           "id_bck": "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76",
           "type": [
                "iudx:Provider"
@@ -1239,11 +1284,12 @@
                },
                "additionalInfoURL": "https://www.lucknowsmartcity.com/",
                "name": "lscl"
-          }
+          },
+          "ownerUserId": "d77abe8f-35d3-489c-977f-e03e03a272fb"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "fbc6a514-4bf9-4eb8-b99e-258472b05e56",
+          "id": "4fd8fbe6-b3ce-44eb-bedf-e091f8f2f5c1",
           "id_bck": "mybyk.in/2a65f7095379219032fc1d590cba4983d562322d",
           "type": [
                "iudx:Provider"
@@ -1266,11 +1312,12 @@
                },
                "additionalInfoURL": "https://mybyk.in/",
                "name": "gbskl"
-          }
+          },
+          "ownerUserId": "fbc6a514-4bf9-4eb8-b99e-258472b05e56"
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "ba950681-000f-477e-a166-c953304d1989",
+          "id": "3236f30c-7904-4618-91e8-6399d99a664d",
           "id_bck": "datakaveri.org/367b7f6e9bb804eca51d5d7be047f3c00270a694",
           "type": [
                "iudx:Provider"
@@ -1293,6 +1340,7 @@
                },
                "additionalInfoURL": "https://www.prayagrajsmartcity.org/",
                "name": "pscl"
-          }
+          },
+          "ownerUserId": "ba950681-000f-477e-a166-c953304d1989"
      }
 ]

@@ -22,14 +22,16 @@
                "gust ",
                "gust speed"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:32:06+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -66,14 +68,16 @@
                "energy generated",
                "pv"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:32:16+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -103,14 +107,16 @@
                "pump",
                "pump house"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:32:26+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -144,14 +150,16 @@
                "energy generated",
                "pv"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:32:12+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -181,14 +189,16 @@
                "pump",
                "pump house"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:32:22+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -217,14 +227,16 @@
                "meter",
                "monitor"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:31:49+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -261,14 +273,16 @@
                "device list",
                "sub device"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:31:56+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -297,14 +311,16 @@
                "meter",
                "monitor"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:31:43+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -329,14 +345,16 @@
                "gust ",
                "gust speed"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:32:03+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -368,14 +386,16 @@
                "temperature",
                "nh3"
           ],
-          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
           "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "IIIT Hyderabad, Telangana",
                "type": "Place"
           },
-          "instance": "hyderabad"
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -405,14 +425,16 @@
                "help",
                "siren"
           ],
-          "provider": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "provider": "b2c4c7f4-d870-42e4-b1c4-6438a806011a",
           "provider_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bengaluru, Karnataka"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "itemCreatedAt": "2023-02-17T03:24:45+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -443,14 +465,16 @@
                "make way",
                "green corridor"
           ],
-          "provider": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "provider": "b2c4c7f4-d870-42e4-b1c4-6438a806011a",
           "provider_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Bengaluru",
                "type": "Place"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "itemCreatedAt": "2023-02-17T03:24:48+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -480,14 +504,16 @@
                "road information",
                "digital display"
           ],
-          "provider": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
           "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Vadodara"
           },
-          "instance": "vadodara"
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-02-17T02:40:30+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -517,14 +543,16 @@
                "transit",
                "transport"
           ],
-          "provider": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
           "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Electronic City, Bengaluru",
                "type": "Place"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "itemCreatedAt": "2023-02-17T03:25:49+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -557,7 +585,7 @@
                "light",
                "illuminance"
           ],
-          "provider": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
           "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -572,7 +600,9 @@
                "address": "Electronic City, Bangalore",
                "type": "Place"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "itemCreatedAt": "2023-02-17T03:25:46+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -606,7 +636,7 @@
                "illuminance",
                "mobile aqm"
           ],
-          "provider": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
           "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -621,7 +651,9 @@
                "address": "Electronic City, Bangalore",
                "type": "Place"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "itemCreatedAt": "2023-02-17T03:25:43+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -650,14 +682,16 @@
                "make way",
                "green corridor"
           ],
-          "provider": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
           "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Vadodara",
                "type": "Place"
           },
-          "instance": "vadodara"
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-02-17T02:40:18+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -689,14 +723,16 @@
                "aqi",
                "aqm"
           ],
-          "provider": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
           "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Vadodara City, Gujarat",
                "type": "Place"
           },
-          "instance": "vadodara"
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-02-17T02:40:06+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -723,14 +759,16 @@
                "address",
                "oht"
           ],
-          "provider": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
           "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Vadodara"
           },
-          "instance": "vadodara"
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-02-17T02:40:24+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -769,14 +807,16 @@
                "million litres",
                "mld"
           ],
-          "provider": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
           "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Vadodara, Gujarat"
           },
-          "instance": "vadodara"
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-02-17T02:40:27+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -806,14 +846,16 @@
                "tranport",
                "service"
           ],
-          "provider": "c81dda37-44e9-477c-a774-884eb84f758f",
+          "provider": "68bb106a-e38d-4bb1-8404-f5c8a52674d8",
           "provider_bck": "kerala.gov.in/5fc7328fcef461b294ea12d88aafc79585bf9b96",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Kannur, Kerala"
           },
-          "instance": "kannur"
+          "instance": "kannur",
+          "ownerUserId": "c81dda37-44e9-477c-a774-884eb84f758f",
+          "itemCreatedAt": "2023-02-16T03:14:34+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -837,14 +879,16 @@
                "electric vehicle",
                "charging stations"
           ],
-          "provider": "c81dda37-44e9-477c-a774-884eb84f758f",
+          "provider": "68bb106a-e38d-4bb1-8404-f5c8a52674d8",
           "provider_bck": "kerala.gov.in/5fc7328fcef461b294ea12d88aafc79585bf9b96",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Kannur, Kerala"
           },
-          "instance": "kannur"
+          "instance": "kannur",
+          "ownerUserId": "c81dda37-44e9-477c-a774-884eb84f758f",
+          "itemCreatedAt": "2023-02-16T03:20:20+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -868,14 +912,16 @@
                "lane",
                "road segment"
           ],
-          "provider": "c81dda37-44e9-477c-a774-884eb84f758f",
+          "provider": "68bb106a-e38d-4bb1-8404-f5c8a52674d8",
           "provider_bck": "kerala.gov.in/5fc7328fcef461b294ea12d88aafc79585bf9b96",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Kannur, Kerala"
           },
-          "instance": "kannur"
+          "instance": "kannur",
+          "ownerUserId": "c81dda37-44e9-477c-a774-884eb84f758f",
+          "itemCreatedAt": "2023-02-16T03:14:37+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -904,14 +950,16 @@
                "trips count",
                "trips"
           ],
-          "provider": "024bb503-8dd9-4c60-9857-d7fcd7f8bbd2",
+          "provider": "ca949926-4b95-4e02-81ef-d2f584486ac6",
           "provider_bck": "nellikka.in/7d1c53427686478ba178c067e8dc551d67df470b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Kannur, Kerala"
           },
-          "instance": "kannur"
+          "instance": "kannur",
+          "ownerUserId": "024bb503-8dd9-4c60-9857-d7fcd7f8bbd2",
+          "itemCreatedAt": "2023-02-14T06:10:06+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -949,14 +997,16 @@
                "waste vehicle",
                "dustbin"
           ],
-          "provider": "fc5ec3d6-d215-4533-9315-4e42dbd05c17",
+          "provider": "2f21c06b-185f-4dfe-ba7d-ca0d76b5303d",
           "provider_bck": "kerala.gov.in/09a298e01cea843c873069b59c0606924d8f480f",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Kannur, Kerala"
           },
-          "instance": "kannur"
+          "instance": "kannur",
+          "ownerUserId": "fc5ec3d6-d215-4533-9315-4e42dbd05c17",
+          "itemCreatedAt": "2023-02-14T06:11:00+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -981,14 +1031,16 @@
                "docking racks",
                "bike hiring"
           ],
-          "provider": "433857ce-f7d7-480f-82ed-efc293ab5682",
+          "provider": "a175cc38-7d05-4a85-8b3f-0e39cf7b7867",
           "provider_bck": "smartbikemobility.com/bfc54d46ca3cf5dac6eaef7b42f8fc87f94a812b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Chennai, Tamil Nadu"
           },
-          "instance": "chennai"
+          "instance": "chennai",
+          "ownerUserId": "433857ce-f7d7-480f-82ed-efc293ab5682",
+          "itemCreatedAt": "2023-02-14T02:26:14+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1036,14 +1088,16 @@
                "env",
                "sensor"
           ],
-          "provider": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
           "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Chennai, Tamil Nadu"
           },
-          "instance": "chennai"
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "itemCreatedAt": "2023-02-14T02:25:01+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1075,14 +1129,16 @@
                "van",
                "scooter"
           ],
-          "provider": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
           "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Chennai, Tamil Nadu"
           },
-          "instance": "chennai"
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "itemCreatedAt": "2023-02-14T02:25:04+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1105,7 +1161,7 @@
                "flood warning",
                "rain monitoring"
           ],
-          "provider": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
           "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -1120,7 +1176,9 @@
                "type": "Place",
                "address": "Chennai, Tamil Nadu"
           },
-          "instance": "chennai"
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "itemCreatedAt": "2023-02-14T02:25:07+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1149,14 +1207,16 @@
                "flood warning",
                "water logging"
           ],
-          "provider": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
           "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Chennai, Tamil Nadu"
           },
-          "instance": "chennai"
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "itemCreatedAt": "2023-02-14T02:24:58+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1192,14 +1252,16 @@
                "digital",
                "message board"
           ],
-          "provider": "944d88bc-e3e4-4af2-abbd-e54516c34096",
+          "provider": "9a674c59-a9c4-4065-a64b-f64d50828c11",
           "provider_bck": "ccmc.gov.in/47545f1de4dd2bd726019fd40f3686487e741eb7",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Coimbatore, Tamil Nadu"
           },
-          "instance": "coimbatore"
+          "instance": "coimbatore",
+          "ownerUserId": "944d88bc-e3e4-4af2-abbd-e54516c34096",
+          "itemCreatedAt": "2023-02-14T02:20:17+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1235,14 +1297,16 @@
                "digital",
                "message board"
           ],
-          "provider": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "provider": "fb4c9d1b-0e51-4767-92a2-a009286dbea7",
           "provider_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Ahmedabad, Gujarat"
           },
-          "instance": "ahmedabad"
+          "instance": "ahmedabad",
+          "ownerUserId": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "itemCreatedAt": "2023-02-14T02:21:36+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1291,14 +1355,16 @@
                "kiosk spots near me",
                "digital information system"
           ],
-          "provider": "ce3a29d6-6ea2-4122-90a8-699574f71eb6",
+          "provider": "17b2718c-f160-4640-b970-e0024e5a87cf",
           "provider_bck": "datakaveri.org/f85774a2647d8cf15b87a34c916f2bc20ae2f1f4",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Belagavi, Karnataka",
                "type": "Place"
           },
-          "instance": "belagavi"
+          "instance": "belagavi",
+          "ownerUserId": "ce3a29d6-6ea2-4122-90a8-699574f71eb6",
+          "itemCreatedAt": "2023-02-14T10:29:59+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1347,14 +1413,16 @@
                "kiosk spots near me",
                "digital information system"
           ],
-          "provider": "c562c286-fced-41de-8b2c-9441b750396f",
+          "provider": "81c80ff8-4843-4013-bcf3-02b59e1ecc1b",
           "provider_bck": "datakaveri.org/12df327bb232e576d447d417e9346e3c6cc2b3be",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Bareilly, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "bareilly"
+          "instance": "bareilly",
+          "ownerUserId": "c562c286-fced-41de-8b2c-9441b750396f",
+          "itemCreatedAt": "2023-02-14T10:29:12+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1380,7 +1448,7 @@
                "precipitation",
                "rain information"
           ],
-          "provider": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
           "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -1395,7 +1463,9 @@
                "type": "Place",
                "address": "Chennai, Tamil Nadu"
           },
-          "instance": "chennai"
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "itemCreatedAt": "2023-02-14T02:24:55+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1427,7 +1497,7 @@
                "noise",
                "light"
           ],
-          "provider": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
           "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -1442,7 +1512,9 @@
                "type": "Place",
                "address": "Chennai, Tamil Nadu"
           },
-          "instance": "chennai"
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "itemCreatedAt": "2023-02-14T02:24:52+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1467,14 +1539,16 @@
                "electric bike",
                "bicycle"
           ],
-          "provider": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "provider": "c9af6c52-75ee-4eb7-8eb5-7c99a0b285b3",
           "provider_bck": "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Chandigarh"
           },
-          "instance": "chandigarh"
+          "instance": "chandigarh",
+          "ownerUserId": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "itemCreatedAt": "2023-02-14T09:31:46+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1507,14 +1581,16 @@
                "wireless internet access",
                "digital information system"
           ],
-          "provider": "e18417be-fb09-4fe9-b8d1-e252da94699b",
+          "provider": "890dab7b-9544-41b2-9d3c-cdd75ca9c990",
           "provider_bck": "dahodsmartcity.in/4eed16378ec4e797bdd0427775acffa9b4b33f77",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Dahod, Gujarat",
                "type": "Place"
           },
-          "instance": "dahod"
+          "instance": "dahod",
+          "ownerUserId": "e18417be-fb09-4fe9-b8d1-e252da94699b",
+          "itemCreatedAt": "2023-02-14T09:34:03+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1550,14 +1626,16 @@
                "sign board",
                "waste bin locations"
           ],
-          "provider": "93b9a3fb-d05f-478b-b59c-beda3b81810d",
+          "provider": "172ef94c-411e-42ff-a3cf-86ca18ca4d23",
           "provider_bck": "datakaveri.org/2e06b7688640758f8dc08e79f3715d74e6f31f94",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Dharamshala, Himachal Pradesh",
                "type": "Place"
           },
-          "instance": "dharamshala"
+          "instance": "dharamshala",
+          "ownerUserId": "93b9a3fb-d05f-478b-b59c-beda3b81810d",
+          "itemCreatedAt": "2023-02-14T09:34:55+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1599,14 +1677,16 @@
                "wifi",
                "hotspot"
           ],
-          "provider": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "provider": "5ebc64e0-e308-4787-b4d8-06c11ce417a9",
           "provider_bck": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Gandhinagar, Gujarat",
                "type": "Place"
           },
-          "instance": "gandhinagar"
+          "instance": "gandhinagar",
+          "ownerUserId": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "itemCreatedAt": "2023-02-14T09:44:04+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1638,14 +1718,16 @@
                "tranport",
                "service"
           ],
-          "provider": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "provider": "5ebc64e0-e308-4787-b4d8-06c11ce417a9",
           "provider_bck": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Gandhinagar, Gujarat",
                "type": "Place"
           },
-          "instance": "gandhinagar"
+          "instance": "gandhinagar",
+          "ownerUserId": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "itemCreatedAt": "2023-02-14T09:44:01+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1675,14 +1757,16 @@
                "commute",
                "bus tracking"
           ],
-          "provider": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "provider": "c9af6c52-75ee-4eb7-8eb5-7c99a0b285b3",
           "provider_bck": "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Chandigarh",
                "type": "Place"
           },
-          "instance": "chandigarh"
+          "instance": "chandigarh",
+          "ownerUserId": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "itemCreatedAt": "2023-02-14T09:31:34+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1711,14 +1795,16 @@
                "make way",
                "green corridor"
           ],
-          "provider": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "provider": "c9af6c52-75ee-4eb7-8eb5-7c99a0b285b3",
           "provider_bck": "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Chandigarh",
                "type": "Place"
           },
-          "instance": "chandigarh"
+          "instance": "chandigarh",
+          "ownerUserId": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "itemCreatedAt": "2023-02-14T09:31:37+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1743,14 +1829,16 @@
                "electric bike",
                "bicycle"
           ],
-          "provider": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "provider": "c9af6c52-75ee-4eb7-8eb5-7c99a0b285b3",
           "provider_bck": "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Chandigarh"
           },
-          "instance": "chandigarh"
+          "instance": "chandigarh",
+          "ownerUserId": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "itemCreatedAt": "2023-02-14T09:31:43+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1774,14 +1862,16 @@
                "walkpath",
                "safety perception"
           ],
-          "provider": "94568f8e-68e7-462f-8f31-fd3ff74ce02f",
+          "provider": "45ea99a1-cc8f-46ee-bb8d-2429f1ced77b",
           "provider_bck": "safetipin.com/b8381c67aa6362916a44837f3c6612db1e07a11f",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Pune",
                "type": "Place"
           },
-          "instance": "pune"
+          "instance": "pune",
+          "ownerUserId": "94568f8e-68e7-462f-8f31-fd3ff74ce02f",
+          "itemCreatedAt": "2023-02-14T09:29:32+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1824,14 +1914,16 @@
                "parking lot",
                "paid parking"
           ],
-          "provider": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "provider": "c9af6c52-75ee-4eb7-8eb5-7c99a0b285b3",
           "provider_bck": "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "chandigarh",
                "type": "Place"
           },
-          "instance": "chandigarh"
+          "instance": "chandigarh",
+          "ownerUserId": "6c612732-b56b-4350-b2b5-d04d3ed528fc",
+          "itemCreatedAt": "2023-02-14T09:31:40+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1867,14 +1959,16 @@
                "digital",
                "message board"
           ],
-          "provider": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "provider": "f0944688-dc5a-4007-8380-919957d3f2a6",
           "provider_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Pune"
           },
-          "instance": "pune"
+          "instance": "pune",
+          "ownerUserId": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "itemCreatedAt": "2023-02-14T09:28:48+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1897,7 +1991,7 @@
                "river",
                "river bed"
           ],
-          "provider": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "provider": "f0944688-dc5a-4007-8380-919957d3f2a6",
           "provider_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -1912,7 +2006,9 @@
                "address": "Pune, Maharashtra",
                "type": "Place"
           },
-          "instance": "pune"
+          "instance": "pune",
+          "ownerUserId": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "itemCreatedAt": "2023-02-14T09:28:42+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1935,7 +2031,7 @@
                "uv radiation",
                "ultra violet"
           ],
-          "provider": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "provider": "f0944688-dc5a-4007-8380-919957d3f2a6",
           "provider_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -1950,7 +2046,9 @@
                "type": "Place",
                "address": "Pune"
           },
-          "instance": "pune"
+          "instance": "pune",
+          "ownerUserId": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "itemCreatedAt": "2023-02-14T09:28:45+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -1987,7 +2085,7 @@
                "light",
                "uv"
           ],
-          "provider": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "provider": "f0944688-dc5a-4007-8380-919957d3f2a6",
           "provider_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -2002,7 +2100,9 @@
                "address": "Pune, Maharashtra",
                "type": "Place"
           },
-          "instance": "pune"
+          "instance": "pune",
+          "ownerUserId": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "itemCreatedAt": "2023-02-14T09:28:39+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2038,14 +2138,16 @@
                "light",
                "uv"
           ],
-          "provider": "7d4ad924-e56a-4f44-af5d-7e2a8fe2693a",
+          "provider": "4d95cbf3-437f-4450-8193-20e64ffd8ae7",
           "provider_bck": "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Nagpur, Maharashtra",
                "type": "Place"
           },
-          "instance": "nagpur"
+          "instance": "nagpur",
+          "ownerUserId": "7d4ad924-e56a-4f44-af5d-7e2a8fe2693a",
+          "itemCreatedAt": "2023-02-14T01:42:54+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2086,14 +2188,16 @@
                "hotspot",
                "kiosk"
           ],
-          "provider": "7d4ad924-e56a-4f44-af5d-7e2a8fe2693a",
+          "provider": "4d95cbf3-437f-4450-8193-20e64ffd8ae7",
           "provider_bck": "datakaveri.org/a92001d3a9598d6f63107be3bd05eba91961ca5e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Nagpur, Maharashtra",
                "type": "Place"
           },
-          "instance": "nagpur"
+          "instance": "nagpur",
+          "ownerUserId": "7d4ad924-e56a-4f44-af5d-7e2a8fe2693a",
+          "itemCreatedAt": "2023-02-14T01:42:57+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2134,14 +2238,16 @@
                "hotspot",
                "kiosk"
           ],
-          "provider": "b85c96ab-56f9-4a79-a08c-190e6b0a8573",
+          "provider": "91bf259c-5442-4fc0-8590-c8b2c9ec466c",
           "provider_bck": "pcmcindia.gov.in/d6b9c76cf48cd740de64b573ae6fa5f334df6ef6",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Pimpri-Chinchwad, Maharashtra",
                "type": "Place"
           },
-          "instance": "pimpri-chinchwad"
+          "instance": "pimpri-chinchwad",
+          "ownerUserId": "b85c96ab-56f9-4a79-a08c-190e6b0a8573",
+          "itemCreatedAt": "2023-02-14T01:44:00+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2173,14 +2279,16 @@
                "transport",
                "service"
           ],
-          "provider": "bf16ff42-a636-4341-ac4c-201cb71c8953",
+          "provider": "5c6050e7-6dfa-4156-b595-27e3ac854975",
           "provider_bck": "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Rajkot, Gujarat",
                "type": "Place"
           },
-          "instance": "rajkot"
+          "instance": "rajkot",
+          "ownerUserId": "bf16ff42-a636-4341-ac4c-201cb71c8953",
+          "itemCreatedAt": "2023-02-14T01:35:55+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2203,14 +2311,16 @@
                "beti hai anmol yojna",
                "yojana"
           ],
-          "provider": "a4ff83a3-2091-4b97-bcc3-38e5360869be",
+          "provider": "bf39b39c-d690-4cba-aa2e-c78387b52591",
           "provider_bck": "datakaveri.org/e394655e381dcc5c2a7260dc7bd0f196f664d95c",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Shimla, Himachal Pradesh"
           },
-          "instance": "shimla"
+          "instance": "shimla",
+          "ownerUserId": "a4ff83a3-2091-4b97-bcc3-38e5360869be",
+          "itemCreatedAt": "2023-02-14T01:32:58+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2251,14 +2361,16 @@
                "hotspot",
                "kiosk"
           ],
-          "provider": "dd4b858f-f9e1-4c5a-ade7-57193e17d59d",
+          "provider": "f42cb1df-ad44-4166-9275-3281435bd051",
           "provider_bck": "srinagarsmartcity.in/bd95482f347e6a906fdf687d66d8ad79cdc047ba",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Srinagar, Jammu and Kashmir",
                "type": "Place"
           },
-          "instance": "srinagar"
+          "instance": "srinagar",
+          "ownerUserId": "dd4b858f-f9e1-4c5a-ade7-57193e17d59d",
+          "itemCreatedAt": "2023-02-14T01:26:59+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2295,14 +2407,16 @@
                "message board",
                "anpr"
           ],
-          "provider": "bf16ff42-a636-4341-ac4c-201cb71c8953",
+          "provider": "5c6050e7-6dfa-4156-b595-27e3ac854975",
           "provider_bck": "rmc.gov.in/c344cf2cb2ec9f694ba84e2121b07ab12039837c",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Rajkot"
           },
-          "instance": "rajkot"
+          "instance": "rajkot",
+          "ownerUserId": "bf16ff42-a636-4341-ac4c-201cb71c8953",
+          "itemCreatedAt": "2023-02-14T01:35:58+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2323,14 +2437,16 @@
                "road segment",
                "road information"
           ],
-          "provider": "012d19e2-eb0e-43c3-bd51-315e4674c55d",
+          "provider": "d2207d27-962a-4b74-b449-a9428d2ac26f",
           "provider_bck": "tn.gov.in/acda599e0ff80280064077bda7e685e1e45007f8",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Thoothukudi, Tamil Nadu",
                "type": "Place"
           },
-          "instance": "thoothukudi"
+          "instance": "thoothukudi",
+          "ownerUserId": "012d19e2-eb0e-43c3-bd51-315e4674c55d",
+          "itemCreatedAt": "2023-02-14T01:14:03+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2351,14 +2467,16 @@
                "device info",
                "mosquito count"
           ],
-          "provider": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2",
+          "provider": "b7c462db-234d-4552-bfab-fb0c999d44da",
           "provider_bck": "smartcitytvm.in/c6fa48c93cac73f535956d70121ee40df59912cd",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Thiruvananthapuram, Kerala"
           },
-          "instance": "thiruvananthapuram"
+          "instance": "thiruvananthapuram",
+          "ownerUserId": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2",
+          "itemCreatedAt": "2023-02-14T01:15:08+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2381,14 +2499,16 @@
                "e-bike",
                "Charging point"
           ],
-          "provider": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2",
+          "provider": "b7c462db-234d-4552-bfab-fb0c999d44da",
           "provider_bck": "smartcitytvm.in/c6fa48c93cac73f535956d70121ee40df59912cd",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Thiruvananthapuram, Kerala"
           },
-          "instance": "thiruvananthapuram"
+          "instance": "thiruvananthapuram",
+          "ownerUserId": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2",
+          "itemCreatedAt": "2023-02-14T01:15:05+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2414,14 +2534,16 @@
                "public awareness",
                "emergency message"
           ],
-          "provider": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2",
+          "provider": "b7c462db-234d-4552-bfab-fb0c999d44da",
           "provider_bck": "smartcitytvm.in/c6fa48c93cac73f535956d70121ee40df59912cd",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Thiruvananthapuram, Kerala"
           },
-          "instance": "thiruvananthapuram"
+          "instance": "thiruvananthapuram",
+          "ownerUserId": "4d9b9e7e-6252-4b26-bf46-dde1fb0dd3d2",
+          "itemCreatedAt": "2023-02-14T01:15:11+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2448,14 +2570,16 @@
                "docking racks",
                "bicycle hiring"
           ],
-          "provider": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "provider": "7301717c-8a65-47f6-bc8d-345f5cb71e43",
           "provider_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Tumakuru, Karnataka"
           },
-          "instance": "tumakuru"
+          "instance": "tumakuru",
+          "ownerUserId": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "itemCreatedAt": "2023-02-14T01:12:52+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2488,14 +2612,16 @@
                "wireless internet access",
                "digital information system"
           ],
-          "provider": "f196a400-1625-40e9-975f-8d0caf364920",
+          "provider": "a1895bf8-1464-4f01-9eea-1ffa513faffe",
           "provider_bck": "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Tumakuru, Karnataka",
                "type": "Place"
           },
-          "instance": "tumakuru"
+          "instance": "tumakuru",
+          "ownerUserId": "f196a400-1625-40e9-975f-8d0caf364920",
+          "itemCreatedAt": "2023-02-14T01:11:34+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2524,14 +2650,16 @@
                "trips count",
                "trips"
           ],
-          "provider": "f256f2dc-c626-4e72-9bf5-64011e184dc0",
+          "provider": "a4a0ae63-d08d-41b8-b170-60f1a6569c45",
           "provider_bck": "gvsccl.in/e9da8ac8e57c965f51c068bf8c152f4c1d53e5e4",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Visakhapatnam, Andhra Pradesh"
           },
-          "instance": "visakhapatnam"
+          "instance": "visakhapatnam",
+          "ownerUserId": "f256f2dc-c626-4e72-9bf5-64011e184dc0",
+          "itemCreatedAt": "2023-02-14T12:58:23+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2559,14 +2687,16 @@
                "hospital and dispensary",
                "gas line"
           ],
-          "provider": "f256f2dc-c626-4e72-9bf5-64011e184dc0",
+          "provider": "a4a0ae63-d08d-41b8-b170-60f1a6569c45",
           "provider_bck": "gvsccl.in/e9da8ac8e57c965f51c068bf8c152f4c1d53e5e4",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Visakhapatnam, Andhra Pradesh",
                "type": "Place"
           },
-          "instance": "visakhapatnam"
+          "instance": "visakhapatnam",
+          "ownerUserId": "f256f2dc-c626-4e72-9bf5-64011e184dc0",
+          "itemCreatedAt": "2023-02-14T12:58:17+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2591,13 +2721,15 @@
                "poi",
                "places"
           ],
-          "provider": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Surat"
-          }
+          },
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T02:37:08+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2622,14 +2754,16 @@
                "docking station",
                "e-bike docking"
           ],
-          "provider": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Surat, Gujarat"
           },
-          "instance": "surat"
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T02:36:56+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2657,14 +2791,16 @@
                "trips count",
                "trips"
           ],
-          "provider": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Surat, Gujarat"
           },
-          "instance": "surat"
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T02:37:15+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2688,14 +2824,16 @@
                "route",
                "bus tracking"
           ],
-          "provider": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Surat",
                "type": "Place"
           },
-          "instance": "surat"
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T02:37:05+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2716,14 +2854,16 @@
                "collected tax",
                "revenue"
           ],
-          "provider": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Surat, Gujarat"
           },
-          "instance": "surat"
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T02:37:12+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2749,14 +2889,16 @@
                "schedule",
                "gtfs static"
           ],
-          "provider": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Surat, Gujarat",
                "type": "Place"
           },
-          "instance": "surat"
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T02:37:02+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2780,14 +2922,16 @@
                "passenger fare",
                "afcs"
           ],
-          "provider": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Surat, Gujarat"
           },
-          "instance": "surat"
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T02:36:53+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2818,14 +2962,16 @@
                "e-bike rent",
                "locality"
           ],
-          "provider": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
           "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Surat, Gujarat"
           },
-          "instance": "surat"
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T02:36:59+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2856,14 +3002,16 @@
                "waste disposal unit",
                "compost"
           ],
-          "provider": "f196a400-1625-40e9-975f-8d0caf364920",
+          "provider": "a1895bf8-1464-4f01-9eea-1ffa513faffe",
           "provider_bck": "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Tumakuru, Karnataka",
                "type": "Place"
           },
-          "instance": "tumakuru"
+          "instance": "tumakuru",
+          "ownerUserId": "f196a400-1625-40e9-975f-8d0caf364920",
+          "itemCreatedAt": "2023-03-06T06:39:51+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2884,14 +3032,16 @@
                "WiFi near me",
                "wireless internet access"
           ],
-          "provider": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "provider": "8bf38136-3cdc-4308-a291-7fe1af94f7a5",
           "provider_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhopal, Madhya Pradesh"
           },
-          "instance": "bhopal"
+          "instance": "bhopal",
+          "ownerUserId": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "itemCreatedAt": "2023-02-27T10:19:15+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2917,14 +3067,16 @@
                "bus details",
                "gtfs static"
           ],
-          "provider": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "provider": "8bf38136-3cdc-4308-a291-7fe1af94f7a5",
           "provider_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Bhopal, Madhya Pradesh",
                "type": "Place"
           },
-          "instance": "bhopal"
+          "instance": "bhopal",
+          "ownerUserId": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "itemCreatedAt": "2023-02-27T10:21:28+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2956,14 +3108,16 @@
                "tranport",
                "service"
           ],
-          "provider": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
           "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Bhubaneswar, Odisha",
                "type": "Place"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "itemCreatedAt": "2023-02-24T01:18:31+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -2991,14 +3145,16 @@
                "led display",
                "road information"
           ],
-          "provider": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "provider": "e706387c-2483-456d-874b-9b14a6bfc929",
           "provider_bck": "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Agra, Uttar Pradesh"
           },
-          "instance": "agra"
+          "instance": "agra",
+          "ownerUserId": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "itemCreatedAt": "2023-02-24T12:59:38+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3033,14 +3189,16 @@
                "property holding",
                "residential"
           ],
-          "provider": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
           "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhubaneswar, Odisha"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "itemCreatedAt": "2023-02-24T01:18:49+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3064,14 +3222,16 @@
                "construction material",
                "requests"
           ],
-          "provider": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "provider": "e706387c-2483-456d-874b-9b14a6bfc929",
           "provider_bck": "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Agra",
                "type": "Place"
           },
-          "instance": "agra"
+          "instance": "agra",
+          "ownerUserId": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "itemCreatedAt": "2023-02-24T12:59:41+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3113,14 +3273,16 @@
                "waste vehicle",
                "dustbin"
           ],
-          "provider": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
           "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhubaneswar"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "itemCreatedAt": "2023-02-24T01:18:46+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3153,14 +3315,16 @@
                "waste disposal unit",
                "compost"
           ],
-          "provider": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "provider": "e706387c-2483-456d-874b-9b14a6bfc929",
           "provider_bck": "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Agra, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "agra"
+          "instance": "agra",
+          "ownerUserId": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "itemCreatedAt": "2023-02-24T12:59:44+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3190,14 +3354,16 @@
                "property",
                "asset tax"
           ],
-          "provider": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
           "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhubaneswar, Odisha"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "itemCreatedAt": "2023-02-24T01:18:53+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3228,7 +3394,7 @@
                "aqi",
                "aqm"
           ],
-          "provider": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
           "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -3243,7 +3409,9 @@
                "type": "Place",
                "address": "Bhubaneswar"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "itemCreatedAt": "2023-02-24T01:18:40+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3275,14 +3443,16 @@
                "tranport",
                "service"
           ],
-          "provider": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "provider": "e706387c-2483-456d-874b-9b14a6bfc929",
           "provider_bck": "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Agra, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "agra"
+          "instance": "agra",
+          "ownerUserId": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "itemCreatedAt": "2023-02-24T12:59:35+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3318,14 +3488,16 @@
                "light",
                "uv"
           ],
-          "provider": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "provider": "e706387c-2483-456d-874b-9b14a6bfc929",
           "provider_bck": "agrasmartcity.in/2596fbd3d724e5fd241e9ecb8940604be40a492e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Agra, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "agra"
+          "instance": "agra",
+          "ownerUserId": "99ec821b-047a-4031-a5f0-eee53fa3cfe3",
+          "itemCreatedAt": "2023-02-24T12:59:32+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3350,14 +3522,16 @@
                "sewage water",
                "water treatment"
           ],
-          "provider": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
           "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Electronic-City, Bengaluru",
                "type": "Place"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "itemCreatedAt": "2023-02-17T03:25:55+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3384,14 +3558,16 @@
                "docking racks",
                "bike hiring"
           ],
-          "provider": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "provider": "cddec307-5f61-492a-901f-b482f21480b9",
           "provider_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bengaluru, Karnataka"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "itemCreatedAt": "2023-02-17T03:27:46+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3419,14 +3595,16 @@
                "electric bike",
                "bicycle"
           ],
-          "provider": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "provider": "cddec307-5f61-492a-901f-b482f21480b9",
           "provider_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bengaluru, Karnataka"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "itemCreatedAt": "2023-02-17T03:27:43+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3447,14 +3625,16 @@
                "street lamp",
                "light pole"
           ],
-          "provider": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
           "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Electronic City, Bengaluru",
                "type": "Place"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "itemCreatedAt": "2023-02-17T03:26:01+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3479,14 +3659,16 @@
                "voltage",
                "current"
           ],
-          "provider": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
           "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Electronic-City, Bengaluru"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "itemCreatedAt": "2023-02-17T03:25:58+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3520,14 +3702,16 @@
                "departure",
                "arrival"
           ],
-          "provider": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "provider": "b2c4c7f4-d870-42e4-b1c4-6438a806011a",
           "provider_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bengaluru, Karnataka"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "itemCreatedAt": "2023-02-17T03:24:54+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3555,14 +3739,16 @@
                "metro fare",
                "fare"
           ],
-          "provider": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "provider": "b2c4c7f4-d870-42e4-b1c4-6438a806011a",
           "provider_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bengaluru, Karnataka"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "itemCreatedAt": "2023-02-17T03:24:51+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3594,14 +3780,16 @@
                "tranport",
                "service"
           ],
-          "provider": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
           "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Vadodara, Gujarat",
                "type": "Place"
           },
-          "instance": "vadodara"
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-02-17T02:40:12+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3630,14 +3818,16 @@
                "transit",
                "transport"
           ],
-          "provider": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
           "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Electronic City, Bengaluru",
                "type": "Place"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "itemCreatedAt": "2023-02-17T03:25:52+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3666,14 +3856,16 @@
                "make way",
                "green corridor"
           ],
-          "provider": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "provider": "6d866764-efe5-43f9-87ba-8e2434bb1f01",
           "provider_bck": "datakaveri.org/be6471cea544e6953259e6efe499185ae2620cd2",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Raipur, Chhattisgarh",
                "type": "Place"
           },
-          "instance": "raipur"
+          "instance": "raipur",
+          "ownerUserId": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "itemCreatedAt": "2023-03-27T06:06:02+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3709,14 +3901,16 @@
                "light",
                "uv"
           ],
-          "provider": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "provider": "6d866764-efe5-43f9-87ba-8e2434bb1f01",
           "provider_bck": "datakaveri.org/be6471cea544e6953259e6efe499185ae2620cd2",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Raipur, Chhattisgarh",
                "type": "Place"
           },
-          "instance": "raipur"
+          "instance": "raipur",
+          "ownerUserId": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "itemCreatedAt": "2023-03-23T10:11:00+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3745,14 +3939,16 @@
                "waste disposal unit",
                "compost"
           ],
-          "provider": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "provider": "6d866764-efe5-43f9-87ba-8e2434bb1f01",
           "provider_bck": "datakaveri.org/be6471cea544e6953259e6efe499185ae2620cd2",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Raipur, Chhattisgarh",
                "type": "Place"
           },
-          "instance": "raipur"
+          "instance": "raipur",
+          "ownerUserId": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "itemCreatedAt": "2023-03-23T10:10:54+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3779,14 +3975,16 @@
                "garbage collection",
                "garbage and cleanliness"
           ],
-          "provider": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "provider": "5ebc64e0-e308-4787-b4d8-06c11ce417a9",
           "provider_bck": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Gandhinagar, Gujarat",
                "type": "Place"
           },
-          "instance": "gandhinagar"
+          "instance": "gandhinagar",
+          "ownerUserId": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "itemCreatedAt": "2023-03-21T09:15:13+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3832,14 +4030,16 @@
                "kiosk spots near me",
                "digital information system"
           ],
-          "provider": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "provider": "9d5554c1-8e80-4767-a201-8c6790c70ebb",
           "provider_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Agartala, Tripura"
           },
-          "instance": "agartala"
+          "instance": "agartala",
+          "ownerUserId": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "itemCreatedAt": "2023-03-20T04:03:22+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3885,14 +4085,16 @@
                "solid waste",
                "waste pickup"
           ],
-          "provider": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "provider": "6d866764-efe5-43f9-87ba-8e2434bb1f01",
           "provider_bck": "datakaveri.org/be6471cea544e6953259e6efe499185ae2620cd2",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Raipur, Chhattisgarh",
                "type": "Place"
           },
-          "instance": "raipur"
+          "instance": "raipur",
+          "ownerUserId": "c6a992c1-9d41-467a-a083-c471b514dde8",
+          "itemCreatedAt": "2023-03-23T10:10:57+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3923,14 +4125,16 @@
                "red light",
                "violation"
           ],
-          "provider": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "provider": "9d5554c1-8e80-4767-a201-8c6790c70ebb",
           "provider_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Agartala, Tripura"
           },
-          "instance": "agartala"
+          "instance": "agartala",
+          "ownerUserId": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "itemCreatedAt": "2023-03-20T06:22:29+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3962,14 +4166,16 @@
                "tranport",
                "service"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Varanasi, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:12:02+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -3993,14 +4199,16 @@
                "outlay",
                "fuel payment"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "varanasi, Uttar Pradesh"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:12:49+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4028,13 +4236,15 @@
                "led display",
                "road information"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Varanasi"
-          }
+          },
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:12:05+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4062,14 +4272,16 @@
                "employee details",
                "employee"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Varanasi, Uttar Pradesh"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:12:46+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4091,14 +4303,16 @@
                "smart pole",
                "power rating"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Varanasi, Uttar Pradesh"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:12:43+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4123,14 +4337,16 @@
                "filled level",
                "cleaned time"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Varanasi, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:12:55+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4151,14 +4367,16 @@
                "ward number",
                "wardwise"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Varanasi, Uttar Pradesh"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:11:56+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4185,14 +4403,16 @@
                "over speeding",
                "negligent driving"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Varanasi"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:11:53+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4217,14 +4437,16 @@
                "no water supply",
                "no electricity"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Varanasi"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:11:49+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4261,7 +4483,7 @@
                "light",
                "uv"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "dataSampleFile": [
@@ -4276,7 +4498,9 @@
                "type": "Place",
                "address": "Varanasi, Uttar Pradesh"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-03-09T10:11:59+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4308,14 +4532,16 @@
                "red light",
                "violation"
           ],
-          "provider": "602e2803-2180-4441-b612-93aea9ccfd4a",
+          "provider": "f702792e-d7ee-43d8-8313-344e37e89831",
           "provider_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "faridabad, Haryana"
           },
-          "instance": "faridabad"
+          "instance": "faridabad",
+          "ownerUserId": "602e2803-2180-4441-b612-93aea9ccfd4a",
+          "itemCreatedAt": "2021-12-15T05:01:05+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4341,14 +4567,16 @@
                "docking station",
                "e-bike docking"
           ],
-          "provider": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "provider": "cddec307-5f61-492a-901f-b482f21480b9",
           "provider_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhubaneswar, Odisha"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "itemCreatedAt": "2023-04-03T03:53:48+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4371,14 +4599,16 @@
                "docking racks",
                "bike hiring"
           ],
-          "provider": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "provider": "cddec307-5f61-492a-901f-b482f21480b9",
           "provider_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhubaneswar, Odisha"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1",
+          "itemCreatedAt": "2023-04-03T03:53:51+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4401,14 +4631,16 @@
                "docking station",
                "e-bike docking"
           ],
-          "provider": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "provider": "8bf38136-3cdc-4308-a291-7fe1af94f7a5",
           "provider_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhopal, Madhya Pradesh"
           },
-          "instance": "bhopal"
+          "instance": "bhopal",
+          "ownerUserId": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "itemCreatedAt": "2023-04-03T03:59:16+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4433,14 +4665,16 @@
                "speed limit",
                "road assets"
           ],
-          "provider": "9a565990-0389-4849-a973-e76638054679",
+          "provider": "98e85fcf-52f3-431e-a49d-76536e971c6f",
           "provider_bck": "roadmetrics.in/6c02670f1996e7577ad893fd0ac2ba82680f8796",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bengaluru, Karnataka"
           },
-          "instance": "bengaluru"
+          "instance": "bengaluru",
+          "ownerUserId": "9a565990-0389-4849-a973-e76638054679",
+          "itemCreatedAt": "2023-04-03T04:15:46+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4465,14 +4699,16 @@
                "docking racks",
                "bicycle hiring"
           ],
-          "provider": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "provider": "7301717c-8a65-47f6-bc8d-345f5cb71e43",
           "provider_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhubaneswar, Odisha"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "itemCreatedAt": "2023-04-03T03:41:27+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4495,14 +4731,16 @@
                "docking station",
                "e-bike docking"
           ],
-          "provider": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "provider": "7301717c-8a65-47f6-bc8d-345f5cb71e43",
           "provider_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhubaneswar, Odisha"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "itemCreatedAt": "2023-04-03T03:41:24+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4525,14 +4763,16 @@
                "docking racks",
                "bike hiring"
           ],
-          "provider": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "provider": "8bf38136-3cdc-4308-a291-7fe1af94f7a5",
           "provider_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Bhopal, Madhya Pradesh"
           },
-          "instance": "bhopal"
+          "instance": "bhopal",
+          "ownerUserId": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "itemCreatedAt": "2023-04-03T12:12:22+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4556,14 +4796,16 @@
                "pickup time",
                "cleaned time"
           ],
-          "provider": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
           "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Varanasi, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "varanasi"
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "itemCreatedAt": "2023-04-03T04:23:07+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4592,14 +4834,16 @@
                "dispensary",
                "gas line"
           ],
-          "provider": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
           "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Vadodara, Gujarat"
           },
-          "instance": "vadodara"
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-04-11T03:30:57+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4639,14 +4883,16 @@
                "civil hospital",
                "emergency"
           ],
-          "provider": "a773012b-bd8f-4919-9581-5d8526869e5b",
+          "provider": "11eef78a-7d0d-4d2c-9218-4be860c68aee",
           "provider_bck": "datakaveri.org/4d8bfe32a65330c83f8d43f2fb3026a720c635b5",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Kohima, Nagaland"
           },
-          "instance": "kohima"
+          "instance": "kohima",
+          "ownerUserId": "a773012b-bd8f-4919-9581-5d8526869e5b",
+          "itemCreatedAt": "2023-04-05T03:17:53+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4672,14 +4918,16 @@
                "schedule",
                "gtfs static"
           ],
-          "provider": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
           "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Bhubaneswar",
                "type": "Place"
           },
-          "instance": "bhubaneswar"
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "itemCreatedAt": "2023-04-25T10:24:59+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4707,14 +4955,16 @@
                "pipelines",
                "manhole sensor"
           ],
-          "provider": "5e50d7f7-a311-4266-9d04-8389095e6607",
+          "provider": "ce0ade6e-9e21-49ea-b425-9c14316d50a0",
           "provider_bck": "gov.in/a44543eedbd41545746ea766e84dd759d9decbf6",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Jaipur City, Rajasthan",
                "type": "Place"
           },
-          "instance": "jaipur"
+          "instance": "jaipur",
+          "ownerUserId": "5e50d7f7-a311-4266-9d04-8389095e6607",
+          "itemCreatedAt": "2023-05-11T07:05:02+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4762,14 +5012,16 @@
                "manhole",
                "sensors"
           ],
-          "provider": "5e50d7f7-a311-4266-9d04-8389095e6607",
+          "provider": "ce0ade6e-9e21-49ea-b425-9c14316d50a0",
           "provider_bck": "gov.in/a44543eedbd41545746ea766e84dd759d9decbf6",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Jaipur, Rajasthan",
                "type": "Place"
           },
-          "instance": "jaipur"
+          "instance": "jaipur",
+          "ownerUserId": "5e50d7f7-a311-4266-9d04-8389095e6607",
+          "itemCreatedAt": "2023-05-11T07:05:05+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4798,14 +5050,16 @@
                "make way",
                "green corridor"
           ],
-          "provider": "ce3a29d6-6ea2-4122-90a8-699574f71eb6",
+          "provider": "17b2718c-f160-4640-b970-e0024e5a87cf",
           "provider_bck": "datakaveri.org/f85774a2647d8cf15b87a34c916f2bc20ae2f1f4",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Belagavi, Karnataka",
                "type": "Place"
           },
-          "instance": "belagavi"
+          "instance": "belagavi",
+          "ownerUserId": "ce3a29d6-6ea2-4122-90a8-699574f71eb6",
+          "itemCreatedAt": "2023-05-12T03:29:50+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4841,14 +5095,16 @@
                "intelligent poles",
                "road information"
           ],
-          "provider": "f256f2dc-c626-4e72-9bf5-64011e184dc0",
+          "provider": "a4a0ae63-d08d-41b8-b170-60f1a6569c45",
           "provider_bck": "gvsccl.in/e9da8ac8e57c965f51c068bf8c152f4c1d53e5e4",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Visakhapatnam, Andhra Pradesh",
                "type": "Place"
           },
-          "instance": "visakhapatnam"
+          "instance": "visakhapatnam",
+          "ownerUserId": "f256f2dc-c626-4e72-9bf5-64011e184dc0",
+          "itemCreatedAt": "2023-05-15T08:38:52+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4897,14 +5153,16 @@
                "kiosk spots near me",
                "digital information system"
           ],
-          "provider": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "provider": "591afebe-b5f0-4b11-8c54-c6414fca110e",
           "provider_bck": "kanpursmartcity.org/317e9f65dc9f1e8fa1f0671e7a774f65d478675b",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Kanpur, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "kanpur"
+          "instance": "kanpur",
+          "ownerUserId": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "itemCreatedAt": "2023-05-15T10:15:05+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4933,14 +5191,16 @@
                "waste disposal unit",
                "compost"
           ],
-          "provider": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "provider": "591afebe-b5f0-4b11-8c54-c6414fca110e",
           "provider_bck": "kanpursmartcity.org/317e9f65dc9f1e8fa1f0671e7a774f65d478675b",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Kanpur, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "kanpur"
+          "instance": "kanpur",
+          "ownerUserId": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "itemCreatedAt": "2023-05-15T10:15:02+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -4972,14 +5232,16 @@
                "aqi",
                "aqm"
           ],
-          "provider": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "provider": "591afebe-b5f0-4b11-8c54-c6414fca110e",
           "provider_bck": "kanpursmartcity.org/317e9f65dc9f1e8fa1f0671e7a774f65d478675b",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Kanpur City, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "kanpur"
+          "instance": "kanpur",
+          "ownerUserId": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "itemCreatedAt": "2023-05-15T10:15:11+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5012,14 +5274,16 @@
                "stations",
                "service"
           ],
-          "provider": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "provider": "591afebe-b5f0-4b11-8c54-c6414fca110e",
           "provider_bck": "kanpursmartcity.org/317e9f65dc9f1e8fa1f0671e7a774f65d478675b",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Kanpur, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "kanpur"
+          "instance": "kanpur",
+          "ownerUserId": "d58369dc-946c-4d09-9f4b-7440aaa60c35",
+          "itemCreatedAt": "2023-05-15T10:15:08+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5049,14 +5313,16 @@
                "rlvd",
                "traffic voilation"
           ],
-          "provider": "564641f4-229f-4087-8508-6f332a02f820",
+          "provider": "fb775399-5cec-422f-af46-d80f07fe5edb",
           "provider_bck": "datakaveri.org/904b1e7fbbcde380839ab7dab174ba204cfa0b1a",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Sagar, Madhya Pradesh",
                "type": "Place"
           },
-          "instance": "sagar"
+          "instance": "sagar",
+          "ownerUserId": "564641f4-229f-4087-8508-6f332a02f820",
+          "itemCreatedAt": "2023-05-22T10:06:12+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5084,14 +5350,16 @@
                "trips count",
                "trips"
           ],
-          "provider": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "provider": "5ebc64e0-e308-4787-b4d8-06c11ce417a9",
           "provider_bck": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Gandhinagar, Gujarat"
           },
-          "instance": "gandhinagar"
+          "instance": "gandhinagar",
+          "ownerUserId": "d85898f4-e7ec-4cac-a264-952be2271c60",
+          "itemCreatedAt": "2023-05-23T01:26:20+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5118,14 +5386,16 @@
                "garbage collection",
                "garbage and cleanliness"
           ],
-          "provider": "e18417be-fb09-4fe9-b8d1-e252da94699b",
+          "provider": "890dab7b-9544-41b2-9d3c-cdd75ca9c990",
           "provider_bck": "dahodsmartcity.in/4eed16378ec4e797bdd0427775acffa9b4b33f77",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Dahod, Gujarat",
                "type": "Place"
           },
-          "instance": "dahod"
+          "instance": "dahod",
+          "ownerUserId": "e18417be-fb09-4fe9-b8d1-e252da94699b",
+          "itemCreatedAt": "2023-06-02T01:09:43+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5161,14 +5431,16 @@
                "van",
                "scooter"
           ],
-          "provider": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "provider": "fb4c9d1b-0e51-4767-92a2-a009286dbea7",
           "provider_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Ahmedabad, Gujarat"
           },
-          "instance": "ahmedabad"
+          "instance": "ahmedabad",
+          "ownerUserId": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "itemCreatedAt": "2023-06-05T05:19:07+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5191,14 +5463,16 @@
                "sbn",
                "sanitation"
           ],
-          "provider": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "provider": "fb4c9d1b-0e51-4767-92a2-a009286dbea7",
           "provider_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Ahmedabad, Gujarat"
           },
-          "instance": "ahmedabad"
+          "instance": "ahmedabad",
+          "ownerUserId": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "itemCreatedAt": "2023-06-05T05:14:03+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5228,14 +5502,16 @@
                "commute",
                "bus tracking"
           ],
-          "provider": "ce3a29d6-6ea2-4122-90a8-699574f71eb6",
+          "provider": "17b2718c-f160-4640-b970-e0024e5a87cf",
           "provider_bck": "datakaveri.org/f85774a2647d8cf15b87a34c916f2bc20ae2f1f4",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Belgavi",
                "type": "Place"
           },
-          "instance": "belagavi"
+          "instance": "belagavi",
+          "ownerUserId": "ce3a29d6-6ea2-4122-90a8-699574f71eb6",
+          "itemCreatedAt": "2023-06-06T11:55:52+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5276,14 +5552,16 @@
                "hotspot",
                "kiosk"
           ],
-          "provider": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "provider": "f51fec55-3086-4afd-b5c1-7de524d9d133",
           "provider_bck": "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Lucknow, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "lucknow"
+          "instance": "lucknow",
+          "ownerUserId": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "itemCreatedAt": "2023-06-14T10:06:48+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5313,14 +5591,16 @@
                "civic issues",
                "issue reporting"
           ],
-          "provider": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "provider": "fb4c9d1b-0e51-4767-92a2-a009286dbea7",
           "provider_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Ahmedabad, Gujarat"
           },
-          "instance": "ahmedabad"
+          "instance": "ahmedabad",
+          "ownerUserId": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "itemCreatedAt": "2023-06-15T12:53:33+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5353,14 +5633,16 @@
                "waste disposal unit",
                "compost"
           ],
-          "provider": "b85c96ab-56f9-4a79-a08c-190e6b0a8573",
+          "provider": "91bf259c-5442-4fc0-8590-c8b2c9ec466c",
           "provider_bck": "pcmcindia.gov.in/d6b9c76cf48cd740de64b573ae6fa5f334df6ef6",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Pimpri-Chinchwad, Maharashtra",
                "type": "Place"
           },
-          "instance": "pimpri-chinchwad"
+          "instance": "pimpri-chinchwad",
+          "ownerUserId": "b85c96ab-56f9-4a79-a08c-190e6b0a8573",
+          "itemCreatedAt": "2023-06-21T01:12:22+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5385,14 +5667,16 @@
                "docking station",
                "e-bike docking"
           ],
-          "provider": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "provider": "fb4c9d1b-0e51-4767-92a2-a009286dbea7",
           "provider_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Ahmedabad, Gujarat"
           },
-          "instance": "ahmedabad"
+          "instance": "ahmedabad",
+          "ownerUserId": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "itemCreatedAt": "2023-06-23T02:09:38+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5425,14 +5709,16 @@
                "noise",
                "light"
           ],
-          "provider": "b85c96ab-56f9-4a79-a08c-190e6b0a8573",
+          "provider": "91bf259c-5442-4fc0-8590-c8b2c9ec466c",
           "provider_bck": "pcmcindia.gov.in/d6b9c76cf48cd740de64b573ae6fa5f334df6ef6",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Pimpri-Chinchwad, Maharashtra",
                "type": "Place"
           },
-          "instance": "pimpri-chinchwad"
+          "instance": "pimpri-chinchwad",
+          "ownerUserId": "b85c96ab-56f9-4a79-a08c-190e6b0a8573",
+          "itemCreatedAt": "2023-06-28T04:31:42+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5459,14 +5745,16 @@
                "docking station",
                "e-bike docking"
           ],
-          "provider": "fbc6a514-4bf9-4eb8-b99e-258472b05e56",
+          "provider": "4fd8fbe6-b3ce-44eb-bedf-e091f8f2f5c1",
           "provider_bck": "mybyk.in/2a65f7095379219032fc1d590cba4983d562322d",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Nagpur, Maharastra"
           },
-          "instance": "nagpur"
+          "instance": "nagpur",
+          "ownerUserId": "fbc6a514-4bf9-4eb8-b99e-258472b05e56",
+          "itemCreatedAt": "2023-07-10T11:00:38+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5498,14 +5786,16 @@
                "message board",
                "anpr"
           ],
-          "provider": "ba950681-000f-477e-a166-c953304d1989",
+          "provider": "3236f30c-7904-4618-91e8-6399d99a664d",
           "provider_bck": "datakaveri.org/367b7f6e9bb804eca51d5d7be047f3c00270a694",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Prayagraj"
           },
-          "instance": "prayagraj"
+          "instance": "prayagraj",
+          "ownerUserId": "ba950681-000f-477e-a166-c953304d1989",
+          "itemCreatedAt": "2023-07-12T10:08:12+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5530,14 +5820,16 @@
                "tourists",
                "message board"
           ],
-          "provider": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "provider": "fb4c9d1b-0e51-4767-92a2-a009286dbea7",
           "provider_bck": "ahmedabadcity.gov.in/916dcebcea50b550f573d5e39a2518d8a4ff30d1",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Ahmedabad, Gujarat"
           },
-          "instance": "ahmedabad"
+          "instance": "ahmedabad",
+          "ownerUserId": "d3e2855a-bfb5-4cb6-994d-7c91a2bb2e3a",
+          "itemCreatedAt": "2023-07-25T06:37:39+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5574,14 +5866,16 @@
                "light",
                "uv"
           ],
-          "provider": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "provider": "f51fec55-3086-4afd-b5c1-7de524d9d133",
           "provider_bck": "datakaveri.org/d0df35a27af34af550f0a0a73866a803c182fd76",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "lucknow, Uttar Pradesh",
                "type": "Place"
           },
-          "instance": "lucknow"
+          "instance": "lucknow",
+          "ownerUserId": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "itemCreatedAt": "2023-07-20T11:55:45+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5618,14 +5912,16 @@
                "light",
                "uv"
           ],
-          "provider": "e18417be-fb09-4fe9-b8d1-e252da94699b",
+          "provider": "890dab7b-9544-41b2-9d3c-cdd75ca9c990",
           "provider_bck": "dahodsmartcity.in/4eed16378ec4e797bdd0427775acffa9b4b33f77",
           "itemStatus": "ACTIVE",
           "location": {
                "address": "Dahod, Gujarat",
                "type": "Place"
           },
-          "instance": "dahod"
+          "instance": "dahod",
+          "ownerUserId": "e18417be-fb09-4fe9-b8d1-e252da94699b",
+          "itemCreatedAt": "2023-07-20T11:52:30+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5657,14 +5953,16 @@
                "aqm",
                "aqi"
           ],
-          "provider": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "provider": "9d5554c1-8e80-4767-a201-8c6790c70ebb",
           "provider_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2",
           "itemStatus": "ACTIVE",
           "location": {
                "type": "Place",
                "address": "Agartala"
           },
-          "instance": "agartala"
+          "instance": "agartala",
+          "ownerUserId": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "itemCreatedAt": "2023-09-05T04:35:15+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -5689,7 +5987,7 @@
                "corridors",
                "lane"
           ],
-          "provider": "602e2803-2180-4441-b612-93aea9ccfd4a",
+          "provider": "f702792e-d7ee-43d8-8313-344e37e89831",
           "provider_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049",
           "itemStatus": "ACTIVE",
           "location": {
@@ -5739,6 +6037,8 @@
                     ]
                }
           },
-          "instance": "faridabad"
+          "instance": "faridabad",
+          "ownerUserId": "602e2803-2180-4441-b612-93aea9ccfd4a",
+          "itemCreatedAt": "2023-09-05T08:57:13+0530"
      }
 ]

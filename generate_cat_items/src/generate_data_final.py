@@ -6,7 +6,6 @@ import uuid
 class IUDXDataProcessor:
     
     def __init__(self):
-    
         self.resource_group_data = self.load_json_file('../raw/resourceGroup.json')
         self.resources_data = self.load_json_file('../raw/resources.json')
         self.provider_data = self.load_json_file('../raw/sha-keycloak.json')

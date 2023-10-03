@@ -1,0 +1,121 @@
+{
+	"@context": "https://voc.iudx.org.in/",
+	"type": [
+		"iudx:Resource",
+		"iudx:StreetLight"
+	],
+	"id": "53a3b8ff-8157-4f98-91ec-e23082de0b4d",
+	"name": "version-info",
+	"label": "Smart Street Lamp Device Information",
+	"description": "Smart Street Lamp device specific Information for Smart Street Lamp installations in International Institute of Information Technology, Hyderabad.",
+	"tags": [
+		"node_status",
+		"light_status",
+		"rssi_value",
+		"latency",
+		"data_rate",
+		"mac_address",
+		"packet_size"
+	],
+	"accessPolicy": "SECURE",
+	"iudxResourceAPIs": [
+		"ATTR"
+	],
+	"resourceType": "DATASET",
+	"itemStatus": "ACTIVE",
+	"location": {
+		"address": "IIIT Hyderabad, Telangana",
+		"type": "Place"
+	},
+	"provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+	"resourceGroup": "a0d85488-ce63-4735-b0b0-b64e000f2190",
+	"dataDescriptor": {
+		"@context": "https://voc.iudx.org.in/",
+		"type": [
+			"iudx:DataDescriptor",
+			"iudx:StreetLight"
+		],
+		"dataDescriptorLabel": "Smart Street Lamp sensors in IIIT Hyderabad",
+		"description": "Data Descriptor for data from Smart Street Lamp sensors in IIIT Hyderabad.",
+		"deviceInfo": {
+			"type": [
+				"Device"
+			],
+			"deviceID": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Device ID of the Smart Street Lamp sensor corresponding to this observation.",
+				"dataSchema": "iudx:Text"
+			},
+			"deviceName": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Device name of the Smart Street Lamp sensor corresponding to this observation.",
+				"dataSchema": "iudx:Text"
+			}
+		},
+		"versionInfo": {
+			"type": [
+				"Version"
+			],
+			"versionName": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Version name corresponding to the device in this observation.",
+				"dataSchema": "iudx:Text"
+			},
+			"startDateTime": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Reported start time of the version corresponding to this observation.",
+				"dataSchema": "iudx:DateTime"
+			},
+			"endDateTime": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Reported end time of the version corresponding to this observation.",
+				"dataSchema": "iudx:DateTime"
+			},
+			"versionSpec": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Device specifications w.r.t. the version corresponding to this observation.",
+				"dataSchema": "iudx:Object"
+			},
+			"comments": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "User comments w.r.t the version corresponding to this observation.",
+				"dataSchema": "iudx:Text"
+			}
+		}
+	},
+	"dataSample": {
+		"deviceInfo": {
+			"deviceID": "WN-LP01-03",
+			"deviceName": "Smart Street Lamp node at Smart Pole of Kohli Reasearch Block"
+		},
+		"versionInfo": [{
+			"versionName": "V1.00.00",
+			"startDateTime": "2020-12-29T10:00:00+05:30",
+			"endDateTime": "9999-99-99T99:99:99+05:30",
+			"versionSpec": {
+				"deviceStatus": "EFR32MG12",
+				"powerState": "EFR32MG12",
+				"rssi": "EFR32MG12",
+				"latency": "EFR32MG12",
+				"dataRate": "EFR32MG12",
+				"macAddress": "EFR32MG12",
+				"packetSize": "EFR32MG12"
+			},
+			"comment": "Smart Street Lamp node"
+		}]
+	}
+}

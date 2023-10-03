@@ -4,7 +4,7 @@
 		"iudx:ResourceServer"
 	],
 	"id": "ab311420-7d84-4a0a-9fdb-c811be588589",
-	"name": "IUDX Resource Server",
+	"name": "IudxResourceServer",
 	"description": "Multi tenanted IUDX Resource Server",
 	"tags": [
 		"IUDX",

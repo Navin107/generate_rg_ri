@@ -1,0 +1,2252 @@
+[
+  {
+    "type": "urn:dx:cat:Success",
+    "title": "Success",
+    "totalHits": 1,
+    "results": [
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:ResourceGroup",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring-version",
+        "name": "iiith-water-monitoring-version",
+        "label": "Device information of Water Monitoring sensors in IIIT Hyderabad Campus",
+        "description": "Device specific details and version information of Water distribution and flow monitoring system installations in International Institute of Information Technology, Hyderabad",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house"
+        ],
+        "resourceServer": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in",
+        "iudxResourceAPIs": [
+          "ATTR"
+        ],
+        "resourceType": "DATASET",
+        "itemStatus": "ACTIVE",
+        "accessPolicy": "SECURE",
+        "authControlLevel": "GROUP",
+        "instance": "hyderabad",
+        "location": {
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "dataDescriptor": {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+            "iudx:DataDescriptor",
+            "iudx:WaterDistributionNetwork"
+          ],
+          "dataDescriptorLabel": "Device and Version specifications of Water Monitors in IIIT Hyderabad",
+          "description": "Data Descriptor for device and version specifications of data parameters from Water Monitors in IIIT Hyderabad.",
+          "deviceInfo": {
+            "type": [
+              "Device"
+            ],
+            "deviceID": {
+              "type": [
+                "ValueDescriptor"
+              ],
+              "description": "Device ID of the water monitoring system corresponding to this observation.",
+              "dataSchema": "iudx:Text"
+            },
+            "deviceName": {
+              "type": [
+                "ValueDescriptor"
+              ],
+              "description": "Device name of the water monitoring system corresponding to this observation.",
+              "dataSchema": "iudx:Text"
+            }
+          },
+          "versionInfo": {
+            "type": [
+              "Version"
+            ],
+            "versionName": {
+              "type": [
+                "ValueDescriptor"
+              ],
+              "description": "Version name corresponding to the device in this observation.",
+              "dataSchema": "iudx:Text"
+            },
+            "startDateTime": {
+              "type": [
+                "ValueDescriptor"
+              ],
+              "description": "Reported start time of the version corresponding to this observation.",
+              "dataSchema": "iudx:DateTime"
+            },
+            "endDateTime": {
+              "type": [
+                "ValueDescriptor"
+              ],
+              "description": "Reported end time of the version corresponding to this observation.",
+              "dataSchema": "iudx:DateTime"
+            },
+            "versionSpec": {
+              "type": [
+                "ValueDescriptor"
+              ],
+              "description": "Device specfications w.r.t. the version corresponding to this observation.",
+              "dataSchema": "iudx:Object"
+            },
+            "comments": {
+              "type": [
+                "ValueDescriptor"
+              ],
+              "description": "User comments w.r.t the version corresponding to this observation.",
+              "dataSchema": "iudx:Text"
+            }
+          }
+        },
+        "dataSample": {
+          "deviceInfo": {
+            "deviceID": "WM-WD-VN00-00",
+            "deviceName": "Vindhya Block C4 Water Monitor"
+          },
+          "versionInfo": [
+            {
+              "versionName": "V5.00.00",
+              "startDateTime": "2020-08-19T10:00:00+05:30",
+              "endDateTime": "9999-99-99T99:99:99+05:30",
+              "versionSpec": {
+                "waterLevel": "HC-SR04-Ultrasonic Sensor",
+                "pH": "",
+                "turbidity": "",
+                "waterPressure": "",
+                "waterFlow": "",
+                "flowRate": "",
+                "waterTemperature": "DFRobot Gravity Temperature Sensor",
+                "compensatedTDS": "DF Robot gravity Analog TDS Sensor/meter for Arduino",
+                "uncompensatedTDS": "DF Robot gravity Analog TDS Sensor/meter for Arduino",
+                "controller": "ESP 32"
+              },
+              "comments": "Version series beginning with 3 indicates it is a Type-1 water monitor, the series 2 indicates it is a Type-2 water monitor, the series 5 indicates it is a Type-3 water monitor and the series 6 indicates it is a Type-4 water monitor"
+            }
+          ]
+        },
+        "itemCreatedAt": "2022-08-06T10:32:26+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "urn:dx:cat:Success",
+    "title": "Success",
+    "totalHits": 12,
+    "results": [
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN01-01",
+        "name": "WM-WD-VN01-01",
+        "label": "Water Distribution Monitoring Node 2 at First Floor of Vindhya",
+        "description": "Real-time information/measuresments obtained from the Node 2 water distribution monitoring system installed at First Floor of Vindhya in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.349937,
+              17.445369
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:00:54+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN01-00",
+        "name": "WM-WD-VN01-00",
+        "label": "Water Distribution Monitoring Node 1 at First Floor of Vindhya",
+        "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed at First Floor of Vindhya in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.350027,
+              17.445467
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:00:51+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN00-00",
+        "name": "WM-WD-VN00-00",
+        "label": "Water Distribution Monitoring Node 1 at Ground Floor of Vindhya",
+        "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed at Ground Floor of Vindhya in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.349875,
+              17.445402
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:00:44+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-BN04-00",
+        "name": "WM-WD-BN04-00",
+        "label": "Water Distribution Monitoring Node 1 at Fourth Floor of Bakul Nivas",
+        "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed at Fourth Floor of Bakul Nivas in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.3483606,
+              17.443674
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:01:01+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-02",
+        "name": "WM-WF-PH03-02",
+        "label": "Water Flow Monitoring Node 3 at Third Floor of Pump House 3",
+        "description": "Real-time information/measuresments obtained from the Node 3 water flow monitoring system installed at Third Floor of Pump House 3 in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.348365,
+              17.443299
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:01:18+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-03",
+        "name": "WM-WF-PH03-03",
+        "label": "Water Flow Monitoring Node 4 at Third Floor of Pump House 3",
+        "description": "Real-time information/measuresments obtained from the Node 4 water flow monitoring system installed at Third Floor of Pump House 3 in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.348365,
+              17.443299
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:01:21+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-01",
+        "name": "WM-WF-PH03-01",
+        "label": "Water Flow Monitoring Node 2 at Third Floor of Pump House 3",
+        "description": "Real-time information/measuresments obtained from the Node 2 water flow monitoring system installed at Third Floor of Pump House 3 in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.348365,
+              17.443299
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:01:15+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-00",
+        "name": "WM-WF-PH03-00",
+        "label": "Water Flow Monitoring Node 1 at Third Floor of Pump House 3",
+        "description": "Real-time information/measuresments obtained from the Node 1 water flow monitoring system installed at Third Floor of Pump House 3 in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.348365,
+              17.443299
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:01:11+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-PH01-00",
+        "name": "WM-WD-PH01-00",
+        "label": "Water Distribution Monitoring Node 1 at Pump House 1",
+        "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed at Pump House 1 in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.351444,
+              17.445793
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:00:58+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN90-00",
+        "name": "WM-WD-VN90-00",
+        "label": "Water Distribution Monitoring Node 1 at Vindhya Library",
+        "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed  at Vindhya Library in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.35142,
+              17.44599
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:00:48+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-VN01-00",
+        "name": "WM-WF-VN01-00",
+        "label": "Water Flow Monitoring Node 1 at First Floor of Vindhya",
+        "description": "Real-time information/measuresments obtained from the Node 1 water flow monitoring system installed at First Floor of Vindhya in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.349937,
+              17.445369
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:01:04+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:Resource",
+          "iudx:WaterDistributionNetwork"
+        ],
+        "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH01-00",
+        "name": "WM-WF-PH01-00",
+        "label": "Water Flow Monitoring Node 1 at First Floor of Pump House 1",
+        "description": "Real-time information/measuresments obtained from the Node 1 water flow monitoring system installed at First Floor of Pump House 1 in IIIT Hyderabad campus.",
+        "tags": [
+          "water",
+          "water distribution",
+          "water supply",
+          "pH",
+          "turbidity",
+          "pressure",
+          "water pressure",
+          "water reservoir",
+          "reservoir",
+          "tank",
+          "sump",
+          "oht",
+          "booster",
+          "pump",
+          "pump house",
+          "flow",
+          "flowrate"
+        ],
+        "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
+        "instance": "hyderabad",
+        "itemStatus": "ACTIVE",
+        "location": {
+          "geometry": {
+            "coordinates": [
+              78.351444,
+              17.445793
+            ],
+            "type": "Point"
+          },
+          "address": "IIIT Hyderabad, Telangana",
+          "type": "Place"
+        },
+        "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+        "itemCreatedAt": "2022-08-10T02:01:07+0530",
+        "_geosummary": {
+          "_geocoded": {
+            "results": [
+              {
+                "name": "IIIT-Delhi",
+                "country": "India",
+                "region": "Delhi",
+                "county": "South West",
+                "locality": "Delhi",
+                "bbox": [
+                  77.2696429,
+                  28.543383,
+                  77.2744915,
+                  28.5489098
+                ]
+              },
+              {
+                "name": "IIIT- RK Valley Campus",
+                "country": "India",
+                "region": "Andhra Pradesh",
+                "county": "Kadapa",
+                "bbox": [
+                  78.5253596,
+                  14.3291121,
+                  78.5454816,
+                  14.3406659
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology, Hyderabad",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3442591,
+                  17.4419862,
+                  78.3522336,
+                  17.4488423
+                ]
+              },
+              {
+                "name": "Academic Building IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7429739,
+                  20.2942071,
+                  85.7440467,
+                  20.2952824
+                ]
+              },
+              {
+                "name": "SBI ATM - IIIT Hyderabad Main Gate",
+                "country": "India",
+                "region": "Telangana",
+                "county": "Hyderabad",
+                "locality": "Hyderabad",
+                "borough": "West Zone",
+                "bbox": [
+                  78.3515409,
+                  17.4458023,
+                  78.3516075,
+                  17.4458667
+                ]
+              },
+              {
+                "name": "Tennis Court IIIT-BH",
+                "country": "India",
+                "region": "Odisha",
+                "county": "Khordha",
+                "bbox": [
+                  85.7430161,
+                  20.2937657,
+                  85.7436934,
+                  20.2940991
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Allahabad",
+                "country": "India",
+                "region": "Uttar Pradesh",
+                "county": "Kaushambi",
+                "bbox": [
+                  81.7675643,
+                  25.4270061,
+                  81.7768127,
+                  25.432919
+                ]
+              },
+              {
+                "name": "International Institute of Information Technology Bangalore - IIITB",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Bangalore",
+                "bbox": [
+                  77.6622681,
+                  12.8431385,
+                  77.6643097,
+                  12.8454278
+                ]
+              },
+              {
+                "name": "Indian Institute of Information Technology Dharwad",
+                "country": "India",
+                "region": "Karnataka",
+                "county": "Dharwad",
+                "bbox": [
+                  75.0224618,
+                  15.3893377,
+                  75.0269465,
+                  15.3943856
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

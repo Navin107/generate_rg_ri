@@ -1,0 +1,132 @@
+{
+	"@context": "https://voc.iudx.org.in/",
+	"type": [
+		"iudx:Resource",
+		"iudx:EnvAQM"
+	],
+	"id": "4e95367a-6c55-45b2-9197-d046733b6915",
+	"name": "version-info",
+	"label": "Indoor AQM Device Information",
+	"description": "Indoor Air quality monitoring device specific Information for Indoor AQM installations in International Institute of Information Technology, Hyderabad.",
+	"tags": [
+		"environment",
+		"air quality",
+		"air",
+		"pollution",
+		"carbon dioxide",
+		"co2",
+		"pm2.5",
+		"pm10",
+		"humidity",
+		"temperature",
+		"voc",
+		"voc raw"
+	],
+	"itemStatus": "ACTIVE",
+	"location": {
+		"address": "IIIT Hyderabad, Telangana",
+		"type": "Place"
+	},
+	"provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+	"resourceGroup": "cc550675-a74d-4410-bf7a-01baca7518bb",
+	"iudxResourceAPIs": [
+		"ATTR"
+	],
+	"resourceType": "DATASET",
+	"accessPolicy": "SECURE",
+	"dataDescriptor": {
+		"@context": "https://voc.iudx.org.in/",
+		"type": [
+			"iudx:DataDescriptor",
+			"iudx:EnvAQM"
+		],
+		"dataDescriptorLabel": "Indoor AQM sensors in IIIT Hyderabad",
+		"description": "Data Descriptor for data from Indoor AQM sensors in IIIT Hyderabad.",
+		"deviceInfo": {
+			"type": [
+				"Device"
+			],
+			"deviceID": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Device ID of the Indoor AQM sensor corresponding to this observation.",
+				"dataSchema": "iudx:Text"
+			},
+			"deviceName": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Device name of the Indoor AQM sensor corresponding to this observation.",
+				"dataSchema": "iudx:Text"
+			}
+		},
+		"versionInfo": {
+			"type": [
+				"Version"
+			],
+			"versionName": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Version name corresponding to the device in this observation.",
+				"dataSchema": "iudx:Text"
+			},
+			"startDateTime": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Reported start time of the version corresponding to this observation.",
+				"dataSchema": "iudx:DateTime"
+			},
+			"endDateTime": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Reported end time of the version corresponding to this observation.",
+				"dataSchema": "iudx:DateTime"
+			},
+			"versionSpec": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "Device specifications w.r.t. the version corresponding to this observation.",
+				"dataSchema": "iudx:Object"
+			},
+			"comments": {
+				"type": [
+					"ValueDescriptor"
+				],
+				"description": "User comments w.r.t the version corresponding to this observation.",
+				"dataSchema": "iudx:Text"
+			}
+		}
+	},
+	"dataSample": {
+		"deviceInfo": {
+			"deviceID": "SR-AQ-KH00-00",
+			"deviceName": "Indoor Air Quality node at Ground Floor of Kohli Reasearch Block"
+		},
+		"versionInfo": [
+			{
+				"versionName": "V1.00.00",
+				"startDateTime": "2020-12-29T10:00:00+05:30",
+				"endDateTime": "9999-99-99T99:99:99+05:30",
+				"versionSpec": {
+					"pm2p5": {
+						"sensor": "SDS011",
+						"id": 1.0
+					},
+					"pm10": "SDS011",
+					"airTemperature": "SHT41",
+					"relativeHumidity": "SHT41",
+					"co2": "Prana air",
+					"controller": "ESP32",
+					"vocTotal":"SHT41",
+					"vocRaw":"SHT41"
+				},
+				"comments": "Indoor air quality node"
+			}
+		]
+	}
+}

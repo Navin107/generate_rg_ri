@@ -1,0 +1,37 @@
+{
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:EnvAQM"
+      ],
+      "id": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
+      "name": "iiith-env-aqm",
+      "label": "Air Quality Monitoring Sensors in IIIT Hyderabad",
+      "description": "Air quality monitoring devices and associated sensors in International Institute of Information Technology, Hyderabad",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "instance": "hyderabad",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "98bd1444-96ef-421f-9661-e819ce867da7"
+}

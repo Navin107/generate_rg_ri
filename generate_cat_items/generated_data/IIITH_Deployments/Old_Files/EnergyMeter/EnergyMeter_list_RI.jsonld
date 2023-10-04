@@ -1,0 +1,155 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:EnergyMeter"
+  ],
+  "id": "dd75d9e8-9d83-4aca-9c8f-10ee7b1ff84c",
+  "name": "version-info",
+  "label": "Device Details of Energy Meters in IIIT Hyderabad",
+  "description": "Physical and device specific details of the energy meters installed in IIIT Hyderabad campus.",
+  "tags": [
+    "energy",
+    "power",
+    "current",
+    "voltage",
+    "volt",
+    "volts",
+    "watt",
+    "consumption",
+    "energy consumption",
+    "meter"
+  ],
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "resourceGroup": "97dae4f4-34d4-4d7f-8f5a-c57268058012",
+  "accessPolicy": "SECURE",
+  "iudxResourceAPIs": [
+    "ATTR"
+  ],
+  "resourceType": "DATASET",
+  "itemStatus": "ACTIVE",
+  "instance": "hyderabad",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.339557,
+            17.438768
+          ],
+          [
+            78.352839,
+            17.438768
+          ],
+          [
+            78.352839,
+            17.450866
+          ],
+          [
+            78.339557,
+            17.450866
+          ],
+          [
+            78.339557,
+            17.438768
+          ]
+        ]
+      ]
+    }
+  },
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:EnergyMeter"
+    ],
+    "dataDescriptorLabel": "Device and Version specifications of Energy Meters in IIIT Hyderabad",
+    "description": "Data Descriptor for device and version specifications of data from Energy Meters in IIIT Hyderabad.",
+    "deviceInfo": {
+      "type": [
+        "Device"
+      ],
+      "deviceID": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device ID of the Energy Meter corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      },
+      "deviceName": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device name of the Energy Meter corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      }
+    },
+    "versionInfo": {
+      "type": [
+        "Version"
+      ],
+      "versionName": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Version name corresponding to the device in this observation.",
+        "dataSchema": "iudx:Text"
+      },
+      "startDateTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Reported start time of the version corresponding to this observation.",
+        "dataSchema": "iudx:DateTime"
+      },
+      "endDateTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Reported end time of the version corresponding to this observation.",
+        "dataSchema": "iudx:DateTime"
+      },
+      "versionSpec": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device specfications w.r.t. the version corresponding to this observation.",
+        "dataSchema": "iudx:Object"
+      },
+      "comments": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "User comments w.r.t the version corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      }
+    }
+  },
+  "dataSample": {
+    "deviceInfo": {
+      "deviceID": "SR-EM-KH04-00",
+      "deviceName": "Smart Room-KH04 Energy Meter"
+    },
+    "versionInfo": [
+      {
+        "versionName": "V1.00.00",
+        "startDateTime": "2020-08-19T10:00:00+05:30",
+        "endDateTime": "9999-99-99T99:99:99+05:30",
+        "versionSpec": {
+          "energy": "EN8400 LN",
+          "power": "EN8400 LN",
+          "voltage": "EN8400 LN",
+          "current": "EN8400 LN",
+          "frequency": "EN8400 LN",
+          "powerFactor": "EN8400 LN",
+          "controller": "RPi running python app communicating through USB-RS485 Modbus"
+        },
+        "comments": "Version series beginning with 1 indicates it is a Elmeasure Meter and the series 2 indicates it is a Schneider Energy Meter"
+      }
+    ]
+  }
+}

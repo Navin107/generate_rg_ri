@@ -1,0 +1,208 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:WaterDistributionNetwork"
+  ],
+  "id": "461a8d17-028e-4f58-9c75-d419c16f2655",
+  "name": "water-monitoring-info",
+  "label": "Water Distribution Info from Water Monitoring Nodes in IIIT Hyderabad campus",
+  "description": "Real-time information/measurements obtained from distribution monitoring systems installed in IIIT Hyderabad campus.",
+  "tags": [
+    "water",
+    "water distribution",
+    "water supply",
+    "pH",
+    "turbidity",
+    "pressure",
+    "water pressure",
+    "water reservoir",
+    "reservoir",
+    "tank",
+    "sump",
+    "oht",
+    "booster",
+    "pump",
+    "pump house",
+    "flow",
+    "flowrate"
+  ],
+  "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
+  "instance": "hyderabad",
+  "iudxResourceAPIs": [
+    "ATTR",
+    "TEMPORAL",
+    "SPATIAL"
+  ],
+  "resourceType": "MESSAGESTREAM",
+  "accessPolicy": "SECURE",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  },
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:WaterDistributionNetwork"
+    ],
+    "dataDescriptorLabel": "Water Monitors in IIIT Hyderabad",
+    "description": "Data Descriptor for data from water monitoring systems in IIIT Hyderabad.",
+    "deviceID": {
+      "description": "Device ID corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "deviceName": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Name of the device corresponding to this observation.",
+      "dataSchema": "iudx:Text"
+    },
+    "location": {
+      "description": "The physical coordinates of the device corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Point"
+    },
+    "observationDateTime": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Last reported time of observation.",
+      "dataSchema": "iudx:DateTime"
+    },
+    "waterLevel": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous Water Level from the water monitoring system corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "C62",
+      "unitText": "dimensionless",
+      "measAccuracy": {
+        "minValue": -0.3,
+        "maxValue": 0.3
+      },
+      "resolution": 0.1
+    },
+    "pH": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of pH from the water monitoring system corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "C62",
+      "unitText": "dimensionless",
+      "measAccuracy": "10% tolerance at 25 Celsius",
+      "resolution": 0.1
+    },
+    "turbidity": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of turbidity from the water monitoring system corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "VLT",
+      "unitText": "volt",
+      "resolution": 0.01
+    },
+    "waterPressure": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of water pressure from the water monitoring system corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "BAR",
+      "unitText": "bar",
+      "measAccuracy": "1% tolerance",
+      "resolution": 1
+    },
+    "waterFlow": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of water flow from the water monitoring system corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "MTQ",
+      "unitText": "cubic metre(mÂ³)",
+      "measAccuracy": "2% tolerance in [Q2,Q4], 5% tolerance in [Q1,Q2]",
+      "resolution": 0.01
+    },
+    "flowRate": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of flow rate from the water monitoring system corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "MQH",
+      "unitText": "cubic metre per hour(mÂ³/h)",
+      "measAccuracy": "2% tolerance in [Q2,Q4], 5% tolerance in [Q1,Q2]",
+      "resolution": 0.001
+    },
+    "waterTemperature": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of temperature from the water monitoring system corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "CEL",
+      "unitText": "degree Celsius",
+      "measAccuracy": {
+        "minValue": -0.5,
+        "maxValue": 0.5
+      },
+      "resolution": 0.1
+    },
+    "compensatedTDS": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of TDS with temperature compensation using the equation: 133.42*CVÂ³-255.86*CVÂ²+857.39*CV*0.5",
+      "dataSchema": "iudx:Number",
+      "unitCode": "59",
+      "unitText": "part per million(ppm)",
+      "measAccuracy": "10% tolerance",
+      "resolution": 1
+    },
+    "uncompensatedTDS": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous TDS value without temperature compensation",
+      "dataSchema": "iudx:Number",
+      "unitCode": "59",
+      "unitText": "part per million(ppm)",
+      "measAccuracy": "10% tolerance",
+      "resolution": 1
+    }
+  },
+  "dataSample": {
+    "deviceID": "WM-WD-VN01-01",
+    "deviceName": "Water Distribution Monitoring Node 2 at First Floor of Vindhya",
+    "location": {
+      "coordinates": [
+        78.349937,
+        17.445369
+      ],
+      "type": "Point"
+    },
+    "observationDateTime": "2020-12-01T21:10:00+05:30",
+    "waterLevel": 90.2,
+    "pH": 9.25,
+    "turbidity": 10.8,
+    "waterPressure": 51.051,
+    "waterFlow": 1674,
+    "flowRate": 27650,
+    "waterTemperature": 16,
+    "compensatedTDS": 177,
+    "uncompensatedTDS": 190
+  }
+}

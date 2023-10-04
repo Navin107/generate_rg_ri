@@ -1,0 +1,41 @@
+{
+	"@context": "https://voc.iudx.org.in/",
+	"type": [
+		"iudx:ResourceGroup",
+		"iudx:EnergyMeter"
+	],
+	"id": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7",
+	"name": "iiith-energy-monitoring",
+	"label": "Energy Monitoring in IIIT Hyderabad Campus",
+	"description": "Energy Monitoring Installed in International Institute of Information Technology, Hyderabad",
+	"tags": [
+		"rssi",
+		"R current",
+		"y current",
+		"B current",
+		"R voltage",
+		"Y voltage",
+		"B voltage",
+		"power factor",
+		"frequency",
+		"apparent power",
+		"real power",
+		"volt",
+		"volts",
+		"watt",
+		"phase",
+		"energy consumption",
+		"reactive energy lead",
+		"reactive energy lag",
+		"total energy consumption",
+		"meter",
+		"monitor"
+	],
+	"resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+	"itemStatus": "ACTIVE",
+	"location": {
+		"address": "IIIT Hyderabad, Telangana",
+		"type": "Place"
+	},
+	"provider": "98bd1444-96ef-421f-9661-e819ce867da7"
+}

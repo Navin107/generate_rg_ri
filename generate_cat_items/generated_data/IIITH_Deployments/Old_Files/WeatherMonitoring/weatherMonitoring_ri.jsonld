@@ -1,0 +1,223 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:EnvWeather"
+  ],
+  "id": "d70d15bd-146e-46e9-b99f-1d87522b55e9",
+  "name": "weather-info",
+  "label": "Weather Info from the Weather Stations in IIIT Hyderabad campus",
+  "description": "Real-time Weather measurements obtained from the Weather Stations installed in IIIT Hyderabad campus.",
+  "tags": [
+    "weather",
+    "humidity",
+    "rainfall",
+    "relative humidity",
+    "solar radiation ",
+    "wind",
+    "wind direction",
+    "wind speed",
+    "gust ",
+    "gust speed"
+  ],
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  },
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "instance": "hyderabad",
+  "accessPolicy": "SECURE",
+  "resourceType": "MESSAGESTREAM",
+  "iudxResourceAPIs": [
+    "ATTR",
+    "TEMPORAL",
+    "SPATIAL"
+  ],
+  "resourceGroup": "e063fb28-cd18-418a-897d-7b1034e282b9",
+  "itemStatus": "ACTIVE",
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:EnvWeather"
+    ],
+    "dataDescriptorLabel": "IIIT Hyderabad Weather Station",
+    "description": "Data Descriptor for data from Weather Station in IIIT Hyderabad.",
+    "deviceID": {
+      "description": "Device ID corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "deviceName": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Name of the device corresponding to this observation.",
+      "dataSchema": "iudx:Text"
+    },
+    "location": {
+      "description": "The physical coordinates of the device corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Point"
+    },
+    "relativeHumidity": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous values for relative humidity (water vapour in air).",
+      "unitCode": "P1",
+      "unitText": "percent (%)",
+      "dataSchema": "iudx:TimeSeriesAggregation",
+      "measAccuracy": {
+        "minValue": -2.5,
+        "maxValue": 2.5
+      },
+      "resolution": 0.1
+    },
+    "observationDateTime": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Last reported time of observation.",
+      "dataSchema": "iudx:DateTime"
+    },
+    "windDirection": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous value of wind direction.",
+      "unitCode": "DD",
+      "unitText": "degree (unit of angle)",
+      "dataSchema": "iudx:Number",
+      "measAccuracy": {
+        "minValue": -5,
+        "maxValue": 5
+      },
+      "resolution": 1.4
+    },
+    "windSpeed": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous value of wind speed.",
+      "unitCode": "MTS",
+      "unitText": "metre per second",
+      "dataSchema": "iudx:Number",
+      "measAccuracy": "Â± 0.5 m/s, Â± 3% 17 to 30 m/s, Â± 4% 30 to 44 m/s",
+      "resolution": 0.19
+    },
+    "airTemperature": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous value for air temperature.",
+      "dataSchema": "iudx:TimeSeriesAggregation",
+      "unitCode": "CEL",
+      "unitText": "degree Celsius",
+      "measAccuracy": {
+        "minValue": -0.21,
+        "maxValue": 0.21
+      },
+      "resolution": 0.02
+    },
+    "solarRadiation": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous value for solar radiation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "D54",
+      "unitText": "watt per square metre",
+      "minValue": -40,
+      "maxValue": 80,
+      "measAccuracy": {
+        "minValue": -10,
+        "maxValue": 10
+      },
+      "resolution": 1.25
+    },
+    "gustSpeed": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous value of gust speed.",
+      "unitCode": "MTS",
+      "unitText": "metre per second",
+      "dataSchema": "iudx:Number",
+      "measAccuracy": "Â± 0.5 m/s, Â± 3% 17 to 30 m/s, Â± 4% 30 to 44 m/s",
+      "resolution": 0.19
+    },
+    "dewPoint": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Value of each day's dew point temperature.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "CEL",
+      "unitText": "degree Celsius",
+      "measAccuracy": {
+        "minValue": -0.21,
+        "maxValue": 0.21
+      },
+      "resolution": 0.02
+    },
+    "precipitation": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Measurement of rain level.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "H67",
+      "unitText": "millimetre per hour",
+      "measAccuracy": {
+        "minValue": -5,
+        "maxValue": 5
+      },
+      "resolution": 0.2
+    },
+    "atmosphericPressure": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous value of atmospheric pressure.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "MBR",
+      "unitText": "millibar",
+      "measAccuracy": {
+        "minValue": -5,
+        "maxValue": 5
+      },
+      "resolution": 0.1
+    }
+  },
+  "dataSample": {
+    "deviceID": "WE-GS04-00",
+    "deviceName": "Weather Monitoring Nodes 1 in IIIT Hyderabad campus",
+    "location": {
+      "coordinates": [
+        78.3483606,
+        17.443674
+      ],
+      "type": "Point"
+    },
+    "relativeHumidity": {
+      "instValue": 91.2
+    },
+    "airTemperature": {
+      "instValue": 24.7
+    },
+    "windDirection": 272.36,
+    "windSpeed": 4.19,
+    "solarRadiation": 340.63,
+    "gustSpeed": 6.85,
+    "dewPoint": 23.2,
+    "precipitation": 0,
+    "atmosphericPressure": 0.93,
+    "observationDateTime": "2020-12-01T21:10:00+05:30"
+  }
+}

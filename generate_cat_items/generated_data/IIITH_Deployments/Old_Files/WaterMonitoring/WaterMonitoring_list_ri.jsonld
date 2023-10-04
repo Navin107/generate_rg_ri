@@ -1,0 +1,165 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:WaterDistributionNetwork"
+  ],
+  "id": "1c8bce59-02b1-4a3e-9802-94bf5e6bdfe5",
+  "name": "version-info",
+  "label": "Device Details of Water Monitors in IIIT Hyderabad",
+  "description": "Physical and device specific details of the water monitors installed in IIIT Hyderabad campus.",
+  "tags": [
+    "water",
+    "water distribution",
+    "water supply",
+    "pH",
+    "turbidity",
+    "pressure",
+    "water pressure",
+    "water reservoir",
+    "reservoir",
+    "tank",
+    "sump",
+    "oht",
+    "booster",
+    "pump",
+    "pump house",
+    "flow",
+    "flowrate"
+  ],
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "resourceGroup": "b5fa3bae-0a27-4f48-bcf8-4768ac2d40c6",
+  "iudxResourceAPIs": [
+    "ATTR"
+  ],
+  "resourceType": "DATASET",
+  "accessPolicy": "SECURE",
+  "instance": "hyderabad",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.339557,
+            17.438768
+          ],
+          [
+            78.352839,
+            17.438768
+          ],
+          [
+            78.352839,
+            17.450866
+          ],
+          [
+            78.339557,
+            17.450866
+          ],
+          [
+            78.339557,
+            17.438768
+          ]
+        ]
+      ]
+    }
+  },
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:WaterDistributionNetwork"
+    ],
+    "dataDescriptorLabel": "Device and Version specifications of Water Monitors in IIIT Hyderabad",
+    "description": "Data Descriptor for device and version specifications of data parameters from Water Monitors in IIIT Hyderabad.",
+    "deviceInfo": {
+      "type": [
+        "Device"
+      ],
+      "deviceID": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device ID of the water monitoring system corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      },
+      "deviceName": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device name of the water monitoring system corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      }
+    },
+    "versionInfo": {
+      "type": [
+        "Version"
+      ],
+      "versionName": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Version name corresponding to the device in this observation.",
+        "dataSchema": "iudx:Text"
+      },
+      "startDateTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Reported start time of the version corresponding to this observation.",
+        "dataSchema": "iudx:DateTime"
+      },
+      "endDateTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Reported end time of the version corresponding to this observation.",
+        "dataSchema": "iudx:DateTime"
+      },
+      "versionSpec": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device specfications w.r.t. the version corresponding to this observation.",
+        "dataSchema": "iudx:Object"
+      },
+      "comments": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "User comments w.r.t the version corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      }
+    }
+  },
+  "dataSample": {
+    "deviceInfo": {
+      "deviceID": "WM-WD-VN00-00",
+      "deviceName": "Vindhya Block C4 Water Monitor"
+    },
+    "versionInfo": [
+      {
+        "versionName": "V5.00.00",
+        "startDateTime": "2020-08-19T10:00:00+05:30",
+        "endDateTime": "9999-99-99T99:99:99+05:30",
+        "versionSpec": {
+          "waterLevel": "HC-SR04-Ultrasonic Sensor",
+          "pH": "",
+          "turbidity": "",
+          "waterPressure": "",
+          "waterFlow": "",
+          "flowRate": "",
+          "waterTemperature": "DFRobot Gravity Temperature Sensor",
+          "compensatedTDS": "DF Robot gravity Analog TDS Sensor/meter for Arduino",
+          "uncompensatedTDS": "DF Robot gravity Analog TDS Sensor/meter for Arduino",
+          "controller": "ESP 32"
+        },
+        "comments": "Version series beginning with 3 indicates it is a Type-1 water monitor, the series 2 indicates it is a Type-2 water monitor, the series 5 indicates it is a Type-3 water monitor and the series 6 indicates it is a Type-4 water monitor"
+      }
+    ]
+  }
+}

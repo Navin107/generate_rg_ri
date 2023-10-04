@@ -1,0 +1,27 @@
+{
+	"@context": "https://voc.iudx.org.in/",
+	"type": [
+		"iudx:ResourceGroup",
+		"iudx:StreetLight"
+	],
+	"id": "a0d85488-ce63-4735-b0b0-b64e000f2190",
+	"name": "iiith-WiSUN-version",
+	"label": "Device Information of Smart Street Lamp Sensors in IIIT Hyderabad",
+	"description": "Device specific details and version information of the smart street lamp installed in International Institute of Information Technology, Hyderabad",
+	"tags": [
+		"node_status",
+		"light_status",
+		"rssi_value",
+		"latency",
+		"data_rate",
+		"mac_address",
+		"packet_size"
+	],
+	"resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+	"itemStatus": "ACTIVE",
+	"location": {
+		"address": "IIIT Hyderabad, Telangana",
+		"type": "Place"
+	},
+	"provider": "98bd1444-96ef-421f-9661-e819ce867da7"
+}

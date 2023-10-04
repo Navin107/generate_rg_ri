@@ -1,0 +1,46 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:ResourceGroup",
+    "iudx:EnvAQM"
+  ],
+  "id": "271b1a7d-d27b-4660-9857-09986be7e99d",
+  "name": "iiith-env-aqm-version",
+  "label": "Device Information of AQM Sensors in IIIT Hyderabad",
+  "description": "Device specific details and version information of the AQM installations in IIIT Hyderabad campus.",
+  "tags": [
+    "environment",
+    "air quality",
+    "air",
+    "aqi",
+    "aqm",
+    "pollution",
+    "amonia",
+    "carbon",
+    "carbon monoxide",
+    "nitrogen dioxide",
+    "co",
+    "no2",
+    "pm2.5",
+    "pm10",
+    "humidity",
+    "temperature",
+    "nh3",
+    "version",
+    "version history",
+    "components",
+    "device list",
+    "sub device"
+  ],
+  "instance": "hyderabad",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  },
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7"
+}
+
+
+
+

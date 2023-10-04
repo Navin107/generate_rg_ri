@@ -1,0 +1,34 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:ResourceGroup",
+    "iudx:EnergyMeter"
+  ],
+  "id": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59",
+  "name": "iiith-energy-meter",
+  "label": "Energy Meters in IIIT Hyderabad Campus",
+  "description": "Energy Meters Installed in International Institute of Information Technology, Hyderabad",
+  "tags": [
+    "energy",
+    "power",
+    "power factor",
+    "current",
+    "voltage",
+    "volt",
+    "volts",
+    "watt",
+    "frequency",
+    "phase",
+    "consumption",
+    "energy consumption",
+    "meter",
+    "monitor"
+  ],
+  "itemStatus": "ACTIVE",
+  "instance": "hyderabad",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  },
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7"
+}

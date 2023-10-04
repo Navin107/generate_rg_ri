@@ -1,0 +1,222 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:SolarEnergy"
+  ],
+  "id": "f914b2ac-001a-4988-a3ad-58e097ada439",
+  "name": "solar-panel-info",
+  "label": "Realtime info from Solar panels in IIIT Hyderabad campus",
+  "description": "Real-time information/measurements obtained from the solar panels mounted in IIIT Hyderabad campus.",
+  "tags": [
+    "solar energy",
+    "solar",
+    "power",
+    "power factor",
+    "current",
+    "voltage",
+    "volt",
+    "volts",
+    "watt",
+    "frequency",
+    "phase",
+    "active power",
+    "photovoltaic cells",
+    "photovoltaic voltage",
+    "photovoltaic current",
+    "photovoltaic power",
+    "energy generated"
+  ],
+  "resourceGroup": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
+  "iudxResourceAPIs": [
+    "ATTR",
+    "TEMPORAL",
+    "SPATIAL"
+  ],
+  "resourceType": "MESSAGESTREAM",
+  "accessPolicy": "SECURE",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "geometry": {
+      "coordinates": [
+        78.34955,
+        17.44728
+      ],
+      "type": "Point"
+    },
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  },
+  "instance": "hyderabad",
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:SolarEnergy"
+    ],
+    "dataDescriptorLabel": "Solar Panels in IIIT Hyderabad",
+    "description": "Data Descriptor for data from solar energy monitors in IIIT Hyderabad.",
+    "deviceID": {
+      "description": "Device ID corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "deviceName": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Name of the device corresponding to this observation.",
+      "dataSchema": "iudx:Text"
+    },
+    "location": {
+      "description": "The physical coordinates of the device corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Point"
+    },
+    "observationDateTime": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Last reported time of observation.",
+      "dataSchema": "iudx:DateTime"
+    },
+    "energyGenerated": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The value of solar energy generated on the current day from the solar panel corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "KWH",
+      "unitText": "kilowatt hour",
+      "measAccuracy": "Class 1",
+      "resolution": 0.1
+    },
+    "totalEnergyGenerated": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The total solar energy generated so far from the solar panel corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "KWH",
+      "unitText": "kilowatt hour",
+      "measAccuracy": "Class 1",
+      "resolution": 0.1
+    },
+    "frequency": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of Frequency from the solar panel corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "HTZ",
+      "unitText": "Hertz",
+      "measAccuracy": "Class 1",
+      "resolution": 0.01
+    },
+    "powerFactor": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of Power Factor from the solar panel corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "C62",
+      "unitText": "dimensionless",
+      "measAccuracy": "Class 1",
+      "resolution": 10000
+    },
+    "totalActivePower": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of signed Active Power from the solar panel corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "WTT",
+      "unitText": "Watt",
+      "measAccuracy": "Class 1",
+      "resolution": 0.1
+    },
+    "voltage": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The value of Voltage in the entity corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "VLT",
+      "unitText": "volt",
+      "measAccuracy": "Class 1",
+      "resolution": 0.01
+    },
+    "totalReactivePower": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Total reactive power for all phases",
+      "dataSchema": "iudx:Number",
+      "unitCode": "K5",
+      "unitText": "kilovolt ampere (reactive)",
+      "measAccuracy": "Class 1",
+      "resolution": 0.01
+    },
+    "totalApparentPower": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Total apparent power consumed by all the phases ",
+      "dataSchema": "iudx:Number",
+      "unitCode": "KVA",
+      "unitText": "Kilo Volt Ampere",
+      "measAccuracy": "Class 1",
+      "resolution": 0.01
+    },
+    "tee": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Total Energy Export, It is the total energy consumed by the load connected to the device corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "KWH",
+      "unitText": "kilowatt hour",
+      "measAccuracy": "Class 1",
+      "resolution": 0.01
+    },
+    "tei": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Total Energy Imported, it is the total energy received by the device corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "KWH",
+      "unitText": "kilowatt hour",
+      "measAccuracy": "Class 1",
+      "resolution": 0.01
+    }
+  },
+  "dataSample": {
+    "deviceID": "SL-VN03-00",
+    "deviceName": "Solar panel node 1 at 3rd floor of Vindhya Nivas",
+    "location": {
+      "coordinates": [
+        78.34955,
+        17.44728
+      ],
+      "type": "Point"
+    },
+    "observationDateTime": "2021-09-05T14:07:00+05:30",
+    "energyGenerated": 41.3,
+    "totalEnergyGenerated": 72611.6,
+    "frequency": 49.95,
+    "powerFactor": 2,
+    "totalActivePower": 12255.6,
+    "voltage": 239,
+    "totalReactivePower": 1139.1,
+    "totalApparentPower": 761.9,
+    "tee": 1260,
+    "tei": 105
+  }
+}

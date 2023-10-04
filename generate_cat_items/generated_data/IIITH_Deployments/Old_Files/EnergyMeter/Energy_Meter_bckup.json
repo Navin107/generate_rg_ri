@@ -1,0 +1,742 @@
+[
+  {
+  "type": "urn:dx:cat:Success",
+  "title": "Success",
+  "totalHits": 1,
+  "results": [
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:EnergyMeter"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter-version",
+      "name": "iiith-energy-meter-version",
+      "label": "Device information of Energy Meters in IIIT Hyderabad Campus",
+      "description": "Device specific details and version information of Energy Meters Installed in International Institute of Information Technology, Hyderabad",
+      "tags": [
+        "energy",
+        "power",
+        "power factor",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "frequency",
+        "phase",
+        "consumption",
+        "energy consumption",
+        "meter",
+        "monitor"
+      ],
+      "resourceServer": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in",
+      "accessPolicy": "SECURE",
+      "iudxResourceAPIs": [
+        "ATTR"
+      ],
+      "resourceType": "DATASET",
+      "itemStatus": "ACTIVE",
+      "authControlLevel": "GROUP",
+      "instance": "hyderabad",
+      "location": {
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:DataDescriptor",
+          "iudx:EnergyMeter"
+        ],
+        "dataDescriptorLabel": "Device and Version specifications of Energy Meters in IIIT Hyderabad",
+        "description": "Data Descriptor for device and version specifications of data from Energy Meters in IIIT Hyderabad.",
+        "deviceInfo": {
+          "type": [
+            "Device"
+          ],
+          "deviceID": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device ID of the Energy Meter corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          },
+          "deviceName": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device name of the Energy Meter corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          }
+        },
+        "versionInfo": {
+          "type": [
+            "Version"
+          ],
+          "versionName": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Version name corresponding to the device in this observation.",
+            "dataSchema": "iudx:Text"
+          },
+          "startDateTime": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Reported start time of the version corresponding to this observation.",
+            "dataSchema": "iudx:DateTime"
+          },
+          "endDateTime": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Reported end time of the version corresponding to this observation.",
+            "dataSchema": "iudx:DateTime"
+          },
+          "versionSpec": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device specfications w.r.t. the version corresponding to this observation.",
+            "dataSchema": "iudx:Object"
+          },
+          "comments": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "User comments w.r.t the version corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          }
+        }
+      },
+      "dataSample": {
+        "deviceInfo": {
+          "deviceID": "SR-EM-KH04-00",
+          "deviceName": "Smart Room-KH04 Energy Meter"
+        },
+        "versionInfo": [
+          {
+            "versionName": "V1.00.00",
+            "startDateTime": "2020-08-19T10:00:00+05:30",
+            "endDateTime": "9999-99-99T99:99:99+05:30",
+            "versionSpec": {
+              "energy": "EN8400 LN",
+              "power": "EN8400 LN",
+              "voltage": "EN8400 LN",
+              "current": "EN8400 LN",
+              "frequency": "EN8400 LN",
+              "powerFactor": "EN8400 LN",
+              "controller": "RPi running python app communicating through USB-RS485 Modbus"
+            },
+            "comments": "Version series beginning with 1 indicates it is a Elmeasure Meter and the series 2 indicates it is a Schneider Energy Meter"
+          }
+        ]
+      },
+      "itemCreatedAt": "2022-08-06T10:31:49+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+},
+  {
+  "type": "urn:dx:cat:Success",
+  "title": "Success",
+  "totalHits": 3,
+  "results": [
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnergyMeter"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/SR-EM-KH04-02",
+      "name": "SR-EM-KH04-02",
+      "label": "Smart Room Energy Meter Node 3 at fourth floor of Kohli Research Block",
+      "description": "Real-time information/measurements obtained from the Node 3 energy meter installed at fourth floor of Kohli Research Block in IIIT Hyderabad campus.",
+      "tags": [
+        "energy",
+        "power",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "consumption",
+        "energy consumption",
+        "meter"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter",
+      "instance": "hyderabad",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34974,
+            17.44511
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T01:31:49+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnergyMeter"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/SR-EM-KH04-01",
+      "name": "SR-EM-KH04-01",
+      "label": "Smart Room Energy Meter Node 2 at fourth floor of Kohli Research Block",
+      "description": "Real-time information/measuresments obtained from the Node 2 energy meter installed at fourth floor of Kohli Research Block in IIIT Hyderabad campus.",
+      "tags": [
+        "energy",
+        "power",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "consumption",
+        "energy consumption",
+        "meter"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter",
+      "instance": "hyderabad",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34974,
+            17.44511
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T01:31:45+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnergyMeter"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/SR-EM-KH04-00",
+      "name": "SR-EM-KH04-00",
+      "label": "Smart Room Energy Meter Node 1 at fourth floor of Kohli Research Block",
+      "description": "Real-time information/measuresments obtained from the Node 1 energy meter installed at fourth floor of Kohli Research Block in IIIT Hyderabad campus.",
+      "tags": [
+        "energy",
+        "power",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "consumption",
+        "energy consumption",
+        "meter"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter",
+      "instance": "hyderabad",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34974,
+            17.44511
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T01:31:41+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+]

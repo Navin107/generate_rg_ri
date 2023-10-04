@@ -1,0 +1,1532 @@
+[
+  {
+  "type": "urn:dx:cat:Success",
+  "title": "Success",
+  "totalHits": 1,
+  "results": [
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm-version",
+      "name": "iiith-env-aqm-version",
+      "label": "Device Information of AQM Sensors in IIIT Hyderabad",
+      "description": "Device specific details and version information of the AQM installations in IIIT Hyderabad campus.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3",
+        "version",
+        "version history",
+        "components",
+        "device list",
+        "sub device"
+      ],
+      "resourceServer": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in",
+      "accessPolicy": "OPEN",
+      "iudxResourceAPIs": [
+        "ATTR"
+      ],
+      "resourceType": "DATASET",
+      "instance": "hyderabad",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:DataDescriptor",
+          "iudx:EnvAQM"
+        ],
+        "dataDescriptorLabel": "AQM sensors in IIIT Hyderabad",
+        "description": "Data Descriptor for data from AQM sensors in IIIT Hyderabad.",
+        "deviceInfo": {
+          "type": [
+            "Device"
+          ],
+          "deviceID": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device ID of the AQM sensor corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          },
+          "deviceName": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device name of the AQM sensor corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          }
+        },
+        "versionInfo": {
+          "type": [
+            "Version"
+          ],
+          "versionName": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Version name corresponding to the device in this observation.",
+            "dataSchema": "iudx:Text"
+          },
+          "startDateTime": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Reported start time of the version corresponding to this observation.",
+            "dataSchema": "iudx:DateTime"
+          },
+          "endDateTime": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Reported end time of the version corresponding to this observation.",
+            "dataSchema": "iudx:DateTime"
+          },
+          "versionSpec": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device specfications w.r.t. the version corresponding to this observation.",
+            "dataSchema": "iudx:Object"
+          }
+        },
+        "dataSample": {
+          "deviceInfo": {
+            "deviceID": "AQ-MG00-00",
+            "deviceName": "Air Quality node at Main Gate"
+          },
+          "versionInfo": [
+            {
+              "versionName": "V1.00.00",
+              "startDateTime": "2020-08-19T10:00:00+05:30",
+              "endDateTime": "9999-99-99T99:99:99+05:30",
+              "versionSpec": {
+                "pm2p5": {
+                  "sensor": "SDS011",
+                  "id": 1
+                },
+                "pm10": "SDS011",
+                "airTemperature": "DHT22",
+                "relativeHumidity": "DHT22",
+                "co": "Multichannel Grove Gas Sensor",
+                "no2": "Multichannel Grove Gas Sensor",
+                "nh3": "Multichannel Grove Gas Sensor",
+                "controller": "ESP8266"
+              },
+              "comment": "comment on version change"
+            }
+          ]
+        }
+      },
+      "itemCreatedAt": "2022-08-06T10:31:56+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+},
+  {
+  "type": "urn:dx:cat:Success",
+  "title": "Success",
+  "totalHits": 11,
+  "results": [
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-AD95-00",
+      "name": "AQ-AD95-00",
+      "label": "Air Quality node at ground floor of Himalaya Admin Block",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34989,
+            17.44507
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Himalaya Admin Block"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:09:01+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": null
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-AN00-00",
+      "name": "AQ-AN00-00",
+      "label": "Air Quality node at Anand Nivas",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.348436,
+            17.443936
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Anand Nivas"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:06:03+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-PL00-00",
+      "name": "AQ-PL00-00",
+      "label": "Air Quality node at Palash Nivas",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34605,
+            17.44509
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Palash Nivas"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:06:09+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-KN00-00",
+      "name": "AQ-KN00-00",
+      "label": "Air Quality node at Kadamba Nivas",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34839,
+            17.4481
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Kadamba Nivas"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:05:50+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-FG00-00",
+      "name": "AQ-FG00-00",
+      "label": "Air Quality node at Football Ground",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34854,
+            17.44697
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Football Ground"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:06:12+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": null
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-SN00-00",
+      "name": "AQ-SN00-00",
+      "label": "Air Quality node at Sahana Atidhi Nivas",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.347483,
+            17.445604
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Sahana Atidhi Nivas"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:05:53+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-VN90-00",
+      "name": "AQ-VN90-00",
+      "label": "Air Quality node at Vindhya Block",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.349215,
+            17.445825
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Vindhya"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:08:51+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-PH03-00",
+      "name": "AQ-PH03-00",
+      "label": "Air Quality node at Pump House 3",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.348365,
+            17.443299
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Pump House"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:08:58+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": null
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-BN00-00",
+      "name": "AQ-BN00-00",
+      "label": "Air Quality node at Bakul Nivas",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.348444,
+            17.448056
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Bakul Nivas"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:08:48+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-KH00-00",
+      "name": "AQ-KH00-00",
+      "label": "Air Quality node at Kohli Research Block",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34952,
+            17.44487
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Kohli Research Block"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:08:54+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": null
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-MG00-00",
+      "name": "AQ-MG00-00",
+      "label": "Air Quality node at Main Gate",
+      "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+      "tags": [
+        "environment",
+        "air quality",
+        "air",
+        "aqi",
+        "aqm",
+        "pollution",
+        "amonia",
+        "carbon",
+        "carbon monoxide",
+        "nitrogen dioxide",
+        "co",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "nh3"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.35142,
+            17.44599
+          ],
+          "type": "Point"
+        },
+        "type": "Place",
+        "address": "IIIT Hyderabad Main Gate"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
+      "itemStatus": "ACTIVE",
+      "instance": "hyderabad",
+      "itemCreatedAt": "2022-10-10T10:05:44+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+]

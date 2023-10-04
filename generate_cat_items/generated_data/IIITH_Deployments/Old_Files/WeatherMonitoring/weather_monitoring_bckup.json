@@ -1,0 +1,584 @@
+[
+  {
+  "type": "urn:dx:cat:Success",
+  "title": "Success",
+  "totalHits": 1,
+  "results": [
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:EnvWeather"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather-version",
+      "name": "iiith-env-weather-version",
+      "label": "Device information of Weather Monitoring in IIIT Hyderabad",
+      "description": "Device specific details and version information of the Weather installations in IIIT Hyderabad campus.",
+      "tags": [
+        "weather",
+        "humidity",
+        "rainfall",
+        "relative humidity",
+        "solar radiation ",
+        "wind",
+        "wind direction",
+        "wind speed",
+        "gust ",
+        "gust speed"
+      ],
+      "resourceServer": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in",
+      "instance": "hyderabad",
+      "accessPolicy": "OPEN",
+      "itemStatus": "ACTIVE",
+      "iudxResourceAPIs": [
+        "ATTR"
+      ],
+      "resourceType": "DATASET",
+      "location": {
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:DataDescriptor",
+          "iudx:EnvWeather"
+        ],
+        "dataDescriptorLabel": "Weather Station in IIIT Hyderabad",
+        "description": "Data Descriptor for data from Weather Stations in IIIT Hyderabad.",
+        "deviceInfo": {
+          "type": [
+            "Device"
+          ],
+          "deviceID": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "ID of the weather station corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          },
+          "deviceName": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Name of the weather station corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          }
+        },
+        "versionInfo": {
+          "type": [
+            "Version"
+          ],
+          "versionName": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Version name corresponding to the device in this observation.",
+            "dataSchema": "iudx:Text"
+          },
+          "startDateTime": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Reported start time of the version corresponding to this observation.",
+            "dataSchema": "iudx:DateTime"
+          },
+          "endDateTime": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Reported end time of the version corresponding to this observation.",
+            "dataSchema": "iudx:DateTime"
+          },
+          "versionSpec": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device specfications w.r.t. the version corresponding to this observation.",
+            "dataSchema": "iudx:Object"
+          },
+          "comments": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "User comments w.r.t the version corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          }
+        }
+      },
+      "dataSample": {
+        "deviceInfo": {
+          "deviceID": "WE-VN04-00",
+          "deviceName": "Weather Station at Vindhya Nivas"
+        },
+        "versionInfo": [
+          {
+            "versionName": "V1.00.00",
+            "startDateTime": "2020-08-19T10:00:00+05:30",
+            "endDateTime": "9999-99-99T99:99:99+05:30",
+            "versionSpec": {
+              "Weather Station": "HOBO RX3000 Station",
+              "observationDateTime": "Hobo data logger",
+              "solarRadiation": "S-LIB-M003",
+              "airTemperature": "S-TMB-M002",
+              "relativeHumidity": "S-THB-M002",
+              "windSpeed": "S-WCA-M003",
+              "gustSpeed": "S-WCA-M003",
+              "windDirection": "S-WCA-M003",
+              "dewPoint": "S-TMB-M002",
+              "precipitation": "S-RGF-M002",
+              "atmosphericPressure": "S-BPB-CM50",
+              "Controller": "Raspberry Pi"
+            },
+            "comments": "Weather Station at Vindhya Nivas"
+          }
+        ]
+      },
+      "itemCreatedAt": "2022-08-06T10:32:06+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+},
+  {
+  "type": "urn:dx:cat:Success",
+  "title": "Success",
+  "totalHits": 2,
+  "results": [
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvWeather"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather/WE-GS04-00",
+      "name": "WE-GS04-00",
+      "label": "Weather Monitoring Node 1 at fourth floor of Bakul Nivas",
+      "description": "Real-time Weather measurements obtained from the Weather Station installed at fourth floor of Bakul Nivas in IIIT Hyderabad campus.",
+      "tags": [
+        "weather",
+        "humidity",
+        "rainfall",
+        "relative humidity",
+        "solar radiation ",
+        "wind",
+        "wind direction",
+        "wind speed",
+        "gust ",
+        "gust speed"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.3483606,
+            17.443674
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "instance": "hyderabad",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather",
+      "itemStatus": "ACTIVE",
+      "itemCreatedAt": "2022-08-10T02:19:55+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EnvWeather"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather/WE-VN04-00",
+      "name": "WE-VN04-00",
+      "label": "Weather Monitoring Node 1 at fourth floor of Vindhya",
+      "description": "Real-time weather measurements obtained from the weather monitoring system installed at fourth floor of Vindhya Nivas in IIIT Hyderabad campus.",
+      "tags": [
+        "weather",
+        "humidity",
+        "rainfall",
+        "relative humidity",
+        "solar radiation ",
+        "wind",
+        "wind direction",
+        "wind speed",
+        "gust ",
+        "gust speed"
+      ],
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.349215,
+            17.445825
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "instance": "hyderabad",
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather",
+      "itemStatus": "ACTIVE",
+      "itemCreatedAt": "2022-08-10T02:16:02+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+]

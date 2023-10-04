@@ -1,0 +1,166 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:SolarEnergy"
+  ],
+  "id": "2dbca76b-b5c4-4f74-8eff-229c95275a5c",
+  "name": "version-info",
+  "label": "Device Details of Solar Panels in IIIT Hyderabad",
+  "description": "Physical and device specific details of the solar panels installed in IIIT Hyderabad campus.",
+  "tags": [
+    "device",
+    "version",
+    "specifications",
+    "solar energy",
+    "solar",
+    "power",
+    "power factor",
+    "current",
+    "voltage",
+    "volt",
+    "volts",
+    "watt",
+    "frequency",
+    "phase",
+    "active power",
+    "reactive power",
+    "photovoltaic cells",
+    "photovoltaic voltage",
+    "photovoltaic current",
+    "photovoltaic power",
+    "energy generated",
+    "pv"
+  ],
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "instance": "hyderabad",
+  "resourceGroup": "c7e359ed-b903-49a6-bcb1-c7b744ad7e13",
+  "accessPolicy": "SECURE",
+  "iudxResourceAPIs": [
+    "ATTR"
+  ],
+  "resourceType": "DATASET",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.339557,
+            17.438768
+          ],
+          [
+            78.352839,
+            17.438768
+          ],
+          [
+            78.352839,
+            17.450866
+          ],
+          [
+            78.339557,
+            17.450866
+          ],
+          [
+            78.339557,
+            17.438768
+          ]
+        ]
+      ]
+    }
+  },
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:SolarEnergy"
+    ],
+    "dataDescriptorLabel": "Device and Version specifications of Solar Panels in IIIT Hyderabad",
+    "description": "Data Descriptor for device and version specifications of data from Solar Panels in IIIT Hyderabad.",
+    "deviceInfo": {
+      "type": [
+        "Device"
+      ],
+      "deviceID": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device ID of the Solar Panel corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      },
+      "deviceName": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device name of the Solar Name corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      }
+    },
+    "versionInfo": {
+      "type": [
+        "Version"
+      ],
+      "versionName": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Version name corresponding to the device in this observation.",
+        "dataSchema": "iudx:Text"
+      },
+      "startDateTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Reported start time of the version corresponding to this observation.",
+        "dataSchema": "iudx:DateTime"
+      },
+      "endDateTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Reported end time of the version corresponding to this observation.",
+        "dataSchema": "iudx:DateTime"
+      },
+      "versionSpec": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device specfications w.r.t. the version corresponding to this observation.",
+        "dataSchema": "iudx:Object"
+      },
+      "comments": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "User comments w.r.t the version corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      }
+    }
+  },
+  "dataSample": {
+    "deviceInfo": {
+      "deviceID": "SL-VN03-00",
+      "deviceName": "Solar node 3 at Vindhya Nivas"
+    },
+    "versionInfo": [
+      {
+        "versionName": "V2.0.0",
+        "startDateTime": "08-12-2020T00:00:00+05:30",
+        "endDateTime": "31-12-9999T23:59:59+05:30",
+        "versionSpec": {
+          "energyGenerated": "Growatt 80KT3LV Inverters (80 kW)",
+          "totalEnergyGenerated": "Growatt 80KT3LV Inverters (80 kW)",
+          "frequency": "Growatt 80KT3LV Inverters (80 kW)",
+          "powerFactor": "Growatt 80KT3LV Inverters (80 kW)",
+          "totalActivePower": "Growatt 80KT3LV Inverters (80 kW)",
+          "controller": "RPi running python app communicating through USB-RS485 Modbus"
+        },
+        "comments": "Solar energy node SL-VN03-00"
+      }
+    ]
+  }
+}

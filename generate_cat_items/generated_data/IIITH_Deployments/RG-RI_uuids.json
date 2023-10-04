@@ -1,0 +1,42 @@
+{
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather-version/version-info": {
+    "id": "bef94acb-de2f-43a0-a04c-0abcf7306fd7",
+    "resource_group": "36769f6d-7ae4-43d0-adc5-6dcb025d9e5f"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring-version/version-info": {
+    "id": "1c8bce59-02b1-4a3e-9802-94bf5e6bdfe5",
+    "resource_group": "b5fa3bae-0a27-4f48-bcf8-4768ac2d40c6"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel-version/version-info": {
+    "id": "2dbca76b-b5c4-4f74-8eff-229c95275a5c",
+    "resource_group": "c7e359ed-b903-49a6-bcb1-c7b744ad7e13"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter-version/version-info": {
+    "id": "dd75d9e8-9d83-4aca-9c8f-10ee7b1ff84c",
+    "resource_group": "97dae4f4-34d4-4d7f-8f5a-c57268058012"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm-version/version-info": {
+    "id": "bc28db1f-6e75-43c9-b32e-2b162917eaa0",
+    "resource_group": "271b1a7d-d27b-4660-9857-09986be7e99d"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/env-aqm-info": {
+    "id": "dc4b38c6-c51d-4601-929a-e89e1e6aadb9",
+    "resource_group": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/energy-consumption-info": {
+    "id": "fd7e7bc0-edba-4102-96ab-3b806cc9a159",
+    "resource_group": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/solar-panel-info": {
+    "id": "f914b2ac-001a-4988-a3ad-58e097ada439",
+    "resource_group": "0251ff72-3751-4cb0-872c-b268ed0acaaf"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/water-monitoring-info": {
+		"id": "461a8d17-028e-4f58-9c75-d419c16f2655",
+		"resource_group": "f24d33fb-36dd-4f01-aaef-ac48ada99371"
+	},
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather/weather-info": {
+		"id": "d70d15bd-146e-46e9-b99f-1d87522b55e9",
+		"resource_group": "e063fb28-cd18-418a-897d-7b1034e282b9"
+	}
+}

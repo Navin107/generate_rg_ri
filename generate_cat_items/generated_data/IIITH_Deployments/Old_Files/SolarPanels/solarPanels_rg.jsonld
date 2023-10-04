@@ -1,0 +1,39 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:ResourceGroup",
+    "iudx:SolarEnergy"
+  ],
+  "id": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
+  "name": "iiith-solar-panel",
+  "label": "Solar Panels in IIIT Hyderabad Campus",
+  "description": "Solar Panels Installed in International Institute of Information Technology, Hyderabad",
+  "tags": [
+    "solar energy",
+    "solar",
+    "power",
+    "power factor",
+    "current",
+    "voltage",
+    "volt",
+    "volts",
+    "watt",
+    "frequency",
+    "phase",
+    "active power",
+    "reactive power",
+    "photovoltaic cells",
+    "photovoltaic voltage",
+    "photovoltaic current",
+    "photovoltaic power",
+    "energy generated",
+    "pv"
+  ],
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  },
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "instance": "hyderabad"
+}

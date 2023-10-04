@@ -1,0 +1,160 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:EnvWeather"
+  ],
+  "id": "bef94acb-de2f-43a0-a04c-0abcf7306fd7",
+  "name": "version-info",
+  "label": "Device Information of Weather monitors ",
+  "description": "Physical and device specific details of water monitors in International Institute of Information Technology, Hyderabad.",
+  "tags": [
+    "weather",
+    "humidity",
+    "rainfall",
+    "relative humidity",
+    "solar radiation ",
+    "wind",
+    "wind direction",
+    "wind speed",
+    "gust ",
+    "gust speed"
+  ],
+  "resourceGroup": "36769f6d-7ae4-43d0-adc5-6dcb025d9e5f",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            78.339557,
+            17.438768
+          ],
+          [
+            78.352839,
+            17.438768
+          ],
+          [
+            78.352839,
+            17.450866
+          ],
+          [
+            78.339557,
+            17.450866
+          ],
+          [
+            78.339557,
+            17.438768
+          ]
+        ]
+      ]
+    }
+  },
+  "instance": "hyderabad",
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "iudxResourceAPIs": [
+    "ATTR"
+  ],
+  "accessPolicy": "SECURE",
+  "resourceType": "DATASET",
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:EnvWeather"
+    ],
+    "dataDescriptorLabel": "Weather Station in IIIT Hyderabad",
+    "description": "Data Descriptor for data from Weather Stations in IIIT Hyderabad.",
+    "deviceInfo": {
+      "type": [
+        "Device"
+      ],
+      "deviceID": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "ID of the weather station corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      },
+      "deviceName": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Name of the weather station corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      }
+    },
+    "versionInfo": {
+      "type": [
+        "Version"
+      ],
+      "versionName": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Version name corresponding to the device in this observation.",
+        "dataSchema": "iudx:Text"
+      },
+      "startDateTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Reported start time of the version corresponding to this observation.",
+        "dataSchema": "iudx:DateTime"
+      },
+      "endDateTime": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Reported end time of the version corresponding to this observation.",
+        "dataSchema": "iudx:DateTime"
+      },
+      "versionSpec": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "Device specfications w.r.t. the version corresponding to this observation.",
+        "dataSchema": "iudx:Object"
+      },
+      "comments": {
+        "type": [
+          "ValueDescriptor"
+        ],
+        "description": "User comments w.r.t the version corresponding to this observation.",
+        "dataSchema": "iudx:Text"
+      }
+    }
+  },
+  "dataSample": {
+    "deviceInfo": {
+      "deviceID": "WE-VN04-00",
+      "deviceName": "Weather Station at Vindhya Nivas"
+    },
+    "versionInfo": [
+      {
+        "versionName": "V1.00.00",
+        "startDateTime": "2020-08-19T10:00:00+05:30",
+        "endDateTime": "9999-99-99T99:99:99+05:30",
+        "versionSpec": {
+          "Weather Station": "HOBO RX3000 Station",
+          "observationDateTime": "Hobo data logger",
+          "solarRadiation": "S-LIB-M003",
+          "airTemperature": "S-TMB-M002",
+          "relativeHumidity": "S-THB-M002",
+          "windSpeed": "S-WCA-M003",
+          "gustSpeed": "S-WCA-M003",
+          "windDirection": "S-WCA-M003",
+          "dewPoint": "S-TMB-M002",
+          "precipitation": "S-RGF-M002",
+          "atmosphericPressure": "S-BPB-CM50",
+          "Controller": "Raspberry Pi"
+        },
+        "comments": "Weather Station at Vindhya Nivas"
+      }
+    ]
+  }
+}

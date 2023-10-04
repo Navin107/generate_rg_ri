@@ -1,0 +1,158 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:EnergyMeter"
+  ],
+  "id": "fd7e7bc0-edba-4102-96ab-3b806cc9a159",
+  "name": "energy-consumption-info",
+  "label": "Smart Room Energy Meter Nodes in IIIT Hyderabad campus",
+  "description": "Real-time information/measurements obtained from the energy meter nodes in IIIT Hyderabad campus.",
+  "tags": [
+    "energy",
+    "power",
+    "current",
+    "voltage",
+    "volt",
+    "volts",
+    "watt",
+    "consumption",
+    "energy consumption",
+    "meter"
+  ],
+  "resourceGroup": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59",
+  "instance": "hyderabad",
+  "itemStatus": "ACTIVE",
+  "iudxResourceAPIs": [
+    "ATTR",
+    "TEMPORAL",
+    "SPATIAL"
+  ],
+  "resourceType": "MESSAGESTREAM",
+  "accessPolicy": "SECURE",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  },
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:EnergyMeter"
+    ],
+    "dataDescriptorLabel": "Energy Meters in IIIT Hyderabad",
+    "description": "Data Descriptor for data from energy meters in IIIT Hyderabad.",
+    "deviceID": {
+      "description": "Device ID corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "deviceName": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Name of the device corresponding to this observation.",
+      "dataSchema": "iudx:Text"
+    },
+    "location": {
+      "description": "The physical coordinates of the device corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Point"
+    },
+    "observationDateTime": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Last reported time of observation.",
+      "dataSchema": "iudx:DateTime"
+    },
+    "energyConsumed": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of Energy from the energy meter corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "KWH",
+      "unitText": "kilowatt hour",
+      "measAccuracy": "Class 1.0 as per IEC 62053-21",
+      "resolution": 0.01
+    },
+    "powerConsumption": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of Power from the energy meter corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "KWT",
+      "unitText": "kilowatt",
+      "measAccuracy": "Â± 1% for Class 1.0 and Class 0.5S",
+      "resolution": 0.01
+    },
+    "current": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of Current from the energy meter corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "AMP",
+      "unitText": "ampere",
+      "measAccuracy": "Â± 0.5% for Class 1.0 and Class 0.5S",
+      "resolution": 0.01
+    },
+    "voltage": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of Voltage from the energy meter corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "VLT",
+      "unitText": "volt",
+      "measAccuracy": "Â± 0.5% for Class 1.0 2 and Class 0.5S",
+      "resolution": 0.01
+    },
+    "frequency": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of Frequency from the energy meter corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "HTZ",
+      "unitText": "hertz",
+      "measAccuracy": "Â± 0.05% for Class 1 .0 and Class 0.5S",
+      "resolution": 0.01
+    },
+    "powerFactor": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The instantaneous value of Power Factor from the energy meter corresponding to this observation.",
+      "dataSchema": "iudx:Number",
+      "measAccuracy": "Â± 0.01 for Class 1.0 and Class 0 .5S",
+      "resolution": 0.01
+    }
+  },
+  "dataSample": {
+    "deviceID": "SR-EM-KH04-01",
+    "deviceName": "Water Distribution Monitoring Node 2 at First Floor of Vindhya",
+    "location": {
+      "coordinates": [
+        78.349937,
+        17.445369
+      ],
+      "type": "Point"
+    },
+    "observationDateTime": "2020-12-01T21:10:00+05:30",
+    "energyConsumed": 26132.64,
+    "powerConsumption": 2.96,
+    "current": 0.02,
+    "voltage": 242.81,
+    "frequency": 49.96,
+    "powerFactor": 0.26
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:ResourceGroup",
+    "iudx:WaterDistributionNetwork"
+  ],
+  "id": "b5fa3bae-0a27-4f48-bcf8-4768ac2d40c6",
+  "name": "iiith-water-monitoring-version",
+  "label": "Device information of Water Monitoring sensors in IIIT Hyderabad Campus",
+  "description": "Device specific details and version information of Water distribution and flow monitoring system installations in International Institute of Information Technology, Hyderabad",
+  "tags": [
+    "water",
+    "water distribution",
+    "water supply",
+    "pH",
+    "turbidity",
+    "pressure",
+    "water pressure",
+    "water reservoir",
+    "reservoir",
+    "tank",
+    "sump",
+    "oht",
+    "booster",
+    "pump",
+    "pump house"
+  ],
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "itemStatus": "ACTIVE",
+  "instance": "hyderabad",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  }
+}

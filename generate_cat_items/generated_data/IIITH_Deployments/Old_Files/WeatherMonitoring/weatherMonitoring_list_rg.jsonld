@@ -1,0 +1,30 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:ResourceGroup",
+    "iudx:EnvWeather"
+  ],
+  "id": "36769f6d-7ae4-43d0-adc5-6dcb025d9e5f",
+  "name": "iiith-env-weather-version",
+  "label": "Device information of Weather Monitoring in IIIT Hyderabad",
+  "description": "Device specific details and version information of the Weather installations in IIIT Hyderabad campus.",
+  "tags": [
+    "weather",
+    "humidity",
+    "rainfall",
+    "relative humidity",
+    "solar radiation ",
+    "wind",
+    "wind direction",
+    "wind speed",
+    "gust ",
+    "gust speed"
+  ],
+  "instance": "hyderabad",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "IIIT Hyderabad, Telangana",
+    "type": "Place"
+  },
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7"
+}

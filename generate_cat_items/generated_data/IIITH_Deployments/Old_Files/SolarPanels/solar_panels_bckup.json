@@ -1,0 +1,1265 @@
+[
+  {
+  "type": "urn:dx:cat:Success",
+  "title": "Success",
+  "totalHits": 1,
+  "results": [
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:SolarEnergy"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel-version",
+      "name": "iiith-solar-panel-version",
+      "label": "Device information of solar panels in IIIT Hyderabad Campus",
+      "description": "Device specific details and version information of Solar Panels Installed in International Institute of Information Technology, Hyderabad",
+      "tags": [
+        "device",
+        "version",
+        "specifications",
+        "solar energy",
+        "solar",
+        "power",
+        "power factor",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "frequency",
+        "phase",
+        "active power",
+        "reactive power",
+        "photovoltaic cells",
+        "photovoltaic voltage",
+        "photovoltaic current",
+        "photovoltaic power",
+        "energy generated",
+        "pv"
+      ],
+      "resourceServer": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in",
+      "accessPolicy": "SECURE",
+      "iudxResourceAPIs": [
+        "ATTR"
+      ],
+      "resourceType": "DATASET",
+      "itemStatus": "ACTIVE",
+      "authControlLevel": "GROUP",
+      "location": {
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:DataDescriptor",
+          "iudx:SolarEnergy"
+        ],
+        "dataDescriptorLabel": "Device and Version specifications of Solar Panels in IIIT Hyderabad",
+        "description": "Data Descriptor for device and version specifications of data from Solar Panels in IIIT Hyderabad.",
+        "deviceInfo": {
+          "type": [
+            "Device"
+          ],
+          "deviceID": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device ID of the Solar Panel corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          },
+          "deviceName": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device name of the Solar Name corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          }
+        },
+        "versionInfo": {
+          "type": [
+            "Version"
+          ],
+          "versionName": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Version name corresponding to the device in this observation.",
+            "dataSchema": "iudx:Text"
+          },
+          "startDateTime": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Reported start time of the version corresponding to this observation.",
+            "dataSchema": "iudx:DateTime"
+          },
+          "endDateTime": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Reported end time of the version corresponding to this observation.",
+            "dataSchema": "iudx:DateTime"
+          },
+          "versionSpec": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "Device specfications w.r.t. the version corresponding to this observation.",
+            "dataSchema": "iudx:Object"
+          },
+          "comments": {
+            "type": [
+              "ValueDescriptor"
+            ],
+            "description": "User comments w.r.t the version corresponding to this observation.",
+            "dataSchema": "iudx:Text"
+          }
+        }
+      },
+      "instance": "hyderabad",
+      "dataSample": {
+        "deviceInfo": {
+          "deviceID": "SL-VN03-00",
+          "deviceName": "Solar node 3 at Vindhya Nivas"
+        },
+        "versionInfo": [
+          {
+            "versionName": "V2.0.0",
+            "startDateTime": "08-12-2020T00:00:00+05:30",
+            "endDateTime": "31-12-9999T23:59:59+05:30",
+            "versionSpec": {
+              "energyGenerated": "Growatt 80KT3LV Inverters (80 kW)",
+              "totalEnergyGenerated": "Growatt 80KT3LV Inverters (80 kW)",
+              "frequency": "Growatt 80KT3LV Inverters (80 kW)",
+              "powerFactor": "Growatt 80KT3LV Inverters (80 kW)",
+              "totalActivePower": "Growatt 80KT3LV Inverters (80 kW)",
+              "controller": "RPi running python app communicating through USB-RS485 Modbus"
+            },
+            "comments": "Solar energy node SL-VN03-00"
+          }
+        ]
+      },
+      "itemCreatedAt": "2022-08-06T10:32:16+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+},
+  {
+  "type": "urn:dx:cat:Success",
+  "title": "Success",
+  "totalHits": 6,
+  "results": [
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:SolarEnergy"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN02-01",
+      "name": "SL-VN02-01",
+      "label": "Solar panel Node 2 at 2nd floor Vindhya Nivas",
+      "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
+      "tags": [
+        "solar energy",
+        "solar",
+        "power",
+        "power factor",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "frequency",
+        "phase",
+        "active power",
+        "photovoltaic cells",
+        "photovoltaic voltage",
+        "photovoltaic current",
+        "photovoltaic power",
+        "energy generated"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34955,
+            17.44728
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "instance": "hyderabad",
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T01:59:53+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:SolarEnergy"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN02-00",
+      "name": "SL-VN02-00",
+      "label": "Solar panel node 1 at 2nd floor of Vindhya Nivas",
+      "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
+      "tags": [
+        "solar energy",
+        "solar",
+        "power",
+        "power factor",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "frequency",
+        "phase",
+        "active power",
+        "photovoltaic cells",
+        "photovoltaic voltage",
+        "photovoltaic current",
+        "photovoltaic power",
+        "energy generated"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34965,
+            17.44548
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "instance": "hyderabad",
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T01:59:50+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:SolarEnergy"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN03-00",
+      "name": "SL-VN03-00",
+      "label": "Solar panel node 1 at 3rd floor of Vindhya Nivas",
+      "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
+      "tags": [
+        "solar energy",
+        "solar",
+        "power",
+        "power factor",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "frequency",
+        "phase",
+        "active power",
+        "photovoltaic cells",
+        "photovoltaic voltage",
+        "photovoltaic current",
+        "photovoltaic power",
+        "energy generated"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34921,
+            17.44582
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "instance": "hyderabad",
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T01:59:47+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:SolarEnergy"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-NI03-00",
+      "name": "SL-NI03-00",
+      "label": "Solar panel node 1 at 3rd floor of Nilgiri Nivas",
+      "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
+      "tags": [
+        "solar energy",
+        "solar",
+        "power",
+        "power factor",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "frequency",
+        "phase",
+        "active power",
+        "photovoltaic cells",
+        "photovoltaic voltage",
+        "photovoltaic current",
+        "photovoltaic power",
+        "energy generated"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34863,
+            17.44732
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "instance": "hyderabad",
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T02:00:00+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:SolarEnergy"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN95-00",
+      "name": "SL-VN95-00",
+      "label": "Solar Energy meter Node 1 in cellar of Vindhya Nivas",
+      "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
+      "tags": [
+        "solar energy",
+        "solar",
+        "power",
+        "power factor",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "frequency",
+        "phase",
+        "active power",
+        "photovoltaic cells",
+        "photovoltaic voltage",
+        "photovoltaic current",
+        "photovoltaic power",
+        "energy generated"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34973,
+            17.44591
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "instance": "hyderabad",
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T01:59:56+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:SolarEnergy"
+      ],
+      "id": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-NI03-01",
+      "name": "SL-NI03-01",
+      "label": "Solar panel Node 2 at 3rd floor of Nilgiri Nivas",
+      "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
+      "tags": [
+        "solar energy",
+        "solar",
+        "power",
+        "power factor",
+        "current",
+        "voltage",
+        "volt",
+        "volts",
+        "watt",
+        "frequency",
+        "phase",
+        "active power",
+        "photovoltaic cells",
+        "photovoltaic voltage",
+        "photovoltaic current",
+        "photovoltaic power",
+        "energy generated"
+      ],
+      "resourceGroup": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
+      "itemStatus": "ACTIVE",
+      "location": {
+        "geometry": {
+          "coordinates": [
+            78.34863,
+            17.44732
+          ],
+          "type": "Point"
+        },
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "instance": "hyderabad",
+      "provider": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
+      "itemCreatedAt": "2022-08-10T02:00:03+0530",
+      "_geosummary": {
+        "_geocoded": {
+          "results": [
+            {
+              "name": "IIIT-Delhi",
+              "country": "India",
+              "region": "Delhi",
+              "county": "South West",
+              "locality": "Delhi",
+              "bbox": [
+                77.2696429,
+                28.543383,
+                77.2744915,
+                28.5489098
+              ]
+            },
+            {
+              "name": "IIIT- RK Valley Campus",
+              "country": "India",
+              "region": "Andhra Pradesh",
+              "county": "Kadapa",
+              "bbox": [
+                78.5253596,
+                14.3291121,
+                78.5454816,
+                14.3406659
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology, Hyderabad",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3442591,
+                17.4419862,
+                78.3522336,
+                17.4488423
+              ]
+            },
+            {
+              "name": "Academic Building IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7429739,
+                20.2942071,
+                85.7440467,
+                20.2952824
+              ]
+            },
+            {
+              "name": "SBI ATM - IIIT Hyderabad Main Gate",
+              "country": "India",
+              "region": "Telangana",
+              "county": "Hyderabad",
+              "locality": "Hyderabad",
+              "borough": "West Zone",
+              "bbox": [
+                78.3515409,
+                17.4458023,
+                78.3516075,
+                17.4458667
+              ]
+            },
+            {
+              "name": "Tennis Court IIIT-BH",
+              "country": "India",
+              "region": "Odisha",
+              "county": "Khordha",
+              "bbox": [
+                85.7430161,
+                20.2937657,
+                85.7436934,
+                20.2940991
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Allahabad",
+              "country": "India",
+              "region": "Uttar Pradesh",
+              "county": "Kaushambi",
+              "bbox": [
+                81.7675643,
+                25.4270061,
+                81.7768127,
+                25.432919
+              ]
+            },
+            {
+              "name": "International Institute of Information Technology Bangalore - IIITB",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Bangalore",
+              "bbox": [
+                77.6622681,
+                12.8431385,
+                77.6643097,
+                12.8454278
+              ]
+            },
+            {
+              "name": "Indian Institute of Information Technology Dharwad",
+              "country": "India",
+              "region": "Karnataka",
+              "county": "Dharwad",
+              "bbox": [
+                75.0224618,
+                15.3893377,
+                75.0269465,
+                15.3943856
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
+]

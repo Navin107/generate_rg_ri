@@ -1,0 +1,35 @@
+  {
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:WaterDistributionNetwork"
+      ],
+      "id": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
+      "name": "iiith-water-monitoring",
+      "label": "Water Monitoring in IIIT Hyderabad Campus",
+      "description": "Water distribution and monitoring parameters observed in International Institute of Information Technology, Hyderabad",
+      "tags": [
+        "water",
+        "water distribution",
+        "water supply",
+        "pH",
+        "turbidity",
+        "pressure",
+        "water pressure",
+        "water reservoir",
+        "reservoir",
+        "tank",
+        "sump",
+        "oht",
+        "booster",
+        "pump",
+        "pump house"
+      ],
+      "itemStatus": "ACTIVE",
+      "location": {
+        "address": "IIIT Hyderabad, Telangana",
+        "type": "Place"
+      },
+      "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+      "instance": "hyderabad"
+    }

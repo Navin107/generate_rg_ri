@@ -1,0 +1,167 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:StreetLight"
+  ],
+  "id": "83749089-1abc-4115-98b3-024de9ac7fe6",
+  "name": "wisun-info",
+  "label": "Realtime Information from Smart Street Lamp Devices in IIIT Hyderabad",
+  "description": "Information from Smart Street Lamp monitoring devices in International Institute of Information Technology, Hyderabad.",
+  "tags": [
+    "node_status",
+    "light_status",
+    "rssi_value",
+    "latency",
+    "data_rate",
+    "mac_address",
+    "packet_size"
+  ],
+  "location": {
+    "type": "Place",
+    "address": "IIIT Hyderabad, Telangana"
+  },
+  "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+  "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+  "resourceGroup": "cbd95dd3-412f-463f-b75b-487c924a789e",
+  "iudxResourceAPIs": [
+    "ATTR",
+    "TEMPORAL",
+    "SPATIAL"
+  ],
+  "resourceType": "MESSAGESTREAM",
+  "accessPolicy": "SECURE",
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:StreetLight"
+    ],
+    "dataDescriptorLabel": "Smart Street Lamp sensors in IIIT Hyderabad",
+    "description": "Data Descriptor for data from Smart Street Lamp sensors in IIIT Hyderabad.",
+    "deviceID": {
+      "description": "Device ID of the smart device corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "deviceName": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Name of the smart device corresponding to this observation.",
+      "dataSchema": "iudx:Text"
+    },
+    "location": {
+      "description": "The physical coordinates of the smart device corresponding to this observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Point"
+    },
+    "deviceStatus": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The on/off status of the node",
+      "dataSchema": "iudx:Text"
+    },
+    "feederConnectivity": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The connectivity status of the feeder corresponding to this observation. [.LP01on = on (connected)] or [.LP01off = off (dissconnected]",
+      "dataSchema": "iudx:Text"
+    },
+    "powerState": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The power status of the streetlight corresponding to this observation. [.LP01on = on] or [.LP01off = off]",
+      "dataSchema": "iudx:Text"
+    },
+    "rssi": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Value of rssi.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "DBM",
+      "unitText": "Decibel-milliwatts",
+      "resolution": 1
+    },
+    "latency": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous value for latency.",
+      "dataSchema": "iudx:Number",
+      "unitCode": "SEC",
+      "unitText": "second",
+      "measAccuracy": {
+        "minValue": 0.2,
+        "maxValue": 5
+      },
+      "resolution": 0.1
+    },
+    "dataRate": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Instantaneous value for data rate.",
+      "unitCode": "P94",
+      "unitText": "kilobyte per second",
+      "dataSchema": "iudx:Number",
+      "measAccuracy": {
+        "minValue": -2,
+        "maxValue": 2
+      },
+      "resolution": 0.1
+    },
+    "macAddress": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The media access control address of node",
+      "dataSchema": "iudx:Text"
+    },
+    "packetSize": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Size value for the data packet",
+      "unitCode": "AD",
+      "unitText": "byte",
+      "dataSchema": "iudx:Number"
+    },
+    "observationDateTime": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Last reported time of observation.",
+      "dataSchema": "iudx:DateTime"
+    }
+  },
+  "dataSample": {
+    "deviceID": "WN-LP01-03",
+    "deviceName": "Smart Street Lamp node at Smart Pole of Kohli Research Block",
+    "location": {
+      "coordinates": [
+        78.34986,
+        17.44507
+      ],
+      "type": "Point"
+    },
+    "deviceStatus": "WN-LP02-02 is on",
+    "feederConnectivity": "connected",
+    "powerState": "WN-LP02-02 is on",
+    "rssi": -92626071,
+    "latency": -55,
+    "dataRate": 50,
+    "macAddress": "fd12:3456::5232:5fff:fe42:61c6",
+    "packetSize": 0,
+    "observationDateTime": "2020-12-01T21:10:00+05:30"
+  },
+  "instance": "hyderabad"
+}

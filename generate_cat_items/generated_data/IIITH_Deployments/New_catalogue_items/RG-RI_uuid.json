@@ -1,0 +1,26 @@
+{
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring/energy-monitor-readings": {
+    "id": "1e73524c-eeb2-4e1c-a5b5-9aab649d2e82",
+    "resource_group": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-monitoring-version/version-info": {
+    "id": "1424ad50-7c54-486e-893d-7c0aa64dc759",
+    "resource_group": "60a3fca0-079f-4c23-9f3d-965f8537d079"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality/indoor-air-quality-info": {
+    "id": "47acc94b-e337-415d-a2cc-7cb054bfd6e4",
+    "resource_group": "275c23b5-673a-4a53-ad16-2d17d1489b0a"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-air-quality-version/version-info": {
+    "id": "4e95367a-6c55-45b2-9197-d046733b6915",
+    "resource_group": "cc550675-a74d-4410-bf7a-01baca7518bb"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN/wisun-info": {
+    "id": "83749089-1abc-4115-98b3-024de9ac7fe6",
+    "resource_group": "cbd95dd3-412f-463f-b75b-487c924a789e"
+  },
+  "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-WiSUN-version/version-info": {
+    "id": "53a3b8ff-8157-4f98-91ec-e23082de0b4d",
+    "resource_group": "a0d85488-ce63-4735-b0b0-b64e000f2190"
+  }
+}

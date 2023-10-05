@@ -1,0 +1,56 @@
+ 
+{
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+        "iudx:ResourceServer"
+    ],
+    "id": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+    "name": "IiithResourceServer",
+    "description": "Multi tenanted IUDX Resource Server",
+    "tags": [
+        "IUDX",
+        "IIITH",
+        "Resource",
+        "Server",
+        "Platform"
+    ],
+    "owner": "8bbfc675-150c-4f1c-abea-aac5ef57b3a9",
+    "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+    "resourceServerOrg": {
+        "name": "iudx",
+        "additionalInfoURL": "https://iudx.org.in",
+        "location": {
+            "type": "Place",
+            "address": "IIIT-H, Hyderabad",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.34989,
+                    17.44554
+                ]
+            }
+        }
+    },
+    "resourceServerRegURL": "rs.cos.iudx.org.in",
+    "resourceAccessModalities": [
+        {
+            "type": [
+                "iudx:HTTPAccess"
+            ],
+            "protocol": "https",
+            "accessURL": "iudx-rs-onem2m.iiit.ac.in"
+        }
+    ],
+    "location": {
+        "type": "Place",
+        "address": "IIIT-H, Hyderabad",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                78.34989,
+                17.44554
+            ]
+        }
+    },
+    "itemCreatedAt": "2022-07-04T09:00:34+0530"
+}

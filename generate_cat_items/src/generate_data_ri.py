@@ -114,7 +114,7 @@ class IUDXDataProcessor:
             "@context", "id", "id_bck", "type",  "name", "label", "description", "tags", "accessPolicy", "apdURL",
             "provider", "provider_bck", "resourceServer", "resourceServer_bck",
             "resourceGroup", "resourceGroup_bck" ,  "resourceType",  "iudxResourceAPIs",
-            "dataDescriptor", "dataSample", "dataSampleFile",
+            "dataDescriptor", "dataSample", "dataSampleFile", "location",
             "itemStatus", "instance", "ownerUserId", "itemCreatedAt"
         ]
 
@@ -149,7 +149,7 @@ class IUDXDataProcessor:
 data_processor = IUDXDataProcessor()
 uuid_data = data_processor.generate()
 
-with open("../generated_data/generate-resource-item.jsonld", "w") as f:
+with open("../generated_data/generate-resource-item-location-updated.jsonld", "w") as f:
     json.dump(uuid_data,f,indent=5)
 
 print("done")

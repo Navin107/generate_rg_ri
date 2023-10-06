@@ -1,0 +1,1797 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "33230ea5-6348-4a4f-b1aa-dc7837016369",
+          "id_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1/rs.iudx.org.in/bhubaneswar-revenue-collection/trade-license-count",
+          "type": [
+               "iudx:Resource",
+               "iudx:RevenueCollection"
+          ],
+          "name": "trade-license-count",
+          "label": "Trade Licenses Issued in Bhubaneswar City",
+          "description": "The total trade licenses issued per zone in Bhubaneswar city.",
+          "tags": [
+               "trade license",
+               "business license",
+               "commercial license",
+               "business permit",
+               "trade",
+               "zone wise",
+               "trade permit",
+               "business",
+               "commercial",
+               "trading tax",
+               "tax holder"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
+          "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "d66e834a-1eb9-425f-86c5-756a902f18f6",
+          "resourceGroup_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1/rs.iudx.org.in/bhubaneswar-revenue-collection",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:RevenueCollection"
+               ],
+               "dataDescriptorLabel": "Zone wise issue count of trade licenses in Bhubaneswar City",
+               "description": "Total trade licenses issued per zone in Bhubaneswar city.",
+               "totalCount": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total number of trade licenses issued in the zone corresponding to this observation.",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "zoneID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "ID of the Zone corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "zoneName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the Zone corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last updated time of trade licenses issue count corresponding to the zone in this observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "observationDateTime": "2021-09-24T13:22:42+05:30",
+               "zoneID": "14",
+               "zoneName": "South-West Zone",
+               "totalCount": 2134
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bhubaneswar/bhubaneswar-revenue-collection-trade-license-count.json",
+                    "name": "Bhubaneswar Trade License Establishments sample",
+                    "description": "Sample file for Trade License Establishments in Bhubaneswar city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "itemCreatedAt": "2023-02-16T01:21:21+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "e8207407-c432-4b81-82b4-9ba03c1c4553",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution/water-pressure",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "water-pressure",
+          "label": "Water Pressure Info from Water Storage Reservoirs in Vadodara City",
+          "description": "The details of water transmission pressure from water storage reservoirs in Vadodara city.",
+          "tags": [
+               "water",
+               "water distribution",
+               "water pressure",
+               "pressure",
+               "psi",
+               "pressure sensor",
+               "water supply",
+               "water storage",
+               "pump house",
+               "oht",
+               "tank"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
+          "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "58a760aa-16e6-4437-92b9-63868bef1624",
+          "resourceGroup_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Water Pressure in Vadodara Water Distribution System",
+               "description": "Water pressure information of water storage reservoirs across Vadodara city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Physical address of the place where sensor installed.",
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Device ID of the physical sensor corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "waterPressure": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Pressure of water flowing from the water storage tank corresponding to this observation.",
+                    "unitText": "pounds per square inch (psi)",
+                    "dataSchema": "iudx:Number"
+               }
+          },
+          "dataSample": {
+               "address": "Raika RCW",
+               "deviceID": "RAI_PT106",
+               "observationDateTime": "2021-02-15T12:08:16+05:30",
+               "waterPressure": 51.051
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/vadodara/vadodara-water-distribution-water-pressure.json",
+                    "name": "Vadodara Water Storage Reservoirs water Pressure Info  sample",
+                    "description": "Sample file for Water Pressure Info from Water Storage Reservoirs in Vadodara city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-01-31T02:35:39+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "c07c7545-0718-41cf-b98b-5a3cab3ff9bb",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution/water-ph-level",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "water-ph-level",
+          "label": "pH Readings from Water Storage Reservoirs in Vadodara City",
+          "description": "The pH level details of water storage reservoirs in Vadodara city.",
+          "tags": [
+               "pH",
+               "pH level",
+               "water",
+               "water distribution",
+               "water level",
+               "water readings",
+               "pH readings",
+               "water quality"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
+          "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "58a760aa-16e6-4437-92b9-63868bef1624",
+          "resourceGroup_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Data Attribute Details for Water Storage Reservoirs in Vadodara City",
+               "description": " pH level information of water storage reservoirs across Vadodara city.",
+               "deviceID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Device ID of the physical sensor corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Physical address of the place where sensor is installed.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "pH": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Concentration of pH in the water.",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of pH for the last 30 minutes.",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30
+                    },
+                    "maxOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Maximum value of pH for the last 30 minutes.",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30
+                    },
+                    "minOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Minimum value of pH for the last 30 minutes.",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30
+                    }
+               }
+          },
+          "dataSample": {
+               "observationDateTime": "2021-02-19T15:02:30+05:30",
+               "address": "Bapod OHT",
+               "deviceID": "BPD_GSR1_AT31_PH",
+               "pH": {
+                    "avgOverTime": 9.25,
+                    "maxOverTime": 9.3,
+                    "minOverTime": 9.1
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/vadodara/vadodara-water-distribution-water-ph-level.json",
+                    "name": "Vadodara Water Storage Reservoirs  pH Readings from  sample",
+                    "description": "Sample file for pH Readings from Water Storage Reservoirs in Vadodara city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-01-31T02:35:36+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "aa22c3b7-aec7-49d6-b312-b502a76e409e",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution/water-turbidity-level",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "water-turbidity-level",
+          "label": "Turbidity Levels from Water Storage Reservoirs in Vadodara City",
+          "description": "The turbidity level details of water storage reservoirs in Vadodara city.",
+          "tags": [
+               "water",
+               "turbidity",
+               "turbid",
+               "turbidity level",
+               "water turbidity",
+               "water distribution",
+               "water level",
+               "depth",
+               "feet",
+               "meter",
+               "height",
+               "water supply",
+               "water storage",
+               "pump house",
+               "oht",
+               "tank"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
+          "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "58a760aa-16e6-4437-92b9-63868bef1624",
+          "resourceGroup_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Data Attribute Details for Water Storage Reservoirs in Vadodara City",
+               "description": "Water turbidity level information of water storage reservoirs across Vadodara city.",
+               "deviceID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Device ID of the physical sensor corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Physical address of the place where sensor is installed.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "turbidity": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Measurement of the amount of light that is scattered by material in the water when a light is shined through the water.",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of turbidity for last 30 minutes",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30,
+                         "unitText": "Nephelometric Turbidity unit(NTU)"
+                    },
+                    "maxOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Maximum value of turbidity for last 30 minutes",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30,
+                         "unitText": "Nephelometric Turbidity unit(NTU)"
+                    },
+                    "minOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Minimum value of turbidity for last 30 minutes",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30,
+                         "unitText": "Nephelometric Turbidity unit(NTU)"
+                    }
+               }
+          },
+          "dataSample": {
+               "address": "Nimeta 3 WTP",
+               "deviceID": "NM3_AT03B_TBD",
+               "observationDateTime": "2021-02-18T14:22:26+05:30",
+               "turbidity": {
+                    "avgOverTime": 10.8,
+                    "maxOverTime": 10.8,
+                    "minOverTime": 10.8
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/vadodara/vadodara-water-distribution-water-turbidity-level.json",
+                    "name": "Vadodara Water Storage Reservoirs Turbidity Level Info  sample",
+                    "description": "Sample file for Turbidity Level Info from Water Storage Reservoirs in Vadodara city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-01-31T02:35:42+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "067cdcf6-b422-48d2-9dc6-d5b28c15da03",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution/water-level",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "water-level",
+          "label": "Water Levels from Water Storage Reservoirs in Vadodara City",
+          "description": "The current water level details of water storage reservoirs in Vadodara city.",
+          "tags": [
+               "water",
+               "water distribution",
+               "water level",
+               "depth",
+               "feet",
+               "meter",
+               "height",
+               "water supply",
+               "water storage",
+               "pump house",
+               "oht",
+               "tank"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
+          "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "58a760aa-16e6-4437-92b9-63868bef1624",
+          "resourceGroup_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Data Attribute Details for Water Storage Reservoirs in Vadodara City",
+               "description": " Water level information of water storage reservoirs across Vadodara city.",
+               "deviceID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Device ID of the physical sensor corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Station name of the sensor device corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "waterLevel": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Current water level in the water storage tank corresponding to this observation.",
+                    "unitText": "Feet",
+                    "unitCode": "ft",
+                    "dataSchema": "iudx:Number"
+               }
+          },
+          "dataSample": {
+               "address": "Subhanpura OHT",
+               "deviceID": "SBP_GSR1_LT70",
+               "observationDateTime": "2021-02-12T00:04:46+05:30",
+               "waterLevel": 6.023
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/vadodara/vadodara-water-distribution-water-level.json",
+                    "name": "Vadodara Water Storage Reservoirs water Level Info sample",
+                    "description": "Sample file for Water Level Info from Water Storage Reservoirs in Vadodara city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-01-31T02:35:33+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "6dd07575-4887-44e0-818e-b8cda3c085f0",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution/water-flow",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "water-flow",
+          "label": "Water Flow Info from Water Storage Reservoirs in Vadodara City",
+          "description": "The water flow transmission details from water storage reservoirs in Vadodara city.",
+          "tags": [
+               "water",
+               "water distribution",
+               "water flow",
+               "flow",
+               "flow measure",
+               "flow rate",
+               "water speed",
+               "flow sensor",
+               "water storage",
+               "pump",
+               "oht"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
+          "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "58a760aa-16e6-4437-92b9-63868bef1624",
+          "resourceGroup_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Flow Transmission in Vadodara Water Distribution System",
+               "description": "Data attribute information of water flow transmission in Vadodara city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Physical address of the place where sensor installed.",
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Device ID of the physical sensor/ measurement station corresponding to this observation. ",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time for the water flow.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "waterFlow": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Flow or current of water flowing from the water storage tank corresponding to this observation.",
+                    "unitCode": "MQH",
+                    "unitText": "Cubic metre per hour(m3/h)",
+                    "dataSchema": "iudx:Number"
+               }
+          },
+          "dataSample": {
+               "address": "Airport Circle Junction",
+               "deviceID": "ANG_FT061",
+               "observationDateTime": "2021-01-29T16:55:05+05:30",
+               "waterFlow": 1674
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/vadodara/vadodara-water-distribution-water-flow.json",
+                    "name": "Vadodara Water Storage Reservoirs  Water Flow Info sample",
+                    "description": "Sample file for Water Flow Info from Water Storage Reservoirs in Vadodara city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-01-31T02:35:30+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "422e85e2-610d-4f45-80e2-e6dd47a04ab7",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution/water-discharge",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "water-discharge",
+          "label": "Water Discharge Info from Water Storage Reservoirs in Vadodara City",
+          "description": "The water discharge details from water storage reservoirs in Vadodara city.",
+          "tags": [
+               "water",
+               "water distribution",
+               "water level",
+               "litre",
+               "liters",
+               "million litres",
+               "release",
+               "water supply",
+               "water storage",
+               "pump house",
+               "oht",
+               "tank",
+               "mld"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
+          "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "58a760aa-16e6-4437-92b9-63868bef1624",
+          "resourceGroup_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Water Discharge in Vadodara Water Distribution System",
+               "description": "Water discharge information of water storage reservoirs across Vadodara city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Physical address of the place where sensor installed.",
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Device ID of the physical sensor corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "totalML": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total MLDs of water discharged for the previous day from the water storage tank corresponding to this observation.",
+                    "unitText": "MLD (Millions of liter per day or Megaliters per day)",
+                    "dataSchema": "iudx:Number"
+               }
+          },
+          "dataSample": {
+               "address": "Warasia Booster",
+               "deviceID": "Total ML",
+               "observationDateTime": "2021-02-12T00:00:00+05:30",
+               "totalML": 4.576
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/vadodara/vadodara-water-distribution-water-discharge.json",
+                    "name": "Vadodara Water Storage Reservoirs water Discharge Info sample",
+                    "description": "Sample file for Water Discharge Info from Water Storage Reservoirs in Vadodara city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-01-31T02:29:44+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "5b7e32a0-d93b-48f1-8d74-935d1be4696e",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-additional-info/reservoir-dimensions",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "reservoir-dimensions",
+          "label": "Water Reservoir Dimensions in Vadodara City",
+          "description": "The physical aspects of water reservoirs ESR(Elevated storage reservoir) and GSR(ground storage reservoir) such as reservoir dimension, shape, capacity, etc., in Vadodara city.",
+          "tags": [
+               "dimensions",
+               "water sump",
+               "water tank",
+               "water booster",
+               "water tank",
+               "water reservoirs",
+               "tank depth",
+               "tank length",
+               "tank diameter",
+               "tank capacity"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
+          "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "35b95bf8-eeea-45b6-9184-196772b79985",
+          "resourceGroup_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-additional-info",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Data Attribute Details for Water Reservoirs in Vadodara City",
+               "description": "Data attribute details for Water Reservoir in Vadodara City.",
+               "tankCapacity": {
+                    "description": "Maximum amount of water the water storage tank corresponding to this observation can hold.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "unitText": "Lakh Liters",
+                    "dataSchema": "iudx:Number"
+               },
+               "tankName": {
+                    "description": "Name of the water storage tank corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "tankBreadth": {
+                    "description": "Breadth of the Cuboid shaped water storage tank.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "unitCode": "ft",
+                    "unitText": "Feet(ft)",
+                    "dataSchema": "iudx:Number"
+               },
+               "tankLength": {
+                    "description": "Length of the Cuboid shaped water storage tank.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "unitCode": "ft",
+                    "unitText": "Feet(ft)",
+                    "dataSchema": "iudx:Number"
+               },
+               "tankDiameter": {
+                    "description": "Diameter of Cylindrical or Spherical water storage tanks.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "unitCode": "ft",
+                    "unitText": "Feet(ft)",
+                    "dataSchema": "iudx:Number"
+               },
+               "tankShape": {
+                    "description": "Physical shape of the water storage tank corresponding to this observation. ENUM: [Cylindrical, Conical, Cuboid, Spherical]",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "tankName": "Vasana GSR 2",
+               "tankCapacity": 36,
+               "tankShape": "Cuboid",
+               "tankLength": 113,
+               "tankBreadth": 75,
+               "tankDiameter": null,
+               "tankDepth": 15
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/vadodara/vadodara-water-additional-info-reservoir-dimensions.json",
+                    "name": "Vadodara Water Reservoir Dimensions sample",
+                    "description": "Sample file for Water Reservoir Dimensions ESR(Elevated storage reservoir), GSR(ground storage reservoir) in Vadodara city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-01-31T02:29:41+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "3b9f7813-9901-4238-b6f6-fa730a31d2c3",
+          "id_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution/water-chlorine-level",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "water-chlorine-level",
+          "label": "Chlorine Levels from Water Storage Reservoirs in Vadodara City",
+          "description": "The chlorine level details of water storage reservoirs in Vadodara city.",
+          "tags": [
+               "chlorine",
+               "chlorine level",
+               "chlorides",
+               "water",
+               "water distribution",
+               "water level",
+               "depth",
+               "feet",
+               "meter",
+               "height",
+               "water supply",
+               "water storage",
+               "pump house",
+               "oht",
+               "tank"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "ceb49f98-c3e7-4c9a-8ee2-493e63350977",
+          "provider_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "58a760aa-16e6-4437-92b9-63868bef1624",
+          "resourceGroup_bck": "vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-water-distribution",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Data Attribute Details for Water Storage Reservoirs in Vadodara City",
+               "description": " Chlorine level information of water storage reservoirs across Vadodara city.",
+               "deviceID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Device ID of the physical sensor corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Physical address of the place where sensor is installed.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "cl": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Concentration of chlorine in the water.",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of chlorides for the last 30 minutes.",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30,
+                         "unitCode": "59",
+                         "unitText": "part per million(ppm)"
+                    },
+                    "maxOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Maximum value of chlorides for the last 30 minutes.",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30,
+                         "unitCode": "59",
+                         "unitText": "part per million(ppm)"
+                    },
+                    "minOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Minimum value of chlorides for the last 30 minutes.",
+                         "dataSchema": "iudx:Number",
+                         "durationInMinutes": 30,
+                         "unitCode": "59",
+                         "unitText": "part per million(ppm)"
+                    }
+               }
+          },
+          "dataSample": {
+               "address": "Gorwa OHT",
+               "deviceID": "GOA_GSR2_AT01_CL2",
+               "observationDateTime": "2021-02-18T13:02:40+05:30",
+               "cl": {
+                    "avgOverTime": 8.913,
+                    "maxOverTime": 10.3,
+                    "minOverTime": 5.2
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/vadodara/vadodara-water-distribution-water-chlorine-level.json",
+                    "name": "Vadodara Water Storage Reservoirs Chlorine Levels sample",
+                    "description": "Sample file for Chlorine Levels from Water Storage Reservoirs in Vadodara city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "vadodara",
+          "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
+          "itemCreatedAt": "2023-01-31T02:29:35+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "f29c31d4-87ba-49c1-8643-b3c4be33743c",
+          "id_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-itms-additional-info/surat-itms-fare-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:FareCollectionSystem"
+          ],
+          "name": "surat-itms-fare-info",
+          "label": "Bus Fare for Public Transit Buses in Surat City",
+          "description": "The ticket price (fare) information for public transit buses in Surat city.",
+          "tags": [
+               "fare collection",
+               "bus",
+               "bus fare",
+               "fare calculation"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
+          "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "62881dae-0ba2-4ef0-bc05-d502f435b91a",
+          "resourceGroup_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-itms-additional-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:FareCollectionSystem"
+               ],
+               "dataDescriptorLabel": "Bus Ticket Fare Information in Surat City",
+               "description": "Ticket price(fare) information for public transit buses in Surat city.",
+               "originDestinationCode": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The code for the origin and destination stops corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "originStopCategory": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Type of the origin bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "originStopName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The name of the origin bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "destinationStopCategory": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Type of the destination bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "destinationStopName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The name of the destination bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "travelDistance": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The code for the origin and destination stops corresponding to this observation.",
+                    "unitCode": "KMT",
+                    "unitText": "kilometre",
+                    "dataSchema": "iudx:Number"
+               },
+               "stage": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total number of stages from the origin bus stop to the destination bus stop.",
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "fareForAdult": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The fare for an adult in the journey corresponding to this observation.",
+                    "unitCode": "INR",
+                    "unitText": "Indian Rupee",
+                    "dataSchema": "iudx:Number"
+               },
+               "fareForChild": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The fare for a child in the journey corresponding to this observation.",
+                    "unitCode": "INR",
+                    "unitText": "Indian Rupee",
+                    "dataSchema": "iudx:Number"
+               }
+          },
+          "dataSample": {
+               "originDestinationCode": "10-1144",
+               "originStopCategory": "TERMINAL",
+               "originStopName": "RAILWAY STATION TERMINAL",
+               "destinationStopCategory": "CBS",
+               "destinationStopName": "DELHI GATE",
+               "travelDistance": 0.37164,
+               "stage": 1,
+               "fareForAdult": 4,
+               "fareForChild": 2
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/surat/surat-itms-fare-info.json",
+                    "name": "Surat Public Transit Bus Fare Information sample",
+                    "description": "Sample file for Public Transit Bus Fare Information in Surat city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T12:10:51+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "b840df8e-2998-469c-932b-c0f0015427fd",
+          "id_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4/rs.iudx.org.in/bhopal-itms-additional-info/fare-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:FareCollectionSystem"
+          ],
+          "name": "fare-info",
+          "label": "Bus Fare for Public Transit Buses in Bhopal City",
+          "description": "The ticket price (fare) information for public transit buses in Bhopal city.",
+          "tags": [
+               "bus",
+               "bus fare",
+               "fare calculation",
+               "adult fare",
+               "child fare",
+               "trip",
+               "transaction",
+               "ticketing"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "8bf38136-3cdc-4308-a291-7fe1af94f7a5",
+          "provider_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "8573a050-ee15-422e-8ab3-4e2e2f3b8b04",
+          "resourceGroup_bck": "smartbhopal.city/be4f6266ab6f0ebd625ee31b5841a017f236f5a4/rs.iudx.org.in/bhopal-itms-additional-info",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:FareCollectionSystem"
+               ],
+               "dataDescriptorLabel": "Fare Collection System in Bhopal City",
+               "description": "Ticket price(fare) information for public transit buses in Bhopal city.",
+               "originStopName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The name of the origin bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "destinationStopName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The name of the destination bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "travelDistance": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The code for the origin and destination stops corresponding to this observation.",
+                    "unitCode": "KMT",
+                    "unitText": "kilometre",
+                    "dataSchema": "iudx:Number"
+               },
+               "fareForAdult": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Adult fare for the journey corresponding to this observation. The ticket price for children and disabled is 50% of the adult fare, ticket price for women is 60% of the adult fare.",
+                    "unitCode": "",
+                    "unitText": "INR",
+                    "dataSchema": "iudx:Number"
+               }
+          },
+          "dataSample": {
+               "originStopName": "COACH FACTORY (B)",
+               "destinationStopName": "INDUS TIRAHA (B)",
+               "fareForAdult": 6,
+               "travelDistance": 0.3
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bhopal/bhopal-itms-additional-info-fare-info.json",
+                    "name": "Bhopal Public Transit Bus Fare Information sample",
+                    "description": "Sample file for Bhopal Public Transit Bus Fare Information Bhopal city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "bhopal",
+          "ownerUserId": "a5a554f5-d9ee-403f-9201-66a9575979f5",
+          "itemCreatedAt": "2023-02-27T10:10:05+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "30d5785f-b045-4500-b63e-835cc73b50b8",
+          "id_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0/rs.iudx.org.in/bengaluru-elcita-streetlight-locations/location-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:Streetlight"
+          ],
+          "name": "location-info",
+          "label": "Streetlights Location Info in Electronic City, Bengaluru",
+          "description": "The physical coordinates of all the streetlights installed in Electronic City, Bengaluru.",
+          "tags": [
+               "streetlight",
+               "lamp post",
+               "location",
+               "street light",
+               "street lamp",
+               "light pole"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
+          "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "9b27c09f-1ec6-4acd-89f0-a27f23184017",
+          "resourceGroup_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0/rs.iudx.org.in/bengaluru-elcita-streetlight-locations",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "SPATIAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:Streetlight"
+               ],
+               "dataDescriptorLabel": "Data descriptor for streetlight locations in Bengaluru city.",
+               "description": "Data attribute definitions for streetlight location info in Electronic City, Bengaluru.",
+               "deviceID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "ID of the device giving out information about the streetlight corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the streetlight corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               }
+          },
+          "dataSample": {
+               "deviceID": "L0302",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         77.666046,
+                         12.841758
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bengaluru/elcita/bengaluru-elcita-streetlight-locations-location-info.json",
+                    "name": "Bengaluru Location Info of Streetlights ",
+                    "description": "Sample file for Location Info of Streetlights in Bengaluru City.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "itemCreatedAt": "2023-02-17T03:30:09+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "7d814df9-8ce5-4961-a78d-781b95e64189",
+          "id_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32/file.iudx.org.in/bengaluru-108-ambulance-support/als-bls-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:EmergencyVehicle"
+          ],
+          "name": "als-bls-info",
+          "label": "Advanced and Basic Life Support Info of Ambulances in Bengaluru City",
+          "description": "The information on availabiltiy of advanced and basic life support system in 108 ambulances in Bengaluru City.",
+          "tags": [
+               "life support",
+               "emergency vehicle",
+               "ambulance",
+               "advance life support",
+               "basic life support",
+               "als",
+               "bls",
+               "sos",
+               "on call",
+               "emergency service",
+               "patient",
+               "hospital",
+               "on duty",
+               "help",
+               "siren"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "b2c4c7f4-d870-42e4-b1c4-6438a806011a",
+          "provider_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "6c44198c-9c70-495f-89a6-2a069c069ca1",
+          "resourceGroup_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32/file.iudx.org.in/bengaluru-108-ambulance-support",
+          "resourceType": "FILE",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EmergencyVehicle"
+               ],
+               "dataDescriptorLabel": "Ambulance service Info from Bengaluru City",
+               "description": "Data attribute definitions of ambulance services in Bengaluru City.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Base location address of the ambulance corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "license_plate": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Registration number of the ambulance vehicle corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "vehicleSupportType": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Life support capability provided by the ambulance corresponding to this observation. The field value can either be ALS or BLS. ALS stands for Advanced Life Support and BLS stands for Basic Life Support.",
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "",
+                    "name": "Bengaluru Advanced and Basic Life Support info of Ambulances Sample",
+                    "description": "Sample file for Advanced and Basic Life Support info of Ambulances in Bengaluru City",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "bengaluru",
+          "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "itemCreatedAt": "2023-02-17T03:28:34+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "f23df9b1-e663-409e-9492-ab440d086767",
+          "id_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32/rs.iudx.org.in/bengaluru-emergency-vehicles/ambulance-live",
+          "type": [
+               "iudx:Resource",
+               "iudx:EmergencyVehicle"
+          ],
+          "name": "ambulance-live",
+          "label": "Realtime Location Info of Ambulances in Bengaluru City.",
+          "description": "The realtime information like emergency vehicle location and on call status of ambulances in Bengaluru city at an interval of 10 seconds.",
+          "tags": [
+               "ambulance",
+               "motor cycle ambulance",
+               "bike ambulance",
+               "emergency vehicle",
+               "license plate",
+               "sos",
+               "on call",
+               "emergency service",
+               "patient",
+               "hospital",
+               "on duty",
+               "help",
+               "service on duty"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "b2c4c7f4-d870-42e4-b1c4-6438a806011a",
+          "provider_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "c6e27321-b0f3-43c3-9e70-3512b5ed1638",
+          "resourceGroup_bck": "datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32/rs.iudx.org.in/bengaluru-emergency-vehicles",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EmergencyVehicle"
+               ],
+               "dataDescriptorLabel": "Data descriptor for ambulance vehicle details in Bengaluru city.",
+               "description": "Ambulances in Bengaluru city.",
+               "emergencyVehicleType": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The vehicle type of the emergency vehicle corresponding to this observation,which can be AMBULANCE or MOTORCYCLE AMBULANCE in this instance.",
+                    "dataSchema": "iudx:Text"
+               },
+               "license_plate": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Registration number of the ambulance vehicle corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "serviceOnDuty": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Describes if the ambulance corresponding to this observation is attending to a call or not. This field is marked YES if the ambulance is attending to a call and marked NO otherwise.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "location": {
+                    "description": "Physical coordinates of the ambulance vehicle at the last tracked time of observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               }
+          },
+          "dataSample": {
+               "emergencyVehicleType": "Ambulance",
+               "license_plate": "KA40G425",
+               "observationDateTime": "2021-08-11T13:41:14+5:30",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         77.59124,
+                         12.9771
+                    ]
+               },
+               "serviceOnDuty": "YES"
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bengaluru/bengaluru-emergency-vehicles-ambulance-live.json",
+                    "name": "Bengaluru Realtime Location Info of Ambulances sample",
+                    "description": "Sample file for Realtime Location Info of Ambulances in Bengaluru city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "bengaluru",
+          "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
+          "itemCreatedAt": "2023-02-17T03:28:37+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "c2cd88a2-a2c5-4382-ae3e-66b0332c47c3",
+          "id_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-revenue-collection/vehicle-registration",
+          "type": [
+               "iudx:Resource",
+               "iudx:RevenueCollection"
+          ],
+          "name": "vehicle-registration",
+          "label": "Revenue Collection from Vehicle Registrations in Surat City",
+          "description": "The revenue collected from the vehicle registrations on a monthly basis in Surat city.",
+          "tags": [
+               "vehicle",
+               "registration",
+               "vehicle registration fee",
+               "vehicle registered count",
+               "vehicle tax",
+               "vehicle type"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
+          "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "4a6e80c4-8b93-43d6-9735-621c08f6fad1",
+          "resourceGroup_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-revenue-collection",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:RevenueCollection"
+               ],
+               "description": "Data attribute details for vehicles registered in Surat City.",
+               "dataDescriptorLabel": "Vehicle Registration Information In Surat City",
+               "cityName": {
+                    "description": "City name corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "vehicleTypeCode": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The code for vehicleType corresponding to this observation. For eg.- '1' - MOPED/SCOOTER, '2' - MOTOR CYCLE, '4' - PRIVATE MOTOR CAR/JEEP CAR, '21' - TEMPO, '26' - BUS, etc.",
+                    "dataSchema": "iudx:Text"
+               },
+               "vehicleType": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Describes the type of vehicle corresponding to this observation, Moped/Scooter, Motor Cycle, Autorickshaw, Private car/ Jeep car, Tempo, Bus, E-Moped/E-Scooter/E-Motor Cycle, Public motor in case of vehicle registration.",
+                    "dataSchema": "iudx:Text"
+               },
+               "year": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Year corresponding to this observation and is described in YYYY format, for eg. 2020.",
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "month": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Month corresponding to this observation and is described in MM format, for eg. 05 for the month of May.",
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "totalCount": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Count of the vehicle registered in surat city for the month corresponding to this observation.",
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "amountCollected": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Amount collected from vehicle registrations in surat city for the month corresponding to this observation.",
+                    "unitCode": "INR",
+                    "unitText": "Indian Rupee",
+                    "dataSchema": "iudx:Number"
+               }
+          },
+          "dataSample": {
+               "cityName": "Surat",
+               "vehicleTypeCode": "2",
+               "vehicleType": "MOTOR CYCLE                                  ",
+               "year": 2020,
+               "month": 11,
+               "totalCount": 27,
+               "amountCollected": 65172
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/surat/surat-vehicle-registration.json",
+                    "name": "Surat Revenue Collection from Vehicle Registrations  sample",
+                    "description": "Sample file for Revenue Collection from Vehicle Registrations in Surat city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-03-08T12:11:46+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "cb4f0014-0de3-4e4b-86b5-8e3181052a49",
+          "id_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-revenue-collection/property-tax",
+          "type": [
+               "iudx:Resource",
+               "iudx:RevenueCollection"
+          ],
+          "name": "property-tax",
+          "label": "Revenue Collection From Property Tax in Surat City",
+          "description": "The net revenue collected from property tax for a given financial year in Surat city.",
+          "tags": [
+               "zone name",
+               "ward",
+               "receipt",
+               "total tax",
+               "property tax",
+               "collected tax",
+               "paid amount"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "3152db8b-162b-483a-9e0d-a3c8ff505458",
+          "provider_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "4a6e80c4-8b93-43d6-9735-621c08f6fad1",
+          "resourceGroup_bck": "suratmunicipal.org/6db486cb4f720e8585ba1f45a931c63c25dbbbda/rs.iudx.org.in/surat-revenue-collection",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:RevenueCollection"
+               ],
+               "dataDescriptorLabel": "Property Tax Information from Surat City",
+               "description": "Information of revenue collection from property tax in Surat city.",
+               "cityName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the city corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "zoneID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Zone ID corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "zoneName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the Zone corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "wardNum": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Ward number corresponding to this observation.",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "year": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Year corresponding to this observation and is described in YYYY format, for eg. 2020.",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "amountCollected": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Amount collected towards property tax in surat city.",
+                    "unitCode": "INR",
+                    "unitText": "Indian Rupee",
+                    "dataSchema": "iudx:Number"
+               }
+          },
+          "dataSample": {
+               "cityName": "Surat",
+               "zoneID": "8",
+               "zoneName": "South East Zone",
+               "wardNum": 73,
+               "year": 2020,
+               "amountCollected": 97022625.79
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/surat/surat-property-tax.json",
+                    "name": "Surat  Revenue collected from property tax sample",
+                    "description": "Sample file for Revenue collected from property tax  in Surat city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "surat",
+          "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
+          "itemCreatedAt": "2023-04-11T03:11:33+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "9bb05823-d23f-4f14-9d19-54203ff249e1",
+          "id_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1/rs.iudx.org.in/bhubaneswar-revenue-collection/property-tax-collection",
+          "type": [
+               "iudx:Resource",
+               "iudx:RevenueCollection"
+          ],
+          "name": "property-tax-collection",
+          "label": "Revenue Collection From Property Tax in Bhubaneswar City",
+          "description": "The net revenue collected from property tax on a monthly basis for a given financial year in Bhubaneswar city.",
+          "tags": [
+               "tax",
+               "property tax",
+               "revenue",
+               "total receipt amount",
+               "tax collected",
+               "tax amount",
+               "monthly tax",
+               "tax receipt"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
+          "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "d66e834a-1eb9-425f-86c5-756a902f18f6",
+          "resourceGroup_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1/rs.iudx.org.in/bhubaneswar-revenue-collection",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:RevenueCollection"
+               ],
+               "dataDescriptorLabel": "Property Tax Attribute Information from Bhubaneswar City",
+               "description": "Information of revenue collected from property tax in Bhubaneswar city",
+               "amountCollected": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Amount collected towards property tax in bhubaneswar city for every month.",
+                    "unitText": "Indian Rupee",
+                    "dataSchema": "iudx:Number"
+               },
+               "month": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Property tax collection month corresponding to this observation.",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "totalCount": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Number of property tax collections observed in bhubaneswar city for every month.",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "year": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Property tax collection year corresponding to this observation.",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "dataSample": {
+                    "amountCollected": 32035345.37,
+                    "totalCount": 7720,
+                    "year": 2021,
+                    "month": 4
+               },
+               "itemCreatedAt": "2023-02-16T01:21:30+0530",
+               "_geosummary": {
+                    "_geocoded": {
+                         "results": null
+                    }
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bhubaneswar/bhubaneswar-revenue-collection-property-tax-collection.json",
+                    "name": "Bhubaneswar Property Registrations sample",
+                    "description": "Sample file for Property Registrations in Bhubaneswar city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "itemStatus": "ACTIVE",
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "itemCreatedAt": "2023-06-20T04:45:15+0530"
+     }
+]

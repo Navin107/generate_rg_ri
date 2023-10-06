@@ -1,0 +1,69 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:GISData"
+  ],
+  "id": "11f195d2-95f8-4c6f-892f-6eeb7036f05a",
+  "name": "gis-layers",
+  "label": "GIS Layers in Lucknow City",
+  "description": "Publishes geographic information system data layers for the following sectors in Lucknow city: Boundaries, Public Services, Religious Places, Education Services, Health Services, Tourism Services, Recreation, Transportation, Water Bodies, Water Line Services, Sewage Services, Drainage.",
+  "tags": [
+    "water",
+    "road",
+    "pipeline",
+    "reservoir",
+    "tank",
+    "gis",
+    "layers",
+    "geo",
+    "arcgis",
+    "boundary",
+    "zone",
+    "zones",
+    "worship",
+    "places",
+    "transport",
+    "parking",
+    "service"
+  ],
+  "resourceGroup": "0582d3dc-bfee-44dd-80a1-d9e749ddf3a0",
+  "iudxResourceAPIs": [
+    "ATTR"
+  ],
+  "resourceType": "GSLAYER",
+  "itemStatus": "ACTIVE",
+  "location": {
+    "address": "Lucknow, Uttar Pradesh",
+    "type": "Place"
+  },
+  "provider": "f51fec55-3086-4afd-b5c1-7de524d9d133",
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:GISData"
+    ],
+    "dataDescriptorLabel": "GIS data in Lucknow City",
+    "description": "Data Descriptor for all Lucknow GIS layers.",
+    "gisServerURL": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "The Geographic Information System (GIS) Server's Home Page URL. Consumer has to click on 'Guest User' button located at the bottom of the screen to view the GIS data layer.",
+      "dataSchema": "iudx:Text"
+    },
+    "observationDateTime": {
+      "type": [
+        "ValueDescriptor"
+      ],
+      "description": "Last reported time of observation.",
+      "dataSchema": "iudx:DateTime"
+    }
+  },
+  "dataSample": {
+    "gisServerURL": "https://gis.lscl.in/GIS/Portal/Home",
+    "observationDateTime": "2023-10-03T11:41:14+5:30"
+  },
+  "instance": "lucknow"
+}

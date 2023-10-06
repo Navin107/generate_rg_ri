@@ -1,0 +1,41 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:ResourceGroup",
+    "iudx:GISData"
+  ],
+  "id": "0582d3dc-bfee-44dd-80a1-d9e749ddf3a0",
+  "name": "lucknow-gis",
+  "label": "GIS data from Lucknow City",
+  "description": "Publishes Geographic Information System (GIS) data from Lucknow city.",
+  "tags": [
+    "water",
+    "road",
+    "pipeline",
+    "reservoir",
+    "tank",
+    "gis",
+    "layers",
+    "geo",
+    "arcgis",
+    "boundary",
+    "zone",
+    "zones",
+    "worship",
+    "places",
+    "tranport",
+    "parking",
+    "stations",
+    "service"
+  ],
+  "resourceServer": "94b2eb64-5167-442a-ba91-3eeee66c139d",
+  "accessPolicy": "SECURE",
+  "authControlLevel": "GROUP",
+  "location": {
+    "address": "Lucknow, Uttar Pradesh",
+    "type": "Place"
+  },
+  "provider": "f51fec55-3086-4afd-b5c1-7de524d9d133",
+  "itemStatus": "ACTIVE",
+  "instance": "lucknow"
+}

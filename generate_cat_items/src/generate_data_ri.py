@@ -79,7 +79,7 @@ class IUDXDataProcessor:
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
         json_data["ownerUserId"] = self.user_data.get(provider_id)
-
+        json_data["cos"] =  "637e32b6-9a6c-396f-914c-9db5d1a222b0"
 
 
         url = "https://api.catalogue.iudx.org.in/iudx/cat/v1/item?id={}".format(json_data["resourceGroup_bck"])
@@ -115,7 +115,7 @@ class IUDXDataProcessor:
             "provider", "provider_bck", "resourceServer", "resourceServer_bck",
             "resourceGroup", "resourceGroup_bck" ,  "resourceType",  "iudxResourceAPIs",
             "dataDescriptor", "dataSample", "dataSampleFile", "location",
-            "itemStatus", "instance", "ownerUserId", "itemCreatedAt"
+            "itemStatus", "instance", "ownerUserId", "cos", "itemCreatedAt"
         ]
 
         return self.extract_desired_keys(desired_keys, json_data)
@@ -142,7 +142,7 @@ class IUDXDataProcessor:
 
             if "iudx:Resource" in json_data.get("type", []):
                 if json_data["id"] in self.resources_data:
-                    if not json_data.get("location"):
+                    if json_data.get("location"):
                         if not json_data["provider"] == "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a":
                             json_changed_dict.append(self.process_resource(json_data))
     
@@ -151,7 +151,7 @@ class IUDXDataProcessor:
 data_processor = IUDXDataProcessor()
 uuid_data = data_processor.generate()
 
-with open("../generated_data/generate-resource-item-without-location.jsonld", "w") as f:
+with open("../generated_data/generate-resource-item-location-updated.jsonld", "w") as f:
     json.dump(uuid_data,f,indent=5)
 
 print("done")

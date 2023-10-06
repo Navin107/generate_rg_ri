@@ -1,0 +1,2650 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "b02b3c77-14ab-4d4b-a07d-e22356b2f01f",
+          "id_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0/rs.iudx.org.in/bengaluru-elcita-env-aqm",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "name": "bengaluru-elcita-env-aqm",
+          "label": "Air Quality Monitoring Sensors (AQM) in Electronic City",
+          "description": "Air Quality Monitoring(AQM) devices or sensors in Electronic City, Bengaluru. Publishes instantaneous values of air pollutant measures like carbon monoxide, nitrogen oxides, ozone, particulate matter etc., and also the associated environmental factors like temperature, humidity, illuminance at an time interval of ten minutes. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "electronic city",
+               "env",
+               "environment",
+               "air quality",
+               "aqm",
+               "co",
+               "so2",
+               "no2",
+               "co2",
+               "ozone",
+               "o3",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "noise",
+               "light",
+               "illuminance"
+          ],
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
+          "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "Atmospheric gas concentrations and other environmental factors in Bangalore Electronic City",
+               "description": "Instantaneous values of environmental factors and gases concentration in Electronic City every 10 minutes",
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The air quality monitoring station name or the name of the location of mount of the sensor device which is giving out the informational data",
+                    "dataSchema": "iudx:Text"
+               },
+               "co2": {
+                    "description": "Describes instantaneous values for Carbon Dioxide (CO2) present in the atmosphere as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of CO2.",
+                         "unitCode": "59",
+                         "unitText": "part per million (ppm)",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "co": {
+                    "description": "Describes instantaneous value for Carbon Monoxide (CO) present in the atmosphere as  given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of CO.",
+                         "unitCode": "GP",
+                         "unitText": "milligram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "so2": {
+                    "description": "Describes instantaneous value for Sulphur Dioxide (S02) present in the atmosphere as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of SO2.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "pm10": {
+                    "description": "Describes instantaneous value for particulate matter 10(PM10) present in the atmosphere as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of PM10.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "no2": {
+                    "description": "Describes instantaneous value for Nitrogen Dioxide (NO2) present in the atmosphere as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of NO2.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "pm2p5": {
+                    "description": "Describes instantaneous value for particulate matter 2.5(PM2.5) present in the atmosphere as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of PM2P5.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "o3": {
+                    "description": "Describes instantaneous value for Ozone (O3) present in the atmosphere as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of O3.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "airTemperature": {
+                    "description": "Describes instantaneous value for air temperature as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of air temperature.",
+                         "unitCode": "CEL",
+                         "unitText": "degree Celsius (C)",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "ambientNoise": {
+                    "description": "Describes instantaneous ambient noise levels as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of ambient noise.",
+                         "unitCode": "2N",
+                         "unitText": "decibel (dB)",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "relativeHumidity": {
+                    "description": "Describes instantaneous value for relativeHumidity as given by the sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of relative humidity.",
+                         "unitCode": "P1",
+                         "unitText": "percent",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "illuminance": {
+                    "description": "Describes instantaneous ambient light intensity as given by the sensor device corresponding to this observation.",
+                    "unitCode": "LUX",
+                    "unitText": "lux (lx)",
+                    "dataSchema": "iudx:Number",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bengaluru/elcita/bengaluru-elcita-env-aqm.json",
+                    "name": "Bengaluru Electronic City Air Quality Monitoring sensors sample",
+                    "description": "Sample file for Electronic City Air Quality Monitoring sensors in Bengaluru City",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "address": "Electronic City, Bangalore",
+               "type": "Place"
+          },
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-17T03:25:46+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "288dd906-3686-4f12-afe1-971e1562b72d",
+          "id_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0/rs.iudx.org.in/bengaluru-elcita-mobile-env-aqm",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "name": "bengaluru-elcita-mobile-env-aqm",
+          "label": "Mobile Air Quality Monitoring Sensors (AQM) in Electronic City",
+          "description": "Air Quality Monitoring (AQM) devices or sensors mounted over moving vehicles within Electronic City, Bengaluru. Publishes instantaneous values of air pollutant measures like carbon monoxide, nitrogen oxides, ozone, particulate matter etc., along with the associated environmental factors like temperature, humidity, illuminance at an time interval of ten minutes. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "electronic city",
+               "env",
+               "environment",
+               "air quality",
+               "aqm",
+               "co",
+               "so2",
+               "no2",
+               "co2",
+               "ozone",
+               "o3",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "noise",
+               "light",
+               "illuminance",
+               "mobile aqm"
+          ],
+          "provider": "07461b53-2531-405a-bb2a-60108350a11d",
+          "provider_bck": "elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "Atmospheric gas concentrations and other environmental factors in Bangalore Electronic City",
+               "description": "Instantaneous values of environmental factors and gases concentration in Electronic City every 10 minutes",
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The air quality monitoring station name or the name of the location of the sensor device which is giving out the informational data",
+                    "dataSchema": "iudx:Text"
+               },
+               "co2": {
+                    "description": "Describes instantaneous values for Carbon Dioxide (CO2) present in the atmosphere as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of CO2.",
+                         "unitCode": "59",
+                         "unitText": "part per million (ppm)",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "co": {
+                    "description": "Describes instantaneous value for Carbon Monoxide (CO) present in the atmosphere as  given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of CO.",
+                         "unitCode": "GP",
+                         "unitText": "milligram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "so2": {
+                    "description": "Describes instantaneous value for Sulphur Dioxide (S02) present in the atmosphere as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of SO2.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "pm10": {
+                    "description": "Describes instantaneous value for particulate matter 10(PM10) present in the atmosphere as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of PM10.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "no2": {
+                    "description": "Describes instantaneous value for Nitrogen Dioxide (NO2) present in the atmosphere as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of NO2.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "pm2p5": {
+                    "description": "Describes instantaneous value for particulate matter 2.5(PM2.5) present in the atmosphere as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of PM2P5.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "o3": {
+                    "description": "Describes instantaneous value for Ozone (O3) present in the atmosphere as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of O3.",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "airTemperature": {
+                    "description": "Describes instantaneous value for air temperature as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of air temperature.",
+                         "unitCode": "CEL",
+                         "unitText": "degree Celsius (C)",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "ambientNoise": {
+                    "description": "Describes instantaneous ambient noise levels as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of ambient noise.",
+                         "unitCode": "2N",
+                         "unitText": "decibel (dB)",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "relativeHumidity": {
+                    "description": "Describes instantaneous value for relativeHumidity as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of relative humidity.",
+                         "unitCode": "P1",
+                         "unitText": "percent",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "illuminance": {
+                    "description": "Describes instantaneous ambient light intensity as given by the mobile sensor device corresponding to this observation.",
+                    "instValue": {
+                         "description": "Instantaneous value of light intensity.",
+                         "unitCode": "LUX",
+                         "unitText": "lux (lx)",
+                         "dataSchema": "iudx:Number",
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "location": {
+                    "description": "Physical Coordinates of the mobile sensor corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bengaluru/elcita/bengaluru-elcita-mobile-env-aqm.json",
+                    "name": "Elcita mobile air quality monitoring data sample",
+                    "description": "Sample file for mobile Air quality monitoring devices/sensors in Elcita city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "address": "Electronic City, Bangalore",
+               "type": "Place"
+          },
+          "instance": "bengaluru",
+          "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-17T03:25:43+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "257aab1b-1258-445a-a37e-058486a2fa13",
+          "id_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-water-level",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "chennai-water-level",
+          "label": "Water Level Sensors in Chennai City",
+          "description": "Publishes value of water level at an interval of 1 minute obtained from the water level monitoring devices deployed at public places in Chennai city.",
+          "tags": [
+               "water",
+               "height",
+               "flow",
+               "water level",
+               "flood",
+               "flood level",
+               "flood warning",
+               "rain monitoring"
+          ],
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
+          "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Data Attribute of Water Level Sensors in Chennai City",
+               "description": "Data attribute information of water level monitoring sensors in Chennai City.",
+               "waterLevel": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value of water level in Chennai city corresponding to this observation.",
+                    "unitText": "cm",
+                    "unitCode": "CMT",
+                    "dataSchema": "iudx:Number"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/chennai/chennai-water-level.json",
+                    "name": "Chennai Water Level Sensors data sample",
+                    "description": "Sample file for Water Level Sensors data in Chennai city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Chennai, Tamil Nadu"
+          },
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-14T02:25:07+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "c2070773-e263-4a1f-9a75-37965892dbe6",
+          "id_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvFlood"
+          ],
+          "name": "chennai-flood-monitoring",
+          "label": "Flood Level Alerts from Flood Monitoring Systems in Chennai City",
+          "description": "Publishes flood level alerts indicating three different severity levels such as P1, P2, and P3 from flood monitoring systems in Chennai city.",
+          "tags": [
+               "rainfall",
+               "rain",
+               "flood",
+               "flooding",
+               "flood monitor",
+               "water",
+               "rains",
+               "precipitation",
+               "disaster management",
+               "disaster",
+               "relief",
+               "flood level",
+               "flood warning",
+               "water logging"
+          ],
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
+          "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvFlood"
+               ],
+               "dataDescriptorLabel": "Data Attribute of Flood Level ALerts in Chennai City",
+               "description": "Data attribute information of flood monitoring system in Chennai City.",
+               "floodLevelStatus": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Flood level observered from the flood monitoring system. The status here is classified into three level of alerts- P1, P2 and P3 based on the severity of the flood event. P1 indicates the severity as high priority and P3 indicates the severity as low priority.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Chennai, Tamil Nadu"
+          },
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-14T02:24:58+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "3bf8cc5c-7cca-49c3-98ed-cb931e91b494",
+          "id_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-env-weather",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvWeather"
+          ],
+          "name": "chennai-env-weather",
+          "label": "Rainfall Monitoring Sensors in Chennai City",
+          "description": "Publishes average value of precipitation/rainfall observed from the rain sensor  over an time interval of 60 minutes at various locations in Chennai city.",
+          "tags": [
+               "rainfall",
+               "rain",
+               "rain sensor",
+               "rainfall level",
+               "flood",
+               "water",
+               "millimetre",
+               "mm",
+               "rains",
+               "precipitation",
+               "rain information"
+          ],
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
+          "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvWeather"
+               ],
+               "dataDescriptorLabel": "Data Attribute of Rain Sensors in Chennai City",
+               "description": "Data attribute information of rainfall monitoring sensors in Chennai City.",
+               "precipitation": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Average value of precipitation/rainfall observed from the rain sensor corresponding to this observation over the last one hour.",
+                    "unitCode": "MMT",
+                    "unitText": "millimetre (mm)",
+                    "dataSchema": "iudx:Number"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/chennai/chennai-env-weather.json",
+                    "name": "Chennai Rain Sensors Sample",
+                    "description": "Sample file for Chennai Rain Sensors in Chennai city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Chennai, Tamil Nadu"
+          },
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-14T02:24:55+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "a114522a-b194-471e-86a0-492cd9894d5f",
+          "id_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-env-aqm",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "name": "chennai-env-aqm",
+          "label": "Air Quality Monitoring Sensors (AQM) in Chennai City",
+          "description": "Publishes realtime information of air pollutants from AQM sensors/ devices deployed in Chennai city. It gives instantaneous values of air pollutant measures  like carbon monoxide, nitrogen dioxide, ozone, particulate matter etc., at an interval of 1 minute along with the associated environmental factors like temperature, humidity, illuminance, etc. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "aqm",
+               "aqi",
+               "environment",
+               "air quality",
+               "air",
+               "pollution",
+               "so2",
+               "co2",
+               "co",
+               "no2",
+               "pm10",
+               "pm2p5",
+               "humidity",
+               "temperature",
+               "o3",
+               "noise",
+               "light"
+          ],
+          "provider": "25cd0ea1-a409-4f23-bc57-96ca906e1366",
+          "provider_bck": "cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for data from sensors in Chennai city",
+               "description": "Data attribute information of air quality monitoring sensors in Chennai city.",
+               "uv": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for Ultraviolet (UV) radiation.",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of Ultraviolet (UV) radiation.",
+                         "unitText": "milliwatts per square centimeter (mw/cm2)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "relativeHumidity": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for relativeHumidity.",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of relativeHumidity.",
+                         "unitCode": "P1",
+                         "unitText": "Percentage",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "airTemperature": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for air temperature.",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of air temperature.",
+                         "unitCode": "CEL",
+                         "unitText": "degree Celsius (C)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "o3": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for ozone(O3).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of ozone(O3).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "co2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for carbon dioxide(CO2).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of carbon dioxide(CO2).",
+                         "unitCode": "59",
+                         "unitText": "part per million (ppm)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "pm10": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for particulate matter 10(PM10).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of particulate matter 10(PM10).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "pm2p5": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for particulate matter 2.5(PM2.5).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of particulate matter 2.5(PM2.5).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "co": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for carbon monooxide(CO).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of carbon monooxide(CO).",
+                         "unitCode": "GP",
+                         "unitText": "milligram per cubic metre (mg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "no2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for nitrogen dioxide(NO2).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of nitrogen dioxide(NO2).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "illuminance": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Values of ambient light intensity corresponding to this observation.",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of ambient light intensity.",
+                         "unitCode": "LUX",
+                         "unitText": "lux (lx)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "so2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for sulphur dioxide(SO2).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of sulphur dioxide(SO2).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "ambientNoise": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for ambient noise levels.",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of ambient noise levels.",
+                         "unitCode": "2N",
+                         "unitText": "decibel (dbA)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/chennai/chennai-env-aqm.json",
+                    "name": "Chennai Air quality monitoring devices/sensors data  sample",
+                    "description": "Sample file for Air quality monitoring devices/sensors data  in Chennai city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Chennai, Tamil Nadu"
+          },
+          "instance": "chennai",
+          "ownerUserId": "29d98c6f-d756-4542-98a9-b13fd6692898",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-14T02:24:52+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "b74d3a25-e259-440a-be87-fed3b0b56bee",
+          "id_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-flood",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvFlood"
+          ],
+          "name": "pune-env-flood",
+          "label": "Flood Level Sensors in Pune City",
+          "description": "Publishes information of current water level at an interval of 15 minutes obtained from the flood level sensors deployed in Pune city. More details on the type of water level information measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "flooding",
+               "water flooding",
+               "flood",
+               "flood alert",
+               "flood danger",
+               "level",
+               "river",
+               "river bed"
+          ],
+          "provider": "f0944688-dc5a-4007-8380-919957d3f2a6",
+          "provider_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "dataDescriptorLabel": "Data Descriptor for flood-level sensor data in Pune city",
+               "currentLevel": {
+                    "unitText": "meter",
+                    "description": "Current flooding level indicated by the sensing station corresponding to this observation, computed using referenceLevel and measuredDistance(currentLevel = referenceLevel - measuredDistance).",
+                    "unitCode": "MTR",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number"
+               },
+               "description": "Data Descriptor for flood sensor data.",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvFlood"
+               ],
+               "measuredDistance": {
+                    "unitText": "meter",
+                    "description": "The distance measured by the sensor, from the sensor tip to the upper surface of water.",
+                    "unitCode": "MTR",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number"
+               },
+               "observationDateTime": {
+                    "description": "Last reported time of observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               },
+               "referenceLevel": {
+                    "unitText": "meter",
+                    "description": "Reference setting used to compute the currentLevel.",
+                    "unitCode": "MTR",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number"
+               },
+               "@context": "https://voc.iudx.org.in/"
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/pune/pune-env-flood.json",
+                    "name": "Pune flood sensor data sample",
+                    "description": "Sample file for Flood Sensor Data with respect to water level/flow for various location in Pune city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "address": "Pune, Maharashtra",
+               "type": "Place"
+          },
+          "instance": "pune",
+          "ownerUserId": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-14T09:28:42+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "be138096-0382-4093-a542-f66e7190a829",
+          "id_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-weather",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvWeather"
+          ],
+          "name": "pune-env-weather",
+          "label": "Weather Stations in Pune City",
+          "description": "Publishes aggregate values of current weather information,  and also the forecasted weather for the next day.This includes weather parameters like temperature, Air quality Index (AQI), Ultraviolet (UV) radiation, precipatation,etc. over an time interval of 60 minutes. This information is obtained from weather stations in Pune city. More details on the type of weather information measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "air pollutant",
+               "air",
+               "temperature",
+               "humidity",
+               "rainfall",
+               "relative humidity",
+               "uv radiation",
+               "ultra violet"
+          ],
+          "provider": "f0944688-dc5a-4007-8380-919957d3f2a6",
+          "provider_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvWeather"
+               ],
+               "dataDescriptorLabel": "Weather Information from Weather Stations in Pune",
+               "description": "Current and Next Day's Weather Forecast Information of Pune City.",
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Weather station name corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "airQualityIndex": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Overall Air Quality Index (AQI) for the last hour.",
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "aqiMajorPollutant": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Major pollutant in the Air Quality Index (AQI) for the last hour.",
+                    "dataSchema": "iudx:Text"
+               },
+               "uv": {
+                    "description": "Describes instantaneous and/or aggregated values for Ultraviolet (UV) radiation.",
+                    "avgOverTime": {
+                         "description": "Average value of UV radiation for the last hour",
+                         "unitCode": "C62",
+                         "unitText": "UV Index (uvi)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 60,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "airTemperature": {
+                    "description": "Describes instantaneous and/or aggregated values for air temperature.",
+                    "avgOverTime": {
+                         "description": "Average value of temperature for the last hour",
+                         "unitCode": "CEL",
+                         "unitText": "degree Celsius (C)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 60,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "relativeHumidity": {
+                    "description": "Describes instantaneous and/or aggregated values for relativeHumidity.",
+                    "avgOverTime": {
+                         "description": "Average value of relative humidity (water vapour in air) for last hour",
+                         "unitCode": "P1",
+                         "unitText": "percent",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 60,
+                              "unitText": "minutes"
+                         },
+                         "dataSchema": "iudx:Number"
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "precipitation": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Observed cumulative precipitation/rainfall level over the past hour for the weather station corresponding to this observation.",
+                    "unitCode": "MMT",
+                    "unitText": "millimetre",
+                    "dataSchema": "iudx:Number"
+               },
+               "airQualityIndexForecast": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Forecasted overall Air Quality Index (AQI) for the next day.",
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "aqiMajorPollutantForecast": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Forecasted major air pollutant in the Air Quality Index (AQI) for the next day.",
+                    "dataSchema": "iudx:Text"
+               },
+               "airTemperatureForecast": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Forecasted value of air temperature for the next day.",
+                    "unitCode": "CEL",
+                    "unitText": "degree Celsius",
+                    "dataSchema": "iudx:Number"
+               },
+               "relativeHumidityForecast": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Forecasted relative humidity (water vapour in air) for the next day.",
+                    "unitCode": "P1",
+                    "unitText": "percent",
+                    "dataSchema": "iudx:Number"
+               },
+               "precipitationForecast": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Forecasted rainfall for the next day.",
+                    "unitCode": "MMT",
+                    "unitText": "millimetre",
+                    "dataSchema": "iudx:Number"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time corresponding to this observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/pune/pune-env-weather.json",
+                    "name": "Pune weather data sample",
+                    "description": "Sample file for Current weather information and forecasted weather for the next day in Pune city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Pune"
+          },
+          "instance": "pune",
+          "ownerUserId": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-14T09:28:45+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "ff475fda-7076-4cba-8a64-25b7d47cce73",
+          "id_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "name": "pune-env-aqm",
+          "label": "Air Quality Monitoring Sensors (AQM) in Pune City",
+          "description": "Publishes realtime information of air pollutants from AQM sensors/ devices deployed in Pune city. It gives average values of air pollutant measures  like carbon monoxide, nitrogen dioxide, ozone, particulate matter etc., and also the associated environmental factors like temperature, humidity, illuminance over an time interval of 15 minutes. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "environment",
+               "air quality",
+               "climate",
+               "air",
+               "aqi",
+               "aqm",
+               "climo",
+               "pollution",
+               "so2",
+               "co2",
+               "co",
+               "no",
+               "no2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "ozone",
+               "o3",
+               "noise",
+               "light",
+               "uv"
+          ],
+          "provider": "f0944688-dc5a-4007-8380-919957d3f2a6",
+          "provider_bck": "datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "so2": {
+                    "description": "Describes instantaneous and/or aggregated values for sulphur dioxide(SO2).",
+                    "avgOverTime": {
+                         "description": "Average value of SO2 for the last 15 minutes",
+                         "unitCode": "61",
+                         "unitText": "part per billion (ppb)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "airTemperature": {
+                    "description": "Describes instantaneous and/or aggregated values for air temperature.",
+                    "avgOverTime": {
+                         "description": "Average value of temperature for the last 15 minutes",
+                         "unitCode": "CEL",
+                         "unitText": "degree Celsius (C)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "pm10": {
+                    "description": "Describes instantaneous and/or aggregated values for particulate matter 10(PM10).",
+                    "avgOverTime": {
+                         "description": "Average value of PM10 for the last 15 minutes",
+                         "unitCode": "GQ",
+                         "unitText": "micro gram per cubic metre (ug/m3)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "illuminance": {
+                    "description": "Describes instantaneous and/or aggregated ambient light intensity.",
+                    "avgOverTime": {
+                         "description": "Average value of ambient light intensity for the last 15 minutes",
+                         "unitCode": "LUX",
+                         "unitText": "lux (lx)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "co2": {
+                    "description": "Describes instantaneous and/or aggregated values for carban dioxide(CO2).",
+                    "avgOverTime": {
+                         "description": "Average value of CO2 for the last 15 minutes",
+                         "unitCode": "59",
+                         "unitText": "part per million (ppm)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "airQualityIndex": {
+                    "description": "Overall AQI",
+                    "unitCode": "C62",
+                    "dataSchema": "iudx:Number",
+                    "unitText": "dimensionless",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "uv": {
+                    "description": "Describes instantaneous and/or aggregated values for Ultraviolet (UV) radiation.",
+                    "avgOverTime": {
+                         "description": "Average value of UV radiation for the last 15 minutes",
+                         "unitCode": "C62",
+                         "unitText": "UV Index (uvi)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "o3": {
+                    "description": "Describes instantaneous and/or aggregated values for Ozone(O3).",
+                    "avgOverTime": {
+                         "description": "Average value of O3 for the last 15 minutes",
+                         "unitCode": "61",
+                         "unitText": "part per billion (ppb)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "@context": "https://voc.iudx.org.in/",
+               "ambientNoise": {
+                    "description": "Describes instantaneous and/or aggregated ambient noise levels.",
+                    "avgOverTime": {
+                         "description": "Average value of ambient noise level for the last 15 minutes",
+                         "unitCode": "2N",
+                         "unitText": "decibel (dB)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "airQualityLevel": {
+                    "description": "Air Quality Category Indication. Qualitative level defined according to the local health agencies. For example, 'GOOD', 'MODERATE', 'POOR', 'UNHEALTHY', 'SEVERE', 'HAZARDOUS' etc.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "no2": {
+                    "description": "Describes instantaneous and/or aggregated values for nitrogen dioxide(NO2).",
+                    "avgOverTime": {
+                         "description": "Average value of NO2 for the last 15 minutes",
+                         "unitCode": "61",
+                         "unitText": "part per billion (ppb)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "relativeHumidity": {
+                    "description": "Describes instantaneous and/or aggregated values for relativeHumidity.",
+                    "avgOverTime": {
+                         "description": "Average value of relative humidity (water vapour in air) for last 15 minutes.",
+                         "unitCode": "P1",
+                         "unitText": "percent",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "dataSchema": "iudx:Number"
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "dataDescriptorLabel": "Data Descriptor for data from Bosch-climo AQM sensors in Pune city.",
+               "atmosphericPressure": {
+                    "description": "Describes instantaneous and/or aggregated values for atmospheric pressure.",
+                    "avgOverTime": {
+                         "description": "Average value of air pressure for the last 15 minutes",
+                         "unitCode": "ATM",
+                         "unitText": "standard atmosphere (atm)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "observationDateTime": {
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "pm2p5": {
+                    "description": "Describes instantaneous and/or aggregated values for particulate matter 2.5(PM2.5).",
+                    "avgOverTime": {
+                         "description": "Average value of PM2.5 for the last 15 minutes",
+                         "unitCode": "GQ",
+                         "unitText": "micro gram per cubic metre (ug/m3)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "co": {
+                    "description": "Describes instantaneous and/or aggregated values for carbon monooxide(CO).",
+                    "avgOverTime": {
+                         "description": "Average value of CO for the last 24 hours",
+                         "unitCode": "59",
+                         "unitText": "part per million (ppm)",
+                         "dataSchema": "iudx:Number",
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "value": 15,
+                              "unitText": "minutes"
+                         },
+                         "type": [
+                              "ValueDescriptor"
+                         ]
+                    },
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ]
+               },
+               "deviceStatus": {
+                    "description": "Status of the device. Whether connected or not connected.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "aqiMajorPollutant": {
+                    "description": "Major pollutant in the Air Quality Index (AQI).",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/pune/pune-env-aqm.json",
+                    "name": "Pune air quality monitoring data sample",
+                    "description": "Sample file for Air quality monitoring devices/sensors in Pune city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "address": "Pune, Maharashtra",
+               "type": "Place"
+          },
+          "instance": "pune",
+          "ownerUserId": "00430d8a-5e26-4f07-82d5-1463817cb727",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-14T09:28:39+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "4779478f-aeaa-4439-a314-77b8ad6c93d0",
+          "id_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1/rs.iudx.org.in/bhubaneswar-env-aqm",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "name": "bhubaneswar-env-aqm",
+          "label": "Air Quality Monitoring Sensors (AQM) in Bhubaneswar City",
+          "description": "Publishes realtime information of air pollutants from AQM sensors/ devices deployed in Bhubaneswar city. It gives average values of air pollutant measures  like carbon monoxide, nitrogen dioxide, ozone, particulate matter etc., for every hour along with the associated environmental factors like temperature, humidity, etc. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "pollution",
+               "so2",
+               "co2",
+               "co",
+               "no2",
+               "pm10",
+               "pm2p5",
+               "humidity",
+               "temperature",
+               "o3",
+               "noise",
+               "aqi",
+               "aqm"
+          ],
+          "provider": "cbe3c53c-ea66-4ea1-b58a-a608c0b80183",
+          "provider_bck": "gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for data from sensors in Bhubaneswar city",
+               "description": "Data attribute information of air quality monitoring sensors in Bhubaneswar city.",
+               "pm2p5": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for particulate matter 2.5(PM2.5).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of pm2p5 for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "pm10": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for particulate matter 10(PM10).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of pm10 for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "so2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for sulphur dioxide(SO2).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of sulphur dioxide(SO2) for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "no2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for nitrogen dioxide(NO2).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of no2 for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "co": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for carbon monooxide(CO).",
+                    "unitCode": "GP",
+                    "unitText": "milligram per cubic metre (mg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of carbon monooxide(CO) for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "o3": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes averge values for ozone(O3).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of ozone(O3) for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "co2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for carbon dioxide(CO2).",
+                    "unitCode": "59",
+                    "unitText": "part per million (ppm)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of co2 for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "airQualityIndex": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Overall Air Quality Index (AQI) for the observed air quality.",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "airQualityLevel": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Air Quality Category Indication. Qualitative level defined according to the local health agencies. For example, 'GOOD', 'MODERATE', 'POOR', 'UNHEALTHY', 'SEVERE', 'HAZARDOUS' etc.",
+                    "dataSchema": "iudx:Text"
+               },
+               "aqiMajorPollutant": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Major pollutant in the Air Quality Index (AQI).",
+                    "dataSchema": "iudx:Text"
+               },
+               "ambientNoise": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for ambient noise levels.",
+                    "unitCode": "2N",
+                    "unitText": "decibel (dbA)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of ambient noise for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "relativeHumidity": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for relative humidity.",
+                    "unitText": "percent (%)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of relative humidity for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "airTemperature": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for air temperature.",
+                    "unitCode": "CEL",
+                    "unitText": "degree Celsius (C)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of air temperature for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "precipitation": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Average values of precipitation/rainfall for the last 1 hours.",
+                    "unitCode": "MMT",
+                    "unitText": "millimetre (mm)",
+                    "dataSchema": "iudx:Number",
+                    "aggregationDuration": {
+                         "unitCode": "MIN",
+                         "value": 60,
+                         "unitText": "minutes"
+                    }
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bhubaneswar/bhubaneswar-env-aqm.json",
+                    "name": "Bhubaneswar env aqm app sample",
+                    "description": "Sample file for env aqm in Bhubaneswar city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Bhubaneswar"
+          },
+          "instance": "bhubaneswar",
+          "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-02-24T01:18:40+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "cbf533b3-0017-4be0-82f8-0ced0109b64f",
+          "id_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/file.iudx.org.in/agartala-camera-feeds",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:Camera"
+          ],
+          "name": "agartala-camera-feeds",
+          "label": "Video Files from Surveillance/Traffic Cameras in Agartala City",
+          "description": "Video file systems stored from CCTV cameras installed to aid monitoring of city traffic, transportation and surveillance applications in Agartala city.",
+          "tags": [
+               "camera",
+               "mobility",
+               "vehicle",
+               "transport",
+               "traffic",
+               "junction",
+               "commute",
+               "cctv",
+               "rlvd",
+               "anpr",
+               "video",
+               "camera feed",
+               "surveillance",
+               "traffic monitoring",
+               "red light",
+               "violation"
+          ],
+          "provider": "9d5554c1-8e80-4767-a201-8c6790c70ebb",
+          "provider_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "dataDescriptorLabel": "Data attribute details of Camera Feeds in Agartala city",
+               "description": "Data attribute details of traffic monitoring and surveillance camera feeds in Faridabad City.",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:Camera"
+               ],
+               "startDateTime": {
+                    "description": "Reported start time corresponding to the video file in this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               },
+               "endDateTime": {
+                    "description": "Reported end time corresponding to the video file in this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               },
+               "cameraName": {
+                    "description": "Name of the camera corresponding to the video file in this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "cameraType": {
+                    "description": "Type of the camera, viz. Fixed, PTZ, Dome, Day/Night, C-mount, Bullet.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "cameraUsage": {
+                    "description": "Purpose of the camera corresponding to this observation, viz. surveillance, RLVD, ANPR/LPR in Faridabad city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "fileType": {
+                    "description": "Type of the video file, viz. MP4, MOV, WMV, AVI, MKV, MPEG-2.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Agartala, Tripura"
+          },
+          "instance": "agartala",
+          "ownerUserId": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-03-20T06:22:29+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "1b213286-4bea-4710-b0fb-8c9f69756b1e",
+          "id_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55/rs.iudx.org.in/varanasi-env-aqm",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "name": "varanasi-env-aqm",
+          "label": "Air Quality Monitoring Sensors (AQM) in Varanasi City",
+          "description": "Publishes realtime information of air pollutants from AQM sensors/ devices deployed in Varanasi city. It gives aggregate values of air pollutant measures like carbon monoxide, nitrogen dioxide, ozone, particulate matter etc., and also the associated environmental factors like temperature, humidity, illuminance over an time interval of 15 minutes. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "environment",
+               "air quality",
+               "climate",
+               "air",
+               "aqi",
+               "aqm",
+               "polludrone",
+               "pollution",
+               "so2",
+               "co2",
+               "co",
+               "no",
+               "no2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "ozone",
+               "o3",
+               "noise",
+               "light",
+               "uv"
+          ],
+          "provider": "484a1e29-3364-409f-b78a-2b44f1bf3f65",
+          "provider_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "ambientNoise": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value of ambient noise level in decibel over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "decibel (dB)",
+                         "unitCode": "2N",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of ambient noise levels for the last 15 minutes"
+                    }
+               },
+               "uv": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for Ultraviolet (UV) radiation over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "UV Index (uvi)",
+                         "unitCode": "C62",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of UV radiation for the last 15 minutes"
+                    }
+               },
+               "o2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for Oxygen (02) in percent over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "percent",
+                         "unitCode": "P1",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of O2 for the last 15 minutes"
+                    }
+               },
+               "so2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for Sulphur Dioxide (S02) in microgram per cubic metre over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "microgram per cubic metre",
+                         "unitCode": "GQ",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of SO2 for the last 15 minutes"
+                    }
+               },
+               "deviceStatus": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Status of the device. Whether connected or not connected.",
+                    "dataSchema": "iudx:Text"
+               },
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "pm10": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for particulate matter10 (PM10) in microgram per cubic metre over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "micro gram per cubic metre (ug/m3)",
+                         "unitCode": "GQ",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of PM10 for the last 15 minutes"
+                    }
+               },
+               "pm2p5": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for particulate matter2.5 (PM2.5) in microgram per cubic metre over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "micro gram per cubic metre (ug/m3)",
+                         "unitCode": "GQ",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of PM2.5 for the last 15 minutes"
+                    }
+               },
+               "co": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for Carbon Monoxide (C0) in milligram per cubic metre over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "milligram per cubic metre (mg/m3)",
+                         "unitCode": "GP",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of CO for the last 15 minutes"
+                    }
+               },
+               "airQualityIndex": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number",
+                    "unitText": "dimensionless",
+                    "description": "Overall AQI",
+                    "unitCode": "C62"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "co2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for Carbon Dioxide (C02) in part per million over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "part per million (ppm)",
+                         "unitCode": "59",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of CO2 for the last 15 minutes"
+                    }
+               },
+               "o3": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for Ozone (03) in microgram per cubic metre over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "microgram per cubic metre",
+                         "unitCode": "GQ",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of O3 for the last 15 minutes"
+                    }
+               },
+               "dataDescriptorLabel": "Data Attribute Details for AQM sensors in Varanasi city.",
+               "relativeHumidity": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for relative humidity over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "percent",
+                         "unitCode": "P1",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of relative humidity (water vapour in air) for last 15 minutes."
+                    }
+               },
+               "illuminance": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value of ambient light intensity in lux over the last 15 minutes..",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "lux (lx)",
+                         "unitCode": "LUX",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of ambient light intensity for the last 15 minutes"
+                    }
+               },
+               "no2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for Nitrogen Dioxide (N02) in microgram per cubic metre over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "microgram per cubic metre",
+                         "unitCode": "GQ",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of NO2 for the last 15 minutes"
+                    }
+               },
+               "airTemperature": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for air temperature in degree Celsius over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "degree Celsius (C)",
+                         "unitCode": "CEL",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of temperature for the last 15 minutes"
+                    }
+               },
+               "description": "Data descriptor for AQM sensors in Varanasi.",
+               "@context": "https://voc.iudx.org.in/",
+               "atmosphericPressure": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "The aggregated value for atmospheric pressure in hectopascal over the last 15 minutes.",
+                    "avgOverTime": {
+                         "dataSchema": "iudx:Number",
+                         "unitText": "hectopascal (hPa)",
+                         "unitCode": "A97",
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "aggregationDuration": {
+                              "unitCode": "MIN",
+                              "unitText": "minutes",
+                              "value": 15
+                         },
+                         "description": "Average value of air pressure for the last 15 minutes"
+                    }
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/varanasi/varanasi-env-aqm.json",
+                    "name": "Varansi Air Quality Monitoring Sensor sample",
+                    "description": "Sample file for Air Quality Monitoring Sensor in Varansi city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Varanasi, Uttar Pradesh"
+          },
+          "instance": "varanasi",
+          "ownerUserId": "986ac772-7592-4d85-a950-a103a36f98fa",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-03-09T10:11:59+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "a38bee66-1fe5-40f6-85c0-ad16e8efac17",
+          "id_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049/file.iudx.org.in/faridabad-camera-feeds",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:Camera"
+          ],
+          "name": "faridabad-camera-feeds",
+          "label": "Video Files from Surveillance Cameras in Faridabad City",
+          "description": "Video file systems stored from CCTV cameras installed in Faridabad city to aid monitoring of city road in flood and no flood situation.",
+          "tags": [
+               "camera",
+               "mobility",
+               "vehicle",
+               "transport",
+               "traffic",
+               "flood",
+               "junction",
+               "commute",
+               "cctv",
+               "rlvd",
+               "anpr",
+               "video",
+               "camera feed",
+               "surveillance",
+               "traffic monitoring",
+               "red light",
+               "violation"
+          ],
+          "provider": "f702792e-d7ee-43d8-8313-344e37e89831",
+          "provider_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "dataDescriptorLabel": "Data attribute details of Camera Feeds in Faridabad city",
+               "description": "Data attribute details of flood and no flood monitoring situation and surveillance camera feeds in Faridabad City.",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:Camera"
+               ],
+               "startDateTime": {
+                    "description": "Reported start time corresponding to the video file in this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               },
+               "endDateTime": {
+                    "description": "Reported end time corresponding to the video file in this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               },
+               "cameraName": {
+                    "description": "Name of the camera corresponding to the video file in this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "cameraType": {
+                    "description": "Type of the camera, viz. Fixed, PTZ, Dome, Day/Night, C-mount, Bullet.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "cameraUsage": {
+                    "description": "Purpose of the camera corresponding to this observation, viz. surveillance, RLVD, ANPR/LPR in Faridabad city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "fileType": {
+                    "description": "Type of the video file, viz. MP4, MOV, WMV, AVI, MKV, MPEG-2.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "faridabad, Haryana"
+          },
+          "instance": "faridabad",
+          "ownerUserId": "602e2803-2180-4441-b612-93aea9ccfd4a",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2021-12-15T05:01:05+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "361fe1c6-dfcc-4e14-b9ce-b6162ab13c44",
+          "id_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/rs.iudx.org.in/agartala-env-aqm",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "name": "agartala-env-aqm",
+          "label": "Air Quality Monitoring Sensors (AQM) in Agartala City",
+          "description": "Publishes realtime information of air pollutants from AQM sensors/ devices deployed in Agartala city. It gives average values of air pollutant measures  like carbon monoxide, nitrogen dioxide, ozone, particulate matter etc., along with the associated environmental factors like temperature, humidity, illuminance over a time interval of 60 minutes. More details on the type of pollutant measured and units of measurement can be seen in the Data Descriptor.",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "pollution",
+               "so2",
+               "co2",
+               "co",
+               "no2",
+               "pm10",
+               "pm2p5",
+               "humidity",
+               "temperature",
+               "o3",
+               "noise",
+               "light",
+               "aqm",
+               "aqi"
+          ],
+          "provider": "9d5554c1-8e80-4767-a201-8c6790c70ebb",
+          "provider_bck": "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2",
+          "itemStatus": "ACTIVE",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for data from sensors in Agartala city",
+               "description": "Data attribute information of air quality monitoring sensors in Agartala city.",
+               "pm2p5": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for particulate matter 2.5(PM2.5).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of pm2p5 for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "pm10": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for particulate matter 10(PM10).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of pm10 for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "so2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for sulphur dioxide(SO2).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of sulphur dioxide(SO2) for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "no2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for nitrogen dioxide(NO2).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of no2 for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "co": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for carbon monooxide(CO).",
+                    "unitCode": "GP",
+                    "unitText": "milligram per cubic metre (mg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of carbon monooxide(CO) for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "o3": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes averge values for ozone(O3).",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of ozone(O3) for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "co2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for carbon dioxide(CO2).",
+                    "unitCode": "59",
+                    "unitText": "part per million (ppm)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of co2 for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "airQualityIndex": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Overall Air Quality Index (AQI) for the observed air quality..",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "airQualityLevel": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Air Quality Category Indication. Qualitative level defined according to the local health agencies. For example, 'GOOD', 'MODERATE', 'POOR', 'UNHEALTHY', 'SEVERE', 'HAZARDOUS' etc.",
+                    "dataSchema": "iudx:Text"
+               },
+               "aqiMajorPollutant": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Major pollutant in the Air Quality Index (AQI).",
+                    "dataSchema": "iudx:Text"
+               },
+               "ambientNoise": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for ambient noise levels.",
+                    "unitCode": "2N",
+                    "unitText": "decibel (dbA)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of ambient noise for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "relativeHumidity": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for relative humidity.",
+                    "unitText": "percent (%)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of relative humidity for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "illuminance": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for ambient light intensity.",
+                    "unitCode": "LUX",
+                    "unitText": "lux (lx)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of ambient light for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "airTemperature": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes average values for air temperature.",
+                    "unitCode": "CEL",
+                    "unitText": "degree Celsius (C)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of air temperature for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "uv": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for Ultraviolet (UV) radiation.",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of uv for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "precipitation": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "average values Of precipitation/rainfall for the last 1 hours.",
+                    "unitCode": "MMT",
+                    "unitText": "millimetre (mm)",
+                    "dataSchema": "iudx:Number",
+                    "avgOverTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Average value of precipitation for the last 1 hour.",
+                         "dataSchema": "iudx:Number"
+                    }
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Agartala"
+          },
+          "instance": "agartala",
+          "ownerUserId": "1c572828-4c42-4056-9c15-516e08a1c811",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2023-09-05T04:35:15+0530"
+     }
+]

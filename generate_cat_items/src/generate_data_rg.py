@@ -57,6 +57,7 @@ class IUDXDataProcessor:
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
         json_data["ownerUserId"] = self.user_data.get(provider_id)
+        json_data["cos"] =  "637e32b6-9a6c-396f-914c-9db5d1a222b0"
 
         if rg_id in ["vmc.gov.in/ae95ac0975a80bd4fd4127c68d3a5b6f141a3436/rs.iudx.org.in/vadodara-env-aqm", "datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/rs.iudx.org.in/agartala-env-aqm", \
         "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info"]:
@@ -64,7 +65,7 @@ class IUDXDataProcessor:
             json_data.pop("dataSampleFile")
 
 
-        desired_keys = ["@context", "id", "id_bck", "type", "name", "label", "description", "tags", "provider", "provider_bck", "itemStatus", "dataSampleFile", "location", "instance", "ownerUserId", "itemCreatedAt"]
+        desired_keys = ["@context", "id", "id_bck", "type", "name", "label", "description", "tags", "provider", "provider_bck", "itemStatus","dataSampleFile", "location", "instance", "ownerUserId", "cos", "itemCreatedAt"]
         return self.extract_desired_keys(desired_keys, json_data)
     
     def process_resource(self, json_data):
@@ -138,13 +139,24 @@ class IUDXDataProcessor:
 
         json_changed_dict = []
 
+        v = ['elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0/rs.iudx.org.in/bengaluru-elcita-env-aqm', 'elcita.in/5c6cb972398bd01ad8c299f1e55da815e0c394f0/rs.iudx.org.in/bengaluru-elcita-mobile-env-aqm', 'cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-water-level', 'cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-flood-monitoring', 'cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-env-weather', 'cscl.co.in/6c614d4ddb17b0dfc6e3c1bc8ddcb25ce25e310b/rs.iudx.org.in/chennai-env-aqm', 'datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-flood', 'datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-weather', 'datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-aqm', 'gov.in/dd81437d71e193a1a950cb40f11c42357957bbb1/rs.iudx.org.in/bhubaneswar-env-aqm', 'datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/file.iudx.org.in/agartala-camera-feeds', 'varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55/rs.iudx.org.in/varanasi-env-aqm', 'smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049/file.iudx.org.in/faridabad-camera-feeds', 'datakaveri.org/facec5182e3bf44cc3ac42b0b611263676d668a2/rs.iudx.org.in/agartala-env-aqm']
+
+
+
+
+
+
         for json_data in json_array:
 
             json_data = OrderedDict(json_data)
 
             if "iudx:ResourceGroup" in json_data.get("type", []):
                 if json_data["id"] in self.resource_group_data:
-                    json_changed_dict.append(self.process_resource_group(json_data))
+                    if not json_data["provider"] == "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a":
+    
+
+                        if json_data["id"] not in v:
+                            json_changed_dict.append(self.process_resource_group(json_data))
 
         return json_changed_dict
 

@@ -1,1076 +1,6 @@
 [
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "461a8d17-028e-4f58-9c75-d419c16f2655",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN01-01",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WD-VN01-01",
-          "label": "Water Distribution Monitoring Node 2 at First Floor of Vindhya",
-          "description": "Real-time information/measuresments obtained from the Node 2 water distribution monitoring system installed at First Floor of Vindhya in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.349937,
-                         17.445369
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:00:54+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "9d26448f-d105-40f5-b9e2-f8f7eaef9762",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN01-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WD-VN01-00",
-          "label": "Water Distribution Monitoring Node 1 at First Floor of Vindhya",
-          "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed at First Floor of Vindhya in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.350027,
-                         17.445467
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:00:51+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "71e1be42-c8d2-4716-a2db-1fc577035b16",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WD-VN00-00",
-          "label": "Water Distribution Monitoring Node 1 at Ground Floor of Vindhya",
-          "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed at Ground Floor of Vindhya in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.349875,
-                         17.445402
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:00:44+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "dfec94c4-3b21-4cea-b0c9-ba6b15b15339",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-BN04-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WD-BN04-00",
-          "label": "Water Distribution Monitoring Node 1 at Fourth Floor of Bakul Nivas",
-          "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed at Fourth Floor of Bakul Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.3483606,
-                         17.443674
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:01:01+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "49e61798-475b-4b0a-83e4-e9ef7717f39b",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN02-01",
-          "type": [
-               "iudx:Resource",
-               "iudx:SolarEnergy"
-          ],
-          "name": "SL-VN02-01",
-          "label": "Solar panel Node 2 at 2nd floor Vindhya Nivas",
-          "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "solar energy",
-               "solar",
-               "power",
-               "power factor",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "frequency",
-               "phase",
-               "active power",
-               "photovoltaic cells",
-               "photovoltaic voltage",
-               "photovoltaic current",
-               "photovoltaic power",
-               "energy generated"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34955,
-                         17.44728
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T01:59:53+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "657c2c4e-c979-4dd4-80e3-206b196cd9de",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN02-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:SolarEnergy"
-          ],
-          "name": "SL-VN02-00",
-          "label": "Solar panel node 1 at 2nd floor of Vindhya Nivas",
-          "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "solar energy",
-               "solar",
-               "power",
-               "power factor",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "frequency",
-               "phase",
-               "active power",
-               "photovoltaic cells",
-               "photovoltaic voltage",
-               "photovoltaic current",
-               "photovoltaic power",
-               "energy generated"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34965,
-                         17.44548
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T01:59:50+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "f914b2ac-001a-4988-a3ad-58e097ada439",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN03-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:SolarEnergy"
-          ],
-          "name": "SL-VN03-00",
-          "label": "Solar panel node 1 at 3rd floor of Vindhya Nivas",
-          "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "solar energy",
-               "solar",
-               "power",
-               "power factor",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "frequency",
-               "phase",
-               "active power",
-               "photovoltaic cells",
-               "photovoltaic voltage",
-               "photovoltaic current",
-               "photovoltaic power",
-               "energy generated"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34921,
-                         17.44582
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T01:59:47+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "b4f2176d-633a-4f01-9f33-ac25c98fa42b",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-NI03-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:SolarEnergy"
-          ],
-          "name": "SL-NI03-00",
-          "label": "Solar panel node 1 at 3rd floor of Nilgiri Nivas",
-          "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "solar energy",
-               "solar",
-               "power",
-               "power factor",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "frequency",
-               "phase",
-               "active power",
-               "photovoltaic cells",
-               "photovoltaic voltage",
-               "photovoltaic current",
-               "photovoltaic power",
-               "energy generated"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34863,
-                         17.44732
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:00:00+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "9f43b266-e645-46f3-94cd-582a2c51a398",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-VN95-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:SolarEnergy"
-          ],
-          "name": "SL-VN95-00",
-          "label": "Solar Energy meter Node 1 in cellar of Vindhya Nivas",
-          "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "solar energy",
-               "solar",
-               "power",
-               "power factor",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "frequency",
-               "phase",
-               "active power",
-               "photovoltaic cells",
-               "photovoltaic voltage",
-               "photovoltaic current",
-               "photovoltaic power",
-               "energy generated"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34973,
-                         17.44591
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T01:59:56+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "fd7e7bc0-edba-4102-96ab-3b806cc9a159",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/SR-EM-KH04-02",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnergyMeter"
-          ],
-          "name": "SR-EM-KH04-02",
-          "label": "Smart Room Energy Meter Node 3 at fourth floor of Kohli Research Block",
-          "description": "Real-time information/measuresments obtained from the Node 3 energy meter installed at fourth floor of Kohli Research Block in IIIT Hyderabad campus.",
-          "tags": [
-               "energy",
-               "power",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "consumption",
-               "energy consumption",
-               "meter"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34974,
-                         17.44511
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T01:31:49+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "66b9c278-0beb-488a-8b41-18495aced152",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/SR-EM-KH04-01",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnergyMeter"
-          ],
-          "name": "SR-EM-KH04-01",
-          "label": "Smart Room Energy Meter Node 2 at fourth floor of Kohli Research Block",
-          "description": "Real-time information/measuresments obtained from the Node 2 energy meter installed at fourth floor of Kohli Research Block in IIIT Hyderabad campus.",
-          "tags": [
-               "energy",
-               "power",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "consumption",
-               "energy consumption",
-               "meter"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34974,
-                         17.44511
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T01:31:45+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "189d8161-a171-45d3-a6b2-30137aa6a728",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter/SR-EM-KH04-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnergyMeter"
-          ],
-          "name": "SR-EM-KH04-00",
-          "label": "Smart Room Energy Meter Node 1 at fourth floor of Kohli Research Block",
-          "description": "Real-time information/measuresments obtained from the Node 1 energy meter installed at fourth floor of Kohli Research Block in IIIT Hyderabad campus.",
-          "tags": [
-               "energy",
-               "power",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "consumption",
-               "energy consumption",
-               "meter"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34974,
-                         17.44511
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T01:31:41+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "bef94acb-de2f-43a0-a04c-0abcf7306fd7",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather-version/version-info",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvWeather"
-          ],
-          "name": "version-info",
-          "label": "Device Information of Weather monitors ",
-          "description": "Physical and device specific details of water monitors in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "weather",
-               "humidity",
-               "rainfall",
-               "relative humidity",
-               "solar radiation ",
-               "wind",
-               "wind direction",
-               "wind speed",
-               "gust ",
-               "gust speed"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "36769f6d-7ae4-43d0-adc5-6dcb025d9e5f",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather-version",
-          "resourceType": "DATASET",
-          "iudxResourceAPIs": [
-               "ATTR"
-          ],
-          "location": {
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place",
-               "geometry": {
-                    "type": "Polygon",
-                    "coordinates": [
-                         [
-                              [
-                                   78.339557,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.438768
-                              ]
-                         ]
-                    ]
-               }
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-06T10:32:09+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "1c8bce59-02b1-4a3e-9802-94bf5e6bdfe5",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring-version/version-info",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "version-info",
-          "label": "Device Details of Water Monitors in IIIT Hyderabad",
-          "description": "Physical and device specific details of the water monitors installed in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "b5fa3bae-0a27-4f48-bcf8-4768ac2d40c6",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring-version",
-          "resourceType": "DATASET",
-          "iudxResourceAPIs": [
-               "ATTR"
-          ],
-          "location": {
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place",
-               "geometry": {
-                    "type": "Polygon",
-                    "coordinates": [
-                         [
-                              [
-                                   78.339557,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.438768
-                              ]
-                         ]
-                    ]
-               }
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-06T10:32:29+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "2dbca76b-b5c4-4f74-8eff-229c95275a5c",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel-version/version-info",
-          "type": [
-               "iudx:Resource",
-               "iudx:SolarEnergy"
-          ],
-          "name": "version-info",
-          "label": "Device Details of Solar Panels in IIIT Hyderabad",
-          "description": "Physical and device specific details of the solar panels installed in IIIT Hyderabad campus.",
-          "tags": [
-               "device",
-               "version",
-               "specifications",
-               "solar energy",
-               "solar",
-               "power",
-               "power factor",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "frequency",
-               "phase",
-               "active power",
-               "reactive power",
-               "photovoltaic cells",
-               "photovoltaic voltage",
-               "photovoltaic current",
-               "photovoltaic power",
-               "energy generated",
-               "pv"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "c7e359ed-b903-49a6-bcb1-c7b744ad7e13",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel-version",
-          "resourceType": "DATASET",
-          "iudxResourceAPIs": [
-               "ATTR"
-          ],
-          "location": {
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place",
-               "geometry": {
-                    "type": "Polygon",
-                    "coordinates": [
-                         [
-                              [
-                                   78.339557,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.438768
-                              ]
-                         ]
-                    ]
-               }
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-06T10:32:19+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "dd75d9e8-9d83-4aca-9c8f-10ee7b1ff84c",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter-version/version-info",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnergyMeter"
-          ],
-          "name": "version-info",
-          "label": "Device Details of Energy Meters in IIIT Hyderabad",
-          "description": "Physical and device specific details of the energy meters installed in IIIT Hyderabad campus.",
-          "tags": [
-               "energy",
-               "power",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "consumption",
-               "energy consumption",
-               "meter"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "97dae4f4-34d4-4d7f-8f5a-c57268058012",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-energy-meter-version",
-          "resourceType": "DATASET",
-          "iudxResourceAPIs": [
-               "ATTR"
-          ],
-          "location": {
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place",
-               "geometry": {
-                    "type": "Polygon",
-                    "coordinates": [
-                         [
-                              [
-                                   78.339557,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.438768
-                              ]
-                         ]
-                    ]
-               }
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-06T10:31:46+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "bc28db1f-6e75-43c9-b32e-2b162917eaa0",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm-version/version-info",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "version-info",
-          "label": "AQM Device Information",
-          "description": "Air quality monitoring device specific Information for AQM installations in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3",
-               "version",
-               "device list"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "271b1a7d-d27b-4660-9857-09986be7e99d",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm-version",
-          "resourceType": "DATASET",
-          "iudxResourceAPIs": [
-               "ATTR"
-          ],
-          "location": {
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place",
-               "geometry": {
-                    "type": "Polygon",
-                    "coordinates": [
-                         [
-                              [
-                                   78.339557,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.438768
-                              ],
-                              [
-                                   78.352839,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.450866
-                              ],
-                              [
-                                   78.339557,
-                                   17.438768
-                              ]
-                         ]
-                    ]
-               }
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-06T10:31:59+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
           "id": "9973c6fd-abb7-4a77-8fc9-8b116cc0c4a7",
           "id_bck": "nic.in/353f7cb4adcc6d5b14a408b0d34076046994e422/rs.iudx.org.in/chandigarh-smartbike-docking-info/smartbike-damage-info",
           "type": [
@@ -10981,655 +9911,6 @@
           "instance": "thoothukudi",
           "ownerUserId": "012d19e2-eb0e-43c3-bd51-315e4674c55d",
           "itemCreatedAt": "2022-10-10T03:07:30+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "dc4b38c6-c51d-4601-929a-e89e1e6aadb9",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-AD95-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-AD95-00",
-          "label": "Air Quality node at ground floor of Himalaya Admin Block",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34989,
-                         17.44507
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Himalaya Admin Block"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:09:01+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "63266a72-6fa1-4dfc-84f2-36ed49639838",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-AN00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-AN00-00",
-          "label": "Air Quality node at Anand Nivas",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.348436,
-                         17.443936
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Anand Nivas"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:06:03+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "00ad6342-3d1e-4b3e-9559-d1a941872081",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-PL00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-PL00-00",
-          "label": "Air Quality node at Palash Nivas",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34605,
-                         17.44509
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Palash Nivas"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:06:09+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "3a717f69-0bc6-474c-a778-befaa369f175",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-KN00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-KN00-00",
-          "label": "Air Quality node at Kadamba Nivas",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34839,
-                         17.4481
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Kadamba Nivas"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:05:50+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "35d364b4-b9ca-41b6-be4c-1db2e80eeec2",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-FG00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-FG00-00",
-          "label": "Air Quality node at Football Ground",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34854,
-                         17.44697
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Football Ground"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:06:12+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "7b87e7da-dc1a-4405-b468-718a5db77ee8",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-SN00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-SN00-00",
-          "label": "Air Quality node at Sahana Atidhi Nivas",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.347483,
-                         17.445604
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Sahana Atidhi Nivas"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:05:53+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "64a24545-8b84-4393-a245-ab970ea36ba1",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-VN90-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-VN90-00",
-          "label": "Air Quality node at Vindhya Block",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.349215,
-                         17.445825
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Vindhya"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:08:51+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "da258171-be17-4978-a162-80472e987d24",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-PH03-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-PH03-00",
-          "label": "Air Quality node at Pump House 3",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.348365,
-                         17.443299
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Pump House"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:08:58+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "5824b523-ab89-44cd-8d0a-607543dc4d7e",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-BN00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-BN00-00",
-          "label": "Air Quality node at Bakul Nivas",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.348444,
-                         17.448056
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Bakul Nivas"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:08:48+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "5038f5a7-57a2-416b-9db8-862aa3778e4c",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-KH00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-KH00-00",
-          "label": "Air Quality node at Kohli Research Block",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34952,
-                         17.44487
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Kohli Research Block"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:08:54+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "673ff322-02ac-4b69-93da-01de977b6906",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm/AQ-MG00-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvAQM"
-          ],
-          "name": "AQ-MG00-00",
-          "label": "Air Quality node at Main Gate",
-          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
-          "tags": [
-               "environment",
-               "air quality",
-               "air",
-               "aqi",
-               "aqm",
-               "pollution",
-               "amonia",
-               "carbon",
-               "carbon monoxide",
-               "nitrogen dioxide",
-               "co",
-               "no2",
-               "pm2.5",
-               "pm10",
-               "humidity",
-               "temperature",
-               "nh3"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-aqm",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.35142,
-                         17.44599
-                    ],
-                    "type": "Point"
-               },
-               "type": "Place",
-               "address": "IIIT Hyderabad Main Gate"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-10-10T10:05:44+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",
@@ -47040,641 +45321,6 @@
      },
      {
           "@context": "https://voc.iudx.org.in/",
-          "id": "d70d15bd-146e-46e9-b99f-1d87522b55e9",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather/WE-GS04-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvWeather"
-          ],
-          "name": "WE-GS04-00",
-          "label": "Weather Monitoring Node 1 at fourth floor of Bakul Nivas",
-          "description": "Real-time Weather measurements obtained from the Weather Station installed at fourth floor of Bakul Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "weather",
-               "humidity",
-               "rainfall",
-               "relative humidity",
-               "solar radiation ",
-               "wind",
-               "wind direction",
-               "wind speed",
-               "gust ",
-               "gust speed"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "e063fb28-cd18-418a-897d-7b1034e282b9",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.3483606,
-                         17.443674
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:19:55+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "42617bce-8d52-486d-a176-78feea16207f",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather/WE-VN04-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:EnvWeather"
-          ],
-          "name": "WE-VN04-00",
-          "label": "Weather Monitoring Node 1 at fourth floor of Vindhya",
-          "description": "Real-time weather measurements obtained from the weather monitoring system installed at fourth floor of Vindhya Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "weather",
-               "humidity",
-               "rainfall",
-               "relative humidity",
-               "solar radiation ",
-               "wind",
-               "wind direction",
-               "wind speed",
-               "gust ",
-               "gust speed"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "e063fb28-cd18-418a-897d-7b1034e282b9",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-env-weather",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.349215,
-                         17.445825
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:16:02+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "f316b65f-e7c1-4cfd-a46a-d593b0dd54ab",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-02",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WF-PH03-02",
-          "label": "Water Flow Monitoring Node 3 at Third Floor of Pump House 3",
-          "description": "Real-time information/measuresments obtained from the Node 3 water flow monitoring system installed at Third Floor of Pump House 3 in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.348365,
-                         17.443299
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:01:18+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "c5555e73-45b3-4c17-82b7-7964a157234d",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-03",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WF-PH03-03",
-          "label": "Water Flow Monitoring Node 4 at Third Floor of Pump House 3",
-          "description": "Real-time information/measuresments obtained from the Node 4 water flow monitoring system installed at Third Floor of Pump House 3 in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.348365,
-                         17.443299
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:01:21+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "dd5127c4-14d6-4926-ae0f-7a36c36bf235",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-01",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WF-PH03-01",
-          "label": "Water Flow Monitoring Node 2 at Third Floor of Pump House 3",
-          "description": "Real-time information/measuresments obtained from the Node 2 water flow monitoring system installed at Third Floor of Pump House 3 in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.348365,
-                         17.443299
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:01:15+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "dfe46220-15f9-4dd0-838c-2ee99dc05328",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH03-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WF-PH03-00",
-          "label": "Water Flow Monitoring Node 1 at Third Floor of Pump House 3",
-          "description": "Real-time information/measuresments obtained from the Node 1 water flow monitoring system installed at Third Floor of Pump House 3 in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.348365,
-                         17.443299
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:01:11+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "e86474d5-74ef-4a4c-8315-0c081d6a2525",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel/SL-NI03-01",
-          "type": [
-               "iudx:Resource",
-               "iudx:SolarEnergy"
-          ],
-          "name": "SL-NI03-01",
-          "label": "Solar panel Node 2 at 3rd floor of Nilgiri Nivas",
-          "description": "Real-time information/measuresments obtained from the solar panels mounted at rooftop in Vindhya Nivas in IIIT Hyderabad campus.",
-          "tags": [
-               "solar energy",
-               "solar",
-               "power",
-               "power factor",
-               "current",
-               "voltage",
-               "volt",
-               "volts",
-               "watt",
-               "frequency",
-               "phase",
-               "active power",
-               "photovoltaic cells",
-               "photovoltaic voltage",
-               "photovoltaic current",
-               "photovoltaic power",
-               "energy generated"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-solar-panel",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.34863,
-                         17.44732
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:00:03+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "664bc6a4-034b-4122-9fc6-b6933bb406c2",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-PH01-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WD-PH01-00",
-          "label": "Water Distribution Monitoring Node 1 at Pump House 1",
-          "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed at Pump House 1 in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.351444,
-                         17.445793
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:00:58+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "2a238cc6-0f5b-4701-a239-fa7e935ba267",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WD-VN90-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WD-VN90-00",
-          "label": "Water Distribution Monitoring Node 1 at Vindhya Library",
-          "description": "Real-time information/measuresments obtained from the Node 1 water distribution monitoring system installed  at Vindhya Library in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.35142,
-                         17.44599
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:00:48+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "06839158-7595-44c4-8259-c0c49a380dc4",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-VN01-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WF-VN01-00",
-          "label": "Water Flow Monitoring Node 1 at First Floor of Vindhya",
-          "description": "Real-time information/measuresments obtained from the Node 1 water flow monitoring system installed at First Floor of Vindhya in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.349937,
-                         17.445369
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:01:04+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "e6bab98d-dd27-4872-b78b-cad10c2cf8de",
-          "id_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring/WM-WF-PH01-00",
-          "type": [
-               "iudx:Resource",
-               "iudx:WaterDistributionNetwork"
-          ],
-          "name": "WM-WF-PH01-00",
-          "label": "Water Flow Monitoring Node 1 at First Floor of Pump House 1",
-          "description": "Real-time information/measuresments obtained from the Node 1 water flow monitoring system installed at First Floor of Pump House 1 in IIIT Hyderabad campus.",
-          "tags": [
-               "water",
-               "water distribution",
-               "water supply",
-               "pH",
-               "turbidity",
-               "pressure",
-               "water pressure",
-               "water reservoir",
-               "reservoir",
-               "tank",
-               "sump",
-               "oht",
-               "booster",
-               "pump",
-               "pump house",
-               "flow",
-               "flowrate"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "9138727e-d868-484e-a601-3344de330736",
-          "provider_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
-          "resourceGroup_bck": "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a/iudx-rs-onem2m.iiit.ac.in/iiith-water-monitoring",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         78.351444,
-                         17.445793
-                    ],
-                    "type": "Point"
-               },
-               "address": "IIIT Hyderabad, Telangana",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "hyderabad",
-          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
-          "itemCreatedAt": "2022-08-10T02:01:07+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
           "id": "b12c46d6-36bb-4aff-a50d-ad9fefaffc06",
           "id_bck": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-grievance/civic-issues",
           "type": [
@@ -66405,6 +64051,165 @@
      },
      {
           "@context": "https://voc.iudx.org.in/",
+          "id": "5d0fead6-7a62-4f1a-a2d8-42b18b3a14e5",
+          "id_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049/file.iudx.org.in/faridabad-atcs-static-info/atcs-static",
+          "type": [
+               "iudx:Resource",
+               "iudx:TransitManagement"
+          ],
+          "name": "atcs-static",
+          "label": "Adaptive Traffic Control System Corridor Info in Fairdabad City",
+          "description": "Publishes information on individual junction locations in relation to larger traffic corridors, maximum allotted signal cycle time at each junction along with permitted directions of traffic flow and permitted modes of transport in Faridabad city.",
+          "tags": [
+               "atcs",
+               "mobility",
+               "vehicle",
+               "transport",
+               "traffic",
+               "junction",
+               "commute",
+               "route",
+               "corridors",
+               "lane",
+               "density",
+               "volume",
+               "congestion"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "f702792e-d7ee-43d8-8313-344e37e89831",
+          "provider_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "c9b761c7-de17-4800-bf55-8c84d986a199",
+          "resourceGroup_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049/file.iudx.org.in/faridabad-atcs-static-info",
+          "resourceType": "FILE",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "dataDescriptorLabel": "Data attribute details of Adaptive Traffic corridors in Faridabad City",
+               "description": "Data attribute details of corridor information for the Adaptive Traffic corridors in Faridabad City.",
+               "type": [
+                    "iudx:DataDescriptor"
+               ],
+               "observationDateTime": {
+                    "description": "Last reported time of observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               },
+               "header": {
+                    "description": "Meta object which provides information on the provider/producer, type and the version details corresponding to this dataset.",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "junctions": {
+                    "description": "A Junction is a physical point where at least two roads meet, hence traffic can change between different routes and/or directions at it.",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "corridors": {
+                    "description": "Corridor is a set of junctions. One junction can be part of multiple corridors.",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               }
+          },
+          "dataSample": {
+               "observationDateTime": "2021-04-10T15:13:19+05:30",
+               "header": {
+                    "version": "0.0.2",
+                    "incrementality": "FULL_DATASET",
+                    "timestamp": 1618047799,
+                    "provider": {
+                         "id": "f048d42f-ffa2-3e9e-93e4-984f9b394d8e",
+                         "name": "Faridabad Smart City Limited"
+                    }
+               },
+               "junctions": [
+                    {
+                         "id": "84bc75c4-2992-5b9d-9834-aff568d9d6e8",
+                         "name": "ESI Chowk",
+                         "maxCycleTimeSeconds": 240,
+                         "operationMode": "OPERATION_MODE_UNKNOWN",
+                         "location": {
+                              "latitude": 28.391028,
+                              "longitude": 77.292747
+                         },
+                         "corridorRelationships": [
+                              {
+                                   "corridorId": "edafd05b-30d0-5fb1-a2ec-54fa6da0a81c",
+                                   "distanceFromOriginJunction": 0,
+                                   "sequenceNo": 1
+                              }
+                         ],
+                         "carriageways": [
+                              {
+                                   "id": "f41324ed-64dc-5d85-96e9-da6022d98bc9",
+                                   "trafficLanes": [
+                                        {
+                                             "id": "2694a45e-72d3-11eb-ab09-acde48001122",
+                                             "direction": {
+                                                  "to": "Chimnibai",
+                                                  "from": "NIT 2",
+                                                  "turn": "TURN_DIRECTION_STRAIGHT"
+                                             },
+                                             "modeOfTransportAllowed": "MOTORISED",
+                                             "location": {
+                                                  "latitude": 28.3910412,
+                                                  "longitude": 77.2926047
+                                             }
+                                        }
+                                   ]
+                              }
+                         ]
+                    }
+               ],
+               "corridors": [
+                    {
+                         "corridorId": "edafd05b-30d0-5fb1-a2ec-54fa6da0a81c",
+                         "corridorName": "Gurugram-Faridabad",
+                         "junctionIdsInCorridor": [
+                              "84bc75c4-2992-5b9d-9834-aff568d9d6e8",
+                              "8bf92c67-2f1b-5ad8-a8c4-1bd8a06c55de",
+                              "106c2637-4ecf-566d-aa99-3628b85c9a53",
+                              "a0c4ff4d-d94d-55c9-b098-66244d7449c2",
+                              "aa81b23e-d61b-5321-aa85-49add3ad4e45",
+                              "f22f28f3-b7c7-5b8d-ac05-62b6f7359eac",
+                              "36e6dc25-55e4-5720-8201-172defef1641",
+                              "988c8f26-dbb2-52b4-8cb3-17327c98f048",
+                              "77a59140-a47a-5035-bf87-3c8e8714e279",
+                              "b7ce51e9-50f6-57f4-81d0-088650f9c15e",
+                              "5383e6ca-895a-5c2c-bd73-b47c20207b44",
+                              "caedda31-28fe-55d2-aa7e-475ef844c4b4",
+                              "5175fe16-aa17-55d1-b727-f84714ed9893"
+                         ]
+                    }
+               ]
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/faridabad/faridabad-atcs-static-info-atcs-static.json",
+                    "Name": "Faridabad Adaptive Traffic Control System Corridor Info data sample",
+                    "description": "Sample file containing Adaptive Traffic Control System Corridor Info in Faridabad city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Faridabad, Haryana"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "faridabad",
+          "ownerUserId": "602e2803-2180-4441-b612-93aea9ccfd4a",
+          "itemCreatedAt": "2023-09-05T08:58:28+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
           "id": "8ef10227-3701-4e9f-8b3c-a1c5008aeb7f",
           "id_bck": "varanasismartcity.gov.in/62d1f729edd3d2a1a090cb1c6c89356296963d55/rs.iudx.org.in/varanasi-swm-vehicle-live/varanasi-swm-vehicle-pos",
           "type": [
@@ -66598,6 +64403,410 @@
      },
      {
           "@context": "https://voc.iudx.org.in/",
+          "id": "2727e03d-fdfd-450f-b0f7-83e6638a25c0",
+          "id_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e/rs.iudx.org.in/bhubaneswar-bike-docking-info/station-slot-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:BikeDockingStation"
+          ],
+          "name": "station-slot-info",
+          "label": "Bicycle Availability Info from Yaana Bicycle Docking Stations in Bhubaneswar City",
+          "description": "The real time information of slots and bicycle availability for every 5 minutes at Yaana bicycle docking stations in Bhubaneswar city.",
+          "tags": [
+               "yaana",
+               "bicycle station",
+               "bicycle sharing",
+               "bicycle availability",
+               "bicycle parking",
+               "bicycle racks",
+               "docking station"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "7301717c-8a65-47f6-bc8d-345f5cb71e43",
+          "provider_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "b72fe44d-dc02-4034-b649-636ac62a7325",
+          "resourceGroup_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e/rs.iudx.org.in/bhubaneswar-bike-docking-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:BikeDockingStation"
+               ],
+               "dataDescriptorLabel": "Yaana bicycle availability at yaana zones in Bhubaneswar City",
+               "description": "Data attribute details of Yaana bicycle availability at yaana zones in Bhubaneswar City.",
+               "stationCode": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The station code or zone code associated with the yaana bicycle station/zone corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "stationName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The name of yaana bicycle docking station/zone corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "agency_name": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The name of the bicycle docking station's service provider.",
+                    "dataSchema": "iudx:Text"
+               },
+               "availableBikeNumber": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Describes the number of electric bikes or bicycles available at the yaana bicycle docking station/zone corresponding to this observation",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless"
+               }
+          },
+          "dataSample": {
+               "stationCode": "BB0001",
+               "availableBikeNumber": 3,
+               "agency_name": "YAANA",
+               "observationDateTime": "2021-06-16T10:32:08+05:30",
+               "stationName": "Janpath_01"
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bhubaneswar/yaana/bhubaneswar-bike-docking-info-station-slot-info.json",
+                    "name": "Bhubaneswar  yaana docking stations slot sample",
+                    "description": "Sample file for slots in yaana docking stations in Bhubaneswar city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "geometry": {
+                    "coordinates": [
+                         [
+                              [
+                                   85.9058,
+                                   20.2312
+                              ],
+                              [
+                                   85.9141,
+                                   20.2905
+                              ],
+                              [
+                                   85.853,
+                                   20.3198
+                              ],
+                              [
+                                   85.7891,
+                                   20.2956
+                              ],
+                              [
+                                   85.7829,
+                                   20.2425
+                              ],
+                              [
+                                   85.8378,
+                                   20.2125
+                              ],
+                              [
+                                   85.9058,
+                                   20.2312
+                              ]
+                         ]
+                    ],
+                    "type": "Polygon"
+               },
+               "address": "Bhubaneswar, Odisha",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "bhubaneswar",
+          "ownerUserId": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "itemCreatedAt": "2023-09-05T09:05:09+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "07de2e77-8097-4e2e-b5b1-278ed535cfe0",
+          "id_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e/rs.iudx.org.in/bhubaneswar-bike-docking-locations/station-locations",
+          "type": [
+               "iudx:Resource",
+               "iudx:BikeDockingStation"
+          ],
+          "name": "station-locations",
+          "label": "Yaana Bicycle Zones/Stations Locations in Bhubaneswar City",
+          "description": "The physical coordinates of Yaana bike docking stations locations in Bhubaneswar city.",
+          "tags": [
+               "yaana",
+               "yaana location",
+               "station area",
+               "station name",
+               "yaana area",
+               "bicycle pick up",
+               "bicycle rent",
+               "locality"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "7301717c-8a65-47f6-bc8d-345f5cb71e43",
+          "provider_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "3a7aed79-f279-4b3a-9fa9-e24a73296d93",
+          "resourceGroup_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e/rs.iudx.org.in/bhubaneswar-bike-docking-locations",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:BikeDockingStation"
+               ],
+               "dataDescriptorLabel": "Yaana Bicycle Stations in Bhubaneswar City",
+               "description": "Data attribute details of yaana bicycle docking stations in Bhubaneswar city.",
+               "location": {
+                    "description": "Physical co-ordinates of the yaana bicycle docking stations in Bhubaneswar city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the yaana bicycle docking location in Bhubaneswar city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "stationName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the yaana bicycle docking station corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "stationCode": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The station number or station code of the yaana bicycle hire docking station corresponding to the observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "description": "Last reported time from the yaana bicycle docking station corresponding to this observation.",
+                    "dataSchema": "iudx:DateTime",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               }
+          },
+          "dataSample": {
+               "name": "Yaana Bicycle Station Janpath_01",
+               "stationCode": "BB0001",
+               "stationName": "Janpath_01",
+               "observationDateTime": "2021-06-14T07:30:42+05:30",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.84217,
+                         20.29542
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bhubaneswar/yaana/bhubaneswar-bike-docking-locations-station-locations.json",
+                    "name": "Bhubaneswar Yaana Bicycle Zones/Stations locations sample",
+                    "description": "Sample file for Yaana Bicycle Zones/Stations locations in Bhubaneswar city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "geometry": {
+                    "coordinates": [
+                         [
+                              [
+                                   85.9058,
+                                   20.2312
+                              ],
+                              [
+                                   85.9141,
+                                   20.2905
+                              ],
+                              [
+                                   85.853,
+                                   20.3198
+                              ],
+                              [
+                                   85.7891,
+                                   20.2956
+                              ],
+                              [
+                                   85.7829,
+                                   20.2425
+                              ],
+                              [
+                                   85.8378,
+                                   20.2125
+                              ],
+                              [
+                                   85.9058,
+                                   20.2312
+                              ]
+                         ]
+                    ],
+                    "type": "Polygon"
+               },
+               "address": "Bhubaneswar, Odisha",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "bhubaneswar",
+          "ownerUserId": "329f4412-7de7-449b-ba77-906362bca6f2",
+          "itemCreatedAt": "2023-09-05T09:06:59+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "4ff74521-b7f0-47e4-823b-feaf580664de",
+          "id_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info/station-slot-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:BikeDockingStation"
+          ],
+          "name": "station-slot-info",
+          "label": "Bike Availability Info from Yulu Bike Docking Stations in Bhubaneswar City",
+          "description": "The real time information of slots and bike availability for every 5 minutes at Yulu bike docking stations in Bhubaneswar city.",
+          "tags": [
+               "yulu",
+               "yulu station",
+               "yulu sharing",
+               "yulu availability",
+               "yulu parking",
+               "yulu racks",
+               "docking station"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "cddec307-5f61-492a-901f-b482f21480b9",
+          "provider_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
+          "resourceGroup": "a4e28abd-1f3c-47ef-8597-cb50999ba474",
+          "resourceGroup_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:BikeDockingStation"
+               ],
+               "dataDescriptorLabel": "Yulu bikes availability at yulu zones in Bhubaneswar City",
+               "description": "Data attribute details of Yulu Bikes availability at yulu zones in Bhubaneswar City.",
+               "stationCode": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The station code or zone code associated with the yulu bike station/zone corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "stationName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The name of yulu bike docking station/zone corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "agency_name": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The name of the bike docking station's service provider.",
+                    "dataSchema": "iudx:Text"
+               },
+               "availableBikeNumber": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Describes the number of electric bikes or bicycles available at the yulu bike docking station/zone corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless"
+               }
+          },
+          "dataSampleFile": "https://file.iudx.org.in/iudx/v1/download?file-id=yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info/station-slot-info/sample.json",
+          "location": {
+               "geometry": {
+                    "coordinates": [
+                         [
+                              [
+                                   85.9058,
+                                   20.2312
+                              ],
+                              [
+                                   85.9141,
+                                   20.2905
+                              ],
+                              [
+                                   85.853,
+                                   20.3198
+                              ],
+                              [
+                                   85.7891,
+                                   20.2956
+                              ],
+                              [
+                                   85.7829,
+                                   20.2425
+                              ],
+                              [
+                                   85.8378,
+                                   20.2125
+                              ],
+                              [
+                                   85.9058,
+                                   20.2312
+                              ]
+                         ]
+                    ],
+                    "type": "Polygon"
+               },
+               "address": "Bhubaneswar, Odisha",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "bhubaneswar",
+          "ownerUserId": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
           "id": "3a447b69-5ae2-4ec6-8883-93296acf500f",
           "id_bck": "smartcitytumakuru.in/bacef936f16d106508f821f0f4345c7c360c9ff3/rs.iudx.org.in/tumakuru-swm-vehicles/live-locations",
           "type": [
@@ -66761,569 +64970,6 @@
           "instance": "tumakuru",
           "ownerUserId": "f196a400-1625-40e9-975f-8d0caf364920",
           "itemCreatedAt": "2023-09-08T04:47:27+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "5d0fead6-7a62-4f1a-a2d8-42b18b3a14e5",
-          "id_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049/file.iudx.org.in/faridabad-atcs-static-info/atcs-static",
-          "type": [
-               "iudx:Resource",
-               "iudx:TransitManagement"
-          ],
-          "name": "atcs-static",
-          "label": "Adaptive Traffic Control System Corridor Info in Fairdabad City",
-          "description": "Publishes information on individual junction locations in relation to larger traffic corridors, maximum allotted signal cycle time at each junction along with permitted directions of traffic flow and permitted modes of transport in Faridabad city.",
-          "tags": [
-               "atcs",
-               "mobility",
-               "vehicle",
-               "transport",
-               "traffic",
-               "junction",
-               "commute",
-               "route",
-               "corridors",
-               "lane",
-               "density",
-               "volume",
-               "congestion"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "f702792e-d7ee-43d8-8313-344e37e89831",
-          "provider_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "c9b761c7-de17-4800-bf55-8c84d986a199",
-          "resourceGroup_bck": "smartcityfaridabad.co.in/396b84c669a5554a9c10b6fd83070827b50b0049/file.iudx.org.in/faridabad-atcs-static-info",
-          "resourceType": "FILE",
-          "iudxResourceAPIs": [
-               "ATTR"
-          ],
-          "dataDescriptor": {
-               "dataDescriptorLabel": "Data attribute details of Adaptive Traffic corridors in Faridabad City",
-               "description": "Data attribute details of corridor information for the Adaptive Traffic corridors in Faridabad City.",
-               "type": [
-                    "iudx:DataDescriptor"
-               ],
-               "observationDateTime": {
-                    "description": "Last reported time of observation.",
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "dataSchema": "iudx:DateTime"
-               },
-               "header": {
-                    "description": "Meta object which provides information on the provider/producer, type and the version details corresponding to this dataset.",
-                    "type": [
-                         "ValueDescriptor"
-                    ]
-               },
-               "junctions": {
-                    "description": "A Junction is a physical point where at least two roads meet, hence traffic can change between different routes and/or directions at it.",
-                    "type": [
-                         "ValueDescriptor"
-                    ]
-               },
-               "corridors": {
-                    "description": "Corridor is a set of junctions. One junction can be part of multiple corridors.",
-                    "type": [
-                         "ValueDescriptor"
-                    ]
-               }
-          },
-          "dataSample": {
-               "observationDateTime": "2021-04-10T15:13:19+05:30",
-               "header": {
-                    "version": "0.0.2",
-                    "incrementality": "FULL_DATASET",
-                    "timestamp": 1618047799,
-                    "provider": {
-                         "id": "f048d42f-ffa2-3e9e-93e4-984f9b394d8e",
-                         "name": "Faridabad Smart City Limited"
-                    }
-               },
-               "junctions": [
-                    {
-                         "id": "84bc75c4-2992-5b9d-9834-aff568d9d6e8",
-                         "name": "ESI Chowk",
-                         "maxCycleTimeSeconds": 240,
-                         "operationMode": "OPERATION_MODE_UNKNOWN",
-                         "location": {
-                              "latitude": 28.391028,
-                              "longitude": 77.292747
-                         },
-                         "corridorRelationships": [
-                              {
-                                   "corridorId": "edafd05b-30d0-5fb1-a2ec-54fa6da0a81c",
-                                   "distanceFromOriginJunction": 0,
-                                   "sequenceNo": 1
-                              }
-                         ],
-                         "carriageways": [
-                              {
-                                   "id": "f41324ed-64dc-5d85-96e9-da6022d98bc9",
-                                   "trafficLanes": [
-                                        {
-                                             "id": "2694a45e-72d3-11eb-ab09-acde48001122",
-                                             "direction": {
-                                                  "to": "Chimnibai",
-                                                  "from": "NIT 2",
-                                                  "turn": "TURN_DIRECTION_STRAIGHT"
-                                             },
-                                             "modeOfTransportAllowed": "MOTORISED",
-                                             "location": {
-                                                  "latitude": 28.3910412,
-                                                  "longitude": 77.2926047
-                                             }
-                                        }
-                                   ]
-                              }
-                         ]
-                    }
-               ],
-               "corridors": [
-                    {
-                         "corridorId": "edafd05b-30d0-5fb1-a2ec-54fa6da0a81c",
-                         "corridorName": "Gurugram-Faridabad",
-                         "junctionIdsInCorridor": [
-                              "84bc75c4-2992-5b9d-9834-aff568d9d6e8",
-                              "8bf92c67-2f1b-5ad8-a8c4-1bd8a06c55de",
-                              "106c2637-4ecf-566d-aa99-3628b85c9a53",
-                              "a0c4ff4d-d94d-55c9-b098-66244d7449c2",
-                              "aa81b23e-d61b-5321-aa85-49add3ad4e45",
-                              "f22f28f3-b7c7-5b8d-ac05-62b6f7359eac",
-                              "36e6dc25-55e4-5720-8201-172defef1641",
-                              "988c8f26-dbb2-52b4-8cb3-17327c98f048",
-                              "77a59140-a47a-5035-bf87-3c8e8714e279",
-                              "b7ce51e9-50f6-57f4-81d0-088650f9c15e",
-                              "5383e6ca-895a-5c2c-bd73-b47c20207b44",
-                              "caedda31-28fe-55d2-aa7e-475ef844c4b4",
-                              "5175fe16-aa17-55d1-b727-f84714ed9893"
-                         ]
-                    }
-               ]
-          },
-          "dataSampleFile": [
-               {
-                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/faridabad/faridabad-atcs-static-info-atcs-static.json",
-                    "Name": "Faridabad Adaptive Traffic Control System Corridor Info data sample",
-                    "description": "Sample file containing Adaptive Traffic Control System Corridor Info in Faridabad city",
-                    "relationType": "REL_FILE"
-               }
-          ],
-          "location": {
-               "type": "Place",
-               "address": "Faridabad, Haryana"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "faridabad",
-          "ownerUserId": "602e2803-2180-4441-b612-93aea9ccfd4a",
-          "itemCreatedAt": "2023-09-05T08:58:28+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "2727e03d-fdfd-450f-b0f7-83e6638a25c0",
-          "id_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e/rs.iudx.org.in/bhubaneswar-bike-docking-info/station-slot-info",
-          "type": [
-               "iudx:Resource",
-               "iudx:BikeDockingStation"
-          ],
-          "name": "station-slot-info",
-          "label": "Bicycle Availability Info from Yaana Bicycle Docking Stations in Bhubaneswar City",
-          "description": "The real time information of slots and bicycle availability for every 5 minutes at Yaana bicycle docking stations in Bhubaneswar city.",
-          "tags": [
-               "yaana",
-               "bicycle station",
-               "bicycle sharing",
-               "bicycle availability",
-               "bicycle parking",
-               "bicycle racks",
-               "docking station"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "7301717c-8a65-47f6-bc8d-345f5cb71e43",
-          "provider_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "b72fe44d-dc02-4034-b649-636ac62a7325",
-          "resourceGroup_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e/rs.iudx.org.in/bhubaneswar-bike-docking-info",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "dataDescriptor": {
-               "@context": "https://voc.iudx.org.in/",
-               "type": [
-                    "iudx:DataDescriptor",
-                    "iudx:BikeDockingStation"
-               ],
-               "dataDescriptorLabel": "Yaana bicycle availability at yaana zones in Bhubaneswar City",
-               "description": "Data attribute details of Yaana bicycle availability at yaana zones in Bhubaneswar City.",
-               "stationCode": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "The station code or zone code associated with the yaana bicycle station/zone corresponding to this observation.",
-                    "dataSchema": "iudx:Text"
-               },
-               "stationName": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "The name of yaana bicycle docking station/zone corresponding to this observation.",
-                    "dataSchema": "iudx:Text"
-               },
-               "observationDateTime": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "Last reported time of observation.",
-                    "dataSchema": "iudx:DateTime"
-               },
-               "agency_name": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "The name of the bicycle docking station's service provider.",
-                    "dataSchema": "iudx:Text"
-               },
-               "availableBikeNumber": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "Describes the number of electric bikes or bicycles available at the yaana bicycle docking station/zone corresponding to this observation",
-                    "dataSchema": "iudx:Number",
-                    "unitCode": "C62",
-                    "unitText": "dimensionless"
-               }
-          },
-          "dataSample": {
-               "stationCode": "BB0001",
-               "availableBikeNumber": 3,
-               "agency_name": "YAANA",
-               "observationDateTime": "2021-06-16T10:32:08+05:30",
-               "stationName": "Janpath_01"
-          },
-          "dataSampleFile": [
-               {
-                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bhubaneswar/yaana/bhubaneswar-bike-docking-info-station-slot-info.json",
-                    "name": "Bhubaneswar  yaana docking stations slot sample",
-                    "description": "Sample file for slots in yaana docking stations in Bhubaneswar city",
-                    "relationType": "REL_FILE"
-               }
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         [
-                              [
-                                   85.9058,
-                                   20.2312
-                              ],
-                              [
-                                   85.9141,
-                                   20.2905
-                              ],
-                              [
-                                   85.853,
-                                   20.3198
-                              ],
-                              [
-                                   85.7891,
-                                   20.2956
-                              ],
-                              [
-                                   85.7829,
-                                   20.2425
-                              ],
-                              [
-                                   85.8378,
-                                   20.2125
-                              ],
-                              [
-                                   85.9058,
-                                   20.2312
-                              ]
-                         ]
-                    ],
-                    "type": "Polygon"
-               },
-               "address": "Bhubaneswar, Odisha",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "bhubaneswar",
-          "ownerUserId": "329f4412-7de7-449b-ba77-906362bca6f2",
-          "itemCreatedAt": "2023-09-05T09:05:09+0530"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "4ff74521-b7f0-47e4-823b-feaf580664de",
-          "id_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info/station-slot-info",
-          "type": [
-               "iudx:Resource",
-               "iudx:BikeDockingStation"
-          ],
-          "name": "station-slot-info",
-          "label": "Bike Availability Info from Yulu Bike Docking Stations in Bhubaneswar City",
-          "description": "The real time information of slots and bike availability for every 5 minutes at Yulu bike docking stations in Bhubaneswar city.",
-          "tags": [
-               "yulu",
-               "yulu station",
-               "yulu sharing",
-               "yulu availability",
-               "yulu parking",
-               "yulu racks",
-               "docking station"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "cddec307-5f61-492a-901f-b482f21480b9",
-          "provider_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "a4e28abd-1f3c-47ef-8597-cb50999ba474",
-          "resourceGroup_bck": "yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "dataDescriptor": {
-               "@context": "https://voc.iudx.org.in/",
-               "type": [
-                    "iudx:DataDescriptor",
-                    "iudx:BikeDockingStation"
-               ],
-               "dataDescriptorLabel": "Yulu bikes availability at yulu zones in Bhubaneswar City",
-               "description": "Data attribute details of Yulu Bikes availability at yulu zones in Bhubaneswar City.",
-               "stationCode": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "The station code or zone code associated with the yulu bike station/zone corresponding to this observation.",
-                    "dataSchema": "iudx:Text"
-               },
-               "stationName": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "The name of yulu bike docking station/zone corresponding to this observation.",
-                    "dataSchema": "iudx:Text"
-               },
-               "observationDateTime": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "Last reported time of observation.",
-                    "dataSchema": "iudx:DateTime"
-               },
-               "agency_name": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "The name of the bike docking station's service provider.",
-                    "dataSchema": "iudx:Text"
-               },
-               "availableBikeNumber": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "Describes the number of electric bikes or bicycles available at the yulu bike docking station/zone corresponding to this observation.",
-                    "dataSchema": "iudx:Number",
-                    "unitCode": "C62",
-                    "unitText": "dimensionless"
-               }
-          },
-          "dataSampleFile": "https://file.iudx.org.in/iudx/v1/download?file-id=yulu.bike/8d3f8797db270e3c2f4a63aaa8b09bf63d66932b/rs.iudx.org.in/bhubaneswar-bike-docking-info/station-slot-info/sample.json",
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         [
-                              [
-                                   85.9058,
-                                   20.2312
-                              ],
-                              [
-                                   85.9141,
-                                   20.2905
-                              ],
-                              [
-                                   85.853,
-                                   20.3198
-                              ],
-                              [
-                                   85.7891,
-                                   20.2956
-                              ],
-                              [
-                                   85.7829,
-                                   20.2425
-                              ],
-                              [
-                                   85.8378,
-                                   20.2125
-                              ],
-                              [
-                                   85.9058,
-                                   20.2312
-                              ]
-                         ]
-                    ],
-                    "type": "Polygon"
-               },
-               "address": "Bhubaneswar, Odisha",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "bhubaneswar",
-          "ownerUserId": "60fc1c64-6092-4bd7-a67e-ee58bb73a7e1"
-     },
-     {
-          "@context": "https://voc.iudx.org.in/",
-          "id": "07de2e77-8097-4e2e-b5b1-278ed535cfe0",
-          "id_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e/rs.iudx.org.in/bhubaneswar-bike-docking-locations/station-locations",
-          "type": [
-               "iudx:Resource",
-               "iudx:BikeDockingStation"
-          ],
-          "name": "station-locations",
-          "label": "Yaana Bicycle Zones/Stations Locations in Bhubaneswar City",
-          "description": "The physical coordinates of Yaana bike docking stations locations in Bhubaneswar city.",
-          "tags": [
-               "yaana",
-               "yaana location",
-               "station area",
-               "station name",
-               "yaana area",
-               "bicycle pick up",
-               "bicycle rent",
-               "locality"
-          ],
-          "accessPolicy": "SECURE",
-          "apdURL": "acl-apd.iudx.org.in",
-          "provider": "7301717c-8a65-47f6-bc8d-345f5cb71e43",
-          "provider_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e",
-          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-          "resourceServer_bck": "datakaveri.org/27e503da0bdda6efae3a52b3ef423c1f9005657a/rs.iudx.org.in",
-          "resourceGroup": "3a7aed79-f279-4b3a-9fa9-e24a73296d93",
-          "resourceGroup_bck": "yaana.bike/b9fae846198ebc81fdeb9494f003c5051681c42e/rs.iudx.org.in/bhubaneswar-bike-docking-locations",
-          "resourceType": "MESSAGESTREAM",
-          "iudxResourceAPIs": [
-               "ATTR",
-               "TEMPORAL"
-          ],
-          "dataDescriptor": {
-               "@context": "https://voc.iudx.org.in/",
-               "type": [
-                    "iudx:DataDescriptor",
-                    "iudx:BikeDockingStation"
-               ],
-               "dataDescriptorLabel": "Yaana Bicycle Stations in Bhubaneswar City",
-               "description": "Data attribute details of yaana bicycle docking stations in Bhubaneswar city.",
-               "location": {
-                    "description": "Physical co-ordinates of the yaana bicycle docking stations in Bhubaneswar city.",
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "dataSchema": "iudx:Point"
-               },
-               "name": {
-                    "description": "Name of the yaana bicycle docking location in Bhubaneswar city.",
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "dataSchema": "iudx:Text"
-               },
-               "stationName": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "Name of the yaana bicycle docking station corresponding to this observation.",
-                    "dataSchema": "iudx:Text"
-               },
-               "stationCode": {
-                    "type": [
-                         "ValueDescriptor"
-                    ],
-                    "description": "The station number or station code of the yaana bicycle hire docking station corresponding to the observation.",
-                    "dataSchema": "iudx:Text"
-               },
-               "observationDateTime": {
-                    "description": "Last reported time from the yaana bicycle docking station corresponding to this observation.",
-                    "dataSchema": "iudx:DateTime",
-                    "type": [
-                         "ValueDescriptor"
-                    ]
-               }
-          },
-          "dataSample": {
-               "name": "Yaana Bicycle Station Janpath_01",
-               "stationCode": "BB0001",
-               "stationName": "Janpath_01",
-               "observationDateTime": "2021-06-14T07:30:42+05:30",
-               "location": {
-                    "type": "Point",
-                    "coordinates": [
-                         85.84217,
-                         20.29542
-                    ]
-               }
-          },
-          "dataSampleFile": [
-               {
-                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/bhubaneswar/yaana/bhubaneswar-bike-docking-locations-station-locations.json",
-                    "name": "Bhubaneswar Yaana Bicycle Zones/Stations locations sample",
-                    "description": "Sample file for Yaana Bicycle Zones/Stations locations in Bhubaneswar city",
-                    "relationType": "REL_FILE"
-               }
-          ],
-          "location": {
-               "geometry": {
-                    "coordinates": [
-                         [
-                              [
-                                   85.9058,
-                                   20.2312
-                              ],
-                              [
-                                   85.9141,
-                                   20.2905
-                              ],
-                              [
-                                   85.853,
-                                   20.3198
-                              ],
-                              [
-                                   85.7891,
-                                   20.2956
-                              ],
-                              [
-                                   85.7829,
-                                   20.2425
-                              ],
-                              [
-                                   85.8378,
-                                   20.2125
-                              ],
-                              [
-                                   85.9058,
-                                   20.2312
-                              ]
-                         ]
-                    ],
-                    "type": "Polygon"
-               },
-               "address": "Bhubaneswar, Odisha",
-               "type": "Place"
-          },
-          "itemStatus": "ACTIVE",
-          "instance": "bhubaneswar",
-          "ownerUserId": "329f4412-7de7-449b-ba77-906362bca6f2",
-          "itemCreatedAt": "2023-09-05T09:06:59+0530"
      },
      {
           "@context": "https://voc.iudx.org.in/",

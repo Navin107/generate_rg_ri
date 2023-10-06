@@ -142,7 +142,9 @@ class IUDXDataProcessor:
 
             if "iudx:Resource" in json_data.get("type", []):
                 if json_data["id"] in self.resources_data:
-                    json_changed_dict.append(self.process_resource(json_data))
+                    if json_data.get("location"):
+                        if not json_data["provider"] == "research.iiit.ac.in/4786f10afbf48ed5c8c7be9b4d38b33ca16c1d9a":
+                            json_changed_dict.append(self.process_resource(json_data))
     
         return json_changed_dict
 

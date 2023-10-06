@@ -89,6 +89,45 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "geometry": {
+                    "coordinates": [
+                         [
+                              [
+                                   85.9058,
+                                   20.2312
+                              ],
+                              [
+                                   85.9141,
+                                   20.2905
+                              ],
+                              [
+                                   85.8530,
+                                   20.3198
+                              ],
+                              [
+                                   85.7891,
+                                   20.2956
+                              ],
+                              [
+                                   85.7829,
+                                   20.2425
+                              ],
+                              [
+                                   85.8378,
+                                   20.2125
+                              ],
+                              [
+                                   85.9058,
+                                   20.2312
+                              ]
+                         ]
+                    ],
+                    "type": "Polygon"
+               },
+               "address": "Bhubaneswar, Odisha",
+               "type": "Place"
+          },
           "itemStatus": "ACTIVE",
           "instance": "bhubaneswar",
           "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
@@ -183,6 +222,41 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Vadodara",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               73.13804,
+                               22.38404
+                           ],
+                           [
+                               73.10508,
+                               22.30084
+                           ],
+                           [
+                               73.18714,
+                               22.22967
+                           ],
+                           [
+                               73.28224,
+                               22.30466
+                           ],
+                           [
+                               73.2249,
+                               22.38214
+                           ],
+                           [
+                               73.13804,
+                               22.38404
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "vadodara",
           "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
@@ -300,6 +374,41 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Vadodara",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               73.13804,
+                               22.38404
+                           ],
+                           [
+                               73.10508,
+                               22.30084
+                           ],
+                           [
+                               73.18714,
+                               22.22967
+                           ],
+                           [
+                               73.28224,
+                               22.30466
+                           ],
+                           [
+                               73.2249,
+                               22.38214
+                           ],
+                           [
+                               73.13804,
+                               22.38404
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "vadodara",
           "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
@@ -428,6 +537,41 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Vadodara",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               73.13804,
+                               22.38404
+                           ],
+                           [
+                               73.10508,
+                               22.30084
+                           ],
+                           [
+                               73.18714,
+                               22.22967
+                           ],
+                           [
+                               73.28224,
+                               22.30466
+                           ],
+                           [
+                               73.2249,
+                               22.38214
+                           ],
+                           [
+                               73.13804,
+                               22.38404
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "vadodara",
           "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
@@ -524,6 +668,41 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Vadodara",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               73.13804,
+                               22.38404
+                           ],
+                           [
+                               73.10508,
+                               22.30084
+                           ],
+                           [
+                               73.18714,
+                               22.22967
+                           ],
+                           [
+                               73.28224,
+                               22.30466
+                           ],
+                           [
+                               73.2249,
+                               22.38214
+                           ],
+                           [
+                               73.13804,
+                               22.38404
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "vadodara",
           "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
@@ -619,6 +798,41 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Vadodara",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               73.13804,
+                               22.38404
+                           ],
+                           [
+                               73.10508,
+                               22.30084
+                           ],
+                           [
+                               73.18714,
+                               22.22967
+                           ],
+                           [
+                               73.28224,
+                               22.30466
+                           ],
+                           [
+                               73.2249,
+                               22.38214
+                           ],
+                           [
+                               73.13804,
+                               22.38404
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "vadodara",
           "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
@@ -715,6 +929,41 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Vadodara",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               73.13804,
+                               22.38404
+                           ],
+                           [
+                               73.10508,
+                               22.30084
+                           ],
+                           [
+                               73.18714,
+                               22.22967
+                           ],
+                           [
+                               73.28224,
+                               22.30466
+                           ],
+                           [
+                               73.2249,
+                               22.38214
+                           ],
+                           [
+                               73.13804,
+                               22.38404
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "vadodara",
           "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
@@ -830,6 +1079,41 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Vadodara",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               73.13804,
+                               22.38404
+                           ],
+                           [
+                               73.10508,
+                               22.30084
+                           ],
+                           [
+                               73.18714,
+                               22.22967
+                           ],
+                           [
+                               73.28224,
+                               22.30466
+                           ],
+                           [
+                               73.2249,
+                               22.38214
+                           ],
+                           [
+                               73.13804,
+                               22.38404
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "vadodara",
           "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
@@ -960,6 +1244,41 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Vadodara",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               73.13804,
+                               22.38404
+                           ],
+                           [
+                               73.10508,
+                               22.30084
+                           ],
+                           [
+                               73.18714,
+                               22.22967
+                           ],
+                           [
+                               73.28224,
+                               22.30466
+                           ],
+                           [
+                               73.2249,
+                               22.38214
+                           ],
+                           [
+                               73.13804,
+                               22.38404
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "vadodara",
           "ownerUserId": "3e60d612-e205-46a3-903a-5d9ec63b35e0",
@@ -1093,6 +1412,45 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "geometry": {
+                   "coordinates": [
+                       [
+                           [
+                               72.941762,
+                               21.259964
+                           ],
+                           [
+                               72.896444,
+                               21.166506
+                           ],
+                           [
+                               72.822981,
+                               21.068548
+                           ],
+                           [
+                               72.713804,
+                               21.136772
+                           ],
+                           [
+                               72.746763,
+                               21.200163
+                           ],
+                           [
+                               72.831564,
+                               21.269925
+                           ],
+                           [
+                               72.941762,
+                               21.259964
+                           ]
+                       ]
+                   ],
+                   "type": "Polygon"
+               },
+               "address": "Surat",
+               "type": "Place"
+           },
           "itemStatus": "ACTIVE",
           "instance": "surat",
           "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
@@ -1186,6 +1544,49 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "type": "Place",
+               "address": "Bhopal",
+               "geometry": {
+                   "type": "Polygon",
+                   "coordinates": [
+                       [
+                           [
+                               77.2235,
+                               23.2495
+                           ],
+                           [
+                               77.2702,
+                               23.1353
+                           ],
+                           [
+                               77.3931,
+                               23.0961
+                           ],
+                           [
+                               77.5147,
+                               23.1447
+                           ],
+                           [
+                               77.5291,
+                               23.2558
+                           ],
+                           [
+                               77.4755,
+                               23.3504
+                           ],
+                           [
+                               77.3293,
+                               23.3485
+                           ],
+                           [
+                               77.2235,
+                               23.2495
+                           ]
+                       ]
+                   ]
+               }
+           },
           "itemStatus": "ACTIVE",
           "instance": "bhopal",
           "ownerUserId": "a5a554f5-d9ee-403f-9201-66a9575979f5",
@@ -1264,6 +1665,45 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "geometry": {
+                   "coordinates": [
+                       [
+                           [
+                               77.664413,
+                               12.855611
+                           ],
+                           [
+                               77.660379,
+                               12.845276
+                           ],
+                           [
+                               77.663941,
+                               12.834188
+                           ],
+                           [
+                               77.680592,
+                               12.832221
+                           ],
+                           [
+                               77.689046,
+                               12.845151
+                           ],
+                           [
+                               77.680549,
+                               12.852766
+                           ],
+                           [
+                               77.664413,
+                               12.855611
+                           ]
+                       ]
+                   ],
+                   "type": "Polygon"
+               },
+               "type": "Place",
+               "address": "Electronic-City, Bengaluru"
+           },
           "itemStatus": "ACTIVE",
           "instance": "bengaluru",
           "ownerUserId": "f71dc59c-461c-457a-8b60-2ac75bf88da5",
@@ -1347,6 +1787,45 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "geometry": {
+                   "coordinates": [
+                       [
+                           [
+                               77.316284,
+                               13.02329
+                           ],
+                           [
+                               77.445373,
+                               12.79707
+                           ],
+                           [
+                               77.737884,
+                               12.768946
+                           ],
+                           [
+                               77.843627,
+                               12.96575
+                           ],
+                           [
+                               77.742004,
+                               13.161062
+                           ],
+                           [
+                               77.487945,
+                               13.186468
+                           ],
+                           [
+                               77.316284,
+                               13.02329
+                           ]
+                       ]
+                   ],
+                   "type": "Polygon"
+               },
+               "address": "Bengaluru, Karnataka",
+               "type": "Place"
+           },
           "itemStatus": "ACTIVE",
           "instance": "bengaluru",
           "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
@@ -1457,6 +1936,45 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "geometry": {
+                   "coordinates": [
+                       [
+                           [
+                               77.316284,
+                               13.02329
+                           ],
+                           [
+                               77.445373,
+                               12.79707
+                           ],
+                           [
+                               77.737884,
+                               12.768946
+                           ],
+                           [
+                               77.843627,
+                               12.96575
+                           ],
+                           [
+                               77.742004,
+                               13.161062
+                           ],
+                           [
+                               77.487945,
+                               13.186468
+                           ],
+                           [
+                               77.316284,
+                               13.02329
+                           ]
+                       ]
+                   ],
+                   "type": "Polygon"
+               },
+               "address": "Bengaluru, Karnataka",
+               "type": "Place"
+           },
           "itemStatus": "ACTIVE",
           "instance": "bengaluru",
           "ownerUserId": "7e5ac7cf-3f45-4141-a83a-fb29bc47c943",
@@ -1576,6 +2094,45 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "geometry": {
+                   "coordinates": [
+                       [
+                           [
+                               72.941762,
+                               21.259964
+                           ],
+                           [
+                               72.896444,
+                               21.166506
+                           ],
+                           [
+                               72.822981,
+                               21.068548
+                           ],
+                           [
+                               72.713804,
+                               21.136772
+                           ],
+                           [
+                               72.746763,
+                               21.200163
+                           ],
+                           [
+                               72.831564,
+                               21.269925
+                           ],
+                           [
+                               72.941762,
+                               21.259964
+                           ]
+                       ]
+                   ],
+                   "type": "Polygon"
+               },
+               "address": "Surat, Gujarat",
+               "type": "Place"
+           },
           "itemStatus": "ACTIVE",
           "instance": "surat",
           "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
@@ -1686,6 +2243,45 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "geometry": {
+                   "coordinates": [
+                       [
+                           [
+                               72.941762,
+                               21.259964
+                           ],
+                           [
+                               72.896444,
+                               21.166506
+                           ],
+                           [
+                               72.822981,
+                               21.068548
+                           ],
+                           [
+                               72.713804,
+                               21.136772
+                           ],
+                           [
+                               72.746763,
+                               21.200163
+                           ],
+                           [
+                               72.831564,
+                               21.269925
+                           ],
+                           [
+                               72.941762,
+                               21.259964
+                           ]
+                       ]
+                   ],
+                   "type": "Polygon"
+               },
+               "address": "Surat, Gujarat",
+               "type": "Place"
+           },
           "itemStatus": "ACTIVE",
           "instance": "surat",
           "ownerUserId": "e4e3aca2-9d09-43f2-9132-344bab106581",
@@ -1767,19 +2363,13 @@
                     "unitCode": "C62",
                     "unitText": "dimensionless",
                     "dataSchema": "iudx:Number"
-               },
-               "dataSample": {
-                    "amountCollected": 32035345.37,
-                    "totalCount": 7720,
-                    "year": 2021,
-                    "month": 4
-               },
-               "itemCreatedAt": "2023-02-16T01:21:30+0530",
-               "_geosummary": {
-                    "_geocoded": {
-                         "results": null
-                    }
                }
+          },
+          "dataSample": {
+               "amountCollected": 32035345.37,
+               "totalCount": 7720,
+               "year": 2021,
+               "month": 4
           },
           "dataSampleFile": [
                {
@@ -1789,6 +2379,45 @@
                     "relationType": "REL_FILE"
                }
           ],
+          "location": {
+               "geometry": {
+                    "coordinates": [
+                         [
+                              [
+                                   85.9058,
+                                   20.2312
+                              ],
+                              [
+                                   85.9141,
+                                   20.2905
+                              ],
+                              [
+                                   85.8530,
+                                   20.3198
+                              ],
+                              [
+                                   85.7891,
+                                   20.2956
+                              ],
+                              [
+                                   85.7829,
+                                   20.2425
+                              ],
+                              [
+                                   85.8378,
+                                   20.2125
+                              ],
+                              [
+                                   85.9058,
+                                   20.2312
+                              ]
+                         ]
+                    ],
+                    "type": "Polygon"
+               },
+               "address": "Bhubaneswar, Odisha",
+               "type": "Place"
+          },
           "itemStatus": "ACTIVE",
           "instance": "bhubaneswar",
           "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",

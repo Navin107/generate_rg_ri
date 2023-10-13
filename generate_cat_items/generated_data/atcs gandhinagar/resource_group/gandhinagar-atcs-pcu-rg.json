@@ -1,0 +1,30 @@
+{
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:RoadSegment"
+      ],
+      "id": "6e9d6c91-7885-4faa-bb61-2406bb2bd354",
+      "name": "gandhinagar-atcs-info",
+      "label": "ATCS information from Gandhinagar City",
+      "description": "Adaptive Traffic Control Systems (ATCS) data from Gandhinagar city. Publishes information about junction locations, junction lane locations and realtime vehicle counts in terms of passenger car unit.",
+      "tags": [
+        "atcs",
+        "vehicle count",
+        "congestion",
+        "occupancy",
+        "pcu",
+        "passenger car units",
+        "road segment",
+        "junction location",
+        "road location",
+        "lane location"
+      ],
+      "location": {
+        "address": "Gandhinagar, Gujarat",
+        "type": "Place"
+      },
+      "provider": "5ebc64e0-e308-4787-b4d8-06c11ce417a9",
+      "itemStatus": "ACTIVE",
+      "instance": "gandhinagar"
+    }

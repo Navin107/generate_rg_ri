@@ -1,0 +1,116 @@
+{
+    "@context": "https://voc.iudx.org.in/",
+    "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+    "type": [
+        "iudx:Resource",
+        "iudx:PointOfInterest"
+    ],
+    "name": "atcs-locations",
+    "label": "Adaptive Traffic Control Systems Junction Locations in Gandhinagar City",
+    "description": "The physical coordinates of Adaptive Traffic Control System (ATCS) junction locations in Gandhinagar City.",
+    "tags": [
+        "sensors",
+        "junction",
+        "traffic",
+        "atcs",
+        "adaptive traffic"
+    ],
+    "accessPolicy": "SECURE",
+    "apdURL": "acl-apd.iudx.org.in",
+    "provider": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
+    "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+    "resourceGroup": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests",
+    "resourceType": "GSLAYER",
+    "iudxResourceAPIs": [
+        "SPATIAL",
+        "ATTR"
+    ],
+    "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+            "iudx:DataDescriptor",
+            "iudx:PointOfInterest"
+        ],
+        "dataDescriptorLabel": "Data Attributes for Adaptive Traffic Control System (ATCS) Locations in Gandhinagar City",
+        "description": "Data attribute details for adaptive traffic control system locations in Gandhinagar City.",
+        "address": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Name of the area or locality in Gandhinagar City at which the adaptive traffic control system (ATCS) is located .",
+            "dataSchema": "iudx:Text"
+        },
+        "location": {
+            "description": "Physical coordinates of the adaptive traffic control system (ATCS) corresponding to this observation.",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Point"
+        },
+        "name": {
+            "description": "Name of the adaptive traffic control system (ATCS) corresponding to this observation.",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Text"
+        }
+    },
+    "dataSample": {
+        "junctionName": "ATCS - H3-KishanChowkBhavan",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                72.648028,
+                23.212639
+            ]
+        },
+        "observationDateTime": "2021-03-22T16:11:12+05:30"
+    },
+    "dataSampleFile": [
+        {
+            "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/gandhinagar/gandhinagar-atcs-junction-locations.json",
+            "name": "Gandhinagar ATCS Junction Locations Sample",
+            "description": "Sample file for Gandhinagar ATCS junction locations.",
+            "relationType": "REL_FILE"
+        }
+    ],
+    "location": {
+        "type": "Place",
+        "address": "Gandhinagar, Gujarat",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        72.676627,
+                        23.278771
+                    ],
+                    [
+                        72.609946,
+                        23.257903
+                    ],
+                    [
+                        72.595473,
+                        23.188543
+                    ],
+                    [
+                        72.645485,
+                        23.162103
+                    ],
+                    [
+                        72.694397,
+                        23.216999
+                    ],
+                    [
+                        72.676627,
+                        23.278771
+                    ]
+                ]
+            ]
+        }
+    },
+    "itemStatus": "ACTIVE",
+    "instance": "gandhinagar",
+    "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+    "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0"
+}

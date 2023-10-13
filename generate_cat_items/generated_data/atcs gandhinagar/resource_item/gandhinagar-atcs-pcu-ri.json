@@ -1,0 +1,122 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:Resource",
+    "iudx:RoadSegment"
+  ],
+  "id": "dadbc723-a369-4a85-9ed4-b630d06b3d43",
+  "name": "atcs-pcu",
+  "label": "Realtime Info of PCU count in Gandhinagar City",
+  "description": "Publishes realtime count of vehicles plying on road, in terms of PCU (Passenger Car Units), for every 10 seconds, in Gandhinagar city.",
+  "tags": [
+    "atcs",
+    "vehicle count",
+    "congestion",
+    "occupancy",
+    "pcu",
+    "passenger car units",
+    "road segment",
+    "junction",
+    "road",
+    "lane"
+  ],
+  "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+  "accessPolicy": "SECURE",
+  "itemStatus": "ACTIVE",
+  "provider": "5ebc64e0-e308-4787-b4d8-06c11ce417a9",
+  "resourceGroup": "6e9d6c91-7885-4faa-bb61-2406bb2bd354",
+  "resourceType": "MESSAGESTREAM",
+  "iudxResourceAPIs": [
+    "TEMPORAL",
+    "ATTR"
+  ],
+  "location": {
+    "type": "Place",
+    "address": "Gandhinagar, Gujarat",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            72.676627,
+            23.278771
+          ],
+          [
+            72.609946,
+            23.257903
+          ],
+          [
+            72.595473,
+            23.188543
+          ],
+          [
+            72.645485,
+            23.162103
+          ],
+          [
+            72.694397,
+            23.216999
+          ],
+          [
+            72.676627,
+            23.278771
+          ]
+        ]
+      ]
+    }
+  },
+  "dataDescriptor": {
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+      "iudx:DataDescriptor",
+      "iudx:RoadSegment"
+    ],
+    "dataDescriptorLabel": "Data Attributes for Realtime SWM vehicle Information in Gandhinagar City",
+    "description": "Data Attribute Descriptions for SWM Vehicle Positions in Gandhinagar City",
+    "junctionName": {
+      "description": "Name of the road junction corresponding to this observation",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "roadName": {
+      "description": "The name of the road/junction lane corresponding to this observation",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Text"
+    },
+    "pcu": {
+      "description": "The value of this field represents the sum of PCU of all vehicle types detected by the camera at the time instance corresponding to this observation. A Passenger Car Unit (PCU) is a numeric value assigned to a vehicle based on its size. A PCU value of 1 is assigned to the basic 4-wheeler passenger car, which is considered as a reference value. Based on this reference, all other vehicle types are assigned PCU values accordingly. The PCU values calculated from the site analysis assignment based on vehicle types is as follows - 3.5 for any of ['Large Truck', 'Bus'], 1 for any of ['Mini Carriage', 'MPV', 'Saloon Car', 'Micro Truck', 'Mid Passenger Car', 'SUV', 'Pickup', 'Passenger Car'], 0.5 for any of ['MotorCycle', 'Unknown'], 2.2 for ['Mid Truck'].",
+      "unitCode": "C62",
+      "unitText": "Dimensionless",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:Number"
+    },
+    "observationDateTime": {
+      "description": "Last reported time of observation.",
+      "type": [
+        "ValueDescriptor"
+      ],
+      "dataSchema": "iudx:DateTime"
+    }
+  },
+  "dataSample":  {
+    "junctionName": "CH4A-HotelHaveliCut",
+    "roadName": "CH3-CH4A",
+    "pcu": 15,
+    "observationDateTime": "2023-10-12T16:19:07+05:30"
+  },
+  "dataSampleFile": [
+    {
+      "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/gandhinagar/gandhinagar-atcs-pcu-count.json",
+      "name": "Realtime PCU count in Gandhinagar City.",
+      "description": "Sample file for realtime PCU count of vehicles in Gandhinagar City.",
+      "relationType": "REL_FILE"
+    }
+  ],
+  "instance": "gandhinagar"
+}

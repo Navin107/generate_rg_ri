@@ -1,0 +1,123 @@
+{
+    "@context": "https://voc.iudx.org.in/",
+    "id": "8d002eca-84fa-467e-9409-45622b4525de",
+    "type": [
+        "iudx:Resource",
+        "iudx:PointOfInterest"
+    ],
+    "name": "atcs-locations",
+    "label": "Adaptive Traffic Control Systems Lane Locations in Gandhinagar City",
+    "description": "The physical coordinates of Adaptive Traffic Control System (ATCS) Lane locations in Gandhinagar City.",
+    "tags": [
+        "sensors",
+        "Lane",
+        "traffic",
+        "atcs",
+        "adaptive traffic"
+    ],
+    "accessPolicy": "SECURE",
+    "apdURL": "acl-apd.iudx.org.in",
+    "provider": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
+    "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+    "resourceGroup": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests",
+    "resourceType": "GSLAYER",
+    "iudxResourceAPIs": [
+        "SPATIAL",
+        "ATTR"
+    ],
+    "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+            "iudx:DataDescriptor",
+            "iudx:PointOfInterest"
+        ],
+        "dataDescriptorLabel": "Data Attributes for Adaptive Traffic Control System (ATCS) Locations in Gandhinagar City",
+        "description": "Data attribute details for adaptive traffic control system locations in Gandhinagar City.",
+        "junctionName": {
+            "description": "Junction name of the adaptive traffic control system (ATCS) corresponding to this observation.",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Text"
+        },
+        "roadName": {
+            "description": "Road name of the adaptive traffic control system (ATCS) corresponding to this observation.",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Text"
+        },
+        "location": {
+            "description": "Physical coordinates of the adaptive traffic control system (ATCS) corresponding to this observation.",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:LineString"
+        },
+        "observationDateTime": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Last reported time of observation.",
+            "dataSchema": "iudx:DateTime"
+        }
+    },
+    "dataSample": {
+        "junctionName": "ATCS - H3-KishanChowkBhavan",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                72.648028,
+                23.212639
+            ]
+        },
+        "observationDateTime": "2021-03-22T16:11:12+05:30"
+    },
+    "dataSampleFile": [
+        {
+            "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/gandhinagar/gandhinagar-atcs-Lane-locations.json",
+            "name": "Gandhinagar ATCS Lane Locations Sample",
+            "description": "Sample file for Gandhinagar ATCS Lane locations.",
+            "relationType": "REL_FILE"
+        }
+    ],
+    "location": {
+        "type": "Place",
+        "address": "Gandhinagar, Gujarat",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        72.676627,
+                        23.278771
+                    ],
+                    [
+                        72.609946,
+                        23.257903
+                    ],
+                    [
+                        72.595473,
+                        23.188543
+                    ],
+                    [
+                        72.645485,
+                        23.162103
+                    ],
+                    [
+                        72.694397,
+                        23.216999
+                    ],
+                    [
+                        72.676627,
+                        23.278771
+                    ]
+                ]
+            ]
+        }
+    },
+    "itemStatus": "ACTIVE",
+    "instance": "gandhinagar",
+    "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
+    "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0"
+}

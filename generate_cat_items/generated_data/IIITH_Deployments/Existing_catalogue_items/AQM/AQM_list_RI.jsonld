@@ -129,33 +129,33 @@
         "description": "Device specfications w.r.t. the version corresponding to this observation.",
         "dataSchema": "iudx:Object"
       }
-    },
-    "dataSample": {
-      "deviceInfo": {
-        "deviceID": "AQ-MG00-00",
-        "deviceName": "Air Quality node at Main Gate"
-      },
-      "versionInfo": [
-        {
-          "versionName": "V1.00.00",
-          "startDateTime": "2020-08-19T10:00:00+05:30",
-          "endDateTime": "9999-99-99T99:99:99+05:30",
-          "versionSpec": {
-            "pm2p5": {
-              "sensor": "SDS011",
-              "id": 1
-            },
-            "pm10": "SDS011",
-            "airTemperature": "DHT22",
-            "relativeHumidity": "DHT22",
-            "co": "Multichannel Grove Gas Sensor",
-            "no2": "Multichannel Grove Gas Sensor",
-            "nh3": "Multichannel Grove Gas Sensor",
-            "controller": "ESP8266"
-          },
-          "comment": "comment on version change"
-        }
-      ]
     }
+  },
+  "dataSample": {
+    "deviceInfo": {
+      "deviceID": "AQ-MG00-00",
+      "deviceName": "Air Quality node at Main Gate"
+    },
+    "versionInfo": [
+      {
+        "versionName": "V1.00.00",
+        "startDateTime": "2020-08-19T10:00:00+05:30",
+        "endDateTime": "9999-99-99T99:99:99+05:30",
+        "versionSpec": {
+          "pm2p5": {
+            "sensor": "SDS011",
+            "id": 1
+          },
+          "pm10": "SDS011",
+          "airTemperature": "DHT22",
+          "relativeHumidity": "DHT22",
+          "co": "Multichannel Grove Gas Sensor",
+          "no2": "Multichannel Grove Gas Sensor",
+          "nh3": "Multichannel Grove Gas Sensor",
+          "controller": "ESP8266"
+        },
+        "comment": "comment on version change"
+      }
+    ]
   }
 }

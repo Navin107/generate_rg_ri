@@ -57104,7 +57104,7 @@
                },
                "actual_trip_start_time": {
                     "description": "This field denotes the time at which service actually began.",
-                    "dataSchema": "iudx:Text",
+                    "dataSchema": "iudx:DateTime",
                     "type": [
                          "ValueDescriptor"
                     ]

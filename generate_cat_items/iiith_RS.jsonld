@@ -1,4 +1,3 @@
- 
 {
     "@context": "https://voc.iudx.org.in/",
     "type": [
@@ -6,7 +5,7 @@
     ],
     "id": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
     "name": "IiithResourceServer",
-    "description": "Multi tenanted IUDX Resource Server",
+    "description": "IIIT-H Resource Server",
     "tags": [
         "IUDX",
         "IIITH",
@@ -17,8 +16,8 @@
     "owner": "8bbfc675-150c-4f1c-abea-aac5ef57b3a9",
     "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
     "resourceServerOrg": {
-        "name": "iudx",
-        "additionalInfoURL": "https://iudx.org.in",
+        "name": "iiith",
+        "additionalInfoURL": "https://www.iiit.ac.in/",
         "location": {
             "type": "Place",
             "address": "IIIT-H, Hyderabad",
@@ -31,7 +30,7 @@
             }
         }
     },
-    "resourceServerRegURL": "rs.cos.iudx.org.in",
+    "resourceServerRegURL": "iudx-rs-onem2m.iiit.ac.in",
     "resourceAccessModalities": [
         {
             "type": [

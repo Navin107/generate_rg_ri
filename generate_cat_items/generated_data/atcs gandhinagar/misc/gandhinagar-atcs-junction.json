@@ -1,0 +1,233 @@
+[
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "CH3-KishanChowkBhavan",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.648028,
+                        23.212639
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "GH7",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.66178987238311,
+                        23.249625049108896
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "CH2-NyayCircle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6428903503319,
+                        23.2044682046228
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "CH4-ChRoadSector17",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6558977072465,
+                        23.2252130214315
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "CH5-Fountain",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6585477552253,
+                        23.2293949466064
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "CH6-YuvaChetnaCircle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6636204165329,
+                        23.2376285769075
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "GH2-HemaChandraCircle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6358889690578,
+                        23.2082412587811
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "GH3-CivilHospitalCircle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6409572656761,
+                        23.2164294896862
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "GH5-RavishankarMaharajCircle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6514977895492,
+                        23.2332641060245
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "GH6-PujyaMotaCircle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6566087263893,
+                        23.2414125244467
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "CH4A-HotelHaveliCut",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.650704,
+                        23.216992
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "G2-Circle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.62908045581969,
+                        23.21184825007438
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "G3-Circle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.63414937790981,
+                        23.220021477134487
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "G5-Circle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.64465577486874,
+                        23.236911708479997
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "G6-Circle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.64973527605741,
+                        23.244991063467126
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "KH3-Circle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.62747741163935,
+                        23.223613194194204
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "KH-4A",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.6319661786431,
+                        23.230839020841017
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "KH-4B",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.63328381382166,
+                        23.23300489706765
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "KH5-Circle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.63794848518069,
+                        23.240436722506224
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "KH6-Circle",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.64308450370481,
+                        23.24862641350813
+                  ]
+            }
+      },
+      {
+            "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+            "junctionName": "Akshradam-BorjiCrossRoad",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        72.67577658863831,
+                        23.23336476489307
+                  ]
+            }
+      }
+]

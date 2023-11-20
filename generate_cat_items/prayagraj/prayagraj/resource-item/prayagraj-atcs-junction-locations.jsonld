@@ -1,0 +1,123 @@
+{
+    "@context": "https://voc.iudx.org.in/",
+    "id": "949b2ee8-d058-4f4b-a267-3f21e4ec4515",
+    "type": [
+        "iudx:Resource",
+        "iudx:RoadSegment"
+    ],
+    "name": "junction-locations",
+    "label": "Junction Locations in Prayagraj City",
+    "description": "The physical coordinates of junction locations in Prayagraj City.",
+    "tags": [
+        "sensors",
+        "junction",
+        "zone",
+        "junction mode",
+        "road congestion",
+        "traffic density"
+    ],
+    "resourceType": "GSLAYER",
+    "itemStatus": "ACTIVE",
+    "iudxResourceAPIs": [
+      "TEMPORAL",
+      "SPATIAL",
+      "ATTR"
+    ],
+    "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+    "resourceGroup": "d0868f4a-be60-4a7b-affa-7bf6635c548a",
+    "provider": "3236f30c-7904-4618-91e8-6399d99a664d",
+    "accessPolicy": "SECURE",
+    "apdURL": "acl-apd.iudx.org.in",
+    "location": {
+      "type": "Place",
+      "address": "Prayagraj, Uttar Pradesh",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81.8349404,
+              25.4642559
+            ],
+            [
+              81.8051285,
+              25.4480577
+            ],
+            [
+              81.8053923,
+              25.4197056
+            ],
+            [
+              81.8742499,
+              25.4194673
+            ],
+            [
+              81.8731946,
+              25.4499635
+            ],
+            [
+              81.8349404,
+              25.4642559
+            ]
+          ]
+        ]
+      }
+    },
+    "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+            "iudx:DataDescriptor",
+            "iudx:RoadSegment"
+        ],
+        "dataDescriptorLabel": "Data Attributes forJunction Locations in Prayagraj City",
+        "description": "Data attribute details for junction locations in Prayagraj City.",
+        "junctionName": {
+            "description": "The name of the road junction corresponding to this observation.",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Text"
+        },
+        "junctionID": {
+            "description": "Unique representation of the junction corresponding to this observation.",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Text"
+        },
+        "location": {
+            "description": "Physical coordinates of the adaptive traffic control system (ATCS) corresponding to this observation.",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Point"
+        },
+        "observationDateTime": {
+          "description": "Last reported time of observation.",
+          "type": [
+            "ValueDescriptor"
+          ],
+          "dataSchema": "iudx:DateTime"
+        }
+    },
+    "dataSample": {
+        "junctionID": "J002",
+        "junctionName": "PS Dhoomanganj Chauraha",
+        "location": {
+              "type": "point",
+              "coordinates": [
+                    81.7793,
+                    25.449
+              ],
+        "observationDateTime": "2021-03-22T16:11:12+05:30"
+    }},
+    "dataSampleFile": [
+        {
+            "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/Prayagraj/Prayagraj-atcs-junction-locations.json",
+            "name": "Prayagraj ATCS Junction Locations Sample",
+            "description": "Sample file for Prayagraj ATCS junction locations.",
+            "relationType": "REL_FILE"
+        }
+    ],
+    "instance": "prayagraj"
+}

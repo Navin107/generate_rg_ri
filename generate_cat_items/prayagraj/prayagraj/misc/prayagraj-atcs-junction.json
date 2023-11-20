@@ -1,0 +1,422 @@
+[
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J001",
+            "junctionName": "Bairhana Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8608,
+                        25.4397
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J002",
+            "junctionName": "PS Dhoomanganj Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.7793,
+                        25.449
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J003",
+            "junctionName": "Leprosy Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8572,
+                        25.4144
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J004",
+            "junctionName": "Balmiki Tiraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8216,
+                        25.4491
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J005",
+            "junctionName": "Lohia Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8404,
+                        25.4496
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J006",
+            "junctionName": "Medical Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8514,
+                        25.447
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J007",
+            "junctionName": "Fire Brigade Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.84,
+                        25.4472
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J008",
+            "junctionName": "Johnston Ganj Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8362,
+                        25.4428
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J009",
+            "junctionName": "GT Jawahar Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8678,
+                        25.4422
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J010",
+            "junctionName": "Bangad Dharamshala Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8631,
+                        25.4402
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J011",
+            "junctionName": "Harshvardhan Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8662,
+                        25.4416
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J012",
+            "junctionName": "Mazar Chauraha/NCC Ground",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.862,
+                        25.479
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J013",
+            "junctionName": "Balson Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8589,
+                        25.4564
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J014",
+            "junctionName": "Dhobi Ghat Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8373,
+                        25.4596
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J015",
+            "junctionName": "Maha Rana Pratap Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.842,
+                        25.461
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J016",
+            "junctionName": "Traffic Police Lines Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8436,
+                        25.4667
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J017",
+            "junctionName": "Lok Sewa Ayog Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8419,
+                        25.4591
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J018",
+            "junctionName": "Teliyar Ganj Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8631,
+                        25.4986
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J019",
+            "junctionName": "AG Office Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8278,
+                        25.4607
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J020",
+            "junctionName": "P2: Chandralok Talkies Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8439,
+                        25.4376
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J021",
+            "junctionName": "P2: Eklavya Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.827,
+                        25.4544
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J022",
+            "junctionName": "P2: Hindu Hostel",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8485,
+                        25.4581
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J023",
+            "junctionName": "P2: Indian Press Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8545,
+                        25.4581
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J024",
+            "junctionName": "Indira Murthi Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8233,
+                        25.4611
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J025",
+            "junctionName": "P2: Jhusi Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.914,
+                        25.429
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J026",
+            "junctionName": "Kharbanda Tiraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8342,
+                        25.4477
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J027",
+            "junctionName": "Khuldabad Sabji Mandi Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8233,
+                        25.4391
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J028",
+            "junctionName": "P2: Laxmi Talkies Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8547,
+                        25.4683
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J029",
+            "junctionName": "Mishra Bhawan Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8408,
+                        25.4524
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J031",
+            "junctionName": "Rambag Bus Stand",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8508,
+                        25.437
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J032",
+            "junctionName": "P2: South Malaka Tiraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8439,
+                        25.4399
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J033",
+            "junctionName": "Sahu Market",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8646,
+                        25.4469
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J034",
+            "junctionName": "P2: TP Nagar Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.7697,
+                        25.4497
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J035",
+            "junctionName": "P2: Triveni Puram",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.9241,
+                        25.4267
+                  ]
+            }
+      },
+      {
+            "id": "cdfe8a70-79d5-4631-bc52-0e80939d51ac",
+            "junctionID": "J036",
+            "junctionName": "P2: Vivekanand Chauraha",
+            "location": {
+                  "type": "point",
+                  "coordinates": [
+                        81.8357,
+                        25.4588
+                  ]
+            }
+      }
+]

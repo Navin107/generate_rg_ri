@@ -3,9 +3,9 @@
     "id": "8d002eca-84fa-467e-9409-45622b4525de",
     "type": [
         "iudx:Resource",
-        "iudx:PointOfInterest"
+        "iudx:RoadSegment"
     ],
-    "name": "atcs-locations",
+    "name": "atcs-lane-locations",
     "label": "Adaptive Traffic Control Systems Lane Locations in Gandhinagar City",
     "description": "The physical coordinates of Adaptive Traffic Control System (ATCS) Lane locations in Gandhinagar City.",
     "tags": [
@@ -15,13 +15,15 @@
         "atcs",
         "adaptive traffic"
     ],
-    "accessPolicy": "SECURE",
     "apdURL": "acl-apd.iudx.org.in",
-    "provider": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e",
     "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
-    "resourceGroup": "gujarat.gov.in/25fe0b1811bf2ab8ee626db19f84d4a2fa4ccb9e/rs.iudx.org.in/gandhinagar-point-of-interests",
+    "accessPolicy": "SECURE",
+    "itemStatus": "ACTIVE",
+    "provider": "5ebc64e0-e308-4787-b4d8-06c11ce417a9",
+    "resourceGroup": "6e9d6c91-7885-4faa-bb61-2406bb2bd354",
     "resourceType": "GSLAYER",
     "iudxResourceAPIs": [
+        "TEMPORAL",
         "SPATIAL",
         "ATTR"
     ],
@@ -29,7 +31,7 @@
         "@context": "https://voc.iudx.org.in/",
         "type": [
             "iudx:DataDescriptor",
-            "iudx:PointOfInterest"
+            "iudx:RoadSegment"
         ],
         "dataDescriptorLabel": "Data Attributes for Adaptive Traffic Control System (ATCS) Locations in Gandhinagar City",
         "description": "Data attribute details for adaptive traffic control system locations in Gandhinagar City.",
@@ -63,15 +65,38 @@
         }
     },
     "dataSample": {
-        "junctionName": "ATCS - H3-KishanChowkBhavan",
+        "junctionName": "GH6-PujyaMotaCircle",
+        "roadName": "GH7-GH6",
         "location": {
-            "type": "Point",
+            "type": "LineString",
             "coordinates": [
-                72.648028,
-                23.212639
+                [
+                    72.65673995018005,
+                    23.241523549865
+                ],
+                [
+                    72.65706181526184,
+                    23.24208546532434
+                ],
+                [
+                    72.65736222267151,
+                    23.242578371673407
+                ],
+                [
+                    72.65766263008118,
+                    23.243041701980992
+                ],
+                [
+                    72.65793085098267,
+                    23.243485314597333
+                ],
+                [
+                    72.65809178352356,
+                    23.243741623436605
+                ]
             ]
         },
-        "observationDateTime": "2021-03-22T16:11:12+05:30"
+        "observationDateTime": "2023-11-16T14:30:05+05:30"
     },
     "dataSampleFile": [
         {
@@ -116,8 +141,5 @@
             ]
         }
     },
-    "itemStatus": "ACTIVE",
-    "instance": "gandhinagar",
-    "ownerUserId": "4dbccc90-b14d-4a78-8f64-18fbfc9063ad",
-    "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0"
+    "instance": "gandhinagar"
 }

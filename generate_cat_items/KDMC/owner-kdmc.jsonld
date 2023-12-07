@@ -1,0 +1,9 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+      "iudx:Owner"
+  ],
+  "id": "4e41bfc8-5b2b-41a5-8a83-563a179b6905",
+  "name": "KDMCOwner",
+  "description": "Owner of KDMC COS"
+}

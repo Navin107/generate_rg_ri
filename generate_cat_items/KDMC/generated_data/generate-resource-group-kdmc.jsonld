@@ -1,0 +1,195 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "90c70189-e967-4d42-b50d-c2c51d8647e4",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:TransitManagement"
+          ],
+          "name": "kalyan-dombivli-itms-info",
+          "label": "Bus Transit Information from Kalyan-Dombivli City",
+          "description": "Publishes realtime vehicle location and other ancillary information such as about bus routes, bus stops and stop schedules of public transit buses in Kalyan-Dombivli city.",
+          "tags": [
+               "vehicle",
+               "transport",
+               "buses",
+               "route info",
+               "route",
+               "bus transit",
+               "route shape",
+               "trip details",
+               "bus stops",
+               "bus information",
+               "vehicle information",
+               "bus details",
+               "trip schedule",
+               "stop locations",
+               "itms",
+               "public transit",
+               "mobility",
+               "commute",
+               "bus tracking"
+          ],
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "itemStatus": "ACTIVE",
+          "location": {
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "type": "Place"
+          },
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T11:56:18+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:PointOfInterest"
+          ],
+          "name": "kalyan-dombivli-point-of-interests",
+          "label": "Point of Interests (POI) in Kalyan-Dombivli City",
+          "description": "Point of Interests (POI) dataset provides intelligence on real world public places such as installations of smart elements like public addressing systems, emergency call boxes, AQM sensors locations, shelter home locations, public toilet locations and so on in Kalyan-Dombivli City.",
+          "tags": [
+               "public addressing",
+               "locality",
+               "public message",
+               "public awareness",
+               "emergency message",
+               "announcement",
+               "broadcast",
+               "addressing",
+               "sign board",
+               "traffic",
+               "caution",
+               "led display",
+               "road information"
+          ],
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "itemStatus": "ACTIVE",
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra"
+          },
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:16:24+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "73301321-ce7b-4e46-aa53-1bc30d9b160f",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM",
+               "iudx:PointOfInterest"
+          ],
+          "name": "kalyan-dombivli-env-aqm",
+          "label": "Air Quality Monitoring Sensors (AQM) in Kalyan-Dombivli City",
+          "description": "Publishes information of air pollutants from AQM sensors/devices deployed in Kalyan-Dombivli city. It gives the instantaneous values of air pollutant measures like carbon monoxide, nitrogen dioxide, ozone, particulate matter etc., and also the associated environmental factors like temperature, humidity, illuminance. More details on the type of pollutant measured and units of measurement are given in the Data Descriptor.",
+          "tags": [
+               "environment",
+               "air quality",
+               "climate",
+               "air",
+               "aqi",
+               "aqm",
+               "pollution",
+               "so2",
+               "co2",
+               "co",
+               "no",
+               "no2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "ozone",
+               "o3",
+               "noise",
+               "light",
+               "uv"
+          ],
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "itemStatus": "ACTIVE",
+          "location": {
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "type": "Place"
+          },
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:23:23+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "800c242d-0fea-409c-903c-a4fb22c7d27e",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvFlood",
+               "iudx:PointOfInterest"
+          ],
+          "name": "kalyan-dombivli-flood",
+          "label": "Flood Level Monitoring Sensors in Kalyan-Dombivli City",
+          "description": "Publishes information about the flood level monitoring sensors/devices deployed in Kalyan-Dombivli city.",
+          "tags": [
+               "environment",
+               "air quality",
+               "climate",
+               "air",
+               "environment",
+               "tanks",
+               "river",
+               "dam",
+               "water level",
+               "flood sensor"
+          ],
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "itemStatus": "ACTIVE",
+          "location": {
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "type": "Place"
+          },
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:24:44+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d16c46dc-adb5-415d-a04b-c5e22e7cf629",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-grievance",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:IssueReporting"
+          ],
+          "name": "kalyan-dombivli-grievance",
+          "label": "Civic Issues Reported in Kalyan-Dombivli City",
+          "description": "Civic issues/complaints reported on the current day, on a daily basis by the citizens, via KDMC website, KDMC 24*7 App & Citizen Facilitation Centres in Kalyan-Dombivli city.",
+          "tags": [
+               "tracking grievances",
+               "status",
+               "citizen grievances",
+               "complaints",
+               "registered grievances",
+               "grievance handling",
+               "public grievances",
+               "grievance severity",
+               "sanitation",
+               "drainage",
+               "garbage collection",
+               "garbage and cleanliness",
+               "Employee Complaint"
+          ],
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "itemStatus": "ACTIVE",
+          "location": {
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "type": "Place"
+          },
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-12T10:58:03+0530"
+     }
+]

@@ -1,0 +1,29 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "type": [
+               "iudx:Provider"
+          ],
+          "name": "skddcl",
+          "description": "Smart Kalyan Dombivli Development Corporation Limited",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "providerOrg": {
+               "location": {
+                    "geometry": {
+                         "coordinates": [
+                              73.122003,
+                              19.234694
+                         ],
+                         "type": "Point"
+                    },
+                    "type": "Place",
+                    "address": "Kalyan-Dombivli, Maharashtra"
+               },
+               "additionalInfoURL": "https://kdmc.gov.in/kdmc",
+               "name": "skddcl"
+          },
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43"
+     }
+]

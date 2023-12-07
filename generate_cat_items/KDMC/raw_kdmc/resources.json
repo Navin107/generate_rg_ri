@@ -1,0 +1,62 @@
+{
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm/aqm-info": {
+        "id": "b1b02056-5847-42b5-8b9c-12a84a005d5c",
+        "resource_group": "73301321-ce7b-4e46-aa53-1bc30d9b160f"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/kalyan-live-bus-info": {
+        "id": "18d724d1-6736-41b4-8e65-0592b87bf670",
+        "resource_group": "90c70189-e967-4d42-b50d-c2c51d8647e4"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/pa-locations": {
+        "id": "6601c2e9-9197-47d9-b11e-521671df06ba",
+        "resource_group": "ec49c89e-35c7-4554-a695-4bc8ea7bf298"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/ecb-locations": {
+        "id": "0226c55e-6722-4bec-bf4d-9d983d9c9aa3",
+        "resource_group": "ec49c89e-35c7-4554-a695-4bc8ea7bf298"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/vmsb-locations": {
+        "id": "df0e0664-55cb-4035-8092-92388f9265f2",
+        "resource_group": "ec49c89e-35c7-4554-a695-4bc8ea7bf298"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood/flood-sensor-locations": {
+        "id": "9413508c-24da-418e-aaa1-9b721d2d4fe7",
+        "resource_group": "800c242d-0fea-409c-903c-a4fb22c7d27e"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm/aqm-sensor-locations": {
+        "id": "a60e0bd0-7e93-4d9a-b69f-1d52a21fe022",
+        "resource_group": "73301321-ce7b-4e46-aa53-1bc30d9b160f"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/route-info": {
+        "id": "41b63342-9803-4ff9-a09e-c8c2d908d83b",
+        "resource_group": "90c70189-e967-4d42-b50d-c2c51d8647e4"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood/water-level-info": {
+        "id": "015deffe-ffcd-4566-b6a9-0333d768bfdf",
+        "resource_group": "800c242d-0fea-409c-903c-a4fb22c7d27e"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/trip-stop-schedules": {
+        "id": "a3600c3c-9a3d-42dc-b546-4e46c5c27f3e",
+        "resource_group": "90c70189-e967-4d42-b50d-c2c51d8647e4"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/vehicle-info": {
+        "id": "fd13f2af-f620-4e59-8418-69d5fd1795b8",
+        "resource_group": "90c70189-e967-4d42-b50d-c2c51d8647e4"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/bus-stops-info": {
+        "id": "73726452-e3fa-4681-b09c-a19c53d052b7",
+        "resource_group": "90c70189-e967-4d42-b50d-c2c51d8647e4"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/route-shape-info": {
+        "id": "76e6f614-d827-4a91-8280-76dd0cdba3a5",
+        "resource_group": "90c70189-e967-4d42-b50d-c2c51d8647e4"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/traffic-camera-locations": {
+        "id": "f7253922-6d59-4054-968c-eb10b56c7843",
+        "resource_group": "ec49c89e-35c7-4554-a695-4bc8ea7bf298"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-grievance/civic-issues": {
+        "id": "d603d1e4-9ffc-42af-837b-4117d37e4d98",
+        "resource_group": "d16c46dc-adb5-415d-a04b-c5e22e7cf629"
+    }
+}

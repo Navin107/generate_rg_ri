@@ -1,0 +1,2396 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "9413508c-24da-418e-aaa1-9b721d2d4fe7",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood/flood-sensor-locations",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "flood-sensor-locations",
+          "label": "Flood Monitoring Sensor Locations in Kalyan-Dombivli City",
+          "description": "The physical coordinates of flood level monitoring sensor locations in Kalyan-Dombivli city.",
+          "tags": [
+               "environment",
+               "tanks",
+               "river",
+               "dam",
+               "water level",
+               "flood sensor"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "800c242d-0fea-409c-903c-a4fb22c7d27e",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data attributes for flood level monitoring sensor locations in Kalyan-Dombivli City",
+               "description": "Data attribute details for flood level monitoring sensor locations in Kalyan-Dombivli city.",
+               "deviceID": {
+                    "description": "Unique ID assigned to the flood level monitoring sensor in Kalyan-Dombivli City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "name": {
+                    "description": "Name of the location at which the flood level monitoring sensor is installed in Kalyan-Dombivli City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Kalyan-Dombivli city at which the flood level monitoring sensor is installed.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the flood level monitoring sensor installed in Kalyan-Dombivli City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               }
+          },
+          "dataSample": {
+               "deviceID": "867322036661957",
+               "name": "Flood sensor - Titwala Fire Station",
+               "address": "Titwala Fire Station, Kalyan-Dombivli",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.10237,
+                         19.21436
+                    ]
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:25:44+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "f7253922-6d59-4054-968c-eb10b56c7843",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/traffic-camera-locations",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "traffic-camera-locations",
+          "label": "ANPR and RLVD Camera Locations in Kalyan-Dombivli City",
+          "description": "The physical coordinates of ANPR and RLVD camera locations obtained from the Intelligent Traffic Management System in Kalyan-Dombivli City.",
+          "tags": [
+               "traffic management",
+               "itms",
+               "rlvd",
+               "anpr",
+               "red light",
+               "red light violation",
+               "number plate",
+               "number plate recognition",
+               "recognition",
+               "violation",
+               "violation detection"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for ANPR and RLVD Camera Locations Obtained from the Intelligent Traffic Management System in Kalyan-Dombivli City",
+               "description": "Data attribute details of ANPR and RLVD camera locations obtained from the Intelligent Traffic Management System in Kalyan-Dombivli City.",
+               "location": {
+                    "description": "Physical coordinates of the ANPR and RLVD camera location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality at which the ANPR and RLVD camera is located in Kalyan-Dombivli City.",
+                    "dataSchema": "iudx:Text"
+               },
+               "name": {
+                    "description": "Name of the ANPR and RLVD camera location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceCount": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "description": "The number of ANPR and RLVD camera that have been installed at a location corresponding to this observation."
+               }
+          },
+          "dataSample": {
+               "name": "ANPR and RLVD Camera- Jakat Naka",
+               "address": "Jakat Naka",
+               "deviceCount": 12,
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.115337,
+                         19.252452
+                    ]
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:17:13+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "df0e0664-55cb-4035-8092-92388f9265f2",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/vmsb-locations",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "vmsb-locations",
+          "label": "Variable Message Displays Locations in Kalyan-Dombivli City",
+          "description": "The physical coordinates of Variable Message Displays (VMD) locations in Kalyan-Dombivli city.",
+          "tags": [
+               "locations",
+               "point of interest",
+               "places",
+               "variable message",
+               "display",
+               "public display",
+               "caution",
+               "information",
+               "digital",
+               "message board",
+               "vmsb"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Attributes for Variable Messaging Sign Board (VMSB) Locations in Kalyan-Dombivli City",
+               "description": "Data attribute details for variable messaging sign board locations in Kalyan-Dombivli city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Kalyan-Dombivli city at which variable messaging sign board (VMSB) is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the variable messaging sign board (VMSB) location in Kalyan-Dombivli City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the variable messaging sign board (VMSB) corresponding to this observation",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "VMSB - Shahad Railway station",
+               "address": "Shahad Railway station",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.159618,
+                         19.240196
+                    ]
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:18:07+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "6601c2e9-9197-47d9-b11e-521671df06ba",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/pa-locations",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "pa-locations",
+          "label": "Public Addressing Systems Locations in Kalyan-Dombivli City",
+          "description": "The physical coordinates of Public Addressing (PA) systems locations in Kalyan-Dombivli City.",
+          "tags": [
+               "public address",
+               "broadcast",
+               "communication",
+               "announce",
+               "announcement",
+               "speaker",
+               "microphone",
+               "amplifier"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Attributes for Public Addressing (PA) Systems Locations in  Kalyan-Dombivli City",
+               "description": "Data attribute details for public addressing systems in Kalyan-Dombivli City",
+               "name": {
+                    "description": "Name of the public addressing (PA) system location in Kalyan-Dombivli City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Kalyan-Dombivli city at which the public addressing (PA) system is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical Coordinates of the public addressing (PA) system in Kalyan-Dombivli City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               }
+          },
+          "dataSample": {
+               "name": "PA - Khadakpada Circle (Road)",
+               "address": "Khadakpada Circle (Road)",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.115337,
+                         19.252452
+                    ]
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:18:35+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "0226c55e-6722-4bec-bf4d-9d983d9c9aa3",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/ecb-locations",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ecb-locations",
+          "label": "Emergency Call Boxes Locations in Kalyan-Dombivli City",
+          "description": "The physical coordinates of Emergency Call Box (ECB) systems locations in Kalyan-Dombivli city.",
+          "tags": [
+               "ecb",
+               "sos",
+               "call box",
+               "emergency call",
+               "emergency booth",
+               "call booth",
+               "phone",
+               "locality"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Attributes for Emergency Call Box (ECB) System Locations in Kalyan-Dombivli City",
+               "description": "Data attribute details for emergency call box systems in Kalyan-Dombivli City",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Kalyan-Dombivli city at which the emergency call box system (ECB) is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the emergency call box system (ECB) in Kalyan-Dombivli City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the emergency call box system (ECB) in Kalyan-Dombivli City",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "ECB - Gauri Pada (Talav)",
+               "address": "Gauri Pada (Talav)",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.13561,
+                         19.2637
+                    ]
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:17:41+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "a60e0bd0-7e93-4d9a-b69f-1d52a21fe022",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm/aqm-sensor-locations",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "aqm-sensor-locations",
+          "label": "Air Quality Monitoring Sensor (AQM) Locations in Kalyan-Dombivli City",
+          "description": "The physical coordinates of Air Quality Monitoring sensor (AQM) locations in Kalyan-Dombivli city.",
+          "tags": [
+               "environment",
+               "air quality",
+               "climate",
+               "air",
+               "aqi",
+               "aqm",
+               "aqm sensors",
+               "aqm locations",
+               "pollution"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "73301321-ce7b-4e46-aa53-1bc30d9b160f",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data attributes for AQM sensors locations in Kalyan-Dombivli City",
+               "description": "Data attribute details for AQM sensors locations in Kalyan-Dombivli city.",
+               "deviceID": {
+                    "description": "Device ID of the AQM Sensor installed in Kalyan-Dombivli city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "name": {
+                    "description": "Name of the location at which the AQM Sensor is installed in Kalyan-Dombivli city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Kalyan-Dombivli city at which the AQM sensor is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the AQM sensor installed in Kalyan-Dombivli city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               }
+          },
+          "dataSample": {
+               "deviceID": "ENE00203",
+               "name": "AQM sensor - Titwala-Station Chowk",
+               "address": "Titwala-Station Chowk, Kalyan-Dombivli",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.203659,
+                         19.295802
+                    ]
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-11T12:23:58+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "a3600c3c-9a3d-42dc-b546-4e46c5c27f3e",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/trip-stop-schedules",
+          "type": [
+               "iudx:Resource",
+               "iudx:TransitManagement"
+          ],
+          "name": "trip-stop-schedules",
+          "label": "Trip Schedules of Public Transit Buses in Kalyan-Dombivli City",
+          "description": "The arrival and departure schedules of the public transit buses at each bus stop along each bus trip, published on a monthly basis, from Kalyan-Dombivli city.",
+          "tags": [
+               "itms",
+               "mobility",
+               "vehicle",
+               "transport",
+               "buses",
+               "gtfs",
+               "commute",
+               "route",
+               "stop",
+               "bus tracking",
+               "trip eta",
+               "estimated time",
+               "arrival time",
+               "scheduled arrival",
+               "stop schedule"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "TEMPORAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:TransitManagement"
+               ],
+               "description": "Data descriptor for trip schedules of the public transit buses in Kalyan-Dombivli city.",
+               "dataDescriptorLabel": "Data attribute details for Kalyan-Dombivli ITMS bus ETA.",
+               "trip_id": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The unique ID of the trip of a public transit bus corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "stop_id": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The unique ID of the bus stop in the trip corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "arrival_time": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The time at which the bus is scheduled to arrive at the bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "departure_time": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The time at which the bus is scheduled to depart from the bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "stop_sequence": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The sequence number of the bus stop along the bus trip corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless"
+               },
+               "direction_id": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The direction of the trip corresponding to this observation. It can either be 0 or 1. If the trip direction is circular or anti-circular, then the direction id is 1. If the trip direction is up or down or turn-in(starts from last trip\u2019s last location and ends at depot) or turn-out(starts from depot and ends at trip\u2019s first location), then the direction id is 0.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The timestamp at which the packet is pushed into the data exchange.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "trip_id": "1226403",
+               "stop_id": "59",
+               "arrival_time": "21:49:00",
+               "departure_time": "21:50:00",
+               "stop_sequence": 40,
+               "direction_id": 0,
+               "observationDateTime": "2023-06-21T13:57:49+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli",
+               "geometry": {
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ],
+                    "type": "Polygon"
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-18T11:36:31+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d603d1e4-9ffc-42af-837b-4117d37e4d98",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-grievance/civic-issues",
+          "type": [
+               "iudx:Resource",
+               "iudx:IssueReporting"
+          ],
+          "name": "civic-issues",
+          "label": "Civic Issues Reported in Kalyan-Dombivli City",
+          "description": "Publishes the reported civic issues reported by the citizens in Kalyan-Dombivli city.",
+          "tags": [
+               "status",
+               "citizen grievances",
+               "complaints",
+               "registered grievances",
+               "grievance status",
+               "public grievances",
+               "sanitation",
+               "drainage",
+               "garbage collection",
+               "cleanliness",
+               "public health",
+               "arogyam"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "d16c46dc-adb5-415d-a04b-c5e22e7cf629",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-grievance",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "TEMPORAL",
+               "ATTR",
+               "SPATIAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:IssueReporting"
+               ],
+               "dataDescriptorLabel": "Data descriptor for civic issues reported in Kalyan-Dombivli City",
+               "description": "Data attribute details of civic complaints reported in Kalyan-Dombivli city.",
+               "reportID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Unique ID of the complaint corresponding to this observations in Kalyan-Dombivli city.",
+                    "dataSchema": "iudx:Text"
+               },
+               "wardID": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Unique ID of the ward associated with the complaint.",
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality associated with the complaints in Kalyan-Dombivli city.",
+                    "dataSchema": "iudx:Text"
+               },
+               "resolutionStatus": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Status of the issue that was reported in terms of resolution or the actions taken on it, such as pending, closed",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates at which the complaint is being reported corresponding to this observation. The coordinates are not captured for the complaints reported at the Citizen Facilitation Centres.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "zoneName": {
+                    "description": "Name of the zone from which the complaint has been reported.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "comments": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Description of issue reported by the complainant in Kalyan-Dombivli city.",
+                    "dataSchema": "iudx:Text"
+               },
+               "department": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the department associated with the issue corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "reportID": "CN2023001938",
+               "wardID": "F Ward",
+               "zoneName": "North Zone",
+               "address": "Sector 28",
+               "resolutionStatus": "Pending",
+               "comments": [
+                    "Team, I've paid my property tax and attached the payment receipt for your reference. Could you please complete the payment as it is reflecting as pending in the website."
+               ],
+               "department": "Property Tax  Department",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.10237,
+                         19.21436
+                    ]
+               },
+               "observationDateTime": "2023-03-20T22:13:44+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-18T11:33:55+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "73726452-e3fa-4681-b09c-a19c53d052b7",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/bus-stops-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:TransitManagement"
+          ],
+          "name": "bus-stops-info",
+          "label": "Bus Stop Info for Public Transit Buses in Kalyan-Dombivli City",
+          "description": "The bus stops information for the public transit buses in Kalyan-Dombivli city.",
+          "tags": [
+               "bus stop",
+               "stop id",
+               "hault",
+               "BRT stations",
+               "CBS stops",
+               "stop details",
+               "stop name"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:TransitManagement"
+               ],
+               "description": "Data attribute details of all stops and locations in Kalyan-Dombivli city.",
+               "dataDescriptorLabel": "Data Attribute Details for Public Transit Bus-Stops in Kalyan-Dombivli City",
+               "stop_id": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text",
+                    "description": "The unique ID of the bus stop corresponding to this observation."
+               },
+               "stop_code": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text",
+                    "description": "The unique code of the bus stop corresponding to this observation."
+               },
+               "stop_desc": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text",
+                    "description": "Type of the bus stop corresponding to this observation. Eg- 'Minor'"
+               },
+               "location": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point",
+                    "description": "The physical coordinates of the bus stop corresponding to this observation."
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The timestamp at which the packet is pushed into the data exchange.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "stop_name": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text",
+                    "description": "The name of the public transit bus stop corresponding to this observation."
+               }
+          },
+          "dataSample": {
+               "stop_id": "255",
+               "stop_code": "S255",
+               "stop_desc": "Minor Bus stop",
+               "stop_name": "Aadharwadi chowk (D)",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.12611,
+                         19.25211
+                    ]
+               },
+               "observationDateTime": "2023-06-26T15:05:37+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.2890332
+                              ],
+                              [
+                                   73.0567537,
+                                   19.2237896
+                              ],
+                              [
+                                   73.0936501,
+                                   19.1767644
+                              ],
+                              [
+                                   73.1735851,
+                                   19.1982837
+                              ],
+                              [
+                                   73.186076,
+                                   19.2557602
+                              ],
+                              [
+                                   73.113261,
+                                   19.2890332
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-18T11:36:34+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "41b63342-9803-4ff9-a09e-c8c2d908d83b",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/route-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:TransitManagement"
+          ],
+          "name": "route-info",
+          "label": "Bus Route Info for Public Transit Buses in Kalyan-Dombivli City",
+          "description": "The bus route information for public transit buses in Kalyan-Dombivli city.",
+          "tags": [
+               "continous pickup",
+               "continous dropoff",
+               "bus route",
+               "transit agency",
+               "travel time",
+               "travel distance"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:TransitManagement"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Public Transit Bus Route Info",
+               "description": "Data attribute details for bus route information of Kalyan-Dombivli City.",
+               "route_id": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Unique ID assigned to the route corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "route_long_name": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Full name of a route corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "route_type": {
+                    "description": "Type of transport assigned to the route on which the vehicle corresponding to the this observation is travelling.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number",
+                    "unitText": "Dimensionless",
+                    "unitCode": "C62"
+               },
+               "route_short_name": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Short name of a route corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "continuous_pickup": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Indicates whether a rider can board the transit vehicle at any point along the vehicle\u2019s travel path.",
+                    "dataSchema": "iudx:Number",
+                    "unitText": "Dimensionless",
+                    "unitCode": "C62"
+               },
+               "continuous_drop_off": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Indicates whether a rider can alight from the transit vehicle at any point along the vehicle\u2019s travel path.",
+                    "dataSchema": "iudx:Number",
+                    "unitText": "Dimensionless",
+                    "unitCode": "C62"
+               },
+               "travelTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The time taken by the bus to travel between the orgin bus stop and the destination bus stop corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "travelDistance": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The distance between the orgin bus stop and the destination bus stop corresponding to this observation.",
+                    "unitCode": "KTM",
+                    "unitText": "km (kilometre)",
+                    "dataSchema": "iudx:Number"
+               },
+               "agency_name": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the agency providing bus service in Kalyan-Dombivli city.",
+                    "dataSchema": "iudx:Text"
+               },
+               "agency_url": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Url of the agency providing bus service.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The timestamp at which the packet is pushed into the data exchange.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "route_id": "5552",
+               "route_short_name": "35A",
+               "route_long_name": "Asmeeta To Kalyan station",
+               "route_type": 3,
+               "continuous_pickup": 1,
+               "continuous_drop_off": 1,
+               "travelDistance": 5.2,
+               "travelTime": "00:40",
+               "agency_name": "KDMT",
+               "agency_url": "https://itskdmc.amnex.com/",
+               "observationDateTime": "2023-06-22T13:13:51+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.2890332
+                              ],
+                              [
+                                   73.0567537,
+                                   19.2237896
+                              ],
+                              [
+                                   73.0936501,
+                                   19.1767644
+                              ],
+                              [
+                                   73.1735851,
+                                   19.1982837
+                              ],
+                              [
+                                   73.186076,
+                                   19.2557602
+                              ],
+                              [
+                                   73.113261,
+                                   19.2890332
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-18T11:36:37+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "fd13f2af-f620-4e59-8418-69d5fd1795b8",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/vehicle-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:TransitManagement"
+          ],
+          "name": "vehicle-info",
+          "label": "Public Transit Bus Information in Kalyan-Dombivli City",
+          "description": "Information of public transit running buses such as their passenger capacity, air conditioning facility, etc. Kalyan-Dombivli city.",
+          "tags": [
+               "traffic management",
+               "itms",
+               "vehicle",
+               "itms",
+               "city bus",
+               "brts bus",
+               "vehicle",
+               "transport",
+               "buses",
+               "seating",
+               "commute",
+               "standing",
+               "bus information",
+               "details",
+               "bus details",
+               "air conditioning",
+               "ac",
+               "bus depot",
+               "capacity"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:TransitManagement"
+               ],
+               "dataDescriptorLabel": "Data Attribute Details of Vehicle Information in Kalyan-Dombivli City",
+               "description": "Data attribute details of vehicle information in Kalyan-Dombivli City",
+               "vehicleType": {
+                    "description": "Type of bus that is being used. Eg - Ashok Leyland (900mm), Ashok Leyland (650mm), Tejaswini (900 mm), Tata-Midi, Tata Marcopolo (400mm) in Kalyan-Dombivli City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "license_plate": {
+                    "description": "Vehicle registration number/license plate number of the vehicle .",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceID": {
+                    "description": "The unique ID of the GPS device installed in the vehicle.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "acAvailable": {
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Presence of air conditioning system in the vehicle.This field can take up two values : 'Ordinary'(absence of AC), 'AC'."
+               },
+               "vehicleCapacity": {
+                    "unitCode": "C62",
+                    "dataSchema": "iudx:Number",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total capacity of the bus including seating and standing capacity.",
+                    "unitText": "dimensionless"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The timestamp at which the packet is pushed into the data exchange.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "deviceID": "100116",
+               "license_plate": "MH-05-R-1126",
+               "acAvailable": "AC",
+               "vehicleType": "Volvo AC",
+               "vehicleCapacity": 56,
+               "observationDateTime": "2023-06-26T15:05:37+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.2890332
+                              ],
+                              [
+                                   73.0567537,
+                                   19.2237896
+                              ],
+                              [
+                                   73.0936501,
+                                   19.1767644
+                              ],
+                              [
+                                   73.1735851,
+                                   19.1982837
+                              ],
+                              [
+                                   73.186076,
+                                   19.2557602
+                              ],
+                              [
+                                   73.113261,
+                                   19.2890332
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-18T11:36:44+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "76e6f614-d827-4a91-8280-76dd0cdba3a5",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/route-shape-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:TransitManagement"
+          ],
+          "name": "route-shape-info",
+          "label": "Bus Route Shape for Public Transit Buses in Kalyan-Dombivli City",
+          "description": "The physical coordinates lining the shape of routes along which the public transit buses are plying in Kalyan-Dombivli city.",
+          "tags": [
+               "route name",
+               "bus route",
+               "route",
+               "hault",
+               "bus path",
+               "route information",
+               "route id",
+               "route shape",
+               "stop details",
+               "stop sequence"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:TransitManagement"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Transit Route Shape Info of Kalyan-Dombivli City",
+               "description": "Data attribute details for bus route shapes in Kalyan City.",
+               "route_id": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Unique ID of the route along which the bus corresponding to this observation is plying.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Route shape coordinates of public transit bus route corresponding to this observation.",
+                    "dataSchema": "iudx:LineString"
+               },
+               "observationDateTime": {
+                    "description": "Last reported time of observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "route_id": "5788",
+               "location": {
+                    "type": "LineString",
+                    "coordinates": [
+                         [
+                              73.00634,
+                              19.12022
+                         ],
+                         [
+                              73.00736,
+                              19.1176
+                         ],
+                         [
+                              73.00756,
+                              19.11663
+                         ],
+                         [
+                              73.00845,
+                              19.11538
+                         ],
+                         [
+                              73.00939,
+                              19.1127
+                         ],
+                         [
+                              73.01302,
+                              19.11369
+                         ],
+                         [
+                              73.02184,
+                              19.11323
+                         ],
+                         [
+                              73.02586,
+                              19.11229
+                         ],
+                         [
+                              73.02988,
+                              19.11118
+                         ],
+                         [
+                              73.03514,
+                              19.12078
+                         ],
+                         [
+                              73.03322,
+                              19.11214
+                         ],
+                         [
+                              73.0347,
+                              19.12666
+                         ],
+                         [
+                              73.03714,
+                              19.14195
+                         ],
+                         [
+                              73.04024,
+                              19.14699
+                         ],
+                         [
+                              73.04653,
+                              19.14317
+                         ],
+                         [
+                              73.05528,
+                              19.14993
+                         ],
+                         [
+                              73.06146,
+                              19.15454
+                         ],
+                         [
+                              73.06411,
+                              19.15654
+                         ],
+                         [
+                              73.06845,
+                              19.15977
+                         ],
+                         [
+                              73.07425,
+                              19.16371
+                         ],
+                         [
+                              73.07983,
+                              19.16911
+                         ],
+                         [
+                              73.08248,
+                              19.17174
+                         ],
+                         [
+                              73.08502,
+                              19.17433
+                         ],
+                         [
+                              73.08675,
+                              19.17676
+                         ],
+                         [
+                              73.08863,
+                              19.18031
+                         ],
+                         [
+                              73.09145,
+                              19.18642
+                         ],
+                         [
+                              73.09255,
+                              19.19229
+                         ],
+                         [
+                              73.09604,
+                              19.19251
+                         ],
+                         [
+                              73.09348,
+                              19.19597
+                         ]
+                    ]
+               },
+               "observationDateTime": "2023-06-26T13:53:51+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.2890332
+                              ],
+                              [
+                                   73.0567537,
+                                   19.2237896
+                              ],
+                              [
+                                   73.0936501,
+                                   19.1767644
+                              ],
+                              [
+                                   73.1735851,
+                                   19.1982837
+                              ],
+                              [
+                                   73.186076,
+                                   19.2557602
+                              ],
+                              [
+                                   73.113261,
+                                   19.2890332
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-18T11:36:41+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "18d724d1-6736-41b4-8e65-0592b87bf670",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/kalyan-live-bus-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:TransitManagement"
+          ],
+          "name": "kalyan-live-bus-info",
+          "label": "Realtime Locations of Public Transit Buses in Kalyan-Dombivli City",
+          "description": "Realtime bus position information and arrival timings along with trip schedules of public transit buses from Kalyan-Dombivli city published at an interval of every 10 seconds.",
+          "tags": [
+               "itms",
+               "mobility",
+               "vehicle",
+               "transport",
+               "buses",
+               "gtfs",
+               "speed",
+               "passenger",
+               "commute",
+               "stop sequence",
+               "route",
+               "stop",
+               "bus tracking",
+               "arrival time",
+               "schedule relationship"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "TEMPORAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:TransitManagement"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Kalyan-Dombivli Realtime Bus Live tracking",
+               "description": "Data attribute details for live vehicle position of the public transit buses in Kalyan-Dombivli city.",
+               "route_id": {
+                    "description": "Route ID assigned to the route on which the bus corresponding to this observation is currently plying on.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "license_plate": {
+                    "description": "Vehicle registration number/license plate number of the bus corresponding to this observation.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "stop_sequence": {
+                    "description": "This field denotes the order of the bus stops along the route for a particular trip corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "actual_trip_start_time": {
+                    "description": "This field denotes the time at which service actually began.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "last_stop_arrival_time": {
+                    "description": "This field specifies the actual arrival time at the previous stop along the route of the trip corresponding to this observation.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "speed": {
+                    "description": "The speed of the bus corresponding to this observation.",
+                    "unitCode": "KMH",
+                    "unitText": "kilometre per hour",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number"
+               },
+               "stopScheduleRelationship": {
+                    "description": "The realtime status of the bus with respect to the stop corresponding to this observation. The value 'SCHEDULED' denotes that the stop is covered; the arrival time to the stop is available. The value 'NO_DATA' denotes that the stop is not covered yet or there in no realtime information from the device; the arrival time is not available/None.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "start_date": {
+                    "description": "Describes the initial scheduled start date of the trip corresponding to the vehicle this observation.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "start_time": {
+                    "description": "Describes the initial scheduled start time of the trip corresponding to the vehicle this observation.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "trip_id": {
+                    "description": "Unique ID allotted to the bus trip corresponding to this observation.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "last_stop_id": {
+                    "description": "Stop ID of the previous bus stop corresponding to the bus in this observation.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "location": {
+                    "description": "The coordinates for the current position of the bus corresponding to this observation.",
+                    "dataSchema": "iudx:Point",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "observationDateTime": {
+                    "description": "The time at which the bus was last tracked.",
+                    "dataSchema": "iudx:DateTime",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "bearing": {
+                    "description": "Indicates vehicle GPS angle measured in a clockwise direction from the True North.",
+                    "unitCode": "DD",
+                    "dataSchema": "iudx:Number",
+                    "unitText": "degree",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "vehicleID": {
+                    "description": "Unique ID assigned to the vehicle corresponding to this observation.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "direction_id": {
+                    "description": "Indicates the direction of travel of the bus corresponding to this observation,",
+                    "unitCode": "C62",
+                    "dataSchema": "iudx:Number",
+                    "unitText": "dimensionless",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "schedule_relationship": {
+                    "description": "Describes the status of the trip corresponding to this observation.",
+                    "dataSchema": "iudx:Text",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               }
+          },
+          "dataSample": {
+               "trip_id": "1225478",
+               "bearing": 118.05,
+               "stop_sequence": 3,
+               "actual_trip_start_time": "2023-06-21T14:04:05+05:30",
+               "stopScheduleRelationship": "SCHEDULED",
+               "route_id": "5524",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.187715,
+                         19.2123216666667
+                    ]
+               },
+               "vehicleID": "4813",
+               "license_plate": "MH-05-R-1207",
+               "last_stop_id": "204",
+               "observationDateTime": "2023-06-21T14:27:57+05:30",
+               "start_date": "2023-06-21",
+               "start_time": "14:00:00",
+               "last_stop_arrival_time": "14:27:38",
+               "speed": 8.52,
+               "direction_id": 0,
+               "schedule_relationship": "SCHEDULED"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ],
+                    "type": "Polygon"
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-07-21T02:29:01+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "b1b02056-5847-42b5-8b9c-12a84a005d5c",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm/aqm-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnvAQM"
+          ],
+          "name": "aqm-info",
+          "label": "Air Quality Monitoring Sensors (AQM) in Kalyan-Dombivli City",
+          "description": "Publishes the information on a daily basis for the previous day about the air pollutants from AQM sensors/devices deployed in Kalyan-Dombivli city. It provides instantaneous values of AQM data, which includes gaseous properties such as CO2, CO, and NO2, along with associated environmental factors like temperature and humidity. The location information of the AQM sensors can be accessed from Air Quality Monitoring Sensor (AQM) Locations in Kalyan-Dombivli City",
+          "tags": [
+               "environment",
+               "air quality",
+               "climate",
+               "air",
+               "aqi",
+               "aqm",
+               "pollution",
+               "so2",
+               "co2",
+               "co",
+               "no",
+               "no2",
+               "rain",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "ozone",
+               "o3",
+               "noise",
+               "light",
+               "uv"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "73301321-ce7b-4e46-aa53-1bc30d9b160f",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "Data descriptor for AQM sensors installed in Kalyan-Dombivli City",
+               "description": "Data attribute details for AQM sensors installed in Kalyan-Dombivli city.",
+               "deviceID": {
+                    "description": "Device ID of the AQM Sensor in Kalyan-Dombivli city",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "weatherType": {
+                    "description": "The weather condition corresponding to this observation",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "precipitation": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value of rainfall.",
+                    "unitCode": "MMT",
+                    "unitText": "millimetre (mm)",
+                    "dataSchema": "iudx:Number"
+               },
+               "windSpeed": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Observed wind speed, the default maximum static value which the device can measure is 18 m/s.",
+                    "unitCode": "MTS",
+                    "unitText": "metre per second",
+                    "dataSchema": "iudx:Number"
+               },
+               "illuminance": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous ambient light intensity.",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "The instantaneous value of ambient light intensity.",
+                         "unitCode": "LUX",
+                         "unitText": "lux (lx)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "so2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for sulphur dioxide(SO2).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of sulphur dioxide(SO2).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "relativeHumidity": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for relativeHumidity.",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of relativeHumidity.",
+                         "unitCode": "P1",
+                         "unitText": "Percentage",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "pm10": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for particulate matter 10(PM10).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of particulate matter 10(PM10).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "pm2p5": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for particulate matter 2.5(PM2.5).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of particulate matter 2.5(PM2.5).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "co": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for carbon monooxide(CO).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of carbon monooxide(CO).",
+                         "unitCode": "GP",
+                         "unitText": "milligram per cubic metre (mg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "no2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for nitrogen dioxide(NO2).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of nitrogen dioxide(NO2).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "airTemperature": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for air temperature.",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of air temperature.",
+                         "unitCode": "CEL",
+                         "unitText": "degree Celsius (C)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "o3": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for ozone(O3).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of ozone(O3).",
+                         "unitCode": "GQ",
+                         "unitText": "microgram per cubic metre (\u03bcg/m3)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "co2": {
+                    "type": [
+                         "TimeSeriesAggregation"
+                    ],
+                    "description": "Describes instantaneous values for carbon dioxide(CO2).",
+                    "instValue": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Instantaneous value of carbon dioxide(CO2).",
+                         "unitCode": "59",
+                         "unitText": "part per million (ppm)",
+                         "dataSchema": "iudx:Number"
+                    }
+               },
+               "airQualityIndex": {
+                    "description": "Overall AQI",
+                    "unitCode": "C62",
+                    "dataSchema": "iudx:Number",
+                    "unitText": "dimensionless",
+                    "type": [
+                         "ValueDescriptor"
+                    ]
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "deviceID": "ENE00212",
+               "observationDateTime": "2021-09-08T13:55:53+05:30",
+               "airQualityIndex": 30,
+               "windSpeed": 11.69,
+               "precipitation": 38.11,
+               "pm2p5": {
+                    "instValue": 11.69
+               },
+               "pm10": {
+                    "instValue": 14.74
+               },
+               "so2": {
+                    "instValue": 0.11
+               },
+               "no2": {
+                    "instValue": 0.13
+               },
+               "co": {
+                    "instValue": 0.63
+               },
+               "o3": {
+                    "instValue": 0.15
+               },
+               "co2": {
+                    "instValue": 0.06
+               },
+               "airTemperature": {
+                    "instValue": 38.11
+               },
+               "relativeHumidity": {
+                    "instValue": 55.19
+               },
+               "illuminance": {
+                    "instValue": 6053.41
+               },
+               "weatherType": "clear sky"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-08-21T12:14:48+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "015deffe-ffcd-4566-b6a9-0333d768bfdf",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood/water-level-info",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnvFlood"
+          ],
+          "name": "water-level-info",
+          "label": "Flood Level in Kalyan-Dombivli City",
+          "description": "Publishes value of water level on a daily basis for the previous day obtained from the water level monitoring devices installed at sewage treatment plant, water treatment plant (river stream), near creek and flooded areas which are finalized by disaster management team. The location information of the flood level monitoring sensors can be accessed from Flood Monitoring Sensor Locations in Kalyan-Dombivli City",
+          "tags": [
+               "water",
+               "height",
+               "flow",
+               "water level",
+               "flood",
+               "flood level",
+               "flood warning",
+               "rain monitoring"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": " ",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "800c242d-0fea-409c-903c-a4fb22c7d27e",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "TEMPORAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Data Attribute of Flood Water Level in Kalyan-Dombivli City",
+               "description": "Data attribute information of Flood water level in Kalyan-Dombivli city.",
+               "deviceID": {
+                    "description": "Device ID of the flood level monitoring sensor installed in Kalyan-Dombivli city",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "currentLevel": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value of flood level from the sensors corresponding to this observation.",
+                    "unitText": "metre",
+                    "unitCode": "MTR",
+                    "dataSchema": "iudx:Number"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "deviceID": "867322036673184",
+               "currentLevel": 83.33,
+               "observationDateTime": "2023-07-22T16:30:55+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.09365,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.25576
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "itemCreatedAt": "2023-08-21T12:15:07+0530"
+     }
+]

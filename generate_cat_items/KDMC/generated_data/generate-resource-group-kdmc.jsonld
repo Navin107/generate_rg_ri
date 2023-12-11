@@ -39,6 +39,7 @@
                "type": "Place"
           },
           "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "cos": "3c96d488-cea1-4ba1-ade7-8124e6cd866a",
           "itemCreatedAt": "2023-07-11T11:56:18+0530"
      },
      {
@@ -75,6 +76,7 @@
                "address": "Kalyan-Dombivli, Maharashtra"
           },
           "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "cos": "3c96d488-cea1-4ba1-ade7-8124e6cd866a",
           "itemCreatedAt": "2023-07-11T12:16:24+0530"
      },
      {
@@ -120,6 +122,7 @@
                "type": "Place"
           },
           "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "cos": "3c96d488-cea1-4ba1-ade7-8124e6cd866a",
           "itemCreatedAt": "2023-07-11T12:23:23+0530"
      },
      {
@@ -154,6 +157,7 @@
                "type": "Place"
           },
           "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "cos": "3c96d488-cea1-4ba1-ade7-8124e6cd866a",
           "itemCreatedAt": "2023-07-11T12:24:44+0530"
      },
      {
@@ -190,6 +194,7 @@
                "type": "Place"
           },
           "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+          "cos": "3c96d488-cea1-4ba1-ade7-8124e6cd866a",
           "itemCreatedAt": "2023-07-12T10:58:03+0530"
      }
 ]

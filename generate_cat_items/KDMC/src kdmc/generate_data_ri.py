@@ -31,7 +31,7 @@ class IUDXDataProcessor:
         json_data["provider"] = self.provider_data.get(provider_id)
         json_data["provider_bck"] = provider_id
         json_data["ownerUserId"] = self.user_data.get(provider_id)
-        # json_data["cos"] =  "49f96c4c-e595-4fee-984c-43dededfba48"
+        json_data["cos"] =  "3c96d488-cea1-4ba1-ade7-8124e6cd866a"
         json_data["accessPolicy"] = "SECURE"
         json_data["apdURL"] = " "
         
@@ -71,7 +71,7 @@ class IUDXDataProcessor:
 data_processor = IUDXDataProcessor()
 uuid_data = data_processor.generate()
 
-with open("../generated_data/generate-resource-item.-kdmc.jsonld", "w") as f:
+with open("../generated_data/generate-resource-item-kdmc.jsonld", "w") as f:
     json.dump(uuid_data,f,indent=5)
 
 print("done")

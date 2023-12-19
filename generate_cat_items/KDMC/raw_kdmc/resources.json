@@ -58,5 +58,17 @@
     "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-grievance/civic-issues": {
         "id": "d603d1e4-9ffc-42af-837b-4117d37e4d98",
         "resource_group": "d16c46dc-adb5-415d-a04b-c5e22e7cf629"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info/kalyan-itms-info":{
+        "id": "58e3d173-c0b5-4e65-991b-5e47ffccc9cf",
+        "resource_group": "90c70189-e967-4d42-b50d-c2c51d8647e4"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/atcs-locations":{
+        "id": "4a887cf1-22a7-4eb7-bedc-ec081d358074s",
+        "resource_group": "ec49c89e-35c7-4554-a695-4bc8ea7bf298"
+    },
+    "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/cctv-locations":{
+        "id": "44d42e00-5eaa-49ca-b91f-fbc1bece7871",
+        "resource_group": "ec49c89e-35c7-4554-a695-4bc8ea7bf298"
     }
 }

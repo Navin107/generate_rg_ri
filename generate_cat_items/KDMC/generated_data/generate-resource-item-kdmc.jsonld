@@ -2407,5 +2407,259 @@
           "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
           "cos": "3c96d488-cea1-4ba1-ade7-8124e6cd866a",
           "itemCreatedAt": "2023-08-21T12:15:07+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "id": "44d42e00-5eaa-49ca-b91f-fbc1bece7871",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/cctv-locations",
+          "name": "cctv-locations",
+          "label": "Surveillance Camera Locations in Chandigarh City",
+          "description": "The physical coordinates of surveillance cameras installed in Chandigarh city.",
+          "tags": [
+               "traffic management",
+               "itms",
+               "rlvd",
+               "anpr",
+               "red light",
+               "red light violation",
+               "number plate",
+               "number plate recognition",
+               "recognition",
+               "violation",
+               "violation detection",
+               "cctv",
+               "camera"
+          ],
+          "dataSampleFile": [{
+               "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/kalyan-dombivli/kalyan-dombivli-city-cctv-camera-locations.json",
+               "name": "Kalyan-Dombivli Surveillance Camera Locations Sample",
+               "description": "Sample file for surveillance camera locations in Kalyan-Dombivli city.",
+               "relationType": "REL_FILE"
+          }],
+          "resourceType": "GSLAYER",
+          "itemStatus": "ACTIVE",
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Surveillance Camera Locations in Kalyan-Dombivli City",
+               "description": "Data attribute details of surveillance camera locations in Kalyan-Dombivli City.",
+               "location": {
+                    "description": "Physical coordinates of the surveillance camera location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality at which the surveillance camera is located in Kalyan-Dombivli City.",
+                    "dataSchema": "iudx:Text"
+               },
+               "name": {
+                    "description": "Name of the surveillance camera location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.093650,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.255760
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "dataSample": {
+               "name": "CCTV - Khadakpada Circle (Road)",
+               "address": "Khadakpada Circle (Road)",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.136955,
+                         19.25302
+                    ]
+               }
+          }
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "id": "4a887cf1-22a7-4eb7-bedc-ec081d358074s",
+          "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/atcs-locations",
+          "name": "atcs-locations",
+          "label": "Adaptive Traffic Control Systems Locations in Kalyan-Dombivli City",
+          "description": "The physical coordinates of Adaptive Traffic Control system (ATCS) location in Kalyan-Dombivli City.",
+          "tags": [
+               "traffic management",
+               "itms",
+               "rlvd",
+               "anpr",
+               "red light",
+               "red light violation",
+               "number plate",
+               "number plate recognition",
+               "recognition",
+               "violation",
+               "violation detection"
+          ],
+          "dataSampleFile": [{
+               "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/kalyan-dombivli/kalyan-dombivli-city-atcs-locations.json",
+               "name": "Kalyan-Dombivli City ATCS Locations Sample",
+               "description": "Sample file for adaptive traffic control system locations in Kalyan-Dombivli city.",
+               "relationType": "REL_FILE"
+          }],
+          "resourceType": "GSLAYER",
+          "itemStatus": "ACTIVE",
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
+          "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
+          "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Adaptive Traffic Control System (ATCS) Locations in Kalyan-Dombivli City",
+               "description": "Data attribute details of adaptive traffic control system locations in Kalyan-Dombivli City.",
+               "location": {
+                    "description": "Physical coordinates of the atcs location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality at which the atcs is located in Kalyan-Dombivli City.",
+                    "dataSchema": "iudx:Text"
+               },
+               "name": {
+                    "description": "Name of the atcs location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceCount": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "description": "The number of atcs that have been installed at a location corresponding to this observation."
+               }
+          },
+          "location": {
+               "type": "Place",
+               "address": "Kalyan-Dombivli, Maharashtra",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   73.113261,
+                                   19.289033
+                              ],
+                              [
+                                   73.056753,
+                                   19.223789
+                              ],
+                              [
+                                   73.093650,
+                                   19.176764
+                              ],
+                              [
+                                   73.173585,
+                                   19.198283
+                              ],
+                              [
+                                   73.186076,
+                                   19.255760
+                              ],
+                              [
+                                   73.113261,
+                                   19.289033
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "dataSample": {
+               "name": "ATCS - Wajpai chowk",
+               "address": "Wajpai chowk",
+               "deviceCount": 5,
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         73.203078,
+                         19.292985
+                    ]
+               }
+          }
      }
 ]
+
+

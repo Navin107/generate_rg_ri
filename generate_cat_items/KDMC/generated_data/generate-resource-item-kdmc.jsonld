@@ -19,7 +19,7 @@
                "flood sensor"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -144,7 +144,7 @@
                "violation detection"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -271,7 +271,7 @@
                "vmsb"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -385,7 +385,7 @@
                "amplifier"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -499,7 +499,7 @@
                "locality"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -614,7 +614,7 @@
                "pollution"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -743,7 +743,7 @@
                "stop schedule"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -891,7 +891,7 @@
                "arogyam"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -1055,7 +1055,7 @@
                "stop name"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -1192,7 +1192,7 @@
                "travel distance"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -1383,7 +1383,7 @@
                "capacity"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -1519,7 +1519,7 @@
                "stop sequence"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -1755,7 +1755,7 @@
                "schedule relationship"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -2002,7 +2002,7 @@
                "uv"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
@@ -2320,7 +2320,7 @@
                "rain monitoring"
           ],
           "accessPolicy": "SECURE",
-          "apdURL": " ",
+          "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
           "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
           "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",

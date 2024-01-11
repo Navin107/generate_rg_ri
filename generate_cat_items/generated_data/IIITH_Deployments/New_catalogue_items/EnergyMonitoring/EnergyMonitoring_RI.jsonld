@@ -31,6 +31,7 @@
 		"meter",
 		"monitor"
 	],
+	"apdURL": "acl-apd.iudx.org.in",
 	"resourceGroup": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7",
 	"itemStatus": "ACTIVE",
 	"location": {

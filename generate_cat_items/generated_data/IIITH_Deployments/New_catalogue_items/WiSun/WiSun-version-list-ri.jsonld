@@ -17,6 +17,7 @@
 		"mac_address",
 		"packet_size"
 	],
+	"apdURL": "acl-apd.iudx.org.in",
 	"accessPolicy": "SECURE",
 	"iudxResourceAPIs": [
 		"ATTR"

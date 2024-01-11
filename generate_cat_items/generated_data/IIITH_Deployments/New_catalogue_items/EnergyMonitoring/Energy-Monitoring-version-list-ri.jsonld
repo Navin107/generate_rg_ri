@@ -33,6 +33,7 @@
 		"meter",
 		"monitor"
 	],
+	"apdURL": "acl-apd.iudx.org.in",
 	"resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
 	"provider": "98bd1444-96ef-421f-9661-e819ce867da7",
 	"resourceGroup": "60a3fca0-079f-4c23-9f3d-965f8537d079",

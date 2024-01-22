@@ -9,7 +9,7 @@ route_old = "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx
 
 exchange_to_publish = "ec49c89e-35c7-4554-a695-4bc8ea7bf298"
 route = "ec49c89e-35c7-4554-a695-4bc8ea7bf298/.4a887cf1-22a7-4eb7-bedc-ec081d358074"
-uuid = "4a887cf1-22a7-4eb7-bedc-ec081d358074s"
+uuid = "4e8df507-132e-4cb2-b238-7bcbdea9f0d0"
 
 schema ={
     "$id": "https://voc.iudx.org.in/PointOfInterest",

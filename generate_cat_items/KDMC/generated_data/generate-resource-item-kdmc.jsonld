@@ -21,8 +21,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "800c242d-0fea-409c-903c-a4fb22c7d27e",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood",
           "resourceType": "GSLAYER",
@@ -127,7 +126,7 @@
                "iudx:Resource",
                "iudx:PointOfInterest"
           ],
-          "name": "traffic-camera-locations",
+          "name": "kdmc-traffic-camera-locations",
           "label": "ANPR and RLVD Camera Locations in Kalyan-Dombivli City",
           "description": "The physical coordinates of ANPR and RLVD camera locations obtained from the Intelligent Traffic Management System in Kalyan-Dombivli City.",
           "tags": [
@@ -146,8 +145,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
           "resourceType": "GSLAYER",
@@ -254,7 +252,7 @@
                "iudx:Resource",
                "iudx:PointOfInterest"
           ],
-          "name": "vmsb-locations",
+          "name": "kdmc-vmsb-locations",
           "label": "Variable Message Displays Locations in Kalyan-Dombivli City",
           "description": "The physical coordinates of Variable Message Displays (VMD) locations in Kalyan-Dombivli city.",
           "tags": [
@@ -273,8 +271,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
           "resourceType": "GSLAYER",
@@ -371,7 +368,7 @@
                "iudx:Resource",
                "iudx:PointOfInterest"
           ],
-          "name": "pa-locations",
+          "name": "kdmc-pa-locations",
           "label": "Public Addressing Systems Locations in Kalyan-Dombivli City",
           "description": "The physical coordinates of Public Addressing (PA) systems locations in Kalyan-Dombivli City.",
           "tags": [
@@ -387,8 +384,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
           "resourceType": "GSLAYER",
@@ -485,7 +481,7 @@
                "iudx:Resource",
                "iudx:PointOfInterest"
           ],
-          "name": "ecb-locations",
+          "name": "kdmc-ecb-locations",
           "label": "Emergency Call Boxes Locations in Kalyan-Dombivli City",
           "description": "The physical coordinates of Emergency Call Box (ECB) systems locations in Kalyan-Dombivli city.",
           "tags": [
@@ -501,8 +497,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
           "resourceType": "GSLAYER",
@@ -599,7 +594,7 @@
                "iudx:Resource",
                "iudx:PointOfInterest"
           ],
-          "name": "aqm-sensor-locations",
+          "name": "kdmc-aqm-sensor-locations",
           "label": "Air Quality Monitoring Sensor (AQM) Locations in Kalyan-Dombivli City",
           "description": "The physical coordinates of Air Quality Monitoring sensor (AQM) locations in Kalyan-Dombivli city.",
           "tags": [
@@ -616,8 +611,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "73301321-ce7b-4e46-aa53-1bc30d9b160f",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm",
           "resourceType": "GSLAYER",
@@ -722,7 +716,7 @@
                "iudx:Resource",
                "iudx:TransitManagement"
           ],
-          "name": "trip-stop-schedules",
+          "name": "kdmc-trip-stop-schedules",
           "label": "Trip Schedules of Public Transit Buses in Kalyan-Dombivli City",
           "description": "The arrival and departure schedules of the public transit buses at each bus stop along each bus trip, published on a monthly basis, from Kalyan-Dombivli city.",
           "tags": [
@@ -745,8 +739,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
           "resourceType": "MESSAGESTREAM",
@@ -873,7 +866,7 @@
                "iudx:Resource",
                "iudx:IssueReporting"
           ],
-          "name": "civic-issues",
+          "name": "kdmc-civic-issues",
           "label": "Civic Issues Reported in Kalyan-Dombivli City",
           "description": "Publishes the reported civic issues reported by the citizens in Kalyan-Dombivli city.",
           "tags": [
@@ -893,8 +886,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "d16c46dc-adb5-415d-a04b-c5e22e7cf629",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-grievance",
           "resourceType": "MESSAGESTREAM",
@@ -1042,7 +1034,7 @@
                "iudx:Resource",
                "iudx:TransitManagement"
           ],
-          "name": "bus-stops-info",
+          "name": "kdmc-bus-stops-info",
           "label": "Bus Stop Info for Public Transit Buses in Kalyan-Dombivli City",
           "description": "The bus stops information for the public transit buses in Kalyan-Dombivli city.",
           "tags": [
@@ -1057,8 +1049,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
           "resourceType": "MESSAGESTREAM",
@@ -1180,7 +1171,7 @@
                "iudx:Resource",
                "iudx:TransitManagement"
           ],
-          "name": "route-info",
+          "name": "kdmc-route-info",
           "label": "Bus Route Info for Public Transit Buses in Kalyan-Dombivli City",
           "description": "The bus route information for public transit buses in Kalyan-Dombivli city.",
           "tags": [
@@ -1194,8 +1185,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
           "resourceType": "MESSAGESTREAM",
@@ -1358,7 +1348,7 @@
                "iudx:Resource",
                "iudx:TransitManagement"
           ],
-          "name": "vehicle-info",
+          "name": "kdmc-vehicle-info",
           "label": "Public Transit Bus Information in Kalyan-Dombivli City",
           "description": "Information of public transit running buses such as their passenger capacity, air conditioning facility, etc. Kalyan-Dombivli city.",
           "tags": [
@@ -1385,8 +1375,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
           "resourceType": "MESSAGESTREAM",
@@ -1503,7 +1492,7 @@
                "iudx:Resource",
                "iudx:TransitManagement"
           ],
-          "name": "route-shape-info",
+          "name": "kdmc-route-shape-info",
           "label": "Bus Route Shape for Public Transit Buses in Kalyan-Dombivli City",
           "description": "The physical coordinates lining the shape of routes along which the public transit buses are plying in Kalyan-Dombivli city.",
           "tags": [
@@ -1521,8 +1510,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
           "resourceType": "MESSAGESTREAM",
@@ -1757,8 +1745,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-itms-info",
           "resourceType": "MESSAGESTREAM",
@@ -1974,7 +1961,7 @@
                "iudx:Resource",
                "iudx:EnvAQM"
           ],
-          "name": "aqm-info",
+          "name": "kdmc-aqm-info",
           "label": "Air Quality Monitoring Sensors (AQM) in Kalyan-Dombivli City",
           "description": "Publishes the information on a daily basis for the previous day about the air pollutants from AQM sensors/devices deployed in Kalyan-Dombivli city. It provides instantaneous values of AQM data, which includes gaseous properties such as CO2, CO, and NO2, along with associated environmental factors like temperature and humidity. The location information of the AQM sensors can be accessed from Air Quality Monitoring Sensor (AQM) Locations in Kalyan-Dombivli City",
           "tags": [
@@ -2004,8 +1991,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "73301321-ce7b-4e46-aa53-1bc30d9b160f",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm",
           "resourceType": "MESSAGESTREAM",
@@ -2322,8 +2308,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "800c242d-0fea-409c-903c-a4fb22c7d27e",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-flood",
           "resourceType": "MESSAGESTREAM",
@@ -2416,7 +2401,7 @@
           ],
           "id": "44d42e00-5eaa-49ca-b91f-fbc1bece7871",
           "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/cctv-locations",
-          "name": "cctv-locations",
+          "name": "kdmc-cctv-locations",
           "label": "Surveillance Camera Locations in Chandigarh City",
           "description": "The physical coordinates of surveillance cameras installed in Chandigarh city.",
           "tags": [
@@ -2445,8 +2430,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
           "iudxResourceAPIs": [
@@ -2536,9 +2520,9 @@
                "iudx:Resource",
                "iudx:PointOfInterest"
           ],
-          "id": "4a887cf1-22a7-4eb7-bedc-ec081d358074s",
+          "id": "4e8df507-132e-4cb2-b238-7bcbdea9f0d0",
           "id_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/atcs-locations",
-          "name": "atcs-locations",
+          "name": "kdmc-atcs-locations",
           "label": "Adaptive Traffic Control Systems Locations in Kalyan-Dombivli City",
           "description": "The physical coordinates of Adaptive Traffic Control system (ATCS) location in Kalyan-Dombivli City.",
           "tags": [
@@ -2565,8 +2549,7 @@
           "accessPolicy": "SECURE",
           "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
           "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
-          "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
-          "resourceServer": "274cf9f2-74b3-4f5c-8db2-7c4cad522a17",
+          "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
           "resourceGroup": "ec49c89e-35c7-4554-a695-4bc8ea7bf298",
           "resourceGroup_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests",
           "iudxResourceAPIs": [
@@ -2660,6 +2643,4 @@
                }
           }
      }
-]
-
-
+ ]

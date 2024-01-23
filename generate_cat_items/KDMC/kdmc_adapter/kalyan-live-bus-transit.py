@@ -8,11 +8,226 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 from amqp import publish
 from json_schema import schema_validation
 from misc.iudx_logging import IudxLogger
+from json_schema import json_schema_generate, schema_validation
+
 
 tz = pytz.timezone('GMT')
 exchange_to_publish = "90c70189-e967-4d42-b50d-c2c51d8647e4"
 route = "90c70189-e967-4d42-b50d-c2c51d8647e4/.18d724d1-6736-41b4-8e65-0592b87bf670"
 ID= "18d724d1-6736-41b4-8e65-0592b87bf670"
+
+
+
+schema_obj = {
+    "$id": "https://voc.iudx.org.in/TransitManagement",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "route_id": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "license_plate": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "actual_trip_start_time": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "last_stop_arrival_time": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "time"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "speed": {
+            "anyOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "stopScheduleRelationship": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "start_date": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "date"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "start_time": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "time"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "trip_id": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "last_stop_id": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "location": {
+            "anyOf": [
+                {
+                    "type": "null"
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "coordinates": {
+                            "type": "array",
+                            "items": {
+                                "type": "number"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "observationDateTime": {
+            "anyOf": [
+                {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "bearing": {
+            "anyOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "vehicleID": {
+            "anyOf": [
+                {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "direction_id": {
+            "anyOf": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        },
+        "schedule_relationship": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ]
+        }
+    },
+    "required": [
+        "id",
+        "route_id",
+        "license_plate",
+        "actual_trip_start_time",
+        "last_stop_arrival_time",
+        "speed",
+        "stopScheduleRelationship",
+        "start_date",
+        "start_time",
+        "trip_id",
+        "last_stop_id",
+        "location",
+        "observationDateTime",
+        "bearing",
+        "vehicleID",
+        "direction_id",
+        "schedule_relationship"
+    ],
+    "additionalProperties": False
+}
+
 
 class KalyanDombivil:
     """
@@ -26,7 +241,7 @@ class KalyanDombivil:
         """
         Extracts live bus tracking info from the source api
         """
-        url = self.base_url + "IDUX/GetBusliveLocation"
+        url = BASE_URL + "IDUX/GetBusliveLocation"
 
         list_of_packets = []
         eta_response = ""
@@ -145,10 +360,10 @@ class KalyanDombivil:
             list_of_packets(List): list of packets containing live bus data
         """
         bus_eta_list = [packet for packet in list(map(self.deduplication, list_of_packets)) if packet is not None]
-        q = schema_validation(bus_eta_list,schema)
+        q = schema_validation(bus_eta_list,schema_obj)
         if q.validated_packet:
-            # print(json.dumps(bus_eta_list, indent=4))
-            publish(exchange=exchange_to_publish, routing_key=route, message=json.dumps(bus_eta_list))
+            #print(json.dumps(q.validated_packet, indent=4))
+            publish(exchange=exchange_to_publish, routing_key=route, message=json.dumps(q.validated_packet))
 
 
 if __name__ == "__main__":
@@ -156,9 +371,6 @@ if __name__ == "__main__":
     live_bus = KalyanDombivil(BASE_URL)
     bus_cache = {}
     iudx_logger = IudxLogger(threshold_level=logging.ERROR)
-    with open('../misc/schema.txt') as fp:
-        schema = json.loads(fp.read())
-    # print(json.dumps(schema,indent=4))
     scheduler = BlockingScheduler()
     # first publish
     live_bus.get_data()

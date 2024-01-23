@@ -1,0 +1,229 @@
+{
+    "@context": "https://voc.iudx.org.in/",
+    "id": "18d724d1-6736-41b4-8e65-0592b87bf670",
+    "type": [
+        "iudx:Resource",
+        "iudx:TransitManagement"
+    ],
+    "name": "kalyan-live-bus-info",
+    "label": "Realtime Locations of Public Transit Buses in Kalyan-Dombivli City",
+    "description": "Realtime bus position information and arrival timings along with trip schedules of public transit buses from Kalyan-Dombivli city published at an interval of every 10 seconds.",
+    "tags": [
+        "itms",
+        "mobility",
+        "vehicle",
+        "transport",
+        "buses",
+        "gtfs",
+        "speed",
+        "passenger",
+        "commute",
+        "stop sequence",
+        "route",
+        "stop",
+        "bus tracking",
+        "arrival time",
+        "schedule relationship"
+    ],
+    "accessPolicy": "SECURE",
+    "apdURL": "acl-apd.kdmc.cos.nec.iudx.org.in",
+    "provider": "ca926310-6086-4d42-8fa0-e7f987593d07",
+    "provider_bck": "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e",
+    "resourceServer": "41bb4389-ebaf-4df7-a575-556ec6092a25",
+    "resourceGroup": "90c70189-e967-4d42-b50d-c2c51d8647e4",
+    "resourceType": "MESSAGESTREAM",
+    "iudxResourceAPIs": [
+        "SPATIAL",
+        "TEMPORAL",
+        "ATTR"
+    ],
+    "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+            "iudx:DataDescriptor",
+            "iudx:TransitManagement"
+        ],
+        "dataDescriptorLabel": "Data Descriptor for Kalyan-Dombivli Realtime Bus Live tracking",
+        "description": "Data attribute details for live vehicle position of the public transit buses in Kalyan-Dombivli city.",
+        "route_id": {
+            "description": "Route ID assigned to the route on which the bus corresponding to this observation is currently plying on.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "license_plate": {
+            "description": "Vehicle registration number/license plate number of the bus corresponding to this observation.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "actual_trip_start_time": {
+            "description": "This field denotes the time at which service actually began.",
+            "dataSchema": "iudx:DateTime",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "last_stop_arrival_time": {
+            "description": "This field specifies the actual arrival time at the previous stop along the route of the trip corresponding to this observation.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "speed": {
+            "description": "The speed of the bus corresponding to this observation.",
+            "unitCode": "KMH",
+            "unitText": "kilometre per hour",
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Number"
+        },
+        "stopScheduleRelationship": {
+            "description": "The realtime status of the bus with respect to the stop corresponding to this observation. The value 'SCHEDULED' denotes that the stop is covered; the arrival time to the stop is available. The value 'NO_DATA' denotes that the stop is not covered yet or there in no realtime information from the device; the arrival time is not available/None.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "start_date": {
+            "description": "Describes the initial scheduled start date of the trip corresponding to the vehicle this observation.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "start_time": {
+            "description": "Describes the initial scheduled start time of the trip corresponding to the vehicle this observation.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "trip_id": {
+            "description": "Unique ID allotted to the bus trip corresponding to this observation.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "last_stop_id": {
+            "description": "Stop ID of the previous bus stop corresponding to the bus in this observation.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "location": {
+            "description": "The coordinates for the current position of the bus corresponding to this observation.",
+            "dataSchema": "iudx:Point",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "observationDateTime": {
+            "description": "The time at which the bus was last tracked.",
+            "dataSchema": "iudx:DateTime",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "bearing": {
+            "description": "Indicates vehicle GPS angle measured in a clockwise direction from the True North.",
+            "unitCode": "DD",
+            "dataSchema": "iudx:Number",
+            "unitText": "degree",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "vehicleID": {
+            "description": "Unique ID assigned to the vehicle corresponding to this observation.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "direction_id": {
+            "description": "Indicates the direction of travel of the bus corresponding to this observation,",
+            "unitCode": "C62",
+            "dataSchema": "iudx:Number",
+            "unitText": "dimensionless",
+            "type": [
+                "ValueDescriptor"
+            ]
+        },
+        "schedule_relationship": {
+            "description": "Describes the status of the trip corresponding to this observation.",
+            "dataSchema": "iudx:Text",
+            "type": [
+                "ValueDescriptor"
+            ]
+        }
+    },
+    "dataSample": {
+        "trip_id": "1225478",
+        "bearing": 118.05,
+        "actual_trip_start_time": "2023-06-21T14:04:05+05:30",
+        "stopScheduleRelationship": "SCHEDULED",
+        "route_id": "5524",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                73.187715,
+                19.2123216666667
+            ]
+        },
+        "vehicleID": "4813",
+        "license_plate": "MH-05-R-1207",
+        "last_stop_id": "204",
+        "observationDateTime": "2023-06-21T14:27:57+05:30",
+        "start_date": "2023-06-21",
+        "start_time": "14:00:00",
+        "last_stop_arrival_time": "14:27:38",
+        "speed": 8.52,
+        "direction_id": 0,
+        "schedule_relationship": "SCHEDULED"
+    },
+    "location": {
+        "type": "Place",
+        "address": "Kalyan-Dombivli, Maharashtra",
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        73.113261,
+                        19.289033
+                    ],
+                    [
+                        73.056753,
+                        19.223789
+                    ],
+                    [
+                        73.09365,
+                        19.176764
+                    ],
+                    [
+                        73.173585,
+                        19.198283
+                    ],
+                    [
+                        73.186076,
+                        19.25576
+                    ],
+                    [
+                        73.113261,
+                        19.289033
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        }
+    },
+    "itemStatus": "ACTIVE",
+    "ownerUserId": "0dca88fb-03ef-44bc-b4b0-fb15d1ffae43",
+    "cos": "3c96d488-cea1-4ba1-ade7-8124e6cd866a"
+}

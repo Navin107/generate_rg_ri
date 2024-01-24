@@ -5,7 +5,7 @@ import requests
 import json
 import pytz
 from amqp import publish
-from json_schema import JSONSchemaGenerator, schema_validation
+from json_schema import json_schema_generate, schema_validation
 from misc.iudx_logging import IudxLogger
 import logging
 

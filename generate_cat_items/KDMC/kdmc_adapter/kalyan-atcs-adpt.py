@@ -2,7 +2,7 @@ import pandas as pd
 import json
 from collections import OrderedDict
 from amqp import publish
-from json_schema import JSONSchemaGenerator,schema_validation
+from json_schema import json_schema_generate, schema_validation
 
 exchange_to_publish_old = "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests"
 route_old = "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-point-of-interests/.atcs-locations"

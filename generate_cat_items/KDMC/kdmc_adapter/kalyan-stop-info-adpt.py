@@ -5,7 +5,7 @@ import dateutil.parser
 from collections import OrderedDict
 from amqp import publish
 from apscheduler.schedulers.blocking import BlockingScheduler
-from json_schema import JSONSchemaGenerator,schema_validation
+from json_schema import json_schema_generate, schema_validation
 from misc.iudx_logging import IudxLogger
 import logging
 time_formatter = "%Y-%m-%dT%H:%M:%S+05:30"

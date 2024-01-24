@@ -1,7 +1,6 @@
 import pandas as pd
 import json
-from json_schema import JSONSchemaGenerator
-from json_schema import schema_validation
+from json_schema import json_schema_generate, schema_validation
 from collections import OrderedDict
 from amqp import publish
 

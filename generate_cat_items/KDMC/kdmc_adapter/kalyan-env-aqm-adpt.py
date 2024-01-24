@@ -7,7 +7,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 from datetime import date, timedelta
 import dateutil.parser
 from amqp import publish
-from json_schema import JSONSchemaGenerator, schema_validation
+from json_schema import json_schema_generate, schema_validation
 from misc.iudx_logging import IudxLogger
 import logging
 

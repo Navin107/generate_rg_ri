@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 from collections import OrderedDict
-from json_schema import JSONSchemaGenerator, schema_validation
+from json_schema import json_schema_generate, schema_validation
 from amqp import publish
 
 exchange_to_publish = "800c242d-0fea-409c-903c-a4fb22c7d27e"

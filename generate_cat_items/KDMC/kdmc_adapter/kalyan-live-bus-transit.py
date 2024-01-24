@@ -6,7 +6,6 @@ import datetime as dtime
 import pytz
 from apscheduler.schedulers.blocking import BlockingScheduler
 from amqp import publish
-from json_schema import schema_validation
 from misc.iudx_logging import IudxLogger
 from json_schema import json_schema_generate, schema_validation
 

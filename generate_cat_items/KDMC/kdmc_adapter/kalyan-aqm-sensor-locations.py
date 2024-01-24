@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 from collections import OrderedDict
-from json_schema import JSONSchemaGenerator, schema_validation
+from json_schema import json_schema_generate, schema_validation
 from amqp import publish
 
 exchange_to_publish_old = "skdcl.in/56b48464a1ef630205c17e1a0b538a7664cc103e/kdmc.cop-nec.iudx.org.in/kalyan-dombivli-env-aqm"

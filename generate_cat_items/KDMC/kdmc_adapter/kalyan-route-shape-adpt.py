@@ -5,7 +5,7 @@ import dateutil
 import dateutil.parser
 import pytz
 from apscheduler.schedulers.blocking import BlockingScheduler
-from json_schema import JSONSchemaGenerator,schema_validation
+from json_schema import json_schema_generate, schema_validation
 from misc.iudx_logging import IudxLogger
 import logging
 from amqp import publish

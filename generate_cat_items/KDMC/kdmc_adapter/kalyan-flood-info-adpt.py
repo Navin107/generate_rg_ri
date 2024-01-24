@@ -7,7 +7,7 @@ from collections import OrderedDict
 import dateutil.parser
 from datetime import date, timedelta
 import pytz
-from json_schema import JSONSchemaGenerator, schema_validation
+from json_schema import json_schema_generate, schema_validation
 from misc.iudx_logging import IudxLogger
 import logging
 

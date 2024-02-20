@@ -1,0 +1,29 @@
+{
+  "type": [
+      "iudx:Provider",
+      "adex:Provider"
+  ],
+  "ownerUserId": "8c733c07-5626-4572-8ef0-9c242217d301",
+  "name": "Ugix",
+  "description": "UGIX",
+  "resourceServer": "310ec5d1-7291-4346-b8aa-401c471e8be1",
+  "providerOrg": {
+      "name": "Ugix",
+      "additionalInfoURL": "https://data.telangana.gov.in/",
+      "location": {
+        "type": "Place",
+        "address": "IISc, Bangalore",
+        "geometry": {
+          "coordinates": [
+            77.570423,
+            13.013945
+          ]
+        }
+    }
+  },
+  "resourceServerRegURL": "rs.ugix.cos.nec.iudx.org.in",
+  "cos": "887cc637-2939-4f2f-ad5a-2c224b561497",
+  "@context": "https://voc.iudx.org.in/",
+  "id": "1435bd14-1fe1-47b4-b82b-7448c534a9b9",
+  "itemStatus": "ACTIVE"
+}

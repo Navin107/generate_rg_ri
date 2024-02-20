@@ -1,0 +1,13 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+    "iudx:COS"
+  ],
+  "name": "UgixCos",
+  "owner": "5bd802a4-b108-410e-93d8-688f077055ec",
+  "description": "COS UGIX",
+  "cosURL": "ugix.cos.nec.iudx.org.in",
+  "cosUI": "catalogue.ugix.cos.nec.iudx.org.in",
+  "id": "887cc637-2939-4f2f-ad5a-2c224b561497"
+}
+ 

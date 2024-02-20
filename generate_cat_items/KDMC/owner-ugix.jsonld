@@ -1,0 +1,9 @@
+{
+  "@context": "https://voc.iudx.org.in/",
+  "type": [
+      "iudx:Owner"
+  ],
+  "id": "5bd802a4-b108-410e-93d8-688f077055ec",
+  "name": "UGIXOwner",
+  "description": "Owner of UGIX COS"
+}

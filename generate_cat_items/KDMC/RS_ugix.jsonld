@@ -1,0 +1,60 @@
+{
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+        "iudx:ResourceServer"
+    ],
+    "id": "310ec5d1-7291-4346-b8aa-401c471e8be1",
+    "name": "UgixResourceServer",
+    "description": "Multi tenanted UGIX Resource Server",
+    "tags": [
+        "UGIX",
+        "Resource",
+        "Server",
+        "Platform"
+    ],
+    "owner": "5bd802a4-b108-410e-93d8-688f077055ec",
+    "cos": "887cc637-2939-4f2f-ad5a-2c224b561497",
+    "resourceServerOrg": {
+        "name": "ugix",
+        "additionalInfoURL": "https://iudx.org.in/",
+        "location": {
+            "type": "Place",
+            "address": "IISc, Bangalore",
+            "geometry": {
+              "coordinates": [
+                77.570423,
+                13.013945
+              ]
+            }
+        }
+    },
+    "resourceServerRegURL": "rs.ugix.cos.nec.iudx.org.in",
+    "resourceAccessModalities": [
+        {
+            "type": [
+                "iudx:HTTPAccess"
+            ],
+            "protocol": "https",
+            "accessURL": "rs.ugix.cos.nec.iudx.org.in"
+        },
+        {
+            "type": [
+                "iudx:StreamingAccess"
+            ],
+            "protocol": "amqps",
+            "accessURL": "databroker.ugix.cos.nec.iudx.org.in"
+        }
+    ],
+    "location": {
+        "type": "Place",
+        "address": "IISc, Bangalore",
+        "geometry": {
+          "coordinates": [
+            77.570423,
+            13.013945
+          ]
+        }
+    }
+}
+
+

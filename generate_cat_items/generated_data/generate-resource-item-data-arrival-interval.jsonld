@@ -26,7 +26,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -155,7 +155,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -235,7 +235,7 @@
                "TEMPORAL",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "10 Seconds",
+          "dataArrivalInterval": "10 seconds",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -376,7 +376,7 @@
                "TEMPORAL",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -513,7 +513,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "10 Seconds",
+          "dataArrivalInterval": "10 seconds",
           "dataDescriptor": {
                "location": {
                     "description": "The coordinates for the current position of the bus corresponding to this observation.",
@@ -720,7 +720,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "standingCapacity": {
                     "unitCode": "C62",
@@ -873,7 +873,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "30 Days",
+          "dataArrivalInterval": "30 days",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -1133,7 +1133,7 @@
                "TEMPORAL",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -1251,7 +1251,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "5 minutes",
+          "dataArrivalInterval": "5 Minutes",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -1400,7 +1400,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -1577,7 +1577,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "30 Days",
+          "dataArrivalInterval": "30 days",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -1700,7 +1700,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "5 Seconds",
+          "dataArrivalInterval": "5 seconds",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -1955,7 +1955,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -2084,7 +2084,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -2205,7 +2205,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -2313,7 +2313,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -2441,7 +2441,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -2586,7 +2586,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -2701,7 +2701,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "15 days",
+          "dataArrivalInterval": "15 Days",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -2854,7 +2854,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -2922,7 +2922,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -3051,7 +3051,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -3180,7 +3180,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -3309,7 +3309,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -3446,7 +3446,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -4303,7 +4303,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -4427,7 +4427,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -4552,7 +4552,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -4678,7 +4678,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -4806,7 +4806,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -4932,7 +4932,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -5061,7 +5061,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -5190,7 +5190,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -5312,7 +5312,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -5580,7 +5580,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "1 Hour",
+          "dataArrivalInterval": "1 hour",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -5751,7 +5751,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "PAQS Office, Electronic-City, Bangalore",
@@ -5811,7 +5811,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Opp Siemens, Electronic-City, Bangalore",
@@ -5873,7 +5873,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Electronic-City, Bengaluru",
@@ -5948,7 +5948,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -6079,7 +6079,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -6204,7 +6204,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -6594,7 +6594,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -6713,7 +6713,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -7028,7 +7028,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -7096,7 +7096,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -7229,7 +7229,7 @@
           "iudxResourceAPIs": [
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -7666,7 +7666,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "description": "Data Descriptor for varanasi waste bins",
                "wardID": {
@@ -8182,7 +8182,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -8358,7 +8358,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -8482,7 +8482,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "30 Minutes",
+          "dataArrivalInterval": "30 minutes",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -8628,7 +8628,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "30 Days",
+          "dataArrivalInterval": "30 days",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -8735,7 +8735,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "description": "Details of all stops and locations in Surat used for city and BRT bus transport.",
                "dataDescriptorLabel": "Data Attribute Details for Public Transit Bus-Stops in Surat City",
@@ -8864,7 +8864,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "description": "Information of all bus depots for public transit vehicles in Surat city.",
                "depotID": {
@@ -8990,7 +8990,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "everday at 5:00am",
+          "dataArrivalInterval": "Everyday at 5:00am",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -9103,7 +9103,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -9261,7 +9261,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -9414,7 +9414,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Kharadi Samshambhumi",
@@ -9461,7 +9461,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "KK Market Road,KK Market",
@@ -9508,7 +9508,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Dhudhbhatti, Ganesh Peth",
@@ -9555,7 +9555,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Lake Town Society Bridge",
@@ -9602,7 +9602,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Gaymukh,Jambhulwadi Talav",
@@ -9649,7 +9649,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Ram River Crossing,Bavdhan",
@@ -9696,7 +9696,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Ambil Oda Padmawati Bridge,Satara Road",
@@ -9743,7 +9743,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Ektanagar Nale/Nala Sangam,Sinhgad Road",
@@ -9790,7 +9790,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Pratibha Tai Pawar School,Ambedkar Nagar Bridge, Kondhwa Khurd",
@@ -9837,7 +9837,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Vikas Nagar Ghorpadi",
@@ -9884,7 +9884,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Chandramani Nala",
@@ -9931,7 +9931,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Katraj Upper Lake",
@@ -9991,7 +9991,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -10479,7 +10479,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -10885,7 +10885,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -11039,7 +11039,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -11175,7 +11175,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -11312,7 +11312,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -11465,7 +11465,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -11613,7 +11613,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -11764,7 +11764,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -11916,7 +11916,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -12079,7 +12079,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -12230,7 +12230,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -12379,7 +12379,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "15 Days",
+          "dataArrivalInterval": "15 days",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -12542,7 +12542,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -12608,7 +12608,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -12740,7 +12740,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -12875,7 +12875,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13025,7 +13025,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13093,7 +13093,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13209,7 +13209,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13335,7 +13335,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13456,7 +13456,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13585,7 +13585,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13703,7 +13703,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13827,7 +13827,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -13946,7 +13946,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -14067,7 +14067,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -14190,7 +14190,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -14311,7 +14311,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -14428,7 +14428,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -14551,7 +14551,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -14674,7 +14674,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -14928,7 +14928,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -15049,7 +15049,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -15174,7 +15174,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -15296,7 +15296,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -15423,7 +15423,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -15548,7 +15548,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -15670,7 +15670,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -15793,7 +15793,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -15930,7 +15930,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -16068,7 +16068,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -16201,7 +16201,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -16329,7 +16329,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -16472,7 +16472,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -16745,7 +16745,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -17340,7 +17340,7 @@
                "TEMPORAL",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "5 min",
+          "dataArrivalInterval": "5 minutes",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -17508,7 +17508,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -17692,7 +17692,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -17820,7 +17820,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -17944,7 +17944,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -18068,7 +18068,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -18200,7 +18200,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -18323,7 +18323,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -20101,7 +20101,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -20223,7 +20223,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -20349,7 +20349,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -20474,7 +20474,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -20594,7 +20594,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -20723,7 +20723,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_OrientChowmuhani_Surv_Fixed_RMSChowmuhani_Cam3.mp4",
@@ -20787,7 +20787,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_OrientChowmuhani_Surv_Fixed_ShakuntalaRoad_Cam1.mp4",
@@ -20851,7 +20851,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_NorthGate_RLVD_Cam3.mp4",
@@ -20915,7 +20915,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_NorthGate_RLVD_Cam2.mp4",
@@ -20979,7 +20979,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_NorthGate_RLVD_Cam1.mp4",
@@ -21043,7 +21043,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MelarMathSBI_Surv_Fixed_Cam4.mp4",
@@ -21107,7 +21107,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MelarMathSBI_Surv_Fixed_Cam3.mp4",
@@ -21171,7 +21171,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MathChowmuhani_Surv_Fixed_Purbasa_Cam2.mp4",
@@ -21235,7 +21235,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MelarMathSBI_Surv_Fixed_Cam1.mp4",
@@ -21299,7 +21299,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_OrientChowmuhani_RLVD_RSBhavan_Cam3.mp4",
@@ -21363,7 +21363,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_OrientChowmuhani_RLVD_JacksonGate_Cam1.mp4",
@@ -21427,7 +21427,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MathChowmuhani_RLVD_Joyguru_Cam3.mp4",
@@ -21491,7 +21491,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MathChowmuhani_RLVD_ModernClub_Cam1.mp4",
@@ -21555,7 +21555,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MathChowmuhani_RLVD_MotorStand_Cam2.mp4",
@@ -21619,7 +21619,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MathChowmuhani_Surv_Fixed_Purbasa_Cam2.mp4",
@@ -21683,7 +21683,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MathChowmuhani_Surv_Fixed_Joyguru_Cam4.mp4",
@@ -21747,7 +21747,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MathChowmuhani_Surv_Fixed_MBBCollege_Cam3.mp4",
@@ -21811,7 +21811,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_MathChowmuhani_Surv_Fixed_MotorStand_Cam1.mp4",
@@ -21875,7 +21875,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_JacksonGate_Surv_Fixed_UjjayantaPalace_Cam3.mp4",
@@ -21939,7 +21939,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_JacksonGate_Surv_Fixed_OrientChowmuhani_Cam2.mp4",
@@ -22003,7 +22003,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGM_Surv_Fixed_TRTC_Cam4.mp4",
@@ -22067,7 +22067,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGMChowmuhani_RLVD_TRTC_Cam2.mp4",
@@ -22131,7 +22131,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGM_Surv_Fixed_RMSChowmuhani_Cam3.mp4",
@@ -22195,7 +22195,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGMChowmuhani_RLVD_RMSChowmuhani_Cam1.mp4",
@@ -22259,7 +22259,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGM_Surv_Fixed_ParadiseChowmuhani_Cam1.mp4",
@@ -22323,7 +22323,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGM_Surv_PTZ_ChiefMinisterResidenceEntryExitGate_Cam5.mp4",
@@ -22387,7 +22387,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_JacksonGate_Surv_Fixed_Kasharipatti_Cam1.mp4",
@@ -22451,7 +22451,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGMChowmuhani_RLVD_ParadiseChowmuhani_Cam4.mp4",
@@ -22515,7 +22515,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGM_Surv_Fixed_FireServiceChowmuhani_Cam2.mp4",
@@ -22579,7 +22579,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_Ganaraj_Surv_PTZ_Cam5.mp4",
@@ -22643,7 +22643,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_Ganaraj_Surv_Fixed_LNBARI_Cam4.mp4",
@@ -22707,7 +22707,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GurakhaBasti_RLVD_Bholagiri_Cam2.mp4",
@@ -22771,7 +22771,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GurakhaBasti_RLVD_NehruPark_Cam1.mp4",
@@ -22835,7 +22835,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GurakhaBasti_RLVD_CircuitHouse_Cam3.mp4",
@@ -22899,7 +22899,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GurkhaBasti_Surv_Bholagiri_Fixed_Cam3.mp4",
@@ -22963,7 +22963,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GurkhaBasti_Surv_NehruPark_Fixed_Cam1.mp4",
@@ -23027,7 +23027,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GurkhaBasti_Surv_Radhanagr_Fixed_Cam2.mp4",
@@ -23083,7 +23083,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -23208,7 +23208,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -23333,7 +23333,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -23457,7 +23457,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -23594,7 +23594,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -23717,7 +23717,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -23840,7 +23840,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -23965,7 +23965,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -24087,7 +24087,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -24369,7 +24369,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -24673,7 +24673,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -24799,7 +24799,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -24927,7 +24927,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -25238,7 +25238,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -25363,7 +25363,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -25495,7 +25495,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -25618,7 +25618,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "dataDescriptorlabel": "Data Attributes for Varanasi SWM Bin Unit Info for 100 Litre & 4.5 Litre",
@@ -25761,7 +25761,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -25887,7 +25887,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -26015,7 +26015,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -26140,7 +26140,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -26266,7 +26266,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -26396,7 +26396,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -26578,7 +26578,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -26632,7 +26632,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -26700,7 +26700,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -26746,7 +26746,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -26792,7 +26792,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -26838,7 +26838,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -26884,7 +26884,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -26930,7 +26930,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -26976,7 +26976,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27022,7 +27022,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27068,7 +27068,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27114,7 +27114,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27160,7 +27160,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27206,7 +27206,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27252,7 +27252,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27298,7 +27298,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27344,7 +27344,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27390,7 +27390,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27436,7 +27436,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27482,7 +27482,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -27527,7 +27527,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Sambhaji Bridge,Pune",
@@ -27574,7 +27574,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Hadapsar Mundhwa,Pune",
@@ -27621,7 +27621,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Kalash ,On the Nala Bridge,Pune",
@@ -27668,7 +27668,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Juna Dattawadi",
@@ -27715,7 +27715,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Mula River,Aundh BRTS Ravet Road,Pune",
@@ -27762,7 +27762,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Indira Nagar slum and Maharishi Nagar ,Pune",
@@ -27809,7 +27809,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Holkar Bridge,Pune",
@@ -27856,7 +27856,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Pashan Bopodi Nala ,Pune",
@@ -27903,7 +27903,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Canal Bridge Hingne Khurd, Pune",
@@ -27950,7 +27950,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On the Bridge near Prayeja City,Sinhgad Road,Pune",
@@ -27997,7 +27997,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Uttam Nagar Indiranagar(Anaganwadi) ,Pune",
@@ -28044,7 +28044,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Vishranthawadi Nala, Near Banana Leaf Hotel,Pune",
@@ -28091,7 +28091,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Tank Road Bridge on Mula River,near Shanthinagar, Pune",
@@ -28138,7 +28138,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Near Indiranagar Slum on Alandi Road ,Yerawada,Pune",
@@ -28185,7 +28185,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Maharishi Shinde Bridge on Mutha River,near Balagandharv Rangamandir , Pune",
@@ -28232,7 +28232,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Mutha River,Pune",
@@ -28279,7 +28279,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Someshwar Wadi  ,Pune",
@@ -28326,7 +28326,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Bridge over Mula River,Pune",
@@ -28373,7 +28373,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Bhairoba Nala Cantonment Area ,Pune",
@@ -28420,7 +28420,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Near Pratik Nagar Chowk,Pune",
@@ -28467,7 +28467,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Near Bund Garden Bandhara,Mula-Mutha River, Pune",
@@ -28514,7 +28514,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Bridge over Mula River,Balewadi-Hinjawadi Road,Pune",
@@ -28561,7 +28561,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Bridge over Mula Mutha River,East Ave,Koregaon Park,Pune",
@@ -28608,7 +28608,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Bridge over Pawana River,Priyadarshni Nagar, Dapodi,Pune",
@@ -28655,7 +28655,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "Datta nagar,Baner road ,near Balewadi Cross",
@@ -28702,7 +28702,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Mutha River,Near Vithoba Park,Pune",
@@ -28749,7 +28749,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Mula River,Near Deccan College Road,Pune",
@@ -28796,7 +28796,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Mula River, Old Sangvi Bopodi Road,Pune",
@@ -28843,7 +28843,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Canal Road Bridge near Vardhaman Petrol Pump ,Warje,Pune",
@@ -28890,7 +28890,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On bridge over Mutha River,Chauk-Karjat-Murbad Road,Anand Nagar, Pune",
@@ -28937,7 +28937,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "type": "Place",
                "address": "On Nala Bridge near Alankar Pool Road/Police Station,Pune",
@@ -28984,7 +28984,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -29107,7 +29107,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -29232,7 +29232,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -29356,7 +29356,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -29498,7 +29498,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ShankarChowmuhani_Surv_Fixed_RamNagar4_Cam1.mp4",
@@ -29559,7 +29559,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -29687,7 +29687,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -29857,7 +29857,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_RMSChowmuhani_Surv_IGM_Fixed_Cam1.mp4",
@@ -29921,7 +29921,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ParadiseChowmuhani_RLVD_Battala_Cam3.mp4",
@@ -29985,7 +29985,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_RMSChowmuhani_Surv_PostOffice_Fixed_Cam2.mp4",
@@ -30049,7 +30049,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_RMSChowmuhani_Surv_Fixed_Bidurkarta_Cam3.mp4",
@@ -30113,7 +30113,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ParadiseChowmuhani_RLVD_PostOffice_Cam2.mp4",
@@ -30177,7 +30177,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ShankarChowmuhani_Surv_Fixed_BijoyKumar_Cam3.mp4",
@@ -30241,7 +30241,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ParadiseChowmuhani_Surv_FIxed_Melarmath_Cam1.mp4",
@@ -30305,7 +30305,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ShankarChowmuhani_Surv_Fixed_KERChomuhani_Cam2.mp4",
@@ -30369,7 +30369,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ParadiseChowmuhani_Surv_FIxed_PostOffice_Cam3.mp4",
@@ -30433,7 +30433,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ShankarChowmuhani_Surv_Fixed_DurgaChowmuhani_Cam4.mp4",
@@ -30497,7 +30497,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_OrientChowmuhani_Surv_PTZ_RSBhavan_Cam5.mp4",
@@ -30561,7 +30561,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ParadiseChowmuhani_RLVD_GhandhiGhat_Cam4.mp4",
@@ -30625,7 +30625,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_OrientChowmuhani_Surv_Fixed_RSBhavan_Cam2.mp4",
@@ -30689,7 +30689,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_OrientChowmuhani_RLVD_ShakuntalaRoad_Cam2.mp4",
@@ -30753,7 +30753,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_ParadiseChowmuhani_RLVD_IGMChowmuhani_Cam1.mp4",
@@ -30817,7 +30817,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_OrientChowmuhani_Surv_Fixed_JacksonGate_Cam4.mp4",
@@ -30883,7 +30883,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/agartala-env-aqm.json",
@@ -30947,7 +30947,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/agartala-env-aqm.json",
@@ -31011,7 +31011,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/agartala-env-aqm.json",
@@ -31075,7 +31075,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/agartala-env-aqm.json",
@@ -31139,7 +31139,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/agartala-env-aqm.json",
@@ -31193,7 +31193,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31246,7 +31246,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31299,7 +31299,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31352,7 +31352,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31405,7 +31405,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31458,7 +31458,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31511,7 +31511,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31564,7 +31564,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31617,7 +31617,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31670,7 +31670,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31730,7 +31730,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -31792,7 +31792,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -31843,7 +31843,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31892,7 +31892,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31941,7 +31941,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -31990,7 +31990,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32039,7 +32039,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32088,7 +32088,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32137,7 +32137,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32186,7 +32186,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32235,7 +32235,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32284,7 +32284,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32333,7 +32333,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32382,7 +32382,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32431,7 +32431,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32480,7 +32480,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32529,7 +32529,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32578,7 +32578,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32627,7 +32627,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32676,7 +32676,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -32730,7 +32730,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GurkhaBasti_Surv_Bholagiri_Fixed_Cam3.mp4",
@@ -32794,7 +32794,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_IGMChowmuhani_RLVD_FireServiceChowmuhani_Cam3.mp4",
@@ -32858,7 +32858,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_Ganaraj_Surv_Fixed_PurbasaCam3.mp4",
@@ -32922,7 +32922,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_Ganaraj_Surv_Fixed_MotorStand_Cam1.mp4",
@@ -32986,7 +32986,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GanarajChowmuhani_RLVD_Purbasa_Cam4.mp4",
@@ -33050,7 +33050,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GanarajChowmuhani_RLVD_MotorStand_Cam2.mp4",
@@ -33114,7 +33114,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GanarajChowmuhani_RLVD_UjjayantaPalace_Cam1.mp4",
@@ -33178,7 +33178,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_Ganaraj_Surv_Fixed_LalbahadureChowmuhani_Cam2.mp4",
@@ -33242,7 +33242,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_GanarajChowmuhani_RLVD_LalbahadurChowmuhani_Cam3.mp4",
@@ -33306,7 +33306,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_BodhjungChowmuhani_Surv_Fixed_WomensCollege_Cam2.mp4",
@@ -33370,7 +33370,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_AbhoyNagarBridge_Surv_PTZ_Cam2.mp4",
@@ -33434,7 +33434,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_AbhoyNagarBridge_Surv_Fixed_Cam1.mp4",
@@ -33498,7 +33498,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_BodhjungChowmuhani_Surv_Fixed_NorthGate_Cam3.mp4",
@@ -33562,7 +33562,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_BodhjungChowmuhani_Surv_Fixed_LakeChowhamuni_Cam4.mp4",
@@ -33626,7 +33626,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "dataSampleFile": [
                {
                     "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/agartala/cameras/video-camera-samples/Agartala_BodhjungChowmuhani_Surv_Fixed_BagavanThakurChowmuhani_Cam1.mp4",
@@ -33689,7 +33689,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -33817,7 +33817,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -33942,7 +33942,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -34069,7 +34069,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "Everyday at 4:30 PM",
+          "dataArrivalInterval": "Everyday at 4:30 pm",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -34358,7 +34358,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34412,7 +34412,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34466,7 +34466,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34520,7 +34520,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34574,7 +34574,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34628,7 +34628,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34682,7 +34682,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34736,7 +34736,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34790,7 +34790,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34844,7 +34844,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34898,7 +34898,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -34952,7 +34952,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35006,7 +35006,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35060,7 +35060,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35114,7 +35114,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35168,7 +35168,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35222,7 +35222,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35276,7 +35276,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35330,7 +35330,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35384,7 +35384,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35438,7 +35438,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35492,7 +35492,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35546,7 +35546,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35600,7 +35600,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35654,7 +35654,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "type": "Point",
@@ -35698,7 +35698,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "30 Days",
+          "dataArrivalInterval": "30 days",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -35810,7 +35810,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "2 Minutes",
+          "dataArrivalInterval": "2 minutes",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -35969,7 +35969,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36031,7 +36031,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36093,7 +36093,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36155,7 +36155,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36217,7 +36217,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36279,7 +36279,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36341,7 +36341,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36403,7 +36403,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36465,7 +36465,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36527,7 +36527,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36589,7 +36589,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36651,7 +36651,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36713,7 +36713,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36775,7 +36775,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36837,7 +36837,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36899,7 +36899,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -36961,7 +36961,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37023,7 +37023,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37085,7 +37085,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37147,7 +37147,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37209,7 +37209,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37271,7 +37271,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37333,7 +37333,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37395,7 +37395,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37457,7 +37457,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37519,7 +37519,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37581,7 +37581,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37643,7 +37643,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37705,7 +37705,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37767,7 +37767,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37829,7 +37829,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -37891,7 +37891,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "temporal",
+          "dataArrivalInterval": "Temporal",
           "location": {
                "geometry": {
                     "coordinates": [
@@ -41704,7 +41704,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -43671,7 +43671,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -43987,7 +43987,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -44464,7 +44464,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -44596,7 +44596,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -45186,7 +45186,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -45314,7 +45314,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -45447,7 +45447,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -47161,7 +47161,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -47294,7 +47294,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -47420,7 +47420,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -47541,7 +47541,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -47674,7 +47674,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -47795,7 +47795,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -47915,7 +47915,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -48683,7 +48683,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -48805,7 +48805,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -49081,7 +49081,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -49406,7 +49406,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -49533,7 +49533,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -50777,7 +50777,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -50963,7 +50963,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -51781,7 +51781,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "dataDescriptorLabel": "Data attribute details of Adaptive Traffic corridors in Faridabad City",
                "description": "Data attribute details of corridor information for the Adaptive Traffic corridors in Faridabad City.",
@@ -53723,7 +53723,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -53865,7 +53865,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -53986,7 +53986,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -54110,7 +54110,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -54234,7 +54234,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -54365,7 +54365,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -54976,7 +54976,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -55095,7 +55095,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -55229,7 +55229,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -55584,7 +55584,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -55709,7 +55709,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -56027,7 +56027,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -57468,7 +57468,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -57626,7 +57626,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -57751,7 +57751,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -58829,7 +58829,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -58959,7 +58959,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -59097,7 +59097,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -59927,7 +59927,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -60046,7 +60046,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -60172,7 +60172,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -60297,7 +60297,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -60622,7 +60622,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -60748,7 +60748,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -60876,7 +60876,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -61001,7 +61001,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -61509,7 +61509,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -61646,7 +61646,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -61772,7 +61772,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -61898,7 +61898,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62023,7 +62023,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62148,7 +62148,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62270,7 +62270,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62403,7 +62403,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62479,7 +62479,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62604,7 +62604,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62728,7 +62728,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62853,7 +62853,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -62983,7 +62983,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -63306,7 +63306,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -63928,7 +63928,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -64434,7 +64434,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -64693,7 +64693,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -64998,7 +64998,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -65172,7 +65172,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -65305,7 +65305,7 @@
                "ATTR",
                "SPATIAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -65428,7 +65428,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -66134,7 +66134,7 @@
                "TEMPORAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -66432,7 +66432,7 @@
                "ATTR",
                "TEMPORAL"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -66891,7 +66891,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -67024,7 +67024,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -67755,7 +67755,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -69557,7 +69557,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -70096,7 +70096,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -70690,7 +70690,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -71024,7 +71024,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -71180,7 +71180,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -72420,7 +72420,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -72551,7 +72551,7 @@
           "iudxResourceAPIs": [
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -73125,7 +73125,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -73250,7 +73250,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -73383,7 +73383,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -73505,7 +73505,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -73639,7 +73639,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -73763,7 +73763,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -73888,7 +73888,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -74013,7 +74013,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [
@@ -74650,7 +74650,7 @@
                "SPATIAL",
                "ATTR"
           ],
-          "dataArrivalInterval": "nonTemporal",
+          "dataArrivalInterval": "NonTemporal",
           "dataDescriptor": {
                "@context": "https://voc.iudx.org.in/",
                "type": [

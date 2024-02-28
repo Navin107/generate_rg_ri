@@ -1,0 +1,2953 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "461a8d17-028e-4f58-9c75-d419c16f2655",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "water-monitoring-info",
+          "label": "Water Distribution Info from Water Monitoring Nodes in IIIT Hyderabad campus",
+          "description": "Real-time information/measurements obtained from distribution monitoring systems installed in IIIT Hyderabad campus.",
+          "tags": [
+               "water",
+               "water distribution",
+               "water supply",
+               "pH",
+               "turbidity",
+               "pressure",
+               "water pressure",
+               "water reservoir",
+               "reservoir",
+               "tank",
+               "sump",
+               "oht",
+               "booster",
+               "pump",
+               "pump house",
+               "flow",
+               "flowrate"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Water Monitors in IIIT Hyderabad",
+               "description": "Data Descriptor for data from water monitoring systems in IIIT Hyderabad.",
+               "deviceID": {
+                    "description": "Device ID corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the device corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "waterLevel": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous Water Level from the water monitoring system corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "measAccuracy": {
+                         "minValue": -0.3,
+                         "maxValue": 0.3
+                    },
+                    "resolution": 0.1
+               },
+               "pH": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of pH from the water monitoring system corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "measAccuracy": "10% tolerance at 25 Celsius",
+                    "resolution": 0.1
+               },
+               "turbidity": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of turbidity from the water monitoring system corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "VLT",
+                    "unitText": "volt",
+                    "resolution": 0.01
+               },
+               "waterPressure": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of water pressure from the water monitoring system corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "BAR",
+                    "unitText": "bar",
+                    "measAccuracy": "1% tolerance",
+                    "resolution": 1
+               },
+               "waterFlow": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of water flow from the water monitoring system corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "MTQ",
+                    "unitText": "cubic metre(m\u00c2\u00b3)",
+                    "measAccuracy": "2% tolerance in [Q2,Q4], 5% tolerance in [Q1,Q2]",
+                    "resolution": 0.01
+               },
+               "flowRate": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of flow rate from the water monitoring system corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "MQH",
+                    "unitText": "cubic metre per hour(m\u00c2\u00b3/h)",
+                    "measAccuracy": "2% tolerance in [Q2,Q4], 5% tolerance in [Q1,Q2]",
+                    "resolution": 0.001
+               },
+               "waterTemperature": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of temperature from the water monitoring system corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "CEL",
+                    "unitText": "degree Celsius",
+                    "measAccuracy": {
+                         "minValue": -0.5,
+                         "maxValue": 0.5
+                    },
+                    "resolution": 0.1
+               },
+               "compensatedTDS": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of TDS with temperature compensation using the equation: 133.42*CV\u00c2\u00b3-255.86*CV\u00c2\u00b2+857.39*CV*0.5",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "59",
+                    "unitText": "part per million(ppm)",
+                    "measAccuracy": "10% tolerance",
+                    "resolution": 1
+               },
+               "uncompensatedTDS": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous TDS value without temperature compensation",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "59",
+                    "unitText": "part per million(ppm)",
+                    "measAccuracy": "10% tolerance",
+                    "resolution": 1
+               }
+          },
+          "dataSample": {
+               "deviceID": "WM-WD-VN01-01",
+               "deviceName": "Water Distribution Monitoring Node 2 at First Floor of Vindhya",
+               "location": {
+                    "coordinates": [
+                         78.349937,
+                         17.445369
+                    ],
+                    "type": "Point"
+               },
+               "observationDateTime": "2020-12-01T21:10:00+05:30",
+               "waterLevel": 90.2,
+               "pH": 9.25,
+               "turbidity": 10.8,
+               "waterPressure": 51.051,
+               "waterFlow": 1674,
+               "flowRate": 27650,
+               "waterTemperature": 16,
+               "compensatedTDS": 177,
+               "uncompensatedTDS": 190
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "1c8bce59-02b1-4a3e-9802-94bf5e6bdfe5",
+          "type": [
+               "iudx:Resource",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "name": "version-info",
+          "label": "Device Details of Water Monitors in IIIT Hyderabad",
+          "description": "Physical and device specific details of the water monitors installed in IIIT Hyderabad campus.",
+          "tags": [
+               "water",
+               "water distribution",
+               "water supply",
+               "pH",
+               "turbidity",
+               "pressure",
+               "water pressure",
+               "water reservoir",
+               "reservoir",
+               "tank",
+               "sump",
+               "oht",
+               "booster",
+               "pump",
+               "pump house",
+               "flow",
+               "flowrate"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "b5fa3bae-0a27-4f48-bcf8-4768ac2d40c6",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:WaterDistributionNetwork"
+               ],
+               "dataDescriptorLabel": "Device and Version specifications of Water Monitors in IIIT Hyderabad",
+               "description": "Data Descriptor for device and version specifications of data parameters from Water Monitors in IIIT Hyderabad.",
+               "deviceInfo": {
+                    "type": [
+                         "Device"
+                    ],
+                    "deviceID": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device ID of the water monitoring system corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "deviceName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device name of the water monitoring system corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               },
+               "versionInfo": {
+                    "type": [
+                         "Version"
+                    ],
+                    "versionName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Version name corresponding to the device in this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "startDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported start time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "endDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported end time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "versionSpec": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device specfications w.r.t. the version corresponding to this observation.",
+                         "dataSchema": "iudx:Object"
+                    },
+                    "comments": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "User comments w.r.t the version corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               }
+          },
+          "dataSample": {
+               "deviceInfo": {
+                    "deviceID": "WM-WD-VN00-00",
+                    "deviceName": "Vindhya Block C4 Water Monitor"
+               },
+               "versionInfo": [
+                    {
+                         "versionName": "V5.00.00",
+                         "startDateTime": "2020-08-19T10:00:00+05:30",
+                         "endDateTime": "9999-99-99T99:99:99+05:30",
+                         "versionSpec": {
+                              "waterLevel": "HC-SR04-Ultrasonic Sensor",
+                              "pH": "",
+                              "turbidity": "",
+                              "waterPressure": "",
+                              "waterFlow": "",
+                              "flowRate": "",
+                              "waterTemperature": "DFRobot Gravity Temperature Sensor",
+                              "compensatedTDS": "DF Robot gravity Analog TDS Sensor/meter for Arduino",
+                              "uncompensatedTDS": "DF Robot gravity Analog TDS Sensor/meter for Arduino",
+                              "controller": "ESP 32"
+                         },
+                         "comments": "Version series beginning with 3 indicates it is a Type-1 water monitor, the series 2 indicates it is a Type-2 water monitor, the series 5 indicates it is a Type-3 water monitor and the series 6 indicates it is a Type-4 water monitor"
+                    }
+               ]
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.339557,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.438768
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "bef94acb-de2f-43a0-a04c-0abcf7306fd7",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnvWeather"
+          ],
+          "name": "version-info",
+          "label": "Device Information of Weather monitors ",
+          "description": "Physical and device specific details of water monitors in International Institute of Information Technology, Hyderabad.",
+          "tags": [
+               "weather",
+               "humidity",
+               "rainfall",
+               "relative humidity",
+               "solar radiation ",
+               "wind",
+               "wind direction",
+               "wind speed",
+               "gust ",
+               "gust speed"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "36769f6d-7ae4-43d0-adc5-6dcb025d9e5f",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvWeather"
+               ],
+               "dataDescriptorLabel": "Weather Station in IIIT Hyderabad",
+               "description": "Data Descriptor for data from Weather Stations in IIIT Hyderabad.",
+               "deviceInfo": {
+                    "type": [
+                         "Device"
+                    ],
+                    "deviceID": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "ID of the weather station corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "deviceName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Name of the weather station corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               },
+               "versionInfo": {
+                    "type": [
+                         "Version"
+                    ],
+                    "versionName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Version name corresponding to the device in this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "startDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported start time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "endDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported end time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "versionSpec": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device specfications w.r.t. the version corresponding to this observation.",
+                         "dataSchema": "iudx:Object"
+                    },
+                    "comments": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "User comments w.r.t the version corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               }
+          },
+          "dataSample": {
+               "deviceInfo": {
+                    "deviceID": "WE-VN04-00",
+                    "deviceName": "Weather Station at Vindhya Nivas"
+               },
+               "versionInfo": [
+                    {
+                         "versionName": "V1.00.00",
+                         "startDateTime": "2020-08-19T10:00:00+05:30",
+                         "endDateTime": "9999-99-99T99:99:99+05:30",
+                         "versionSpec": {
+                              "Weather Station": "HOBO RX3000 Station",
+                              "observationDateTime": "Hobo data logger",
+                              "solarRadiation": "S-LIB-M003",
+                              "airTemperature": "S-TMB-M002",
+                              "relativeHumidity": "S-THB-M002",
+                              "windSpeed": "S-WCA-M003",
+                              "gustSpeed": "S-WCA-M003",
+                              "windDirection": "S-WCA-M003",
+                              "dewPoint": "S-TMB-M002",
+                              "precipitation": "S-RGF-M002",
+                              "atmosphericPressure": "S-BPB-CM50",
+                              "Controller": "Raspberry Pi"
+                         },
+                         "comments": "Weather Station at Vindhya Nivas"
+                    }
+               ]
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.339557,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.438768
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "bc28db1f-6e75-43c9-b32e-2b162917eaa0",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnvAQM"
+          ],
+          "name": "version-info",
+          "label": "Device Information of Air Quality Monitoring Devices",
+          "description": "Air quality monitoring device specific Information for AQM installations in International Institute of Information Technology, Hyderabad.",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "aqi",
+               "aqm",
+               "pollution",
+               "amonia",
+               "carbon",
+               "carbon monoxide",
+               "nitrogen dioxide",
+               "co",
+               "no2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "nh3",
+               "version",
+               "device list"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "271b1a7d-d27b-4660-9857-09986be7e99d",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "AQM sensors in IIIT Hyderabad",
+               "description": "Data Descriptor for data from AQM sensors in IIIT Hyderabad.",
+               "deviceInfo": {
+                    "type": [
+                         "Device"
+                    ],
+                    "deviceID": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device ID of the AQM sensor corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "deviceName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device name of the AQM sensor corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               },
+               "versionInfo": {
+                    "type": [
+                         "Version"
+                    ],
+                    "versionName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Version name corresponding to the device in this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "startDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported start time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "endDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported end time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "versionSpec": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device specfications w.r.t. the version corresponding to this observation.",
+                         "dataSchema": "iudx:Object"
+                    }
+               }
+          },
+          "dataSample": {
+               "deviceInfo": {
+                    "deviceID": "AQ-MG00-00",
+                    "deviceName": "Air Quality node at Main Gate"
+               },
+               "versionInfo": [
+                    {
+                         "versionName": "V1.00.00",
+                         "startDateTime": "2020-08-19T10:00:00+05:30",
+                         "endDateTime": "9999-99-99T99:99:99+05:30",
+                         "versionSpec": {
+                              "pm2p5": {
+                                   "sensor": "SDS011",
+                                   "id": 1
+                              },
+                              "pm10": "SDS011",
+                              "airTemperature": "DHT22",
+                              "relativeHumidity": "DHT22",
+                              "co": "Multichannel Grove Gas Sensor",
+                              "no2": "Multichannel Grove Gas Sensor",
+                              "nh3": "Multichannel Grove Gas Sensor",
+                              "controller": "ESP8266"
+                         },
+                         "comment": "comment on version change"
+                    }
+               ]
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.339557,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.438768
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "f914b2ac-001a-4988-a3ad-58e097ada439",
+          "type": [
+               "iudx:Resource",
+               "iudx:SolarEnergy"
+          ],
+          "name": "solar-panel-info",
+          "label": "Realtime info from Solar panels in IIIT Hyderabad campus",
+          "description": "Real-time information/measurements obtained from the solar panels mounted in IIIT Hyderabad campus.",
+          "tags": [
+               "solar energy",
+               "solar",
+               "power",
+               "power factor",
+               "current",
+               "voltage",
+               "volt",
+               "volts",
+               "watt",
+               "frequency",
+               "phase",
+               "active power",
+               "photovoltaic cells",
+               "photovoltaic voltage",
+               "photovoltaic current",
+               "photovoltaic power",
+               "energy generated"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:SolarEnergy"
+               ],
+               "dataDescriptorLabel": "Solar Panels in IIIT Hyderabad",
+               "description": "Data Descriptor for data from solar energy monitors in IIIT Hyderabad.",
+               "deviceID": {
+                    "description": "Device ID corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the device corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "energyGenerated": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The value of solar energy generated on the current day from the solar panel corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KWH",
+                    "unitText": "kilowatt hour",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.1
+               },
+               "totalEnergyGenerated": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The total solar energy generated so far from the solar panel corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KWH",
+                    "unitText": "kilowatt hour",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.1
+               },
+               "frequency": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Frequency from the solar panel corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "HTZ",
+                    "unitText": "Hertz",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.01
+               },
+               "powerFactor": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Power Factor from the solar panel corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "measAccuracy": "Class 1",
+                    "resolution": 10000
+               },
+               "totalActivePower": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of signed Active Power from the solar panel corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "WTT",
+                    "unitText": "Watt",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.1
+               },
+               "voltage": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The value of Voltage in the entity corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "VLT",
+                    "unitText": "volt",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.01
+               },
+               "totalReactivePower": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total reactive power for all phases",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "K5",
+                    "unitText": "kilovolt ampere (reactive)",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.01
+               },
+               "totalApparentPower": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total apparent power consumed by all the phases ",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KVA",
+                    "unitText": "Kilo Volt Ampere",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.01
+               },
+               "tee": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total Energy Export, It is the total energy consumed by the load connected to the device corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KWH",
+                    "unitText": "kilowatt hour",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.01
+               },
+               "tei": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Total Energy Imported, it is the total energy received by the device corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KWH",
+                    "unitText": "kilowatt hour",
+                    "measAccuracy": "Class 1",
+                    "resolution": 0.01
+               }
+          },
+          "dataSample": {
+               "deviceID": "SL-VN03-00",
+               "deviceName": "Solar panel node 1 at 3rd floor of Vindhya Nivas",
+               "location": {
+                    "coordinates": [
+                         78.34955,
+                         17.44728
+                    ],
+                    "type": "Point"
+               },
+               "observationDateTime": "2021-09-05T14:07:00+05:30",
+               "energyGenerated": 41.3,
+               "totalEnergyGenerated": 72611.6,
+               "frequency": 49.95,
+               "powerFactor": 2,
+               "totalActivePower": 12255.6,
+               "voltage": 239,
+               "totalReactivePower": 1139.1,
+               "totalApparentPower": 761.9,
+               "tee": 1260,
+               "tei": 105
+          },
+          "location": {
+               "geometry": {
+                    "coordinates": [
+                         78.34955,
+                         17.44728
+                    ],
+                    "type": "Point"
+               },
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "fd7e7bc0-edba-4102-96ab-3b806cc9a159",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnergyMeter"
+          ],
+          "name": "energy-consumption-info",
+          "label": "Smart Room Energy Meter Nodes in IIIT Hyderabad campus",
+          "description": "Real-time information/measurements obtained from the energy meter nodes in IIIT Hyderabad campus.",
+          "tags": [
+               "energy",
+               "power",
+               "current",
+               "voltage",
+               "volt",
+               "volts",
+               "watt",
+               "consumption",
+               "energy consumption",
+               "meter"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnergyMeter"
+               ],
+               "dataDescriptorLabel": "Energy Meters in IIIT Hyderabad",
+               "description": "Data Descriptor for data from energy meters in IIIT Hyderabad.",
+               "deviceID": {
+                    "description": "Device ID corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the device corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "energyConsumed": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Energy from the energy meter corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KWH",
+                    "unitText": "kilowatt hour",
+                    "measAccuracy": "Class 1.0 as per IEC 62053-21",
+                    "resolution": 0.01
+               },
+               "powerConsumption": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Power from the energy meter corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KWT",
+                    "unitText": "kilowatt",
+                    "measAccuracy": "\u00c2\u00b1 1% for Class 1.0 and Class 0.5S",
+                    "resolution": 0.01
+               },
+               "current": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Current from the energy meter corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "AMP",
+                    "unitText": "ampere",
+                    "measAccuracy": "\u00c2\u00b1 0.5% for Class 1.0 and Class 0.5S",
+                    "resolution": 0.01
+               },
+               "voltage": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Voltage from the energy meter corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "VLT",
+                    "unitText": "volt",
+                    "measAccuracy": "\u00c2\u00b1 0.5% for Class 1.0 2 and Class 0.5S",
+                    "resolution": 0.01
+               },
+               "frequency": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Frequency from the energy meter corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "HTZ",
+                    "unitText": "hertz",
+                    "measAccuracy": "\u00c2\u00b1 0.05% for Class 1 .0 and Class 0.5S",
+                    "resolution": 0.01
+               },
+               "powerFactor": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Power Factor from the energy meter corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": "\u00c2\u00b1 0.01 for Class 1.0 and Class 0 .5S",
+                    "resolution": 0.01
+               }
+          },
+          "dataSample": {
+               "deviceID": "SR-EM-KH04-01",
+               "deviceName": "Water Distribution Monitoring Node 2 at First Floor of Vindhya",
+               "location": {
+                    "coordinates": [
+                         78.349937,
+                         17.445369
+                    ],
+                    "type": "Point"
+               },
+               "observationDateTime": "2020-12-01T21:10:00+05:30",
+               "energyConsumed": 26132.64,
+               "powerConsumption": 2.96,
+               "current": 0.02,
+               "voltage": 242.81,
+               "frequency": 49.96,
+               "powerFactor": 0.26
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "2dbca76b-b5c4-4f74-8eff-229c95275a5c",
+          "type": [
+               "iudx:Resource",
+               "iudx:SolarEnergy"
+          ],
+          "name": "version-info",
+          "label": "Device Details of Solar Panels in IIIT Hyderabad",
+          "description": "Physical and device specific details of the solar panels installed in IIIT Hyderabad campus.",
+          "tags": [
+               "device",
+               "version",
+               "specifications",
+               "solar energy",
+               "solar",
+               "power",
+               "power factor",
+               "current",
+               "voltage",
+               "volt",
+               "volts",
+               "watt",
+               "frequency",
+               "phase",
+               "active power",
+               "reactive power",
+               "photovoltaic cells",
+               "photovoltaic voltage",
+               "photovoltaic current",
+               "photovoltaic power",
+               "energy generated",
+               "pv"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "c7e359ed-b903-49a6-bcb1-c7b744ad7e13",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:SolarEnergy"
+               ],
+               "dataDescriptorLabel": "Device and Version specifications of Solar Panels in IIIT Hyderabad",
+               "description": "Data Descriptor for device and version specifications of data from Solar Panels in IIIT Hyderabad.",
+               "deviceInfo": {
+                    "type": [
+                         "Device"
+                    ],
+                    "deviceID": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device ID of the Solar Panel corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "deviceName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device name of the Solar Name corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               },
+               "versionInfo": {
+                    "type": [
+                         "Version"
+                    ],
+                    "versionName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Version name corresponding to the device in this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "startDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported start time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "endDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported end time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "versionSpec": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device specfications w.r.t. the version corresponding to this observation.",
+                         "dataSchema": "iudx:Object"
+                    },
+                    "comments": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "User comments w.r.t the version corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               }
+          },
+          "dataSample": {
+               "deviceInfo": {
+                    "deviceID": "SL-VN03-00",
+                    "deviceName": "Solar node 3 at Vindhya Nivas"
+               },
+               "versionInfo": [
+                    {
+                         "versionName": "V2.0.0",
+                         "startDateTime": "08-12-2020T00:00:00+05:30",
+                         "endDateTime": "31-12-9999T23:59:59+05:30",
+                         "versionSpec": {
+                              "energyGenerated": "Growatt 80KT3LV Inverters (80 kW)",
+                              "totalEnergyGenerated": "Growatt 80KT3LV Inverters (80 kW)",
+                              "frequency": "Growatt 80KT3LV Inverters (80 kW)",
+                              "powerFactor": "Growatt 80KT3LV Inverters (80 kW)",
+                              "totalActivePower": "Growatt 80KT3LV Inverters (80 kW)",
+                              "controller": "RPi running python app communicating through USB-RS485 Modbus"
+                         },
+                         "comments": "Solar energy node SL-VN03-00"
+                    }
+               ]
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.339557,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.438768
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "dd75d9e8-9d83-4aca-9c8f-10ee7b1ff84c",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnergyMeter"
+          ],
+          "name": "version-info",
+          "label": "Device Details of Energy Meters in IIIT Hyderabad",
+          "description": "Physical and device specific details of the energy meters installed in IIIT Hyderabad campus.",
+          "tags": [
+               "energy",
+               "power",
+               "current",
+               "voltage",
+               "volt",
+               "volts",
+               "watt",
+               "consumption",
+               "energy consumption",
+               "meter"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "97dae4f4-34d4-4d7f-8f5a-c57268058012",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnergyMeter"
+               ],
+               "dataDescriptorLabel": "Device and Version specifications of Energy Meters in IIIT Hyderabad",
+               "description": "Data Descriptor for device and version specifications of data from Energy Meters in IIIT Hyderabad.",
+               "deviceInfo": {
+                    "type": [
+                         "Device"
+                    ],
+                    "deviceID": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device ID of the Energy Meter corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "deviceName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device name of the Energy Meter corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               },
+               "versionInfo": {
+                    "type": [
+                         "Version"
+                    ],
+                    "versionName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Version name corresponding to the device in this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "startDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported start time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "endDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported end time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "versionSpec": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device specfications w.r.t. the version corresponding to this observation.",
+                         "dataSchema": "iudx:Object"
+                    },
+                    "comments": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "User comments w.r.t the version corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               }
+          },
+          "dataSample": {
+               "deviceInfo": {
+                    "deviceID": "SR-EM-KH04-00",
+                    "deviceName": "Smart Room-KH04 Energy Meter"
+               },
+               "versionInfo": [
+                    {
+                         "versionName": "V1.00.00",
+                         "startDateTime": "2020-08-19T10:00:00+05:30",
+                         "endDateTime": "9999-99-99T99:99:99+05:30",
+                         "versionSpec": {
+                              "energy": "EN8400 LN",
+                              "power": "EN8400 LN",
+                              "voltage": "EN8400 LN",
+                              "current": "EN8400 LN",
+                              "frequency": "EN8400 LN",
+                              "powerFactor": "EN8400 LN",
+                              "controller": "RPi running python app communicating through USB-RS485 Modbus"
+                         },
+                         "comments": "Version series beginning with 1 indicates it is a Elmeasure Meter and the series 2 indicates it is a Schneider Energy Meter"
+                    }
+               ]
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.339557,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.438768
+                              ],
+                              [
+                                   78.352839,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.450866
+                              ],
+                              [
+                                   78.339557,
+                                   17.438768
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "1e73524c-eeb2-4e1c-a5b5-9aab649d2e82",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnergyMonitoring"
+          ],
+          "name": "energy-monitor-readings",
+          "label": "Energy Consumption Info from Energy Monitoring Nodes in IIITH Campus",
+          "description": "Real-time information/measurements obtained from the various Energy Monitoring nodes installed in IIIT Hyderabad campus.",
+          "tags": [
+               "rssi",
+               "R current",
+               "y current",
+               "B current",
+               "R voltage",
+               "Y voltage",
+               "B voltage",
+               "power factor",
+               "frequency",
+               "apparent power",
+               "real power",
+               "volt",
+               "volts",
+               "watt",
+               "phase",
+               "energy consumption",
+               "reactive energy lead",
+               "reactive energy lag",
+               "total energy consumption",
+               "meter",
+               "monitor"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnergyMeter"
+               ],
+               "dataDescriptorLabel": "Energy Monitoring in IIIT Hyderabad",
+               "description": "Data Descriptor for data from Energy Monitoring in IIIT Hyderabad.",
+               "deviceID": {
+                    "description": "Device ID of the energy monitoring node corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the energy monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "rssi": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The value of rssi of data packet received from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "DBM",
+                    "unitText": "Decibel-milliwatts",
+                    "resolution": 1
+               },
+               "phaseCurrent": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Ordered triple comprising the instantaneous value of current per phase in the following order [R Y B], from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "AMP",
+                    "unitText": "ampere",
+                    "measAccuracy": "\u00b1 0.5% for Class 1.0 and Class 0.5S",
+                    "resolution": 0.001
+               },
+               "phaseVoltage": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Ordered triple comprising the instantaneous value of voltage per phase in the following order [R Y B], from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "VLT",
+                    "unitText": "volt",
+                    "measAccuracy": "\u00b1 0.5% for Class 1.0 2 and Class 0.5S",
+                    "resolution": 0.01
+               },
+               "powerFactor": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Power Factor from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": "\u00b1 0.01 for Class 1.0 and Class 0 .5S",
+                    "resolution": 0.01,
+                    "unitText": "dimensionless",
+                    "unitCode": "C62"
+               },
+               "frequency": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Frequency from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "HTZ",
+                    "unitText": "hertz",
+                    "measAccuracy": "\u00b1 0.05% for Class 1 .0 and Class 0.5S",
+                    "resolution": 0.01
+               },
+               "totalApparentPower": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of apparent power from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": "\u00b1 0.01 for Class 1.0 and Class 0 .5S",
+                    "resolution": 0.001,
+                    "unitCode": "KWT",
+                    "unitText": "kilowatt"
+               },
+               "totalActivePower": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Real Power from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KWT",
+                    "unitText": "kilowatt",
+                    "measAccuracy": "\u00b1 0.01 for Class 1.0 and Class 0 .5S",
+                    "resolution": 0.001
+               },
+               "energyConsumed": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Energy Consumption from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "KWH",
+                    "unitText": "kilowatt hour",
+                    "measAccuracy": "\u00b1 0.01 for Class 1.0 and Class 0 .5S",
+                    "resolution": 0.01
+               },
+               "reactiveEnergyLead": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Reactive Energy Lead from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": "\u00b1 0.01 for Class 1.0 and Class 0 .5S",
+                    "resolution": 0.01,
+                    "unitText": "kilowatt hour",
+                    "unitCode": "KWH"
+               },
+               "reactiveEnergyLag": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The instantaneous value of Reactive Energy Lag from the Energy-Monitoring node corresponding to this observation.",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": "\u00b1 0.01 for Class 1.0 and Class 0 .5S",
+                    "resolution": 0.01,
+                    "unitText": "kilowatt hour",
+                    "unitCode": "KWH"
+               }
+          },
+          "dataSample": {
+               "deviceID": "EM-NC-VN01-00",
+               "deviceName": "Energy Monitoring Node 1 at first floor of Vindhya Block",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         78.3494681,
+                         17.4464517
+                    ]
+               },
+               "observationDateTime": "2020-12-01T21:10:00+05:30",
+               "rssi": -98,
+               "phaseCurrent": [
+                    0.02,
+                    0.0,
+                    0.0
+               ],
+               "phaseVoltage": [
+                    231.37,
+                    231.83,
+                    234.73
+               ],
+               "powerFactor": 0.23,
+               "frequency": 49.97,
+               "totalApparentPower": 0.004,
+               "totalActivePower": 0.001,
+               "energyConsumed": 3333.14,
+               "reactiveEnergyLead": 590.07,
+               "reactiveEnergyLag": 121.9
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d70d15bd-146e-46e9-b99f-1d87522b55e9",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnvWeather"
+          ],
+          "name": "weather-info",
+          "label": "Weather Info from the Weather Stations in IIIT Hyderabad campus",
+          "description": "Real-time Weather measurements obtained from the Weather Stations installed in IIIT Hyderabad campus.",
+          "tags": [
+               "weather",
+               "humidity",
+               "rainfall",
+               "relative humidity",
+               "solar radiation ",
+               "wind",
+               "wind direction",
+               "wind speed",
+               "gust ",
+               "gust speed"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "e063fb28-cd18-418a-897d-7b1034e282b9",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvWeather"
+               ],
+               "dataDescriptorLabel": "IIIT Hyderabad Weather Station",
+               "description": "Data Descriptor for data from Weather Station in IIIT Hyderabad.",
+               "deviceID": {
+                    "description": "Device ID corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the device corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "relativeHumidity": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous values for relative humidity (water vapour in air).",
+                    "unitCode": "P1",
+                    "unitText": "percent (%)",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "measAccuracy": {
+                         "minValue": -2.5,
+                         "maxValue": 2.5
+                    },
+                    "resolution": 0.1
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               },
+               "windDirection": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value of wind direction.",
+                    "unitCode": "DD",
+                    "unitText": "degree (unit of angle)",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": {
+                         "minValue": -5,
+                         "maxValue": 5
+                    },
+                    "resolution": 1.4
+               },
+               "windSpeed": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value of wind speed.",
+                    "unitCode": "MTS",
+                    "unitText": "metre per second",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": "\u00c2\u00b1 0.5 m/s, \u00c2\u00b1 3% 17 to 30 m/s, \u00c2\u00b1 4% 30 to 44 m/s",
+                    "resolution": 0.19
+               },
+               "airTemperature": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value for air temperature.",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "CEL",
+                    "unitText": "degree Celsius",
+                    "measAccuracy": {
+                         "minValue": -0.21,
+                         "maxValue": 0.21
+                    },
+                    "resolution": 0.02
+               },
+               "solarRadiation": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value for solar radiation.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "D54",
+                    "unitText": "watt per square metre",
+                    "minValue": -40,
+                    "maxValue": 80,
+                    "measAccuracy": {
+                         "minValue": -10,
+                         "maxValue": 10
+                    },
+                    "resolution": 1.25
+               },
+               "gustSpeed": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value of gust speed.",
+                    "unitCode": "MTS",
+                    "unitText": "metre per second",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": "\u00c2\u00b1 0.5 m/s, \u00c2\u00b1 3% 17 to 30 m/s, \u00c2\u00b1 4% 30 to 44 m/s",
+                    "resolution": 0.19
+               },
+               "dewPoint": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Value of each day's dew point temperature.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "CEL",
+                    "unitText": "degree Celsius",
+                    "measAccuracy": {
+                         "minValue": -0.21,
+                         "maxValue": 0.21
+                    },
+                    "resolution": 0.02
+               },
+               "precipitation": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Measurement of rain level.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "H67",
+                    "unitText": "millimetre per hour",
+                    "measAccuracy": {
+                         "minValue": -5,
+                         "maxValue": 5
+                    },
+                    "resolution": 0.2
+               },
+               "atmosphericPressure": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value of atmospheric pressure.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "MBR",
+                    "unitText": "millibar",
+                    "measAccuracy": {
+                         "minValue": -5,
+                         "maxValue": 5
+                    },
+                    "resolution": 0.1
+               }
+          },
+          "dataSample": {
+               "deviceID": "WE-GS04-00",
+               "deviceName": "Weather Monitoring Nodes 1 in IIIT Hyderabad campus",
+               "location": {
+                    "coordinates": [
+                         78.3483606,
+                         17.443674
+                    ],
+                    "type": "Point"
+               },
+               "relativeHumidity": {
+                    "instValue": 91.2
+               },
+               "airTemperature": {
+                    "instValue": 24.7
+               },
+               "windDirection": 272.36,
+               "windSpeed": 4.19,
+               "solarRadiation": 340.63,
+               "gustSpeed": 6.85,
+               "dewPoint": 23.2,
+               "precipitation": 0,
+               "atmosphericPressure": 0.93,
+               "observationDateTime": "2020-12-01T21:10:00+05:30"
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "47acc94b-e337-415d-a2cc-7cb054bfd6e4",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnvAQM"
+          ],
+          "name": "indoor-air-quality-info",
+          "label": "Indoor Air Quality Monitoring Devices in IIIT Hyderabad Campus",
+          "description": "Indoor Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "pollution",
+               "carbon dioxide",
+               "co2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "voc",
+               "voc_raw"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "275c23b5-673a-4a53-ad16-2d17d1489b0a",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "Indoor AQM sensors in IIIT Hyderabad",
+               "description": "Data Descriptor for data from indoor AQM sensors in IIIT Hyderabad.",
+               "deviceID": {
+                    "description": "Device ID of the indoor air-quality sensor corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the indoor air quality sensor corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "pm2p5": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous or aggregated values for particulate matter 2.5(PM2.5). For PM2.5 aggregation, the aggregation duration is specified using the durationInMinutes field.",
+                    "dataSchema": "TimeSeriesAggregation",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre",
+                    "measAccuracy": {
+                         "minValue": -10,
+                         "maxValue": 10
+                    },
+                    "resolution": 0.1
+               },
+               "pm10": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous or aggregated values for particulate matter 10(PM10). For PM10 aggregation, the aggregation duration is specified using the durationInMinutes field.",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "GQ",
+                    "unitText": "microgram per cubic metre",
+                    "measAccuracy": {
+                         "minValue": -10,
+                         "maxValue": 10
+                    },
+                    "resolution": 0.1
+               },
+               "airTemperature": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous or aggregated values for air temperature. For airTemperature aggregation, the aggregation duration is specified using the durationInMinutes field.",
+                    "dataSchema": "TimeSeriesAggregation",
+                    "unitCode": "CEL",
+                    "unitText": "degree Celsius",
+                    "measAccuracy": {
+                         "minValue": -0.5,
+                         "maxValue": 0.5
+                    },
+                    "resolution": 0.1
+               },
+               "relativeHumidity": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous or aggregated values for relative humidity (water vapour in air). For relativeHumidity aggregation, the aggregation duration is specified using the durationInMinutes field.",
+                    "unitCode": "P1",
+                    "unitText": "percent",
+                    "dataSchema": "TimeSeriesAggregation",
+                    "measAccuracy": {
+                         "minValue": -2,
+                         "maxValue": 2
+                    },
+                    "resolution": 0.1
+               },
+               "co2": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous or aggregated values for carbon monoxide(CO). For CO aggregation, the aggregation duration is specified using the durationInMinutes field.",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "59",
+                    "unitText": "part per million",
+                    "measAccuracy": {
+                         "minValue": 0,
+                         "maxValue": 500
+                    },
+                    "resolution": 0.1
+               },
+               "vocTotal": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous or aggregated values for Volatile Organic Compounds, the aggregation duration is specified using the durationInMinutes field.",
+                    "dataSchema": "TimeSeriesAggregation",
+                    "measAccuracy": {
+                         "minValue": 0,
+                         "maxValue": 1000
+                    },
+                    "resolution": 0.1
+               },
+               "vocRaw": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous or aggregated values for raw Volatile Organic Compounds, the aggregation duration is specified using the durationInMinutes field.",
+                    "dataSchema": "TimeSeriesAggregation",
+                    "measAccuracy": {
+                         "minValue": 0,
+                         "maxValue": 5000
+                    },
+                    "resolution": 0.1
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "deviceID": "SR-AQ-KH00-02",
+               "deviceName": "Indoor Air Quality node 3 at Ground Floor of Kohli Research Block",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         78.35142,
+                         17.44599
+                    ]
+               },
+               "pm2p5": {
+                    "instValue": 1195
+               },
+               "pm10": {
+                    "instValue": 1193
+               },
+               "airTemperature": {
+                    "instValue": 29.92
+               },
+               "relativeHumidity": {
+                    "instValue": 29.98
+               },
+               "co2": {
+                    "instValue": 486
+               },
+               "vocTotal": {
+                    "instValue": 117
+               },
+               "vocRaw": {
+                    "instValue": 31302
+               },
+               "observationDateTime": "2020-12-01T21:10:00+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "IIIT Hyderabad, Telangana"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "1424ad50-7c54-486e-893d-7c0aa64dc759",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnergyMeter"
+          ],
+          "name": "version-info",
+          "label": "Device Details of Energy Monitoring in IIIT Hyderabad Campus",
+          "description": "Physical and device specific details of the energy monitoring installed in IIIT Hyderabad campus.",
+          "tags": [
+               "rssi",
+               "R current",
+               "y current",
+               "B current",
+               "R voltage",
+               "Y voltage",
+               "B voltage",
+               "phase current",
+               "phase voltage",
+               "power factor",
+               "frequency",
+               "apparent power",
+               "real power",
+               "volt",
+               "volts",
+               "watt",
+               "phase",
+               "energy consumption",
+               "reactive energy lead",
+               "reactive energy lag",
+               "total energy consumption",
+               "meter",
+               "monitor"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "60a3fca0-079f-4c23-9f3d-965f8537d079",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnergyMeter"
+               ],
+               "dataDescriptorLabel": "Device and Version specifications of Energy Monitoring in IIIT Hyderabad",
+               "description": "Data Descriptor for device and version specifications of data from Energy Monitoring in IIIT Hyderabad.",
+               "deviceInfo": {
+                    "type": [
+                         "Device"
+                    ],
+                    "deviceID": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device ID of the Energy Monitoring corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "deviceName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device name of the Energy Monitoring corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               },
+               "versionInfo": {
+                    "type": [
+                         "Version"
+                    ],
+                    "versionName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Version name corresponding to the device in this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "startDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported start time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "endDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported end time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "versionSpec": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device specfications w.r.t. the version corresponding to this observation.",
+                         "dataSchema": "iudx:Object"
+                    },
+                    "comments": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "User comments w.r.t the version corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               }
+          },
+          "dataSample": {
+               "deviceInfo": {
+                    "deviceID": "EM-NC-VN01-00",
+                    "deviceName": "Energy Monitoring"
+               },
+               "versionInfo": [
+                    {
+                         "versionName": "V1.00.00",
+                         "startDateTime": "2020-08-19T10:00:00+05:30",
+                         "endDateTime": "9999-99-99T99:99:99+05:30",
+                         "versionSpec": {
+                              "rssi": "",
+                              "phaseCurrent": "",
+                              "phaseVoltage": "",
+                              "powerFactor": "",
+                              "frequency": "",
+                              "totalApparentPower": "",
+                              "totalActivePower": "",
+                              "energyConsumed": "",
+                              "reactiveEnergyLead": "",
+                              "reactiveEnergyLag": "",
+                              "controller": "'Energy API running in a Django application on the Resource Server"
+                         },
+                         "comments": "Energy Monitoring"
+                    }
+               ]
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "dc4b38c6-c51d-4601-929a-e89e1e6aadb9",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnvAQM"
+          ],
+          "name": "env-aqm-info",
+          "label": "Air Quality Monitoring nodes in IIIT Hyderabad Campus",
+          "description": "Air quality monitoring device in International Institute of Information Technology, Hyderabad.",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "aqi",
+               "aqm",
+               "pollution",
+               "amonia",
+               "carbon",
+               "carbon monoxide",
+               "nitrogen dioxide",
+               "co",
+               "no2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "nh3"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "AQM sensors in IIIT Hyderabad",
+               "description": "Data Descriptor for data from AQM sensors in IIIT Hyderabad.",
+               "deviceID": {
+                    "description": "Device ID corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the device corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "pm2p5": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous values of particulate matter 2.5(PM2.5).",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "GQ",
+                    "unitText": "micro gram per cubic metre",
+                    "minValue": 0,
+                    "maxValue": 999.9,
+                    "measAccuracy": {
+                         "minValue": -10,
+                         "maxValue": 10
+                    },
+                    "resolution": 0.1
+               },
+               "pm10": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous values of particulate matter 10(PM10).",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "GQ",
+                    "unitText": "micro gram per cubic metre",
+                    "minValue": 0,
+                    "maxValue": 999.9,
+                    "measAccuracy": {
+                         "minValue": -10,
+                         "maxValue": 10
+                    },
+                    "resolution": 0.1
+               },
+               "airTemperature": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous values of air temperature.",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "CEL",
+                    "unitText": "degree Celsius",
+                    "minValue": -40,
+                    "maxValue": 80,
+                    "measAccuracy": {
+                         "minValue": -0.5,
+                         "maxValue": 0.5
+                    },
+                    "resolution": 0.1
+               },
+               "relativeHumidity": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous values of relative humidity (water vapour in air).",
+                    "unitCode": "P1",
+                    "unitText": "percent (%)",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "measAccuracy": {
+                         "minValue": -2,
+                         "maxValue": 2
+                    },
+                    "resolution": 0.1
+               },
+               "co": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous values of carbon monoxide(CO).",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "59",
+                    "unitText": "part per million",
+                    "minValue": 1,
+                    "maxValue": 500,
+                    "resolution": 0.01
+               },
+               "no2": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous of nitrogen dioxide(NO2).",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "59",
+                    "unitText": "part per million",
+                    "minValue": 0.05,
+                    "maxValue": 10,
+                    "resolution": 0.01
+               },
+               "nh3": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous of amonia(NH3).",
+                    "dataSchema": "iudx:TimeSeriesAggregation",
+                    "unitCode": "59",
+                    "unitText": "part per million",
+                    "minValue": 1,
+                    "maxValue": 500,
+                    "resolution": 0.01
+               },
+               "airQualityIndex": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Overall Air Quality Index (AQI) observed",
+                    "unitCode": "C62",
+                    "unitText": "dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "airQualityLevel": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Air Quality Category Indication. Qualitative level defined according to the local health agencies. For example, 'GOOD', 'MODERATE', 'POOR', 'UNHEALTHY', 'SEVERE', 'HAZARDOUS' etc.",
+                    "dataSchema": "iudx:Text"
+               },
+               "aqiMajorPollutant": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Major pollutant in the Air Quality Index (AQI).",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "deviceID": "AQ-AN00-00",
+               "deviceName": "Air Quality node at Anand Nivas",
+               "location": {
+                    "coordinates": [
+                         78.348436,
+                         17.443936
+                    ],
+                    "type": "Point"
+               },
+               "pm2p5": {
+                    "instValue": 36.8
+               },
+               "pm10": {
+                    "instValue": 54.4
+               },
+               "airTemperature": {
+                    "instValue": 25.1
+               },
+               "relativeHumidity": {
+                    "instValue": 70.3
+               },
+               "co": {
+                    "instValue": 200.3
+               },
+               "no2": {
+                    "instValue": 3.5
+               },
+               "nh3": {
+                    "instValue": 250.7
+               },
+               "airQualityIndex": 61.33,
+               "airQualityLevel": "GOOD",
+               "aqiMajorPollutant": "PM10",
+               "observationDateTime": "2020-12-01T21:10:00+05:30"
+          },
+          "location": {
+               "geometry": {
+                    "coordinates": [
+                         78.34989,
+                         17.44507
+                    ],
+                    "type": "Point"
+               },
+               "type": "Place",
+               "address": "IIIT Hyderabad Himalaya Admin Block"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "83749089-1abc-4115-98b3-024de9ac7fe6",
+          "type": [
+               "iudx:Resource",
+               "iudx:StreetLight"
+          ],
+          "name": "wisun-info",
+          "label": "Realtime Information from Smart Street Lamp Devices in IIIT Hyderabad",
+          "description": "Information from Smart Street Lamp monitoring devices in International Institute of Information Technology, Hyderabad.",
+          "tags": [
+               "node_status",
+               "light_status",
+               "rssi_value",
+               "latency",
+               "data_rate",
+               "mac_address",
+               "packet_size"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "cbd95dd3-412f-463f-b75b-487c924a789e",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "ATTR",
+               "TEMPORAL",
+               "SPATIAL"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:StreetLight"
+               ],
+               "dataDescriptorLabel": "Smart Street Lamp sensors in IIIT Hyderabad",
+               "description": "Data Descriptor for data from Smart Street Lamp sensors in IIIT Hyderabad.",
+               "deviceID": {
+                    "description": "Device ID of the smart device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "deviceName": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the smart device corresponding to this observation.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the smart device corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "deviceStatus": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The on/off status of the node",
+                    "dataSchema": "iudx:Text"
+               },
+               "feederConnectivity": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The connectivity status of the feeder corresponding to this observation. [.LP01on = on (connected)] or [.LP01off = off (dissconnected]",
+                    "dataSchema": "iudx:Text"
+               },
+               "powerState": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The power status of the streetlight corresponding to this observation. [.LP01on = on] or [.LP01off = off]",
+                    "dataSchema": "iudx:Text"
+               },
+               "rssi": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Value of rssi.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "DBM",
+                    "unitText": "Decibel-milliwatts",
+                    "resolution": 1
+               },
+               "latency": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value for latency.",
+                    "dataSchema": "iudx:Number",
+                    "unitCode": "SEC",
+                    "unitText": "second",
+                    "measAccuracy": {
+                         "minValue": 0.2,
+                         "maxValue": 5
+                    },
+                    "resolution": 0.1
+               },
+               "dataRate": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Instantaneous value for data rate.",
+                    "unitCode": "P94",
+                    "unitText": "kilobyte per second",
+                    "dataSchema": "iudx:Number",
+                    "measAccuracy": {
+                         "minValue": -2,
+                         "maxValue": 2
+                    },
+                    "resolution": 0.1
+               },
+               "macAddress": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The media access control address of node",
+                    "dataSchema": "iudx:Text"
+               },
+               "packetSize": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Size value for the data packet",
+                    "unitCode": "AD",
+                    "unitText": "byte",
+                    "dataSchema": "iudx:Number"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "deviceID": "WN-LP01-03",
+               "deviceName": "Smart Street Lamp node at Smart Pole of Kohli Research Block",
+               "location": {
+                    "coordinates": [
+                         78.34986,
+                         17.44507
+                    ],
+                    "type": "Point"
+               },
+               "deviceStatus": "WN-LP02-02 is on",
+               "feederConnectivity": "connected",
+               "powerState": "WN-LP02-02 is on",
+               "rssi": -92626071,
+               "latency": -55,
+               "dataRate": 50,
+               "macAddress": "fd12:3456::5232:5fff:fe42:61c6",
+               "packetSize": 0,
+               "observationDateTime": "2020-12-01T21:10:00+05:30"
+          },
+          "location": {
+               "type": "Place",
+               "address": "IIIT Hyderabad, Telangana"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "4e95367a-6c55-45b2-9197-d046733b6915",
+          "type": [
+               "iudx:Resource",
+               "iudx:EnvAQM"
+          ],
+          "name": "version-info",
+          "label": "Indoor AQM Device Information",
+          "description": "Indoor Air quality monitoring device specific Information for Indoor AQM installations in International Institute of Information Technology, Hyderabad.",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "pollution",
+               "carbon dioxide",
+               "co2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "voc",
+               "voc raw"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "cc550675-a74d-4410-bf7a-01baca7518bb",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:EnvAQM"
+               ],
+               "dataDescriptorLabel": "Indoor AQM sensors in IIIT Hyderabad",
+               "description": "Data Descriptor for data from Indoor AQM sensors in IIIT Hyderabad.",
+               "deviceInfo": {
+                    "type": [
+                         "Device"
+                    ],
+                    "deviceID": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device ID of the Indoor AQM sensor corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "deviceName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device name of the Indoor AQM sensor corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               },
+               "versionInfo": {
+                    "type": [
+                         "Version"
+                    ],
+                    "versionName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Version name corresponding to the device in this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "startDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported start time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "endDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported end time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "versionSpec": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device specifications w.r.t. the version corresponding to this observation.",
+                         "dataSchema": "iudx:Object"
+                    },
+                    "comments": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "User comments w.r.t the version corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               }
+          },
+          "dataSample": {
+               "deviceInfo": {
+                    "deviceID": "SR-AQ-KH00-00",
+                    "deviceName": "Indoor Air Quality node at Ground Floor of Kohli Reasearch Block"
+               },
+               "versionInfo": [
+                    {
+                         "versionName": "V1.00.00",
+                         "startDateTime": "2020-12-29T10:00:00+05:30",
+                         "endDateTime": "9999-99-99T99:99:99+05:30",
+                         "versionSpec": {
+                              "pm2p5": {
+                                   "sensor": "SDS011",
+                                   "id": 1.0
+                              },
+                              "pm10": "SDS011",
+                              "airTemperature": "SHT41",
+                              "relativeHumidity": "SHT41",
+                              "co2": "Prana air",
+                              "controller": "ESP32",
+                              "vocTotal": "SHT41",
+                              "vocRaw": "SHT41"
+                         },
+                         "comments": "Indoor air quality node"
+                    }
+               ]
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "53a3b8ff-8157-4f98-91ec-e23082de0b4d",
+          "type": [
+               "iudx:Resource",
+               "iudx:StreetLight"
+          ],
+          "name": "version-info",
+          "label": "Smart Street Lamp Device Information",
+          "description": "Smart Street Lamp device specific Information for Smart Street Lamp installations in International Institute of Information Technology, Hyderabad.",
+          "tags": [
+               "node_status",
+               "light_status",
+               "rssi_value",
+               "latency",
+               "data_rate",
+               "mac_address",
+               "packet_size"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "resourceServer": "00d08acb-1276-4501-98cd-8db8d6bc1f3b",
+          "resourceGroup": "a0d85488-ce63-4735-b0b0-b64e000f2190",
+          "resourceType": "DATASET",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:StreetLight"
+               ],
+               "dataDescriptorLabel": "Smart Street Lamp sensors in IIIT Hyderabad",
+               "description": "Data Descriptor for data from Smart Street Lamp sensors in IIIT Hyderabad.",
+               "deviceInfo": {
+                    "type": [
+                         "Device"
+                    ],
+                    "deviceID": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device ID of the Smart Street Lamp sensor corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "deviceName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device name of the Smart Street Lamp sensor corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               },
+               "versionInfo": {
+                    "type": [
+                         "Version"
+                    ],
+                    "versionName": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Version name corresponding to the device in this observation.",
+                         "dataSchema": "iudx:Text"
+                    },
+                    "startDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported start time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "endDateTime": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Reported end time of the version corresponding to this observation.",
+                         "dataSchema": "iudx:DateTime"
+                    },
+                    "versionSpec": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "Device specifications w.r.t. the version corresponding to this observation.",
+                         "dataSchema": "iudx:Object"
+                    },
+                    "comments": {
+                         "type": [
+                              "ValueDescriptor"
+                         ],
+                         "description": "User comments w.r.t the version corresponding to this observation.",
+                         "dataSchema": "iudx:Text"
+                    }
+               }
+          },
+          "dataSample": {
+               "deviceInfo": {
+                    "deviceID": "WN-LP01-03",
+                    "deviceName": "Smart Street Lamp node at Smart Pole of Kohli Reasearch Block"
+               },
+               "versionInfo": [
+                    {
+                         "versionName": "V1.00.00",
+                         "startDateTime": "2020-12-29T10:00:00+05:30",
+                         "endDateTime": "9999-99-99T99:99:99+05:30",
+                         "versionSpec": {
+                              "deviceStatus": "EFR32MG12",
+                              "powerState": "EFR32MG12",
+                              "rssi": "EFR32MG12",
+                              "latency": "EFR32MG12",
+                              "dataRate": "EFR32MG12",
+                              "macAddress": "EFR32MG12",
+                              "packetSize": "EFR32MG12"
+                         },
+                         "comment": "Smart Street Lamp node"
+                    }
+               ]
+          },
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     }
+]

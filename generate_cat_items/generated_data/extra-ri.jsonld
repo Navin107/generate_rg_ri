@@ -1,0 +1,2585 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "650f1ce9-8f70-4668-880c-2adbb28c61fa",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ranchi-anpr-locations",
+          "label": "ANPR Camera Locations in Ranchi City",
+          "description": "The physical coordinates of Automatic Number Plate Recognition (ANPR) camera locations in Ranchi city.",
+          "tags": [
+               "camera",
+               "anpr",
+               "number plate",
+               "recognition",
+               "junction",
+               "locations",
+               "monitoring",
+               "point of interest",
+               "places"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "0a9052d8-9132-4372-b53d-61e1773c1f2e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "30b28625-57a4-450e-a605-58b2c3e1a0aa",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Automatic Number Plate Recognition (ANPR) Camera Locations in Ranchi City",
+               "description": "Data attribute details for automatic number plate recognition  camera locations in Ranchi city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Ranchi city at which automatic number plate recognition (ANPR) camera is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the automatic number plate recognition (ANPR) camera location in Ranchi City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the camera corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "ANPR - Ranchi Ramgarh Ring Road",
+               "address": "Ranchi Ramgarh Ring Road, Ranchi",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.34475,
+                         23.4478
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ranchi/ranchi-anpr-locations.json",
+                    "name": "Ranchi ANPR Camera installed locations sample",
+                    "description": "Sample file for ANPR Camera installed in Ranchi city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Ranchi, Jharkhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   85.260189,
+                                   23.493811
+                              ],
+                              [
+                                   85.189665,
+                                   23.326544
+                              ],
+                              [
+                                   85.272605,
+                                   23.22663
+                              ],
+                              [
+                                   85.4216,
+                                   23.251274
+                              ],
+                              [
+                                   85.485668,
+                                   23.414989
+                              ],
+                              [
+                                   85.398258,
+                                   23.517949
+                              ],
+                              [
+                                   85.260189,
+                                   23.493811
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "ranchi",
+          "ownerUserId": "5eeab92e-c3a0-400a-bcdc-8b4c46060e14",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T02:58:22+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "af00b18f-a533-4787-aee3-f4034c1acd3c",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ranchi-rlvd-locations",
+          "label": "RLVD Locations in Ranchi City",
+          "description": "The physical coordinates of red light violation detection (RLVD) systems installed in Ranchi city.",
+          "tags": [
+               "rlvd",
+               "camera",
+               "traffic management",
+               "transit management",
+               "red light violation",
+               "traffic violation",
+               "locations",
+               "junctions"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "0a9052d8-9132-4372-b53d-61e1773c1f2e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "30b28625-57a4-450e-a605-58b2c3e1a0aa",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Locations of Red Light Violation Detection Systems in Ranchi city",
+               "description": "Data attribute details for locations of Red Light Violation Detection Systems in Ranchi city.",
+               "name": {
+                    "description": "Name of the RLVD system corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Ranchi city at which RLVD system is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of RLVD system corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               }
+          },
+          "dataSample": {
+               "name": "RLVD - Kishore Yadav Chowk",
+               "address": "Kishore Yadav Chowk, Ranchi",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.31746,
+                         23.37853
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ranchi/ranchi-rlvd-locations.json",
+                    "name": "Ranchi RLVD Camera Locations Sample ",
+                    "description": "Sample file for red light violation detection camera locations in Ranchi city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Ranchi, Jharkhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   85.260189,
+                                   23.493811
+                              ],
+                              [
+                                   85.189665,
+                                   23.326544
+                              ],
+                              [
+                                   85.272605,
+                                   23.22663
+                              ],
+                              [
+                                   85.4216,
+                                   23.251274
+                              ],
+                              [
+                                   85.485668,
+                                   23.414989
+                              ],
+                              [
+                                   85.398258,
+                                   23.517949
+                              ],
+                              [
+                                   85.260189,
+                                   23.493811
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "ranchi",
+          "ownerUserId": "5eeab92e-c3a0-400a-bcdc-8b4c46060e14",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T03:05:11+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "ca914090-6714-41d3-bd14-48ebdcb7b848",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ranchi-atcs-loc",
+          "label": "Adaptive Traffic Control Systems Junction Locations in Ranchi City",
+          "description": "The physical coordinates of Adaptive Traffic Control System (ATCS) junction locations in Ranchi City.",
+          "tags": [
+               "sensors",
+               "junction",
+               "traffic",
+               "atcs",
+               "adaptive traffic"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "0a9052d8-9132-4372-b53d-61e1773c1f2e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "30b28625-57a4-450e-a605-58b2c3e1a0aa",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Adaptive Traffic Control System (ATCS) in Ranchi City",
+               "description": "Data attribute details for Adaptive Traffic Control System (ATCS) camera locations in Ranchi city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Ranchi city at which Adaptive Traffic Control System (ATCS) camera is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the Adaptive Traffic Control System (ATCS) camera location in Ranchi City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the camera corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "ATCS - Patel Chowk",
+               "address": "Patel Chowk, Ranchi",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.30396,
+                         23.35659
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ranchi/ranchi-atcs-locations.json",
+                    "name": "Ranchi ATCS Camera installed locations sample",
+                    "description": "Sample file for ATCS Camera installed in Ranchi city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Ranchi, Jharkhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   85.260189,
+                                   23.493811
+                              ],
+                              [
+                                   85.189665,
+                                   23.326544
+                              ],
+                              [
+                                   85.272605,
+                                   23.22663
+                              ],
+                              [
+                                   85.4216,
+                                   23.251274
+                              ],
+                              [
+                                   85.485668,
+                                   23.414989
+                              ],
+                              [
+                                   85.398258,
+                                   23.517949
+                              ],
+                              [
+                                   85.260189,
+                                   23.493811
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "ranchi",
+          "ownerUserId": "5eeab92e-c3a0-400a-bcdc-8b4c46060e14",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T03:02:47+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "09592479-8a37-42de-8b0c-ea249f9ade3c",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ranchi-pa-locations",
+          "label": "Public Addressing Systems Locations in Ranchi City",
+          "description": "The physical coordinates of Public Addressing (PA) system locations in Ranchi city.",
+          "tags": [
+               "public addressing",
+               "locality",
+               "public message",
+               "public awareness",
+               "emergency message",
+               "monitor",
+               "speaking",
+               "broadcast",
+               "addressing"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "0a9052d8-9132-4372-b53d-61e1773c1f2e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "30b28625-57a4-450e-a605-58b2c3e1a0aa",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Public Addressing(PA) Systems in Ranchi City",
+               "description": "Data attribute details for public addressing systems in Ranchi city",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Ranchi city at which the Public Addressing (PA) Systems are located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Coordinates of the Public Addressing (PA) Systems in Ranchi city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the Public Addressing System location in Ranchi city",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "PA - Premsons Road Mandir Chowk",
+               "address": "Premsons Road Mandir Chowk, Ranchi",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.31122,
+                         23.36952
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ranchi/ranchi-pa-locations.json",
+                    "name": "Ranchi Public Addressing (PA) Systems Locations sample",
+                    "description": "Sample file for Public Addressing (PA) systems installed in Ranchi city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Ranchi, Jharkhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   85.260189,
+                                   23.493811
+                              ],
+                              [
+                                   85.189665,
+                                   23.326544
+                              ],
+                              [
+                                   85.272605,
+                                   23.22663
+                              ],
+                              [
+                                   85.4216,
+                                   23.251274
+                              ],
+                              [
+                                   85.485668,
+                                   23.414989
+                              ],
+                              [
+                                   85.398258,
+                                   23.517949
+                              ],
+                              [
+                                   85.260189,
+                                   23.493811
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "ranchi",
+          "ownerUserId": "5eeab92e-c3a0-400a-bcdc-8b4c46060e14",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T03:05:05+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "bd025692-3140-49f7-b746-3790433f2a9b",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ranchi-cctv-locations",
+          "label": "Surveillance Camera Locations in Ranchi City",
+          "description": "The physical coordinates of surveillance cameras installed in Ranchi city.",
+          "tags": [
+               "camera",
+               "cctv",
+               "location",
+               "surveillance",
+               "junction",
+               "locations",
+               "point of interest",
+               "places"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "0a9052d8-9132-4372-b53d-61e1773c1f2e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "30b28625-57a4-450e-a605-58b2c3e1a0aa",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Surveillance Camera Locations in Ranchi City.",
+               "description": "Data attribute details for surveillance camera locations in Ranchi city.",
+               "name": {
+                    "description": "Name of the surveillance camera location corresponding to this observation",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality at which the surveillance camera is located in Ranchi city.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the surveillance camera corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               }
+          },
+          "dataSample": {
+               "name": "CCTV - KANTATOLI CHOWK",
+               "address": "KANTATOLI CHOWK, Ranchi",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.345,
+                         23.36462
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ranchi/ranchi-cctv-locations.json",
+                    "name": "Ranchi Surveillance Camera Installed Locations Sample",
+                    "description": "Sample file for surveillance camera installed in Ranchi city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Ranchi, Jharkhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   85.260189,
+                                   23.493811
+                              ],
+                              [
+                                   85.189665,
+                                   23.326544
+                              ],
+                              [
+                                   85.272605,
+                                   23.22663
+                              ],
+                              [
+                                   85.4216,
+                                   23.251274
+                              ],
+                              [
+                                   85.485668,
+                                   23.414989
+                              ],
+                              [
+                                   85.398258,
+                                   23.517949
+                              ],
+                              [
+                                   85.260189,
+                                   23.493811
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "ranchi",
+          "ownerUserId": "5eeab92e-c3a0-400a-bcdc-8b4c46060e14",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T03:03:07+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "5c7ef55c-8419-4d11-8e49-e2af5a1f2d14",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ranchi-vmsb-locations",
+          "label": "Variable Messaging Sign Board Locations in Ranchi City",
+          "description": "The physical coordinates of Variable Messaging Sign Board (VMSB) locations,installed in Ranchi City",
+          "tags": [
+               "locations",
+               "point of interest",
+               "places",
+               "variable message",
+               "display",
+               "public display",
+               "caution",
+               "information",
+               "digital",
+               "message board",
+               "vmsb"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "0a9052d8-9132-4372-b53d-61e1773c1f2e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "30b28625-57a4-450e-a605-58b2c3e1a0aa",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Variable Messaging Sign Board (VMSB) Locations in Ranchi city",
+               "description": "Data attribute details for variable messaging sign board locations in Ranchi city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Ranchi city at which variable messaging sign board (VMSB) is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of the variable messaging sign board (VMSB) corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the variable messaging sign board (VMSB) corresponding to this observation",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "VMSB - Kishore Yadav Chowk",
+               "address": "Kishore Yadav Chowk, Ranchi",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.31746,
+                         23.37853
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/Ranchi/Ranchi-vmsb-locations.json",
+                    "name": "Ranchi VMSB Locations Sample",
+                    "description": "Sample file for Ranchi VMSB Locations.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Ranchi, Jharkhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   85.260189,
+                                   23.493811
+                              ],
+                              [
+                                   85.189665,
+                                   23.326544
+                              ],
+                              [
+                                   85.272605,
+                                   23.22663
+                              ],
+                              [
+                                   85.4216,
+                                   23.251274
+                              ],
+                              [
+                                   85.485668,
+                                   23.414989
+                              ],
+                              [
+                                   85.398258,
+                                   23.517949
+                              ],
+                              [
+                                   85.260189,
+                                   23.493811
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "ranchi",
+          "ownerUserId": "5eeab92e-c3a0-400a-bcdc-8b4c46060e14",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T03:05:34+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "1aa50a76-a603-4eff-8a4d-307d19aefb9e",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ranchi-svd-locations",
+          "label": "Speed Violation Detection Camera Locations in Ranchi City",
+          "description": "The physical coordinates of SVD camera's installed in Ranchi City.",
+          "tags": [
+               "svd",
+               "camera",
+               "traffic management",
+               "transit management",
+               "speed violation",
+               "traffic violation",
+               "locations",
+               "junctions"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "0a9052d8-9132-4372-b53d-61e1773c1f2e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "30b28625-57a4-450e-a605-58b2c3e1a0aa",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Locations of Speed Violation Detection Systems in Ranchi city",
+               "description": "Data attribute details for locations of Speed Violation Detection Systems in Ranchi city.",
+               "name": {
+                    "description": "Name of the SVD system corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Ranchi city at which SVD system is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of SVD system corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               }
+          },
+          "dataSample": {
+               "name": "SVD - Mesra Railway Overbgidge to DPS Greater Ranchi",
+               "address": "Mesra Railway Overbgidge to DPS Greater Ranchi, Ranchi",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.41683,
+                         23.43556
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ranchi/ranchi-svd-locations.json",
+                    "name": "Ranchi SVD Camera Locations Sample ",
+                    "description": "Sample file for speed violation detection camera locations in Ranchi city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Ranchi, Jharkhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   85.260189,
+                                   23.493811
+                              ],
+                              [
+                                   85.189665,
+                                   23.326544
+                              ],
+                              [
+                                   85.272605,
+                                   23.22663
+                              ],
+                              [
+                                   85.4216,
+                                   23.251274
+                              ],
+                              [
+                                   85.485668,
+                                   23.414989
+                              ],
+                              [
+                                   85.398258,
+                                   23.517949
+                              ],
+                              [
+                                   85.260189,
+                                   23.493811
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "ranchi",
+          "ownerUserId": "5eeab92e-c3a0-400a-bcdc-8b4c46060e14",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T03:05:26+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "fc0d0cf7-8536-494c-87a8-c0ecbc215736",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "dehradun-pa-locations",
+          "label": "Public Addressing Systems Locations in Dehradun City",
+          "description": "The physical coordinates of Public Addressing (PA) system locations in Dehradun city.",
+          "tags": [
+               "public addressing",
+               "locality",
+               "public message",
+               "public awareness",
+               "emergency message",
+               "monitor",
+               "speaking",
+               "broadcast",
+               "addressing"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "2d3b73ac-0ac8-4692-94c7-20ae94dbe748",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "ffae6e54-44ff-4b9e-a112-089e157c5824",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Public Addressing Systems (PA) Locations in Dehradun City",
+               "description": "Data attribute details for public addressing systems locations in Dehradun city",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality at which the public addressing system (PA) is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of public addressing system (PA) corresponding to this observation",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the public addressing system (PA) corresponding to this observation",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "PA - MS PAS PACIFIC MALL",
+               "address": "MS PAS PACIFIC MALL",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         78.0703,
+                         30.3665
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/dehradun/dehradun-pa-locations.json",
+                    "name": "Dehradun Public Addressing System Installed Locations Sample",
+                    "description": "Sample file for public addressing system locations installed in Dehradun city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Dehradun, Uttarakhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.024518,
+                                   30.379638
+                              ],
+                              [
+                                   77.969259,
+                                   30.32382
+                              ],
+                              [
+                                   77.985537,
+                                   30.270561
+                              ],
+                              [
+                                   78.05279,
+                                   30.271301
+                              ],
+                              [
+                                   78.103765,
+                                   30.327148
+                              ],
+                              [
+                                   78.086202,
+                                   30.382964
+                              ],
+                              [
+                                   78.024518,
+                                   30.379638
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "dehradun",
+          "ownerUserId": "eee2cbb7-d223-4342-8e9b-a41804c4252f",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T05:44:04+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "65d59e98-ede7-4919-89fc-204e97469ff4",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "dehradun-vmd-locations",
+          "label": "Variable Message Displays Locations in Dehradun City",
+          "description": "The physical coordinates of Variable Message Displays (VMD) locations in Dehradun city.",
+          "tags": [
+               "variable message",
+               "display",
+               "public display",
+               "caution",
+               "information",
+               "digital",
+               "message board"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "2d3b73ac-0ac8-4692-94c7-20ae94dbe748",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "ffae6e54-44ff-4b9e-a112-089e157c5824",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Variable Message Display (VMD) Locations in Dehradun city",
+               "description": "Data attribute details for Variable Message Display (VMD) locations in Dehradun city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Dehradun city at which the variable message (VMD) display is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the variable message display (VMD) locations in Dehradun city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the variable message display (VMD) system in Dehradun city",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "VMD - Vijay Colony New Cantt Road Bus Stand",
+               "address": "Vijay Colony New Cantt Road Bus Stand",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         78.0459977,
+                         30.3472186
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/dehradun/dehradun-vmd-locations.json",
+                    "name": "Dehradun Variable Message Display Systems Locations sample",
+                    "description": "Sample file for variable message display systems locations in Dehradun city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Dehradun, Uttarakhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.024518,
+                                   30.379638
+                              ],
+                              [
+                                   77.969259,
+                                   30.32382
+                              ],
+                              [
+                                   77.985537,
+                                   30.270561
+                              ],
+                              [
+                                   78.05279,
+                                   30.271301
+                              ],
+                              [
+                                   78.103765,
+                                   30.327148
+                              ],
+                              [
+                                   78.086202,
+                                   30.382964
+                              ],
+                              [
+                                   78.024518,
+                                   30.379638
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "dehradun",
+          "ownerUserId": "eee2cbb7-d223-4342-8e9b-a41804c4252f",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T05:44:26+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "29741308-0fb0-470c-8903-a38d1df7567d",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "dehradun-ecb-locations",
+          "label": "Emergency Call Boxes Locations in Dehradun City",
+          "description": "The physical coordinates of Emergency Call Box (ECB) system locations in Dehradun city.",
+          "tags": [
+               "ecb",
+               "sos",
+               "call box",
+               "emergency call",
+               "emergency booth",
+               "call booth",
+               "phone",
+               "locality"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "2d3b73ac-0ac8-4692-94c7-20ae94dbe748",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "ffae6e54-44ff-4b9e-a112-089e157c5824",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for ECB Systems in Dehradun City",
+               "description": "Data attribute details for Emergency Call Box Systems in Dehradun City",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Dehradun city at which the Emergency Call Box (ECB) System is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Coordinates of the Emergency Call Box (ECB) System in Dehradun City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the Emergency Call Box location in Dehradun City",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "ECB - Shahanshahi Ashram Old Mussorie Road Bus Stand",
+               "address": "Shahanshahi Ashram Old Mussorie Road Bus Stand",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         78.0921826,
+                         30.4012433
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/dehradun/dehradun-ecb-locations.json",
+                    "name": "Dehradun ECB Locations Sample",
+                    "description": "Sample file for Dehradun emergency call boxes locations.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Dehradun, Uttarakhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.024518,
+                                   30.379638
+                              ],
+                              [
+                                   77.969259,
+                                   30.32382
+                              ],
+                              [
+                                   77.985537,
+                                   30.270561
+                              ],
+                              [
+                                   78.05279,
+                                   30.271301
+                              ],
+                              [
+                                   78.103765,
+                                   30.327148
+                              ],
+                              [
+                                   78.086202,
+                                   30.382964
+                              ],
+                              [
+                                   78.024518,
+                                   30.379638
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "dehradun",
+          "ownerUserId": "eee2cbb7-d223-4342-8e9b-a41804c4252f",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T05:37:29+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "8a8577d7-2dcf-4890-af14-92cbaa3c7ce9",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "dehradun-wifi-locations",
+          "label": "WiFi Hotspots Locations in Dehradun City",
+          "description": "The physical coordinates of WiFi Hotspot locations in Dehradun city.",
+          "tags": [
+               "WiFi",
+               "WiFi zone",
+               "hotspot",
+               "internet",
+               "WiFi access",
+               "WiFi location",
+               "WiFi near me",
+               "wireless internet access"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "2d3b73ac-0ac8-4692-94c7-20ae94dbe748",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "ffae6e54-44ff-4b9e-a112-089e157c5824",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Wi-Fi Hotspot Zones in Dehradun City",
+               "description": "Data attribute details for Wi-Fi hotspot zones in Dehradun City.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Dehradun city at which the Wi-Fi Hotspot is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Coordinates of the Wi-Fi Hotspot location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the Wi-Fi Hotspot location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "Wi-Fi Hotspot - Purani Chungi Bypass 2",
+               "address": "Purani Chungi Bypass 2",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         78.03955,
+                         30.28969
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/dehradun/dehradun-wifi-locations.json",
+                    "name": "Dehradun Wi-Fi Hotspot Locations Sample",
+                    "description": "Sample file for Wi-Fi Hotspot locations in Dehradun city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Dehradun, Uttarakhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.024518,
+                                   30.379638
+                              ],
+                              [
+                                   77.969259,
+                                   30.32382
+                              ],
+                              [
+                                   77.985537,
+                                   30.270561
+                              ],
+                              [
+                                   78.05279,
+                                   30.271301
+                              ],
+                              [
+                                   78.103765,
+                                   30.327148
+                              ],
+                              [
+                                   78.086202,
+                                   30.382964
+                              ],
+                              [
+                                   78.024518,
+                                   30.379638
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "dehradun",
+          "ownerUserId": "eee2cbb7-d223-4342-8e9b-a41804c4252f",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T05:45:03+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "856c3292-e71c-4607-a317-49633d655697",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "indore-pa-locations",
+          "label": "Public Addressing Systems Locations in Indore City",
+          "description": "The physical coordinates of Public Addressing (PA) system locations in Indore city.",
+          "tags": [
+               "public addressing",
+               "locality",
+               "public message",
+               "public awareness",
+               "emergency message",
+               "monitor",
+               "speaking",
+               "broadcast",
+               "addressing"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "7828574b-ff21-4049-94b7-a671ad42a5a6",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "38bf53e7-a13e-433f-808e-6708c7484d51",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Public Addressing Systems (PA) Locations in Indore City",
+               "description": "Data attribute details for public addressing systems locations in Indore city",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality at which the public addressing system (PA) is located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "The physical coordinates of public addressing system (PA) corresponding to this observation",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the public addressing system (PA) corresponding to this observation",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "PA - Shivaji Vatika",
+               "address": "Shivaji Vatika",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         75.882753,
+                         22.711737
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/indore/indore-pa-locations.json",
+                    "name": "Indore Public Addressing System Installed Locations Sample",
+                    "description": "Sample file for public addressing system locations installed in Indore city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Indore, Madhaya Pradesh",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   75.792175,
+                                   22.796246
+                              ],
+                              [
+                                   75.752865,
+                                   22.676815
+                              ],
+                              [
+                                   75.82108,
+                                   22.606387
+                              ],
+                              [
+                                   75.909336,
+                                   22.639472
+                              ],
+                              [
+                                   75.944793,
+                                   22.75467
+                              ],
+                              [
+                                   75.885827,
+                                   22.818273
+                              ],
+                              [
+                                   75.792175,
+                                   22.796246
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "indore",
+          "ownerUserId": "16c5a62c-ae2b-4cc9-85f0-691fc9cd1cbe",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T05:59:34+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "5dcb62e6-3b8c-4318-89ce-43b95c165bef",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "indore-vmd-locations",
+          "label": "Variable Message Displays Locations in Indore City",
+          "description": "The physical coordinates of Variable Message Displays (VMD) locations in Indore city.",
+          "tags": [
+               "variable message",
+               "display",
+               "public display",
+               "caution",
+               "information",
+               "digital",
+               "message board",
+               "billboard"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "7828574b-ff21-4049-94b7-a671ad42a5a6",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "38bf53e7-a13e-433f-808e-6708c7484d51",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Variable Message Displays (VMD) Location in Indore City",
+               "description": "Data attribute details for Variable Message Displays (VMD) in Indore city.",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality at which the variable message display (VMD) is located in Indore city",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the variable message display (VMD) locations in Indore city.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the variable message display system (VMD) in Indore city",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "VMD - Kalani Nagar Square/Airport Road",
+               "address": "Kalani Nagar Square/Airport Road",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         75.814909,
+                         22.729171
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/indore/indore-vmd-locations.json",
+                    "name": "Indore variable message displays locations sample",
+                    "description": "Sample file for variable message displays locations in Indore city",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Indore, Madhaya Pradesh",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   75.792175,
+                                   22.796246
+                              ],
+                              [
+                                   75.752865,
+                                   22.676815
+                              ],
+                              [
+                                   75.82108,
+                                   22.606387
+                              ],
+                              [
+                                   75.909336,
+                                   22.639472
+                              ],
+                              [
+                                   75.944793,
+                                   22.75467
+                              ],
+                              [
+                                   75.885827,
+                                   22.818273
+                              ],
+                              [
+                                   75.792175,
+                                   22.796246
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "indore",
+          "ownerUserId": "16c5a62c-ae2b-4cc9-85f0-691fc9cd1cbe",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T06:00:12+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "3d4d594b-82c2-45b5-bec9-207a86795241",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "ranchi-ecb-locations",
+          "label": "Emergency Call Boxes Locations in Ranchi City",
+          "description": "The physical coordinates of Emergency Call Box (ECB) systems locations in Ranchi city.",
+          "tags": [
+               "ecb",
+               "sos",
+               "call box",
+               "emergency call",
+               "emergency booth",
+               "call booth",
+               "phone",
+               "locality"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "0a9052d8-9132-4372-b53d-61e1773c1f2e",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "30b28625-57a4-450e-a605-58b2c3e1a0aa",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for ECB Systems in Ranchi City",
+               "description": "Data attribute details for  Emergency Call Box Systems in Ranchi City",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Ranchi city at which the Emergency Call Box (ECB) Systems are located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Coordinates of the Emergency Call Box (ECB) Systems in Ranchi City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the Emergency Call Box location in Ranchi City",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "ECB - Meenakshi Talkies",
+               "address": "Meenakshi Talkies, Ranchi",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         85.31075,
+                         23.37566
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/ranchi/ranchi-ecb-locations.json",
+                    "name": "Ranchi Emergency Call Boxes Installed Locations Sample",
+                    "description": "Sample file for emergency call boxes installed in Ranchi city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Ranchi, Jharkhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   85.260189,
+                                   23.493811
+                              ],
+                              [
+                                   85.189665,
+                                   23.326544
+                              ],
+                              [
+                                   85.272605,
+                                   23.22663
+                              ],
+                              [
+                                   85.4216,
+                                   23.251274
+                              ],
+                              [
+                                   85.485668,
+                                   23.414989
+                              ],
+                              [
+                                   85.398258,
+                                   23.517949
+                              ],
+                              [
+                                   85.260189,
+                                   23.493811
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "ranchi",
+          "ownerUserId": "5eeab92e-c3a0-400a-bcdc-8b4c46060e14",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-20T06:05:29+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "abe0b4a2-ced4-4857-9a88-f691f5234359",
+          "type": [
+               "iudx:Resource",
+               "iudx:RoadSegment"
+          ],
+          "name": "traffic-density-live",
+          "label": "Realtime Info of Vehicle Count and Vehicle Density in Lucknow City",
+          "description": "Publishes realtime information at an interval of every 5 minutes on the number of vehicles and road occupancy of different vehicle types, plying through the junction lanes, as aggregated over the past 5 minutes in Lucknow city.",
+          "tags": [
+               "vehicle count",
+               "congestion",
+               "occupancy",
+               "road segment",
+               "junction",
+               "road",
+               "lane",
+               "vehicle types",
+               "zone",
+               "junction mode",
+               "road congestion",
+               "traffic density"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "f51fec55-3086-4afd-b5c1-7de524d9d133",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "d410df99-5381-47c5-aa18-3f0b7ded056e",
+          "resourceType": "MESSAGESTREAM",
+          "iudxResourceAPIs": [
+               "TEMPORAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:RoadSegment"
+               ],
+               "dataDescriptorLabel": "Data Attributes for Realtime Traffic Density information in Lucknow city",
+               "description": "Data attribute details for realtime traffic density information in Lucknow city.",
+               "junctionID": {
+                    "description": "The unique code representing the traffic junction corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "roadID": {
+                    "description": "The unique code representing the junction lane corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "zoneID": {
+                    "description": "Each junction lane is divided into multiple zones. This field gives the unique code of the zone bifurcation corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "vehicleTypeCount": {
+                    "description": "Represents the count of vehicles, detected over the last 5 minutes, for each vehicle type passing through the zone of junction lane corresponding to this observation. The vehicle types considered are 'motorbike', 'lmv' (Light Motor Vehicles), 'hmv' (Heavy Motor Vehicles), 'scv' (Small Commercial Vehicle), 'autoRickshaw' and 'eRickshaw'. Vehicle detector cameras which work on image processing techniques are used to capture the count. Vehicle detectors detect vehicle counts from the virtual zones created in the field of view of each camera.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Object"
+               },
+               "vehicleCount": {
+                    "description": "Sum of count of all vehicle types detected in the past 5 minutes within the zone of junction lane corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "unitCode": "C62",
+                    "unitText": "Dimensionless",
+                    "dataSchema": "iudx:Number"
+               },
+               "roadOccupancy": {
+                    "description": "Percentage of the junction lane occupied by vehicles, in the last 5 minutes, corresponding to this observation. The value is to be multiplied by 100 to get the percentage. The distance of the junction lane can be retrieved from the static dataset.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "unitCode": "P1",
+                    "unitText": "percent",
+                    "dataSchema": "iudx:Number"
+               },
+               "junctionMode": {
+                    "description": "Represents the current operational mode of the traffic junction corresponding to this observation. It takes up values like 'FLSH' (Flash), 'ATFXFXNO' (Fixed Time Fixed CT), 'ATFXFXVA' (Fixed Time + 'VA'), 'ATATFXNO' 'ATFLO (Fixed CT)', 'LOFF' (Lamps Off), 'MOPR' (Manual Operation), 'ARED' (All Red)  etc.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "description": "Last reported time of observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "junctionID": "J128",
+               "roadID": "L01",
+               "zoneID": "01",
+               "vehicleTypeCount": {
+                    "motorbike": 17,
+                    "lmv": 83,
+                    "hmv": 40,
+                    "scv": 0,
+                    "autoRickshaw": 0,
+                    "eRickshaw": 0
+               },
+               "vehicleCount": 140,
+               "roadOccupancy": 0.4667,
+               "junctionMode": "LOFLVA",
+               "observationDateTime": "2024-02-16T13:55:00+05:30"
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/lucknow/lucknow_road_traffic_density.json",
+                    "name": "Lucknow Realtime Traffic Density information sample",
+                    "description": "Sample file for Road Traffic Density in Lucknow city.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Lucknow, Uttar Pradesh",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   80.880364,
+                                   26.881087
+                              ],
+                              [
+                                   80.858754,
+                                   26.825002
+                              ],
+                              [
+                                   80.931441,
+                                   26.782335
+                              ],
+                              [
+                                   81.013951,
+                                   26.802793
+                              ],
+                              [
+                                   81.017225,
+                                   26.862395
+                              ],
+                              [
+                                   80.97728,
+                                   26.901528
+                              ],
+                              [
+                                   80.904593,
+                                   26.918462
+                              ],
+                              [
+                                   80.880364,
+                                   26.881087
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "lucknow",
+          "ownerUserId": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-21T02:44:55+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "e0fb4468-3c9e-4a90-a60a-5c22b573ea1a",
+          "type": [
+               "iudx:Resource",
+               "iudx:RoadSegment"
+          ],
+          "name": "lucknow-junction-locations",
+          "label": "Junction Locations in Lucknow City",
+          "description": "The physical coordinates of junction locations in Lucknow City.",
+          "tags": [
+               "sensors",
+               "junction",
+               "zone",
+               "junction mode",
+               "road congestion",
+               "traffic density"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "f51fec55-3086-4afd-b5c1-7de524d9d133",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "d410df99-5381-47c5-aa18-3f0b7ded056e",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "TEMPORAL",
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:RoadSegment"
+               ],
+               "dataDescriptorLabel": "Data Attributes forJunction Locations in Lucknow City",
+               "description": "Data attribute details for junction locations in Lucknow City.",
+               "junctionName": {
+                    "description": "The name of the road junction corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "junctionID": {
+                    "description": "Unique representation of the junction corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the adaptive traffic control system (ATCS) corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "observationDateTime": {
+                    "description": "Last reported time of observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "junctionID": "J002",
+               "junctionName": "PS Dhoomanganj Chauraha",
+               "location": {
+                    "type": "point",
+                    "coordinates": [
+                         81.7793,
+                         25.449
+                    ],
+                    "observationDateTime": "2021-03-22T16:11:12+05:30"
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/lucknow/lucknow-atcs-junction-locations.json",
+                    "name": "Lucknow ATCS Junction Locations Sample",
+                    "description": "Sample file for Lucknow ATCS junction locations.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Lucknow, Uttar Pradesh",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   80.880364,
+                                   26.881087
+                              ],
+                              [
+                                   80.858754,
+                                   26.825002
+                              ],
+                              [
+                                   80.931441,
+                                   26.782335
+                              ],
+                              [
+                                   81.013951,
+                                   26.802793
+                              ],
+                              [
+                                   81.017225,
+                                   26.862395
+                              ],
+                              [
+                                   80.97728,
+                                   26.901528
+                              ],
+                              [
+                                   80.904593,
+                                   26.918462
+                              ],
+                              [
+                                   80.880364,
+                                   26.881087
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "lucknow",
+          "ownerUserId": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-21T02:50:14+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "96ef9b27-23cf-4cec-b05c-bf1682f46675",
+          "type": [
+               "iudx:Resource",
+               "iudx:GISData"
+          ],
+          "name": "dehradun-gis-layers",
+          "label": "GIS Layers in Dehradun City",
+          "description": "Publishes geographic information system data layers for the following sectors in Dehradun city: Boundaries, Public Services, Religious Places, Education Services, Health Services, Tourism Services, Recreation, Transportation, Water Bodies, Water Line Services, Sewage Services, Drainage.",
+          "tags": [
+               "water",
+               "road",
+               "pipeline",
+               "reservoir",
+               "tank",
+               "gis",
+               "layers",
+               "geo",
+               "arcgis",
+               "boundary",
+               "zone",
+               "zones",
+               "worship",
+               "places",
+               "transport",
+               "parking",
+               "service"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "2d3b73ac-0ac8-4692-94c7-20ae94dbe748",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "c62b13b7-a37a-4963-837a-d0e942f1f1c4",
+          "resourceType": "GIS",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:GISData"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for GIS data in Dehradun City",
+               "description": "Data attributes of Dehradun GIS layers.",
+               "gisServerURL": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The Geographic Information System (GIS) Server's Home Page URL. Consumer has to click on 'Guest User' button located at the bottom of the screen to view the GIS data layer.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "gisServerURL": "https://gis.uk.gov.in/",
+               "observationDateTime": "2024-02-03T11:41:14+5:30"
+          },
+          "location": {
+               "address": "Dehradun, Uttarakhand",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "dehradun",
+          "ownerUserId": "eee2cbb7-d223-4342-8e9b-a41804c4252f",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-21T02:28:07+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "11f195d2-95f8-4c6f-892f-6eeb7036f05a",
+          "type": [
+               "iudx:Resource",
+               "iudx:GISData"
+          ],
+          "name": "gis-layer",
+          "label": "GIS Layers in Lucknow City",
+          "description": "Publishes geographic information system data layers for the following sectors in Lucknow city: Boundaries, Public Services, Religious Places, Education Services, Health Services, Tourism Services, Recreation, Transportation, Water Bodies, Water Line Services, Sewage Services, Drainage.",
+          "tags": [
+               "water",
+               "road",
+               "pipeline",
+               "reservoir",
+               "tank",
+               "gis",
+               "layers",
+               "geo",
+               "arcgis",
+               "boundary",
+               "zone",
+               "zones",
+               "worship",
+               "places",
+               "transport",
+               "parking",
+               "service"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "f51fec55-3086-4afd-b5c1-7de524d9d133",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "0582d3dc-bfee-44dd-80a1-d9e749ddf3a0",
+          "resourceType": "GIS",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:GISData"
+               ],
+               "dataDescriptorLabel": "GIS data in Lucknow City",
+               "description": "Data Descriptor for all Lucknow GIS layers.",
+               "gisServerURL": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The Geographic Information System (GIS) Server's Home Page URL. Consumer has to click on 'Guest User' button located at the bottom of the screen to view the GIS data layer.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "gisServerURL": "https://lsc.in/GIS/Portal/Home",
+               "observationDateTime": "2023-10-03T11:41:14+5:30"
+          },
+          "location": {
+               "address": "Lucknow, Uttar Pradesh",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "lucknow",
+          "ownerUserId": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-21T12:27:52+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "b3469812-55eb-491c-aa34-a896e8a419c3",
+          "type": [
+               "iudx:Resource",
+               "iudx:RoadSegment"
+          ],
+          "name": "lucknow-lane-locations",
+          "label": "Lane Locations in Lucknow City",
+          "description": "The physical coordinates of lane locations in Lucknow City.",
+          "tags": [
+               "sensors",
+               "Lane",
+               "junction mode",
+               "road congestion",
+               "traffic density"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "f51fec55-3086-4afd-b5c1-7de524d9d133",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "d410df99-5381-47c5-aa18-3f0b7ded056e",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "TEMPORAL",
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "Temporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:RoadSegment"
+               ],
+               "dataDescriptorLabel": "Data Attributes for Lane  Locations in Lucknow City",
+               "description": "Data attribute details for adaptive traffic control system locations in Lucknow City.",
+               "junctionID": {
+                    "description": "Unique representation of the junction corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "roadID": {
+                    "description": "Unique representation of the road corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "roadName": {
+                    "description": "Road name of the Lane location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               },
+               "carriagewayLength": {
+                    "description": "Total length of the carriage way of the road segment corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Number"
+               },
+               "location": {
+                    "description": "Physical coordinates of the Lane location corresponding to this observation.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:LineString"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "junctionID": "J001",
+               "roadID": "L03",
+               "roadName": "From Rambagh",
+               "carriagewayLength": 101.15,
+               "location": [
+                    [
+                         81.86202224184984,
+                         25.439878631646486
+                    ],
+                    [
+                         81.86192586465862,
+                         25.43984903733929
+                    ],
+                    [
+                         81.8617023121429,
+                         25.43978018661513
+                    ],
+                    [
+                         81.86105119138114,
+                         25.439579748477936
+                    ]
+               ],
+               "observationDateTime": "2021-03-22T16:11:12+05:30"
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/lucknow/lucknow-Lane-locations.json",
+                    "name": "Lucknow Lane Locations Sample",
+                    "description": "Sample file for Lucknow Lane locations.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Lucknow, Uttar Pradesh",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   80.880364,
+                                   26.881087
+                              ],
+                              [
+                                   80.858754,
+                                   26.825002
+                              ],
+                              [
+                                   80.931441,
+                                   26.782335
+                              ],
+                              [
+                                   81.013951,
+                                   26.802793
+                              ],
+                              [
+                                   81.017225,
+                                   26.862395
+                              ],
+                              [
+                                   80.97728,
+                                   26.901528
+                              ],
+                              [
+                                   80.904593,
+                                   26.918462
+                              ],
+                              [
+                                   80.880364,
+                                   26.881087
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "lucknow",
+          "ownerUserId": "d77abe8f-35d3-489c-977f-e03e03a272fb",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-21T02:50:30+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d4a86dd1-6e82-4f38-b5a0-70f76fd39775",
+          "type": [
+               "iudx:Resource",
+               "iudx:PointOfInterest"
+          ],
+          "name": "dehradun-itms-locations",
+          "label": "Integrated Traffic Management System Locations in Dehradun City",
+          "description": "The physical coordinates of Integrated Traffic Management System locations in Dehradun city.",
+          "tags": [
+               "itms",
+               "traffic",
+               "itms",
+               "rlvd",
+               "anpr",
+               "red light violation",
+               "number plate",
+               "violation",
+               "violation detection"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "2d3b73ac-0ac8-4692-94c7-20ae94dbe748",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "ffae6e54-44ff-4b9e-a112-089e157c5824",
+          "resourceType": "GSLAYER",
+          "iudxResourceAPIs": [
+               "SPATIAL",
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:PointOfInterest"
+               ],
+               "dataDescriptorLabel": "Data Descriptor for Integrated Traffic Management System Locations in Dehradun City",
+               "description": "Data attribute details for integrated traffic management system locations in Dehradun City",
+               "address": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Name of the area or locality in Dehradun city at which the Integrated Traffic Management System are located.",
+                    "dataSchema": "iudx:Text"
+               },
+               "location": {
+                    "description": "Physical coordinates of the Integrated Traffic Management System in Dehradun City.",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Point"
+               },
+               "name": {
+                    "description": "Name of the Integrated Traffic Management System location in Dehradun City",
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "dataSchema": "iudx:Text"
+               }
+          },
+          "dataSample": {
+               "name": "ITMS - Board of Revenue Towards 6 No puliya",
+               "address": "Board of Revenue Towards 6 No puliya",
+               "location": {
+                    "type": "Point",
+                    "coordinates": [
+                         78.075504,
+                         30.305523
+                    ]
+               }
+          },
+          "dataSampleFile": [
+               {
+                    "hasObject": "https://fs-sample-file-bucket.s3.ap-south-1.amazonaws.com/public-access/dehradun/dehradun-itms-locations.json",
+                    "name": "Dehradun Integrated Traffic Management System Locations Sample",
+                    "description": "Sample file for Dehradun integrated traffic management system Locations.",
+                    "relationType": "REL_FILE"
+               }
+          ],
+          "location": {
+               "type": "Place",
+               "address": "Dehradun, Uttarakhand",
+               "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                         [
+                              [
+                                   78.024518,
+                                   30.379638
+                              ],
+                              [
+                                   77.969259,
+                                   30.32382
+                              ],
+                              [
+                                   77.985537,
+                                   30.270561
+                              ],
+                              [
+                                   78.05279,
+                                   30.271301
+                              ],
+                              [
+                                   78.103765,
+                                   30.327148
+                              ],
+                              [
+                                   78.086202,
+                                   30.382964
+                              ],
+                              [
+                                   78.024518,
+                                   30.379638
+                              ]
+                         ]
+                    ]
+               }
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "dehradun",
+          "ownerUserId": "eee2cbb7-d223-4342-8e9b-a41804c4252f",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-21T05:38:44+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "id": "d3acd316-cff6-443b-8589-16ce30bb38e0",
+          "type": [
+               "iudx:Resource",
+               "iudx:GISData"
+          ],
+          "name": "indore-gis-layer",
+          "label": "GIS Layers in Indore City",
+          "description": "Publishes geographic information system data layers for the following sectors in Indore city: Boundaries, Public Services, Religious Places, Education Services, Health Services, Tourism Services, Recreation, Transportation, Water Bodies, Water Line Services, Sewage Services, Drainage.",
+          "tags": [
+               "water",
+               "road",
+               "pipeline",
+               "reservoir",
+               "tank",
+               "gis",
+               "layers",
+               "geo",
+               "arcgis",
+               "boundary",
+               "zone",
+               "zones",
+               "worship",
+               "places",
+               "transport",
+               "parking",
+               "service"
+          ],
+          "accessPolicy": "SECURE",
+          "apdURL": "acl-apd.iudx.org.in",
+          "provider": "7828574b-ff21-4049-94b7-a671ad42a5a6",
+          "resourceServer": "ab311420-7d84-4a0a-9fdb-c811be588589",
+          "resourceGroup": "4a143130-5888-42ce-a23b-633d110734bc",
+          "resourceType": "GIS",
+          "iudxResourceAPIs": [
+               "ATTR"
+          ],
+          "dataArrivalInterval": "NonTemporal",
+          "dataDescriptor": {
+               "@context": "https://voc.iudx.org.in/",
+               "type": [
+                    "iudx:DataDescriptor",
+                    "iudx:GISData"
+               ],
+               "dataDescriptorLabel": "GIS data in Indore City",
+               "description": "Data Descriptor for all Indore GIS layers.",
+               "gisServerURL": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "The Geographic Information System (GIS) Server's Home Page URL.",
+                    "dataSchema": "iudx:Text"
+               },
+               "observationDateTime": {
+                    "type": [
+                         "ValueDescriptor"
+                    ],
+                    "description": "Last reported time of observation.",
+                    "dataSchema": "iudx:DateTime"
+               }
+          },
+          "dataSample": {
+               "gisServerURL": "https://lsc.in/GIS/Portal/Home",
+               "observationDateTime": "2024-02-23T10:41:14+5:30"
+          },
+          "location": {
+               "address": "Indore, Madhya Pradesh",
+               "type": "Place"
+          },
+          "itemStatus": "ACTIVE",
+          "instance": "indore",
+          "ownerUserId": "16c5a62c-ae2b-4cc9-85f0-691fc9cd1cbe",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2024-02-23T12:52:01+0530"
+     }
+]

@@ -1,0 +1,606 @@
+[
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnergyMeter"
+          ],
+          "id": "8736d7f7-b7d2-4de7-be70-0a95d7e90a59",
+          "name": "iiith-energy-meter",
+          "label": "Energy Meters in IIIT Hyderabad Campus",
+          "description": "Energy Meters Installed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "energy",
+               "power",
+               "power factor",
+               "current",
+               "voltage",
+               "volt",
+               "volts",
+               "watt",
+               "frequency",
+               "phase",
+               "consumption",
+               "energy consumption",
+               "meter",
+               "monitor"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnergyMeter"
+          ],
+          "id": "97dae4f4-34d4-4d7f-8f5a-c57268058012",
+          "name": "iiith-energy-meter-version",
+          "label": "Device information of Energy Meters in IIIT Hyderabad Campus",
+          "description": "Device specific details and version information of Energy Meters Installed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "energy",
+               "power",
+               "power factor",
+               "current",
+               "voltage",
+               "volt",
+               "volts",
+               "watt",
+               "frequency",
+               "phase",
+               "consumption",
+               "energy consumption",
+               "meter",
+               "monitor"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:SolarEnergy"
+          ],
+          "id": "c7e359ed-b903-49a6-bcb1-c7b744ad7e13",
+          "name": "iiith-solar-panel-version",
+          "label": "Device information of solar panels in IIIT Hyderabad Campus",
+          "description": "Device specific details and version information of Solar Panels Installed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "device",
+               "version",
+               "specifications",
+               "solar energy",
+               "solar",
+               "power",
+               "power factor",
+               "current",
+               "voltage",
+               "volt",
+               "volts",
+               "watt",
+               "frequency",
+               "phase",
+               "active power",
+               "reactive power",
+               "photovoltaic cells",
+               "photovoltaic voltage",
+               "photovoltaic current",
+               "photovoltaic power",
+               "energy generated",
+               "pv"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:SolarEnergy"
+          ],
+          "id": "0251ff72-3751-4cb0-872c-b268ed0acaaf",
+          "name": "iiith-solar-panel",
+          "label": "Solar Panels in IIIT Hyderabad Campus",
+          "description": "Solar Panels Installed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "solar energy",
+               "solar",
+               "power",
+               "power factor",
+               "current",
+               "voltage",
+               "volt",
+               "volts",
+               "watt",
+               "frequency",
+               "phase",
+               "active power",
+               "reactive power",
+               "photovoltaic cells",
+               "photovoltaic voltage",
+               "photovoltaic current",
+               "photovoltaic power",
+               "energy generated",
+               "pv"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "id": "b5fa3bae-0a27-4f48-bcf8-4768ac2d40c6",
+          "name": "iiith-water-monitoring-version",
+          "label": "Device information of Water Monitoring sensors in IIIT Hyderabad Campus",
+          "description": "Device specific details and version information of Water distribution and flow monitoring system installations in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "water",
+               "water distribution",
+               "water supply",
+               "pH",
+               "turbidity",
+               "pressure",
+               "water pressure",
+               "water reservoir",
+               "reservoir",
+               "tank",
+               "sump",
+               "oht",
+               "booster",
+               "pump",
+               "pump house"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:WaterDistributionNetwork"
+          ],
+          "id": "f24d33fb-36dd-4f01-aaef-ac48ada99371",
+          "name": "iiith-water-monitoring",
+          "label": "Water Monitoring in IIIT Hyderabad Campus",
+          "description": "Water distribution and monitoring parameters observed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "water",
+               "water distribution",
+               "water supply",
+               "pH",
+               "turbidity",
+               "pressure",
+               "water pressure",
+               "water reservoir",
+               "reservoir",
+               "tank",
+               "sump",
+               "oht",
+               "booster",
+               "pump",
+               "pump house"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvWeather"
+          ],
+          "id": "36769f6d-7ae4-43d0-adc5-6dcb025d9e5f",
+          "name": "iiith-env-weather-version",
+          "label": "Device information of Weather Monitoring in IIIT Hyderabad",
+          "description": "Device specific details and version information of the Weather installations in IIIT Hyderabad campus.",
+          "tags": [
+               "weather",
+               "humidity",
+               "rainfall",
+               "relative humidity",
+               "solar radiation ",
+               "wind",
+               "wind direction",
+               "wind speed",
+               "gust ",
+               "gust speed"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvWeather"
+          ],
+          "id": "e063fb28-cd18-418a-897d-7b1034e282b9",
+          "name": "iiith-env-weather",
+          "label": "Weather Station in IIIT Hyderabad",
+          "description": "Weather station and associated sensors in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "weather",
+               "humidity",
+               "rainfall",
+               "relative humidity",
+               "solar radiation ",
+               "wind",
+               "wind direction",
+               "wind speed",
+               "gust ",
+               "gust speed"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnergyMeter"
+          ],
+          "id": "60a3fca0-079f-4c23-9f3d-965f8537d079",
+          "name": "iiith-energy-monitoring-version",
+          "label": "Device information of Energy Monitoring in IIIT Hyderabad Campus",
+          "description": "Device specific details and version information of Energy Monitoring Installed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "rssi",
+               "R current",
+               "y current",
+               "B current",
+               "R voltage",
+               "Y voltage",
+               "B voltage",
+               "power factor",
+               "frequency",
+               "apparent power",
+               "real power",
+               "volt",
+               "volts",
+               "watt",
+               "phase",
+               "energy consumption",
+               "reactive energy lead",
+               "reactive energy lag",
+               "total energy consumption",
+               "meter",
+               "monitor"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnergyMeter"
+          ],
+          "id": "1ff21d5e-df8e-41fb-aae8-0e98d73409e7",
+          "name": "iiith-energy-monitoring",
+          "label": "Energy Monitoring in IIIT Hyderabad Campus",
+          "description": "Energy Monitoring Installed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "rssi",
+               "R current",
+               "y current",
+               "B current",
+               "R voltage",
+               "Y voltage",
+               "B voltage",
+               "power factor",
+               "frequency",
+               "apparent power",
+               "real power",
+               "volt",
+               "volts",
+               "watt",
+               "phase",
+               "energy consumption",
+               "reactive energy lead",
+               "reactive energy lag",
+               "total energy consumption",
+               "meter",
+               "monitor"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "id": "cc550675-a74d-4410-bf7a-01baca7518bb",
+          "name": "iiith-air-quality-version",
+          "label": "Device Information of Indoor AQM Sensors in IIIT Hyderabad",
+          "description": "Device specific details and version information of the Indoor AQM Installed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "pollution",
+               "carbon dioxide",
+               "co2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "voc",
+               "voc_raw"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:EnvAQM"
+          ],
+          "id": "275c23b5-673a-4a53-ad16-2d17d1489b0a",
+          "name": "iiith-air-quality",
+          "label": "Indoor Air Quality Monitoring Devices in IIIT Hyderabad Campus",
+          "description": "Indoor Air quality monitoring devices and associated sensors in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "pollution",
+               "carbon dioxide",
+               "co2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "voc",
+               "vocRaw"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:StreetLight"
+          ],
+          "id": "a0d85488-ce63-4735-b0b0-b64e000f2190",
+          "name": "iiith-WiSUN-version",
+          "label": "Device Information of Smart Street Lamp Sensors in IIIT Hyderabad",
+          "description": "Device specific details and version information of the smart street lamp installed in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "node_status",
+               "light_status",
+               "rssi_value",
+               "latency",
+               "data_rate",
+               "mac_address",
+               "packet_size"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:StreetLight"
+          ],
+          "id": "cbd95dd3-412f-463f-b75b-487c924a789e",
+          "name": "iiith-WiSUN",
+          "label": "Smart Street Lamp Devices in IIIT Hyderabad",
+          "description": "Smart Street Lamp devices and associated sensors in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "node_status",
+               "light_status",
+               "rssi_value",
+               "latency",
+               "data_rate",
+               "mac_address",
+               "packet_size"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "9138727e-d868-484e-a601-3344de330736",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "ownerUserId": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "cos": "637e32b6-9a6c-396f-914c-9db5d1a222b0",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:AirQuality"
+          ],
+          "id": "271b1a7d-d27b-4660-9857-09986be7e99d",
+          "name": "iiith-env-aqm-version",
+          "label": "Device Information of AQM Sensors in IIIT Hyderabad",
+          "description": "Device specific details and version information of the AQM installations in IIIT Hyderabad campus.",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "aqi",
+               "aqm",
+               "pollution",
+               "amonia",
+               "carbon",
+               "carbon monoxide",
+               "nitrogen dioxide",
+               "co",
+               "no2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "nh3",
+               "version",
+               "version history",
+               "components",
+               "device list",
+               "sub device"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+
+     },
+     {
+          "@context": "https://voc.iudx.org.in/",
+          "type": [
+               "iudx:ResourceGroup",
+               "iudx:AirQuality"
+          ],
+          "id": "efd54ab7-0a92-4e92-8910-bdea4e64d1d4",
+          "name": "iiith-env-aqm",
+          "label": "Air Quality Monitoring Sensors in IIIT Hyderabad",
+          "description": "Air quality monitoring devices and associated sensors in International Institute of Information Technology, Hyderabad",
+          "tags": [
+               "environment",
+               "air quality",
+               "air",
+               "aqi",
+               "aqm",
+               "pollution",
+               "amonia",
+               "carbon",
+               "carbon monoxide",
+               "nitrogen dioxide",
+               "co",
+               "no2",
+               "pm2.5",
+               "pm10",
+               "humidity",
+               "temperature",
+               "nh3"
+          ],
+          "itemStatus": "ACTIVE",
+          "provider": "98bd1444-96ef-421f-9661-e819ce867da7",
+          "location": {
+               "address": "IIIT Hyderabad, Telangana",
+               "type": "Place"
+          },
+          "instance": "hyderabad",
+          "itemCreatedAt": "2022-08-06T10:31:53+0530"
+
+     }
+]

@@ -7039,7 +7039,7 @@
                     "iudx:DataDescriptor",
                     "iudx:GISData"
                ],
-               "dataDescriptorLabel": "Water Monitors in IIIT Hyderabad",
+               "dataDescriptorLabel": "Data Attributes for GIS Layers in Varanasi City",
                "description": "Data Descriptor for Varanasi GIS layers.",
                "gisServerURL": {
                     "type": [
